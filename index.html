@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es-AR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Steelers Gameday</title>
+  <meta name="description" content="Todo lo que hay que saber de los Steelers antes del próximo partido, en español y en hora argentina.">
+  <meta name="theme-color" content="#1c1c1e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c1c1e'/%3E%3Ctext x='16' y='23' font-family='Arial Black,Arial' font-weight='900' font-size='18' text-anchor='middle' fill='%23FFB612'%3EG%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch {}
+  </script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#partido">Saltar al contenido</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="wordmark" href="#" aria-label="Steelers Gameday, inicio">
+        <span class="wm-a">Steelers</span><span class="wm-b">Gameday</span>
+      </a>
+      <div class="topbar-right">
+        <span class="updated" id="updated" aria-live="polite">Cargando…</span>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo claro">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9Z"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav class="secnav" aria-label="Secciones">
+      <div class="wrap secnav-inner">
+        <a href="#partido">Partido</a>
+        <a href="#como-llegamos">Cómo llegamos</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#lesiones">Lesiones</a>
+        <a href="#comparativa">Comparativa</a>
+        <a href="#noticias">Noticias y X</a>
+        <a href="#historial">Historial</a>
+      </div>
+    </nav>
+  </header>
+
+  <div id="notices" class="wrap notices"></div>
+
+  <main class="wrap">
+    <section id="partido" class="hero" aria-label="Próximo partido">
+      <div class="skeleton" style="height:320px"></div>
+    </section>
+
+    <section id="como-llegamos" class="block" aria-labelledby="h-form">
+      <h2 id="h-form" class="block-title">Cómo llegamos</h2>
+      <div data-slot><div class="skeleton" style="height:180px"></div></div>
+    </section>
+
+    <section id="resultados" class="block" aria-labelledby="h-res">
+      <h2 id="h-res" class="block-title">Últimos resultados</h2>
+      <div data-slot><div class="skeleton" style="height:240px"></div></div>
+    </section>
+
+    <section id="lesiones" class="block" aria-labelledby="h-inj">
+      <h2 id="h-inj" class="block-title">Lesiones</h2>
+      <div data-slot><div class="skeleton" style="height:240px"></div></div>
+    </section>
+
+    <section id="comparativa" class="block" aria-labelledby="h-cmp">
+      <h2 id="h-cmp" class="block-title">Comparativa</h2>
+      <div data-slot><div class="skeleton" style="height:240px"></div></div>
+    </section>
+
+    <section id="noticias" class="block" aria-labelledby="h-news">
+      <h2 id="h-news" class="block-title">Noticias y X</h2>
+      <div data-slot><div class="skeleton" style="height:320px"></div></div>
+    </section>
+
+    <section id="historial" class="block" aria-labelledby="h-h2h">
+      <h2 id="h-h2h" class="block-title">Historial vs. el rival</h2>
+      <div data-slot><div class="skeleton" style="height:180px"></div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Sitio no oficial hecho por un hincha. No está afiliado a la NFL ni a los Pittsburgh Steelers.</p>
+      <p>Datos duros: ESPN · Contexto y noticias: Grok (xAI), con link a cada fuente · Horarios en hora argentina (UTC−3).</p>
+      <p id="footer-stamp"></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "_nota": "Ajustes generales. 'broadcast_argentina_default' se muestra cuando no hay un dato mejor para ese partido: verificalo y editalo.",
+  "team_abbr": "pit",
+  "broadcast_argentina_default": ["NFL Game Pass (DAZN)"],
+  "head_to_head_seasons": 6
+}

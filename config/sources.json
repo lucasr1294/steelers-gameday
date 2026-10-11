@@ -1,0 +1,41 @@
+{
+  "_nota": "Lista que usa el prompt de Grok. 'verificado: false' = sacado de memoria, revisá que la cuenta exista y que la persona siga cubriendo al equipo antes de pasarlo a true.",
+
+  "sites": [
+    { "name": "steelers.com", "domain": "steelers.com" },
+    { "name": "ESPN", "domain": "espn.com" },
+    { "name": "NFL.com", "domain": "nfl.com" },
+    { "name": "Pittsburgh Post-Gazette", "domain": "post-gazette.com" },
+    { "name": "TribLive", "domain": "triblive.com" },
+    { "name": "Steelers Depot", "domain": "steelersdepot.com" },
+    { "name": "Behind the Steel Curtain", "domain": "behindthesteelcurtain.com" }
+  ],
+
+  "x_accounts": [
+    { "handle": "steelers", "who": "Cuenta oficial", "verificado": true },
+    { "handle": "bepryor", "who": "Brooke Pryor (ESPN)", "verificado": false },
+    { "handle": "gerrydulac", "who": "Gerry Dulac (Post-Gazette)", "verificado": false },
+    { "handle": "rayfitt", "who": "Ray Fittipaldo (Post-Gazette)", "verificado": false },
+    { "handle": "BrianBatko", "who": "Brian Batko (Post-Gazette)", "verificado": false },
+    { "handle": "ChrisAdamski", "who": "Chris Adamski (TribLive)", "verificado": false },
+    { "handle": "MarkKaboly", "who": "Mark Kaboly (The Athletic)", "verificado": false },
+    { "handle": "dlolley", "who": "Dale Lolley (steelers.com)", "verificado": false },
+    { "handle": "Teresa_Varley", "who": "Teresa Varley (steelers.com)", "verificado": false },
+    { "handle": "Alex_Kozora", "who": "Alex Kozora (Steelers Depot)", "verificado": false }
+  ],
+
+  "opponent": {
+    "_nota": "Por defecto, Grok busca el sitio oficial del rival, su página en ESPN y a sus periodistas habituales. Acá se pueden fijar cuentas por equipo (clave = abreviatura de ESPN).",
+    "default_sites": ["espn.com", "nfl.com"],
+    "overrides": {
+      "CIN": {
+        "sites": ["bengals.com", "cincinnati.com"],
+        "x_accounts": [
+          { "handle": "Bengals", "who": "Cuenta oficial", "verificado": true },
+          { "handle": "Ben_Baby", "who": "Ben Baby (ESPN)", "verificado": false },
+          { "handle": "pauldehnerjr", "who": "Paul Dehner Jr. (The Athletic)", "verificado": false }
+        ]
+      }
+    }
+  }
+}

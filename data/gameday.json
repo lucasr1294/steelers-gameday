@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-11T21:31:19.111Z",
+    "season": 2026,
+    "season_type": "regular",
+    "week": 6,
+    "phase": "week",
+    "is_sample": false,
+    "warnings": [],
+    "espn_hash": "c0060751e1cd1bb0"
+  },
+  "team": {
+    "id": "23",
+    "name": "Pittsburgh Steelers",
+    "short_name": "Steelers",
+    "abbr": "PIT",
+    "color": "#FFB612",
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    }
+  },
+  "next_game": {
+    "id": "401873002",
+    "week": 6,
+    "label": null,
+    "kickoff": "2026-10-18T17:00:00.000Z",
+    "time_tbd": false,
+    "opponent": {
+      "id": "27",
+      "name": "Tampa Bay Buccaneers",
+      "short_name": "Buccaneers",
+      "abbr": "TB",
+      "record": {
+        "wins": 1,
+        "losses": 4,
+        "ties": 0
+      }
+    },
+    "home_away": "away",
+    "venue": {
+      "name": "Raymond James Stadium",
+      "city": "Tampa, FL",
+      "indoor": false
+    },
+    "weather": {
+      "summary": "Nublado con chaparrones",
+      "temp_c": 26,
+      "gust_kmh": 43,
+      "precip_pct": 51
+    },
+    "broadcast": {
+      "us": [
+        "CBS"
+      ],
+      "argentina": [
+        "NFL Game Pass (DAZN)"
+      ]
+    },
+    "odds": null,
+    "source": {
+      "name": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
+      "updated_at": "2026-10-11T21:31:19.111Z"
+    }
+  },
+  "form": {
+    "record": {
+      "wins": 3,
+      "losses": 2,
+      "ties": 0
+    },
+    "division": {
+      "name": "AFC Norte",
+      "position": 3,
+      "standings": [
+        {
+          "abbr": "BAL",
+          "name": "Ravens",
+          "record": {
+            "wins": 3,
+            "losses": 1,
+            "ties": 0
+          },
+          "games_back": 0
+        },
+        {
+          "abbr": "CLE",
+          "name": "Browns",
+          "record": {
+            "wins": 3,
+            "losses": 2,
+            "ties": 0
+          },
+          "games_back": 0.5
+        },
+        {
+          "abbr": "PIT",
+          "name": "Steelers",
+          "record": {
+            "wins": 3,
+            "losses": 2,
+            "ties": 0
+          },
+          "games_back": 0.5
+        },
+        {
+          "abbr": "CIN",
+          "name": "Bengals",
+          "record": {
+            "wins": 3,
+            "losses": 2,
+            "ties": 0
+          },
+          "games_back": 0.5
+        }
+      ]
+    },
+    "streak": {
+      "type": "W",
+      "count": 1
+    },
+    "thermometer": null,
+    "source": {
+      "name": "ESPN",
+      "url": "https://www.espn.com/nfl/standings",
+      "updated_at": "2026-10-11T21:31:19.111Z"
+    }
+  },
+  "recent_results": {
+    "games": [
+      {
+        "id": "401872985",
+        "date": "2026-10-11T17:00:00.000Z",
+        "week": 5,
+        "opponent": {
+          "id": "11",
+          "name": "Indianapolis Colts",
+          "short_name": "Colts",
+          "abbr": "IND"
+        },
+        "home_away": "home",
+        "team_score": 34,
+        "opponent_score": 22,
+        "result": "W",
+        "summary": null,
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872985/colts-steelers"
+      },
+      {
+        "id": "401872964",
+        "date": "2026-10-02T00:15:00.000Z",
+        "week": 4,
+        "opponent": {
+          "id": "5",
+          "name": "Cleveland Browns",
+          "short_name": "Browns",
+          "abbr": "CLE"
+        },
+        "home_away": "away",
+        "team_score": 24,
+        "opponent_score": 27,
+        "result": "L",
+        "summary": null,
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872964/steelers-browns"
+      },
+      {
+        "id": "401872950",
+        "date": "2026-09-27T17:00:00.000Z",
+        "week": 3,
+        "opponent": {
+          "id": "4",
+          "name": "Cincinnati Bengals",
+          "short_name": "Bengals",
+          "abbr": "CIN"
+        },
+        "home_away": "home",
+        "team_score": 30,
+        "opponent_score": 27,
+        "result": "W",
+        "summary": null,
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872950/bengals-steelers"
+      },
+      {
+        "id": "401872946",
+        "date": "2026-09-20T17:00:00.000Z",
+        "week": 2,
+        "opponent": {
+          "id": "17",
+          "name": "New England Patriots",
+          "short_name": "Patriots",
+          "abbr": "NE"
+        },
+        "home_away": "away",
+        "team_score": 3,
+        "opponent_score": 20,
+        "result": "L",
+        "summary": null,
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872946/steelers-patriots"
+      },
+      {
+        "id": "401872658",
+        "date": "2026-09-13T17:00:00.000Z",
+        "week": 1,
+        "opponent": {
+          "id": "1",
+          "name": "Atlanta Falcons",
+          "short_name": "Falcons",
+          "abbr": "ATL"
+        },
+        "home_away": "home",
+        "team_score": 20,
+        "opponent_score": 13,
+        "result": "W",
+        "summary": null,
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872658/falcons-steelers"
+      }
+    ],
+    "source": {
+      "name": "ESPN",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+      "updated_at": "2026-10-11T21:31:19.111Z"
+    }
+  },
+  "injuries": {
+    "team": [
+      {
+        "name": "Ben Skowronek",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Pierna",
+        "practice": []
+      },
+      {
+        "name": "Roman Wilson",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Dedo",
+        "practice": []
+      }
+    ],
+    "opponent": [
+      {
+        "name": "Baker Mayfield",
+        "position": "QB",
+        "status": "Out",
+        "injury": "Pulgar",
+        "practice": []
+      },
+      {
+        "name": "Antoine Winfield Jr.",
+        "position": "S",
+        "status": "Out",
+        "injury": "Costillas",
+        "practice": []
+      },
+      {
+        "name": "Benjamin Morrison",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Cuádriceps",
+        "practice": []
+      },
+      {
+        "name": "SirVocea Dennis",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Tobillo",
+        "practice": []
+      }
+    ],
+    "inactives": null,
+    "source": {
+      "name": "ESPN",
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
+      "updated_at": "2026-10-11T21:31:19.111Z"
+    }
+  },
+  "comparison": {
+    "team": {
+      "offense_rank": 17,
+      "defense_rank": 11,
+      "points_for_pg": 22.2,
+      "points_against_pg": 21.8,
+      "yards_for_pg": 344.5,
+      "yards_against_pg": null,
+      "turnover_diff": 2
+    },
+    "opponent": {
+      "offense_rank": 25,
+      "defense_rank": 14,
+      "points_for_pg": 20,
+      "points_against_pg": 22.4,
+      "yards_for_pg": 323.4,
+      "yards_against_pg": null,
+      "turnover_diff": -2
+    },
+    "key_matchups": [],
+    "source": {
+      "name": "ESPN",
+      "url": "https://www.espn.com/nfl/stats/team",
+      "updated_at": "2026-10-11T21:31:19.111Z"
+    }
+  },
+  "news": {
+    "summary": null,
+    "items": [],
+    "quotes": [],
+    "roster_moves": [],
+    "x_pulse": null
+  },
+  "head_to_head": {
+    "all_time": null,
+    "games": [
+      {
+        "date": "2022-10-16T17:00:00.000Z",
+        "season": 2022,
+        "home_away": "home",
+        "team_score": 20,
+        "opponent_score": 18,
+        "result": "W",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401437785/buccaneers-steelers"
+      },
+      {
+        "date": "2018-09-25T00:15:00.000Z",
+        "season": 2018,
+        "home_away": "away",
+        "team_score": 30,
+        "opponent_score": 27,
+        "result": "W",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401030805/steelers-buccaneers"
+      },
+      {
+        "date": "2014-09-28T17:00:00.000Z",
+        "season": 2014,
+        "home_away": "home",
+        "team_score": 24,
+        "opponent_score": 27,
+        "result": "L",
+        "url": "https://www.espn.com/nfl/game/_/gameId/400554279/buccaneers-steelers"
+      }
+    ],
+    "source": {
+      "name": "ESPN",
+      "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+      "updated_at": "2026-10-11T21:31:19.111Z"
+    }
+  }
+}

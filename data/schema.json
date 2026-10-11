@@ -1,0 +1,1129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "steelers-gameday/schema.json",
+  "title": "Steelers Gameday",
+  "description": "Contrato entre el bot (scripts/update) y la página. El bot solo escribe data/gameday.json si valida contra este esquema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "meta",
+    "team",
+    "next_game",
+    "form",
+    "recent_results",
+    "injuries",
+    "comparison",
+    "news",
+    "head_to_head"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "generated_at",
+        "season",
+        "season_type",
+        "week",
+        "phase",
+        "is_sample"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "generated_at": {
+          "$ref": "#/$defs/datetime"
+        },
+        "season": {
+          "type": "integer",
+          "minimum": 2020
+        },
+        "season_type": {
+          "enum": [
+            "preseason",
+            "regular",
+            "postseason",
+            "offseason"
+          ]
+        },
+        "week": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 23
+        },
+        "phase": {
+          "description": "week = semana normal; gameday = día de partido; pregame = <90 min del kickoff (se priorizan inactivos); live = en juego; postgame = terminó y todavía no se pasó al próximo rival.",
+          "enum": [
+            "week",
+            "gameday",
+            "pregame",
+            "live",
+            "postgame",
+            "offseason"
+          ]
+        },
+        "is_sample": {
+          "type": "boolean",
+          "description": "true solo en el JSON de ejemplo con datos ficticios."
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "espn_hash": {
+          "type": "string",
+          "description": "Hash de los datos de ESPN (sin timestamps). Si no cambia, el bot no vuelve a llamar a Grok."
+        }
+      }
+    },
+    "team": {
+      "$ref": "#/$defs/team"
+    },
+    "next_game": {
+      "description": "null fuera de temporada.",
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/next_game"
+        }
+      ]
+    },
+    "form": {
+      "description": "Sección 'Cómo llegamos'.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record",
+        "division",
+        "streak",
+        "thermometer",
+        "source"
+      ],
+      "properties": {
+        "record": {
+          "$ref": "#/$defs/record"
+        },
+        "division": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "position",
+            "standings"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "position": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            },
+            "standings": {
+              "type": "array",
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "abbr",
+                  "name",
+                  "record"
+                ],
+                "properties": {
+                  "abbr": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "record": {
+                    "$ref": "#/$defs/record"
+                  },
+                  "games_back": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "streak": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "type",
+                "count"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "W",
+                    "L",
+                    "T"
+                  ]
+                },
+                "count": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          ]
+        },
+        "thermometer": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/ai_text"
+            }
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      }
+    },
+    "recent_results": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "games",
+        "source"
+      ],
+      "properties": {
+        "games": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "$ref": "#/$defs/past_game"
+          }
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      }
+    },
+    "injuries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "team",
+        "opponent",
+        "inactives",
+        "source"
+      ],
+      "properties": {
+        "team": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/injured_player"
+          }
+        },
+        "opponent": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/injured_player"
+          }
+        },
+        "inactives": {
+          "description": "Lista oficial de inactivos (~90 min antes del kickoff). null hasta que se publique.",
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "published_at",
+                "team",
+                "opponent"
+              ],
+              "properties": {
+                "published_at": {
+                  "$ref": "#/$defs/datetime"
+                },
+                "team": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/inactive_player"
+                  }
+                },
+                "opponent": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/inactive_player"
+                  }
+                },
+                "url": {
+                  "$ref": "#/$defs/url"
+                }
+              }
+            }
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      }
+    },
+    "comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "team",
+        "opponent",
+        "key_matchups",
+        "source"
+      ],
+      "properties": {
+        "team": {
+          "$ref": "#/$defs/team_stats"
+        },
+        "opponent": {
+          "$ref": "#/$defs/team_stats"
+        },
+        "key_matchups": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "team_side",
+              "opponent_side",
+              "analysis",
+              "refs"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "team_side": {
+                "type": "string"
+              },
+              "opponent_side": {
+                "type": "string"
+              },
+              "analysis": {
+                "type": "string"
+              },
+              "refs": {
+                "$ref": "#/$defs/refs"
+              }
+            }
+          }
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      }
+    },
+    "news": {
+      "description": "Sección 'Noticias y X'. Todo lo que viene de Grok.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "summary",
+        "items",
+        "quotes",
+        "roster_moves",
+        "x_pulse"
+      ],
+      "properties": {
+        "summary": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/ai_text"
+            }
+          ]
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 15,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "title",
+              "source_name",
+              "url",
+              "published_at"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "summary": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_name": {
+                "type": "string"
+              },
+              "url": {
+                "$ref": "#/$defs/url"
+              },
+              "published_at": {
+                "$ref": "#/$defs/datetime"
+              },
+              "about": {
+                "enum": [
+                  "team",
+                  "opponent"
+                ],
+                "default": "team"
+              }
+            }
+          }
+        },
+        "quotes": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "speaker",
+              "role",
+              "quote",
+              "source_name",
+              "url",
+              "date"
+            ],
+            "properties": {
+              "speaker": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "quote": {
+                "type": "string",
+                "description": "Traducida al español; el link apunta al original."
+              },
+              "context": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_name": {
+                "type": "string"
+              },
+              "url": {
+                "$ref": "#/$defs/url"
+              },
+              "date": {
+                "$ref": "#/$defs/datetime"
+              }
+            }
+          }
+        },
+        "roster_moves": {
+          "type": "array",
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "player",
+              "move",
+              "source_name",
+              "url"
+            ],
+            "properties": {
+              "date": {
+                "$ref": "#/$defs/datetime"
+              },
+              "player": {
+                "type": "string"
+              },
+              "position": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "move": {
+                "enum": [
+                  "signed",
+                  "released",
+                  "waived",
+                  "ir",
+                  "activated",
+                  "traded",
+                  "practice_squad",
+                  "elevated",
+                  "other"
+                ]
+              },
+              "detail": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_name": {
+                "type": "string"
+              },
+              "url": {
+                "$ref": "#/$defs/url"
+              }
+            }
+          }
+        },
+        "x_pulse": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "mood",
+                "summary",
+                "posts",
+                "updated_at"
+              ],
+              "properties": {
+                "mood": {
+                  "enum": [
+                    "optimista",
+                    "ilusionado",
+                    "dividido",
+                    "preocupado",
+                    "pesimista"
+                  ]
+                },
+                "summary": {
+                  "type": "string"
+                },
+                "posts": {
+                  "type": "array",
+                  "maxItems": 6,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "author",
+                      "handle",
+                      "text",
+                      "url",
+                      "posted_at"
+                    ],
+                    "properties": {
+                      "author": {
+                        "type": "string"
+                      },
+                      "handle": {
+                        "type": "string",
+                        "pattern": "^@?[A-Za-z0-9_]{1,15}$"
+                      },
+                      "text": {
+                        "type": "string"
+                      },
+                      "url": {
+                        "$ref": "#/$defs/url"
+                      },
+                      "posted_at": {
+                        "$ref": "#/$defs/datetime"
+                      }
+                    }
+                  }
+                },
+                "updated_at": {
+                  "$ref": "#/$defs/datetime"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "head_to_head": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "all_time",
+        "games",
+        "source"
+      ],
+      "properties": {
+        "all_time": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/record"
+            }
+          ]
+        },
+        "games": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "season",
+              "home_away",
+              "team_score",
+              "opponent_score",
+              "result"
+            ],
+            "properties": {
+              "date": {
+                "$ref": "#/$defs/datetime"
+              },
+              "season": {
+                "type": "integer"
+              },
+              "home_away": {
+                "$ref": "#/$defs/home_away"
+              },
+              "team_score": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "opponent_score": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "result": {
+                "enum": [
+                  "W",
+                  "L",
+                  "T"
+                ]
+              },
+              "url": {
+                "$ref": "#/$defs/url"
+              }
+            }
+          }
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "datetime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    },
+    "home_away": {
+      "enum": [
+        "home",
+        "away",
+        "neutral"
+      ]
+    },
+    "source": {
+      "description": "De dónde sale el dato y cuándo se actualizó.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "updated_at"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "updated_at": {
+          "$ref": "#/$defs/datetime"
+        }
+      }
+    },
+    "refs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "$ref": "#/$defs/url"
+          }
+        }
+      }
+    },
+    "ai_text": {
+      "description": "Texto generado por Grok, con los links en los que se basa.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "refs",
+        "updated_at"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "refs": {
+          "$ref": "#/$defs/refs"
+        },
+        "updated_at": {
+          "$ref": "#/$defs/datetime"
+        }
+      }
+    },
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "wins",
+        "losses",
+        "ties"
+      ],
+      "properties": {
+        "wins": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "losses": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ties": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "team": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "short_name",
+        "abbr"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "ID de equipo de ESPN."
+        },
+        "name": {
+          "type": "string"
+        },
+        "short_name": {
+          "type": "string"
+        },
+        "abbr": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 4
+        },
+        "color": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        "record": {
+          "$ref": "#/$defs/record"
+        }
+      }
+    },
+    "next_game": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "week",
+        "kickoff",
+        "time_tbd",
+        "opponent",
+        "home_away",
+        "venue",
+        "weather",
+        "broadcast",
+        "odds",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "ID de evento de ESPN."
+        },
+        "week": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Ej.: 'Wild Card', 'Thursday Night Football'."
+        },
+        "kickoff": {
+          "$ref": "#/$defs/datetime"
+        },
+        "time_tbd": {
+          "type": "boolean"
+        },
+        "opponent": {
+          "$ref": "#/$defs/team"
+        },
+        "home_away": {
+          "$ref": "#/$defs/home_away"
+        },
+        "venue": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "city",
+            "indoor"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "indoor": {
+              "type": "boolean"
+            }
+          }
+        },
+        "weather": {
+          "description": "null si es estadio techado o todavía no hay pronóstico.",
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "summary",
+                "temp_c"
+              ],
+              "properties": {
+                "summary": {
+                  "type": "string"
+                },
+                "temp_c": {
+                  "type": "number"
+                },
+                "precip_pct": {
+                  "type": [
+                    "number",
+                    "null"
+                  ],
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "gust_kmh": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "broadcast": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "us",
+            "argentina"
+          ],
+          "properties": {
+            "us": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "argentina": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "odds": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "favorite_abbr",
+                "spread",
+                "over_under",
+                "provider"
+              ],
+              "properties": {
+                "favorite_abbr": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "null si es pick'em."
+                },
+                "spread": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "over_under": {
+                  "type": [
+                    "number",
+                    "null"
+                  ]
+                },
+                "provider": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        }
+      }
+    },
+    "past_game": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "date",
+        "opponent",
+        "home_away",
+        "team_score",
+        "opponent_score",
+        "result",
+        "summary"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "date": {
+          "$ref": "#/$defs/datetime"
+        },
+        "week": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "opponent": {
+          "$ref": "#/$defs/team"
+        },
+        "home_away": {
+          "$ref": "#/$defs/home_away"
+        },
+        "team_score": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "opponent_score": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "result": {
+          "enum": [
+            "W",
+            "L",
+            "T"
+          ]
+        },
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Una línea, generada por Grok."
+        },
+        "recap_url": {
+          "$ref": "#/$defs/url"
+        }
+      }
+    },
+    "injured_player": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "position",
+        "status"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "position": {
+          "type": "string"
+        },
+        "status": {
+          "description": "Estado para el partido. 'Full' = practicó completo, sin designación.",
+          "enum": [
+            "Out",
+            "Doubtful",
+            "Questionable",
+            "Full",
+            "IR"
+          ]
+        },
+        "injury": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "practice": {
+          "description": "Participación miércoles, jueves y viernes: DNP / LP (limitado) / FP (completo).",
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "enum": [
+              "DNP",
+              "LP",
+              "FP",
+              null
+            ]
+          }
+        }
+      }
+    },
+    "inactive_player": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "position"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "position": {
+          "type": "string"
+        }
+      }
+    },
+    "team_stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "offense_rank",
+        "defense_rank",
+        "points_for_pg",
+        "points_against_pg"
+      ],
+      "properties": {
+        "offense_rank": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 32
+        },
+        "defense_rank": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 32
+        },
+        "points_for_pg": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "points_against_pg": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "yards_for_pg": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "yards_against_pg": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "turnover_diff": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

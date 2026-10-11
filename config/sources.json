@@ -1,4 +1,5 @@
 {
+  "_nota_verificacion": "Revisado el 2026-10-11 con búsquedas en X: @rayfitt y @dlolley eran otras personas; @ChrisAdamski es una cuenta vacía (el real es @C_AdamskiTrib). Dale Lolley falleció en septiembre de 2025, por eso se sacó; Brian Batko ahora escribe en steelers.com.",
   "_nota": "Lista que usa el prompt de Grok. 'verificado: false' = sacado de memoria, revisá que la cuenta exista y que la persona siga cubriendo al equipo antes de pasarlo a true.",
 
   "sites": [
@@ -13,15 +14,15 @@
 
   "x_accounts": [
     { "handle": "steelers", "who": "Cuenta oficial", "verificado": true },
-    { "handle": "bepryor", "who": "Brooke Pryor (ESPN)", "verificado": false },
-    { "handle": "gerrydulac", "who": "Gerry Dulac (Post-Gazette)", "verificado": false },
-    { "handle": "rayfitt", "who": "Ray Fittipaldo (Post-Gazette)", "verificado": false },
-    { "handle": "BrianBatko", "who": "Brian Batko (Post-Gazette)", "verificado": false },
-    { "handle": "ChrisAdamski", "who": "Chris Adamski (TribLive)", "verificado": false },
-    { "handle": "MarkKaboly", "who": "Mark Kaboly (The Athletic)", "verificado": false },
-    { "handle": "dlolley", "who": "Dale Lolley (steelers.com)", "verificado": false },
-    { "handle": "Teresa_Varley", "who": "Teresa Varley (steelers.com)", "verificado": false },
-    { "handle": "Alex_Kozora", "who": "Alex Kozora (Steelers Depot)", "verificado": false }
+    { "handle": "bepryor", "who": "Brooke Pryor (ESPN)", "verificado": true },
+    { "handle": "gerrydulac", "who": "Gerry Dulac (Post-Gazette)", "verificado": true },
+    { "handle": "rayfitt1", "who": "Ray Fittipaldo (Post-Gazette)", "verificado": true },
+    { "handle": "BrianBatko", "who": "Brian Batko (steelers.com)", "verificado": true },
+    { "handle": "C_AdamskiTrib", "who": "Chris Adamski (TribLive)", "verificado": true },
+    { "handle": "MarkKaboly", "who": "Mark Kaboly (Pat McAfee Show / 93.7 The Fan)", "verificado": true },
+    { "handle": "Teresa_Varley", "who": "Teresa Varley (steelers.com)", "verificado": true },
+    { "handle": "Alex_Kozora", "who": "Alex Kozora (Steelers Depot)", "verificado": true },
+    { "handle": "FarabaughFB", "who": "Nick Farabaugh (PennLive)", "verificado": true }
   ],
 
   "opponent": {
@@ -34,6 +35,15 @@
           { "handle": "Bengals", "who": "Cuenta oficial", "verificado": true },
           { "handle": "Ben_Baby", "who": "Ben Baby (ESPN)", "verificado": false },
           { "handle": "pauldehnerjr", "who": "Paul Dehner Jr. (The Athletic)", "verificado": false }
+        ]
+      },
+      "TB": {
+        "sites": ["buccaneers.com", "tampabay.com"],
+        "x_accounts": [
+          { "handle": "Buccaneers", "who": "Cuenta oficial", "verificado": true },
+          { "handle": "JennaLaineESPN", "who": "Jenna Laine (ESPN)", "verificado": true },
+          { "handle": "gregauman", "who": "Greg Auman (FOX Sports)", "verificado": true },
+          { "handle": "NFLSTROUD", "who": "Rick Stroud (Tampa Bay Times)", "verificado": true }
         ]
       }
     }

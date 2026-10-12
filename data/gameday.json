@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-11T21:51:01.000Z",
+    "generated_at": "2026-10-12T12:13:11.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 6,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "c0060751e1cd1bb0"
+    "espn_hash": "659da469d9adc788"
   },
   "team": {
     "id": "23",
@@ -47,7 +47,7 @@
     },
     "weather": {
       "summary": "Nublado con chaparrones",
-      "temp_c": 26,
+      "temp_c": 27,
       "gust_kmh": 43,
       "precip_pct": 51
     },
@@ -59,11 +59,16 @@
         "NFL Game Pass (DAZN)"
       ]
     },
-    "odds": null,
+    "odds": {
+      "favorite_abbr": "PIT",
+      "spread": 3,
+      "over_under": 40.5,
+      "provider": "DraftKings"
+    },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-11T21:50:28.614Z"
+      "updated_at": "2026-10-12T12:10:03.717Z"
     }
   },
   "form": {
@@ -80,7 +85,7 @@
           "abbr": "BAL",
           "name": "Ravens",
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 1,
             "ties": 0
           },
@@ -94,7 +99,7 @@
             "losses": 2,
             "ties": 0
           },
-          "games_back": 0.5
+          "games_back": 1
         },
         {
           "abbr": "PIT",
@@ -104,7 +109,7 @@
             "losses": 2,
             "ties": 0
           },
-          "games_back": 0.5
+          "games_back": 1
         },
         {
           "abbr": "CIN",
@@ -114,7 +119,7 @@
             "losses": 2,
             "ties": 0
           },
-          "games_back": 0.5
+          "games_back": 1
         }
       ]
     },
@@ -123,27 +128,27 @@
       "count": 1
     },
     "thermometer": {
-      "text": "Respuesta a tiempo: después del golpe en Cleveland, 34-22 a los Colts con un Jaylen Warren enorme y Rodgers con 3 TD por tercera semana seguida. 3-2 e invictos en casa, pero llegan a Tampa con la secundaria y los receptores diezmados.",
+      "text": "Respuesta a tiempo: después del golpe en Cleveland, 34-22 a los Colts con un Jaylen Warren enorme y Rodgers con 3 TD por tercera semana seguida. 3-2 e invictos en casa, pero viajan a Tampa con la secundaria rearmada y los receptores en emergencia: Pittman en IR y Roman Wilson afuera varias semanas.",
       "refs": [
         {
           "name": "steelers.com",
           "url": "https://www.steelers.com/news/steelers-pull-away-from-colts-34-22"
         },
         {
-          "name": "Brian Batko en X",
-          "url": "https://x.com/BrianBatko/status/2109375570425393531"
+          "name": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50165164/source-steelers-roman-wilson-expected-miss-multiple-weeks"
         },
         {
-          "name": "Ray Fittipaldo en X",
-          "url": "https://x.com/rayfitt1/status/2109355017563959749"
+          "name": "Brian Batko en X",
+          "url": "https://x.com/BrianBatko/status/2109375570425393531"
         }
       ],
-      "updated_at": "2026-10-11T21:51:00Z"
+      "updated_at": "2026-10-12T12:13:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-11T21:50:28.614Z"
+      "updated_at": "2026-10-12T12:10:03.717Z"
     }
   },
   "recent_results": {
@@ -237,7 +242,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-11T21:50:28.614Z"
+      "updated_at": "2026-10-12T12:10:03.717Z"
     }
   },
   "injuries": {
@@ -291,7 +296,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-11T21:50:28.614Z"
+      "updated_at": "2026-10-12T12:10:03.717Z"
     }
   },
   "comparison": {
@@ -300,13 +305,13 @@
       "defense_rank": 11,
       "points_for_pg": 22.2,
       "points_against_pg": 21.8,
-      "yards_for_pg": 344.5,
+      "yards_for_pg": 348,
       "yards_against_pg": null,
       "turnover_diff": 2
     },
     "opponent": {
       "offense_rank": 25,
-      "defense_rank": 14,
+      "defense_rank": 15,
       "points_for_pg": 20,
       "points_against_pg": 22.4,
       "yards_for_pg": 323.4,
@@ -352,13 +357,17 @@
       },
       {
         "title": "Rodgers y un cuerpo de receptores en terapia intensiva",
-        "team_side": "Aaron Rodgers (QB), Germie Bernard (WR), Pat Freiermuth (TE)",
+        "team_side": "Aaron Rodgers (QB), DK Metcalf y Germie Bernard (WR), Pat Freiermuth (TE)",
         "opponent_side": "Secundaria de TB sin Antoine Winfield Jr.",
-        "analysis": "Pittman está en IR y Roman Wilson (mano) y Ben Skowronek (pantorrilla) salieron lesionados ante Indy. A cambio, Tampa no tiene a su safety All-Pro Winfield (fractura de costilla, 2 a 4 semanas desde el 5/10).",
+        "analysis": "Con Pittman en IR, Roman Wilson afuera varias semanas por el dedo (según ESPN) y Skowronek (pantorrilla) en evaluación, quedan Metcalf, Bernard, Wetjen y Brandon Smith. Rodgers avisó que pueden jugar con dos tight ends \"todo el día\". Enfrente, Tampa no tiene a su safety All-Pro Winfield (costilla fracturada, 2 a 4 semanas desde el 5/10).",
         "refs": [
           {
-            "name": "Ray Fittipaldo en X",
-            "url": "https://x.com/rayfitt1/status/2109355017563959749"
+            "name": "ESPN",
+            "url": "https://www.espn.com/nfl/story/_/id/50165164/source-steelers-roman-wilson-expected-miss-multiple-weeks"
+          },
+          {
+            "name": "steelers.com",
+            "url": "https://www.steelers.com/news/from-the-press-room-steelers-vs-colts-x7882"
           },
           {
             "name": "Tampa Bay Times",
@@ -370,29 +379,61 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-11T21:50:28.614Z"
+      "updated_at": "2026-10-12T12:10:03.717Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Semana de reacción: tras la derrota en Cleveland, los Steelers le ganaron 34-22 a Indianapolis con Jaylen Warren como figura. Para Tampa se espera a Rico Dowdle, pero preocupan los receptores (Pittman en IR, Wilson y Skowronek lesionados) y una secundaria rearmada después del traspaso de Joey Porter Jr. Los Bucs llegan 1-4, con Mayfield (pulgar) y Winfield (costillas) afuera y el novato Jalon Daniels como QB.",
+      "text": "Semana de reacción: tras la derrota en Cleveland, los Steelers le ganaron 34-22 a Indianapolis con Jaylen Warren como figura (y jugador de la semana del equipo). La mala noticia del lunes: Roman Wilson se perdería varias semanas por una lesión en el dedo, y con Pittman en IR los receptores sanos son apenas cuatro. Se espera el regreso de Rico Dowdle. Los Bucs llegan 1-4, con Mayfield (pulgar) y Winfield (costillas) afuera y el novato Jalon Daniels como QB.",
       "refs": [
+        {
+          "name": "ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50165164/source-steelers-roman-wilson-expected-miss-multiple-weeks"
+        },
         {
           "name": "steelers.com",
           "url": "https://www.steelers.com/news/steelers-pull-away-from-colts-34-22"
-        },
-        {
-          "name": "Pittsburgh Post-Gazette",
-          "url": "https://www.post-gazette.com/sports/steelers/2026/10/11/steelers-colts-aaron-rodgers-jaylen-warren/stories/202610110094"
         },
         {
           "name": "Rick Stroud en X",
           "url": "https://x.com/NFLSTROUD/status/2108575765000495327"
         }
       ],
-      "updated_at": "2026-10-11T21:51:00Z"
+      "updated_at": "2026-10-12T12:13:00Z"
     },
     "items": [
+      {
+        "title": "Roman Wilson se perdería varias semanas por una lesión en el dedo",
+        "summary": "Según Jeremy Fowler (ESPN), va a pedir una segunda opinión. Con Pittman en IR y Skowronek tocado, los receptores sanos son Metcalf, Bernard, Wetjen y Brandon Smith (del equipo de práctica).",
+        "source_name": "ESPN",
+        "url": "https://www.espn.com/nfl/story/_/id/50165164/source-steelers-roman-wilson-expected-miss-multiple-weeks",
+        "published_at": "2026-10-12T11:21:28Z",
+        "about": "team"
+      },
+      {
+        "title": "Labriola: el juego de QB de nivel NFL hizo la diferencia",
+        "summary": "Análisis de la victoria ante los Colts en steelers.com.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/labriola-on-the-win-over-the-colts-x5664",
+        "published_at": "2026-10-12T03:37:00Z",
+        "about": "team"
+      },
+      {
+        "title": "Las lesiones obligaron a adaptarse y la ofensiva encontró identidad",
+        "summary": "En el segundo tiempo usaron dos tight ends en el 32 % de las jugadas (27,6 % de promedio en los primeros cuatro partidos).",
+        "source_name": "NFL.com",
+        "url": "https://www.nfl.com/news/injuries-forced-the-steelers-to-adapt-the-offense-found-an-identity-in-the-process",
+        "published_at": "2026-10-12T01:01:06Z",
+        "about": "team"
+      },
+      {
+        "title": "Jaylen Warren, jugador de la semana de los Steelers",
+        "summary": "Fue el líder del equipo en yardas por tierra y por recepción ante Indy; es el primero desde Herschel Walker (1986) con un TD de recepción de 80+ y uno por tierra de 50+ en el mismo partido.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/warren-is-steelers-player-of-the-week",
+        "published_at": "2026-10-11T21:23:00Z",
+        "about": "team"
+      },
       {
         "title": "Los Steelers se despegan de los Colts y ganan 34-22",
         "summary": "Warren pasó las 100 yardas por tierra y sumó 2 TD; Freiermuth anotó dos más y Rodgers tiró 3 pases de TD por tercera semana seguida.",
@@ -447,14 +488,6 @@
         "source_name": "Ray Fittipaldo (Post-Gazette) en X",
         "url": "https://x.com/rayfitt1/status/2107558737187627456",
         "published_at": "2026-10-06T19:48:54Z",
-        "about": "team"
-      },
-      {
-        "title": "Joey Porter Jr. traspasado a Dallas por una 2.ª ronda 2028",
-        "summary": "Los Steelers recibieron una 2.ª ronda de 2028 y una 6.ª (condicional) de 2027.",
-        "source_name": "ESPN",
-        "url": "https://www.espn.com/nfl/story/_/id/50074351/sources-steelers-trade-joey-porter-jr-cowboys",
-        "published_at": "2026-10-01T04:14:12Z",
         "about": "team"
       },
       {
@@ -535,6 +568,33 @@
         "source_name": "Chris Adamski (TribLive) en X",
         "url": "https://x.com/C_AdamskiTrib/status/2109385065989849338",
         "date": "2026-10-11T20:46:04Z"
+      },
+      {
+        "speaker": "Aaron Rodgers",
+        "role": "QB",
+        "quote": "Podemos jugar con dos tight ends todo el día, y si hace falta, lo vamos a hacer. Pero estoy muy orgulloso de cómo entró Germ (Bernard).",
+        "context": "Sobre las bajas en el cuerpo de receptores",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/from-the-press-room-steelers-vs-colts-x7882",
+        "date": "2026-10-11T22:39:00Z"
+      },
+      {
+        "speaker": "Cameron Heyward",
+        "role": "DT",
+        "quote": "Odiamos perder. Tratamos de aprender de nuestros errores.",
+        "context": "Sobre la reacción después de la derrota en Cleveland",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/from-the-press-room-steelers-vs-colts-x7882",
+        "date": "2026-10-11T22:39:00Z"
+      },
+      {
+        "speaker": "Jaylen Warren",
+        "role": "RB",
+        "quote": "Con Rico lesionado, y sabiendo que está un día más cerca de volver, siento que puedo sostenerlo hasta entonces.",
+        "context": "Sobre su rol mientras vuelve Rico Dowdle",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/from-the-press-room-steelers-vs-colts-x7882",
+        "date": "2026-10-11T22:39:00Z"
       }
     ],
     "roster_moves": [
@@ -713,7 +773,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-11T21:50:28.614Z"
+      "updated_at": "2026-10-12T12:10:03.717Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-14T21:00:38.000Z",
+    "generated_at": "2026-10-15T12:03:36.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 6,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "b7454be7e2b97eb2"
+    "espn_hash": "2e596d6f6dca1875"
   },
   "team": {
     "id": "23",
@@ -46,10 +46,10 @@
       "indoor": false
     },
     "weather": {
-      "summary": "Nublado",
+      "summary": "Mayormente nublado",
       "temp_c": 26,
-      "gust_kmh": 37,
-      "precip_pct": 7
+      "gust_kmh": 45,
+      "precip_pct": 0
     },
     "broadcast": {
       "us": [
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-14T20:58:08.495Z"
+      "updated_at": "2026-10-15T12:00:21.854Z"
     }
   },
   "form": {
@@ -128,27 +128,27 @@
       "count": 1
     },
     "thermometer": {
-      "text": "Llegan 3-2 y con Warren elegido jugador ofensivo de la semana de la AFC tras el 34-22 a los Colts. La primera práctica trajo alivio: Dean, Elliott y Dowdle volvieron, aunque limitados. Lo que preocupa: un cuerpo de receptores diezmado (sin Pittman, Wilson ni Skowronek), Benton con un tobillo tocado y Ramsey sin entrenar por la muñeca.",
+      "text": "Llegan 3-2, con Warren encendido y una deuda clara: todavía no ganaron de visitante, y Heyward pidió \"adueñarse del estadio\" en Tampa. El parte trajo alivio con Dean, Elliott y Dowdle limitados, pero preocupan Benton (tobillo), Ramsey (muñeca) y un cuerpo de receptores diezmado. Ruido de fondo: Kaboly dice que Pittsburgh va a moverse antes de la fecha límite de cambios.",
       "refs": [
         {
           "name": "steelers.com",
-          "url": "https://www.steelers.com/news/warren-wins-afc-offensive-player-of-the-week"
+          "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking"
         },
         {
           "name": "Brian Batko en X",
           "url": "https://x.com/BrianBatko/status/2110463068128035177"
         },
         {
-          "name": "Gerry Dulac en X",
-          "url": "https://x.com/gerrydulac/status/2109722564025335832"
+          "name": "Mark Kaboly en X",
+          "url": "https://x.com/MarkKaboly/status/2110549051515253166"
         }
       ],
-      "updated_at": "2026-10-14T21:10:00Z"
+      "updated_at": "2026-10-15T12:03:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-14T20:58:08.495Z"
+      "updated_at": "2026-10-15T12:00:21.854Z"
     }
   },
   "recent_results": {
@@ -242,11 +242,18 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-14T20:58:08.495Z"
+      "updated_at": "2026-10-15T12:00:21.854Z"
     }
   },
   "injuries": {
     "team": [
+      {
+        "name": "Jamel Dean",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Tobillo",
+        "practice": []
+      },
       {
         "name": "Rico Dowdle",
         "position": "RB",
@@ -269,13 +276,6 @@
         "practice": []
       },
       {
-        "name": "Jamel Dean",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Tobillo",
-        "practice": []
-      },
-      {
         "name": "Ben Skowronek",
         "position": "WR",
         "status": "Out",
@@ -285,10 +285,17 @@
     ],
     "opponent": [
       {
-        "name": "Ayden Garnes",
+        "name": "Benjamin Morrison",
         "position": "CB",
         "status": "Questionable",
-        "injury": "Tobillo",
+        "injury": "Cuádriceps",
+        "practice": []
+      },
+      {
+        "name": "Antoine Winfield Jr.",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Costillas",
         "practice": []
       },
       {
@@ -299,24 +306,17 @@
         "practice": []
       },
       {
+        "name": "Ayden Garnes",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Tobillo",
+        "practice": []
+      },
+      {
         "name": "Baker Mayfield",
         "position": "QB",
         "status": "Doubtful",
         "injury": "Pulgar",
-        "practice": []
-      },
-      {
-        "name": "Antoine Winfield Jr.",
-        "position": "S",
-        "status": "Doubtful",
-        "injury": "Costillas",
-        "practice": []
-      },
-      {
-        "name": "Benjamin Morrison",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Cuádriceps",
         "practice": []
       }
     ],
@@ -324,7 +324,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-14T20:58:08.495Z"
+      "updated_at": "2026-10-15T12:00:21.854Z"
     }
   },
   "comparison": {
@@ -410,34 +410,98 @@
             "url": "https://www.tampabay.com/sports/bucs/2026/10/05/antoine-winfield-fractured-rib-cowboys-ifeatu-melifonwu-sean-murphy-bunting-steelers/"
           }
         ]
+      },
+      {
+        "title": "La defensa contra la carrera ante Irving y Gainwell",
+        "team_side": "Cam Heyward, Yahya Black, Gabriel Rubio (DL) y Patrick Queen (LB)",
+        "opponent_side": "Bucky Irving y Kenny Gainwell (RB)",
+        "analysis": "Ante los Colts, Pittsburgh dejó a Jonathan Taylor en 45 yardas y a Indy en 66 por tierra. Irving suma 406 yardas en 77 acarreos (2 TD) y Gainwell, ex-MVP de los Steelers en 2025, 44 en 17. Heyward: \"Tenemos que frenar la carrera\". Benton (tobillo) no practicó el miércoles.",
+        "refs": [
+          {
+            "name": "steelers.com",
+            "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking"
+          },
+          {
+            "name": "Brian Batko en X",
+            "url": "https://x.com/BrianBatko/status/2110463068128035177"
+          }
+        ]
       }
     ],
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-14T20:58:08.495Z"
+      "updated_at": "2026-10-15T12:00:21.854Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Primer parte de lesiones de la semana: Dean, DeShon Elliott y Dowdle practicaron limitados, mientras que Ramsey (muñeca) y Keeanu Benton (tobillo, lesión nueva) no entrenaron. Wilson y Skowronek ya estaban descartados. Warren fue elegido jugador ofensivo de la semana de la AFC. En Tampa, Mayfield no practicó y Jalon Daniels apunta a ser titular otra vez; Winfield sigue afuera.",
+      "text": "Pittsburgh busca su primer triunfo de visitante: Heyward pidió frenar la carrera de Bucky Irving y Kenny Gainwell. En el parte del miércoles, Dean, DeShon Elliott y Dowdle practicaron limitados, mientras que Ramsey (muñeca) y Benton (tobillo) no entrenaron; Wilson y Skowronek ya estaban descartados. Mark Kaboly reporta \"fuertes indicios\" de que los Steelers van a estar activos antes de la fecha límite de cambios (10 de noviembre). En Tampa, Mayfield todavía no volvió a tirar y Jalon Daniels apunta a su 3.ª titularidad seguida.",
       "refs": [
         {
-          "name": "Brian Batko en X",
-          "url": "https://x.com/BrianBatko/status/2110463068128035177"
-        },
-        {
           "name": "steelers.com",
-          "url": "https://www.steelers.com/news/warren-wins-afc-offensive-player-of-the-week"
+          "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking"
         },
         {
-          "name": "Rick Stroud en X",
-          "url": "https://x.com/NFLSTROUD/status/2110462909944131813"
+          "name": "Mark Kaboly en X",
+          "url": "https://x.com/MarkKaboly/status/2110549051515253166"
+        },
+        {
+          "name": "NBC Sports",
+          "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-14/baker-mayfield-thumb-has-not-resumed-throwing"
         }
       ],
-      "updated_at": "2026-10-14T21:10:00Z"
+      "updated_at": "2026-10-15T12:03:00Z"
     },
     "items": [
+      {
+        "title": "Auman: la última vez que un Bucs-Steelers tuvo a un local 1-4",
+        "summary": "Fue en 2022: Tom Brady y Tampa perdieron 20-18 en Pittsburgh. Ese año los Steelers arrancaron 1-4 y terminaron 9-8.",
+        "source_name": "Greg Auman (FOX Sports) en X",
+        "url": "https://x.com/gregauman/status/2110701775963775235",
+        "published_at": "2026-10-15T11:58:12Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Tampa: Wirfs y Sills practicaron completos; Godwin descansó",
+        "summary": "En el parte del miércoles de los Bucs, Mayfield (pulgar), Winfield Jr. (costilla), Sean Tucker (cuádriceps) y Ayden Garnes (tobillo) no practicaron. SirVocea Dennis y Benjamin Morrison, limitados.",
+        "source_name": "Yahoo Sports",
+        "url": "https://sports.yahoo.com/articles/buccaneers-vs-steelers-week-6-030000116.html",
+        "published_at": "2026-10-15T03:00:00Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Kaboly: los Steelers se moverían antes de la fecha límite de cambios",
+        "summary": "Según Mark Kaboly, hay \"fuertes indicios\" de que Pittsburgh va a estar activo de cara a la fecha límite de traspasos, que cierra el 10 de noviembre. Con Pittman en IR y Wilson y Skowronek lesionados, los hinchas ya piden un receptor.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2110549051515253166",
+        "published_at": "2026-10-15T01:51:20Z",
+        "about": "team"
+      },
+      {
+        "title": "¿Kaden Wetjen como receptor el domingo?",
+        "summary": "El Post-Gazette analiza a quién podría recurrir Pittsburgh con tantas bajas entre los receptores. Wetjen, el novato retornador, ya dijo que quizá tenga que \"dar un paso al frente\".",
+        "source_name": "Gerry Dulac (Post-Gazette) en X",
+        "url": "https://x.com/gerrydulac/status/2110505979699974624",
+        "published_at": "2026-10-14T23:00:11Z",
+        "about": "team"
+      },
+      {
+        "title": "Elandon Roberts volvió, pero su rol todavía no está definido",
+        "summary": "Firmado al equipo de práctica, Roberts confirmó que habló de su rol con el cuerpo técnico, pero no dio detalles. Hizo su primera práctica el miércoles.",
+        "source_name": "Ray Fittipaldo (Post-Gazette) en X",
+        "url": "https://x.com/rayfitt1/status/2110484585012179330",
+        "published_at": "2026-10-14T21:35:10Z",
+        "about": "team"
+      },
+      {
+        "title": "Heyward: \"Tenemos que frenar la carrera\" para ganar de visitante",
+        "summary": "Las dos derrotas del año fueron afuera (Patriots y Browns). Enfrente está la dupla de Bucky Irving (406 yardas en 77 acarreos, 2 TD) y Kenny Gainwell. McCormick admitió que la comunicación de la línea en partidos de visitante todavía no fue la mejor.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking",
+        "published_at": "2026-10-14T21:20:00Z",
+        "about": "team"
+      },
       {
         "title": "Parte del miércoles: Dean, Elliott y Dowdle, limitados; Ramsey y Benton no practicaron",
         "summary": "Benton (tobillo) es la novedad del parte. Wilson y Skowronek tampoco entrenaron, pero ya estaban descartados. Heyward y Watt tuvieron día de descanso.",
@@ -503,54 +567,6 @@
         "about": "opponent"
       },
       {
-        "title": "Kozora: Pittsburgh es último en promedio de retornos de kickoff",
-        "summary": "22,7 yardas por retorno en la temporada, el peor de la NFL. McCarthy ya había avisado: \"Tenemos que ser mejores en equipos especiales\".",
-        "source_name": "Alex Kozora (Steelers Depot) en X",
-        "url": "https://x.com/Alex_Kozora/status/2110098553494487063",
-        "published_at": "2026-10-13T20:01:13Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy y una semana de ajustes forzados",
-        "summary": "El entrenador sobre seguir con lo que funciona, corregir lo que no y cómo manejar la ola de lesiones en los receptores.",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/sorting-through-options",
-        "published_at": "2026-10-12T21:10:01Z",
-        "about": "team"
-      },
-      {
-        "title": "Elandon Roberts vuelve: firmó con el equipo de práctica",
-        "summary": "El LB veterano regresa a Pittsburgh; según Gerry Dulac, no es por una lesión entre los ILB.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2109751602944835939",
-        "published_at": "2026-10-12T21:02:34Z",
-        "about": "team"
-      },
-      {
-        "title": "Dowdle volvería en Tampa, pero Warren sigue de titular",
-        "summary": "El OC Brian Angelichio espera el regreso de Rico Dowdle (dedo del pie); McCarthy dejó claro que Jaylen Warren es el corredor principal.",
-        "source_name": "CBS Sports",
-        "url": "https://www.cbssports.com/fantasy/football/news/steelers-rico-dowdle-expected-back-for-week-6/",
-        "published_at": "2026-10-12T20:07:44Z",
-        "about": "team"
-      },
-      {
-        "title": "Los Bucs abrieron la ventana de regreso de David Sills",
-        "summary": "El receptor estuvo en IR toda la temporada por el isquiotibial; podría jugar el domingo si evoluciona bien.",
-        "source_name": "Greg Auman (FOX Sports) en X",
-        "url": "https://x.com/gregauman/status/2109729261107950036",
-        "published_at": "2026-10-12T19:33:47Z",
-        "about": "opponent"
-      },
-      {
-        "title": "DeShon Elliott, en duda: la decisión llega más adelante en la semana",
-        "summary": "El safety está en su segunda semana de prácticas desde el IR; McCarthy no descarta activarlo para Tampa.",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2109725493662474289",
-        "published_at": "2026-10-12T19:18:49Z",
-        "about": "team"
-      },
-      {
         "title": "Confirmado: Roman Wilson y Ben Skowronek no juegan en Tampa",
         "summary": "Con Pittman en IR, Pittsburgh llega sin tres de sus cinco mejores receptores. McCarthy no dio plazos de regreso.",
         "source_name": "Gerry Dulac (Post-Gazette) en X",
@@ -560,6 +576,24 @@
       }
     ],
     "quotes": [
+      {
+        "speaker": "Cam Heyward",
+        "role": "DT",
+        "quote": "Tenemos que jugar mejor. Las últimas veces no estuvimos a la altura de nuestro estándar, y no puede haber un contraste entre local y visitante. Solo tenemos que ejecutar mejor, jugar con mucha emoción y adueñarnos del partido, del estadio.",
+        "context": "Sobre la falta de triunfos de visitante antes de ir a Tampa",
+        "source_name": "Teresa Varley (steelers.com) en X",
+        "url": "https://x.com/Teresa_Varley/status/2110490631923794335",
+        "date": "2026-10-14T21:59:12Z"
+      },
+      {
+        "speaker": "Brian Angelichio",
+        "role": "Coordinador ofensivo",
+        "quote": "Germ te da muchísima flexibilidad porque bloquea muy bien y es bueno con la pelota en las manos. Es un corredor fuerte, rompe tackles. [...] Hay mucho que podemos hacer con Germ.",
+        "context": "Sobre el novato Germie Bernard, con tres receptores afuera",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking",
+        "date": "2026-10-14T21:20:00Z"
+      },
       {
         "speaker": "Elandon Roberts",
         "role": "LB",
@@ -586,24 +620,6 @@
         "source_name": "Greg Auman (FOX Sports) en X",
         "url": "https://x.com/gregauman/status/2110420613638807918",
         "date": "2026-10-14T17:20:58Z"
-      },
-      {
-        "speaker": "Brian Angelichio",
-        "role": "Coordinador ofensivo",
-        "quote": "Eso es lo lindo de tener la flexibilidad con los tight ends, la versatilidad de Darnell y Pat. ... Creo que lo vieron en el tercer y el cuarto cuarto, con las lesiones.",
-        "context": "Sobre cómo compensar la baja de tres receptores",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2109732398355320982",
-        "date": "2026-10-12T19:46:15Z"
-      },
-      {
-        "speaker": "Danny Crossman",
-        "role": "Coordinador de equipos especiales",
-        "quote": "Eso tiene que eliminarse.",
-        "context": "Sobre el retorno largo de kickoff que permitieron ante los Colts; dijo que la responsabilidad empieza por él",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2109728075986428110",
-        "date": "2026-10-12T19:29:04Z"
       },
       {
         "speaker": "Mike McCarthy",
@@ -727,14 +743,21 @@
     ],
     "x_pulse": {
       "mood": "ilusionado",
-      "summary": "Mucho orgullo por el premio a Warren y alivio por la vuelta de Dean a las prácticas. La preocupación pasa por Benton, una baja nueva, Ramsey sin entrenar y el mal historial de Rodgers en Tampa. También hay inquietud por las protestas en París, de cara al partido con los Saints de la semana que viene.",
+      "summary": "El tema de la noche fue el reporte de Kaboly sobre la fecha límite de cambios: los hinchas ya arman listas de deseos (un receptor, un CB, un safety), aunque algunos desconfían del \"vamos a estar activos\" de todos los años. Sigue el alivio por Dean y la preocupación por Benton, Ramsey y el mal historial de Rodgers en Tampa.",
       "posts": [
         {
-          "author": "Steelers",
-          "handle": "@steelers",
-          "text": "¡TU JUGADOR OFENSIVO DE LA SEMANA DE LA AFC!",
-          "url": "https://x.com/steelers/status/2110402394722849237",
-          "posted_at": "2026-10-14T16:08:34Z"
+          "author": "Mark Kaboly",
+          "handle": "@MarkKaboly",
+          "text": "Hay fuertes indicios de que los Steelers van a estar activos de cara a la fecha límite de cambios de la NFL, fijada para el 10 de noviembre.",
+          "url": "https://x.com/MarkKaboly/status/2110549051515253166",
+          "posted_at": "2026-10-15T01:51:20Z"
+        },
+        {
+          "author": "Baku",
+          "handle": "@Mazursky8895",
+          "text": "El sueño: WR Brian Thomas Jr. (JAX), S Budda Baker (ARI), CB Zyon McCollum (TB), CB Riq Woolen (PHI). Lo que espero: WR Jalen Tolbert (MIA), por su historia con Mike McCarthy, y S Isaiah Pola-Mao (LV), por conocer el sistema de Patrick Graham y ser sobrino de Polamalu.",
+          "url": "https://x.com/Mazursky8895/status/2110575771232166089",
+          "posted_at": "2026-10-15T03:37:31Z"
         },
         {
           "author": "Nick Farabaugh",
@@ -742,13 +765,6 @@
           "text": "Buenas noticias para los Steelers: el CB Jamel Dean volvió a la cancha hoy en el tramo abierto a la prensa. El S DeShon Elliott y el RB Rico Dowdle también siguieron con su recuperación y participaron.",
           "url": "https://x.com/FarabaughFB/status/2110410306593886350",
           "posted_at": "2026-10-14T16:40:01Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "@Alex_Kozora",
-          "text": "Max Iheanachor es muy consistente en sus pass sets, y los sabe variar y mezclar. Grandes manos y pies. Impresionante para cualquiera, pero más para un novato en sus primeras titularidades.",
-          "url": "https://x.com/Alex_Kozora/status/2110418547700842614",
-          "posted_at": "2026-10-14T17:12:46Z"
         },
         {
           "author": "Nick Farabaugh",
@@ -772,7 +788,7 @@
           "posted_at": "2026-10-14T19:04:46Z"
         }
       ],
-      "updated_at": "2026-10-14T21:10:00Z"
+      "updated_at": "2026-10-15T12:03:00Z"
     }
   },
   "head_to_head": {
@@ -809,7 +825,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-14T20:58:08.495Z"
+      "updated_at": "2026-10-15T12:00:21.854Z"
     }
   }
 }

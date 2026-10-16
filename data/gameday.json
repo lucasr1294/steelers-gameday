@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-16T12:01:12.000Z",
+    "generated_at": "2026-10-16T21:04:31.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 6,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "f9cf3ea6ff4e1922"
+    "espn_hash": "5087549e77a5f749"
   },
   "team": {
     "id": "23",
@@ -48,7 +48,7 @@
     "weather": {
       "summary": "Mayormente nublado",
       "temp_c": 26,
-      "gust_kmh": 40,
+      "gust_kmh": 35,
       "precip_pct": 0
     },
     "broadcast": {
@@ -63,12 +63,12 @@
       "favorite_abbr": "PIT",
       "spread": 2.5,
       "over_under": 39.5,
-      "provider": "Draft Kings"
+      "provider": "DraftKings"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-16T11:59:47.158Z"
+      "updated_at": "2026-10-16T21:02:40.834Z"
     }
   },
   "form": {
@@ -128,31 +128,31 @@
       "count": 1
     },
     "thermometer": {
-      "text": "Viernes previo a Tampa (domingo 14:00 ART): llegan 3-2 buscando el primer triunfo de visitante. El parte del jueves alivió — Dowdle a full, Benton y Ramsey limitados, Watt y Heyward completos; Wilson y Skowronek ya descartados. Rumores de visita de JuJu Smith-Schuster se desmintieron: el club mira opciones internas. Enfrente, Mayfield no juega (Daniels, 3.ª titularidad) y Winfield Jr. tampoco. Falta el parte final del viernes.",
+      "text": "Viernes previo a Tampa (domingo 14:00 ART): llegan 3-2 buscando el primer triunfo de visitante y dos seguidos. Buenas noticias en defensa y en el backfield (Dowdle y Dean apuntan a jugar), pero el parte final sumó una preocupación: Metcalf en duda por enfermedad, con Pittman, Wilson y Skowronek afuera. Elliott sigue en IR. Enfrente, sin Mayfield ni Winfield Jr.",
       "refs": [
         {
-          "name": "steelers.com (injury report)",
-          "url": "https://www.steelers.com/team/injury-report/week/reg-6"
-        },
-        {
           "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2110824271077323105"
+          "url": "https://x.com/FarabaughFB/status/2111174751238664443"
         },
         {
-          "name": "Noah Strackbein en X",
-          "url": "https://x.com/NoahStrackbein/status/2110890223647510623"
+          "name": "Alex Kozora en X",
+          "url": "https://x.com/Alex_Kozora/status/2111172909540720853"
+        },
+        {
+          "name": "Chris Adamski en X",
+          "url": "https://x.com/C_AdamskiTrib/status/2111121265092079817"
         },
         {
           "name": "Greg Auman en X",
-          "url": "https://x.com/gregauman/status/2110756636205982050"
+          "url": "https://x.com/gregauman/status/2111132668528394472"
         }
       ],
-      "updated_at": "2026-10-16T12:05:00Z"
+      "updated_at": "2026-10-16T21:04:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-16T11:59:47.158Z"
+      "updated_at": "2026-10-16T21:02:40.834Z"
     }
   },
   "recent_results": {
@@ -246,11 +246,25 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-16T11:59:47.158Z"
+      "updated_at": "2026-10-16T21:02:40.834Z"
     }
   },
   "injuries": {
     "team": [
+      {
+        "name": "DK Metcalf",
+        "position": "WR",
+        "status": "Questionable",
+        "injury": "Enfermedad",
+        "practice": []
+      },
+      {
+        "name": "Rico Dowdle",
+        "position": "RB",
+        "status": "Questionable",
+        "injury": "Dedo del pie",
+        "practice": []
+      },
       {
         "name": "Jamel Dean",
         "position": "CB",
@@ -271,56 +285,42 @@
         "status": "Questionable",
         "injury": "Tobillo",
         "practice": []
-      },
-      {
-        "name": "Ben Skowronek",
-        "position": "WR",
-        "status": "Out",
-        "injury": "Pantorrilla",
-        "practice": []
-      },
-      {
-        "name": "Roman Wilson",
-        "position": "WR",
-        "status": "Out",
-        "injury": "Dedo",
-        "practice": []
       }
     ],
     "opponent": [
       {
-        "name": "Sean Tucker",
-        "position": "RB",
+        "name": "Josiah Trotter",
+        "position": "LB",
         "status": "Questionable",
+        "injury": "Rodilla",
+        "practice": []
+      },
+      {
+        "name": "Benjamin Morrison",
+        "position": "CB",
+        "status": "Doubtful",
         "injury": "Cuádriceps",
         "practice": []
       },
       {
         "name": "Baker Mayfield",
         "position": "QB",
-        "status": "Doubtful",
+        "status": "Out",
         "injury": "Pulgar",
-        "practice": []
-      },
-      {
-        "name": "Benjamin Morrison",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Cuádriceps",
         "practice": []
       },
       {
         "name": "Antoine Winfield Jr.",
         "position": "S",
-        "status": "Doubtful",
+        "status": "Out",
         "injury": "Costillas",
         "practice": []
       },
       {
-        "name": "Ayden Garnes",
-        "position": "CB",
+        "name": "Sean Tucker",
+        "position": "RB",
         "status": "Questionable",
-        "injury": "Tobillo",
+        "injury": "Cuádriceps",
         "practice": []
       }
     ],
@@ -328,7 +328,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-16T11:59:47.158Z"
+      "updated_at": "2026-10-16T21:02:40.834Z"
     }
   },
   "comparison": {
@@ -355,19 +355,19 @@
         "title": "Warren (y Dowdle) contra el muro de Tampa",
         "team_side": "Jaylen Warren / Rico Dowdle (RB)",
         "opponent_side": "Defensa contra la carrera de TB",
-        "analysis": "Warren es el \"featured player\" según McCarthy y viene de 188 yardas totales y 2 TD (jugador ofensivo de la semana de la AFC). Dowdle (dedo del pie) practicó completo el jueves por primera vez desde la Semana 2; Kozora dice que Warren seguirá siendo el back principal. Enfrente, la defensa de Tampa es de las más duras contra la carrera.",
+        "analysis": "Warren es el \"featured player\" según McCarthy y viene de 188 yardas totales y 2 TD (jugador ofensivo de la semana de la AFC). Dowdle (dedo del pie) practicó completo jueves y viernes; figura en duda, pero Adamski informa que se espera que juegue. Enfrente, la defensa de Tampa es de las más duras contra la carrera.",
         "refs": [
           {
             "name": "steelers.com",
             "url": "https://www.steelers.com/news/warren-wins-afc-offensive-player-of-the-week"
           },
           {
-            "name": "Nick Farabaugh en X",
-            "url": "https://x.com/FarabaughFB/status/2110824271077323105"
+            "name": "Chris Adamski en X",
+            "url": "https://x.com/C_AdamskiTrib/status/2111121265092079817"
           },
           {
-            "name": "Alex Kozora en X",
-            "url": "https://x.com/Alex_Kozora/status/2110824069729800496"
+            "name": "Nick Farabaugh en X",
+            "url": "https://x.com/FarabaughFB/status/2111174751238664443"
           }
         ]
       },
@@ -375,19 +375,19 @@
         "title": "Secundaria remendada contra el novato Daniels",
         "team_side": "Jalen Ramsey, Jamel Dean, Asante Samuel Jr., Daylen Everette (CB)",
         "opponent_side": "Jalon Daniels (QB) con Egbuka y Godwin",
-        "analysis": "Dean vuelve a enfrentar a su exentrenador Bowles (\"el alumno contra el maestro\"). Ramsey pasó de DNP el miércoles a limitado el jueves (muñeca). En Tampa, Mayfield no practicó dos días seguidos y el OC Zac Robinson confirmó que no juega: Daniels apunta a su 3.ª titularidad seguida en casa.",
+        "analysis": "Ramsey (muñeca) y Dean (tobillo) quedaron en duda tras practicar limitados; Dean se dijo \"MUY optimista\" de jugar contra su exentrenador Bowles. Elliott no se activa del IR. En Tampa, Bowles confirmó que Mayfield no juega: Daniels apunta a su 3.ª titularidad seguida en casa.",
         "refs": [
           {
-            "name": "Brooke Pryor en X",
-            "url": "https://x.com/bepryor/status/2110806837838712924"
+            "name": "Chris Adamski en X",
+            "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162"
           },
           {
-            "name": "Rick Stroud en X",
-            "url": "https://x.com/NFLSTROUD/status/2110757015337460033"
+            "name": "Brooke Pryor en X",
+            "url": "https://x.com/bepryor/status/2111181377865453568"
           },
           {
             "name": "Greg Auman en X",
-            "url": "https://x.com/gregauman/status/2110756636205982050"
+            "url": "https://x.com/gregauman/status/2111132668528394472"
           }
         ]
       },
@@ -395,19 +395,19 @@
         "title": "Rodgers y un cuerpo de receptores en terapia intensiva",
         "team_side": "Aaron Rodgers (QB), DK Metcalf y Germie Bernard (WR), Pat Freiermuth y Darnell Washington (TE)",
         "opponent_side": "Secundaria de TB sin Antoine Winfield Jr.",
-        "analysis": "Pittman (IR), Wilson y Skowronek no juegan; Rodgers dijo que confía en los reemplazos (Smith, Hodgins, Johnson) y en jugar con dos tight ends. Contra los Bucs tiene 7 TD y 9 INT (rating 79,4). Winfield Jr. (costilla) no practicó el jueves y se pierde el segundo partido seguido.",
+        "analysis": "Pittman (IR), Wilson y Skowronek no juegan, y ahora Metcalf quedó en duda por una enfermedad (no practicó el viernes). Kozora cree que probablemente juega y espera dos elevaciones de receptores. Rodgers confía en los reemplazos y en jugar con dos tight ends; contra los Bucs tiene 7 TD y 9 INT (rating 79,4). Winfield Jr. (costilla) no juega.",
         "refs": [
+          {
+            "name": "Alex Kozora en X",
+            "url": "https://x.com/Alex_Kozora/status/2111172909540720853"
+          },
           {
             "name": "steelers.com",
             "url": "https://www.steelers.com/news/eyeing-who-s-up-next"
           },
           {
             "name": "Greg Auman en X",
-            "url": "https://x.com/gregauman/status/2110757149009654075"
-          },
-          {
-            "name": "Greg Auman en X",
-            "url": "https://x.com/gregauman/status/2110406453672706360"
+            "url": "https://x.com/gregauman/status/2111132668528394472"
           }
         ]
       },
@@ -415,7 +415,7 @@
         "title": "La defensa contra la carrera ante Irving y Gainwell",
         "team_side": "Cam Heyward, Keeanu Benton, Yahya Black (DL) y Patrick Queen (LB)",
         "opponent_side": "Bucky Irving y Kenny Gainwell (RB)",
-        "analysis": "Ante los Colts, Pittsburgh dejó a Jonathan Taylor en 45 yardas. Benton (tobillo) volvió limitado el jueves tras un DNP el miércoles; Heyward practicó completo después del día de descanso. Irving suma 406 yardas en 77 acarreos (2 TD) y Gainwell, ex-Steeler, es el cambio de ritmo.",
+        "analysis": "Ante los Colts, Pittsburgh dejó a Jonathan Taylor en 45 yardas. Benton (tobillo) quedó en duda para el domingo; Heyward no figura en el parte final. Irving suma 406 yardas en 77 acarreos (2 TD) y Gainwell, ex-Steeler, es el cambio de ritmo.",
         "refs": [
           {
             "name": "steelers.com",
@@ -435,7 +435,7 @@
         "title": "Primer triunfo de visitante o más de lo mismo",
         "team_side": "Ofensiva de Pittsburgh (Rodgers/Warren) y liderazgo de Heyward",
         "opponent_side": "Raymond James Stadium (Bucs 1-4 en casa)",
-        "analysis": "Las dos derrotas del año fueron afuera. Pittsburgh es favorito por 2,5 de visitante (O/U 39,5) ante un rival 1-4 sin su QB titular. Heyward pidió \"adueñarse del estadio\"; el clima: mayormente nublado, 26 °C, ráfagas ~40 km/h.",
+        "analysis": "Las dos derrotas del año fueron afuera. Pittsburgh es favorito por 2,5 de visitante (O/U 39,5) ante un rival 1-4 sin su QB titular. Heyward pidió \"adueñarse del estadio\"; el clima: mayormente nublado, 26 °C, ráfagas de ~35 km/h.",
         "refs": [
           {
             "name": "steelers.com",
@@ -451,33 +451,81 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-16T11:59:47.158Z"
+      "updated_at": "2026-10-16T21:02:40.834Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Viernes sin parte todavía: se mantiene el del jueves (Dowdle a full; Benton/Ramsey/Dean/Elliott limitados; Wilson y Skowronek DNP). Noah Strackbein corrigió: JuJu Smith-Schuster está en Pittsburgh pero no visita al club; opciones internas para el domingo. En Tampa, Mayfield confirmado afuera y Daniels titular; Winfield Jr. también out. Kozora: la identidad ofensiva es \"hard to tackle\" (Warren, Washington, Bernard).",
+      "text": "Parte final del viernes: DK Metcalf no practicó por una enfermedad y quedó en duda, justo con Pittman, Wilson y Skowronek afuera (Kozora espera dos elevaciones de receptores). Elliott no se activa del IR. Dowdle y Dean, en duda pero encaminados a jugar. En Tampa, Bowles confirmó sin Mayfield ni Winfield Jr.; Tucker se define antes del partido.",
       "refs": [
         {
-          "name": "Noah Strackbein en X",
-          "url": "https://x.com/NoahStrackbein/status/2110890223647510623"
-        },
-        {
           "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2110824271077323105"
-        },
-        {
-          "name": "Rick Stroud en X",
-          "url": "https://x.com/NFLSTROUD/status/2110757015337460033"
+          "url": "https://x.com/FarabaughFB/status/2111174751238664443"
         },
         {
           "name": "Alex Kozora en X",
-          "url": "https://x.com/Alex_Kozora/status/2110828450185355436"
+          "url": "https://x.com/Alex_Kozora/status/2111172909540720853"
+        },
+        {
+          "name": "Brooke Pryor en X",
+          "url": "https://x.com/bepryor/status/2111181377865453568"
+        },
+        {
+          "name": "Greg Auman en X",
+          "url": "https://x.com/gregauman/status/2111132668528394472"
         }
       ],
-      "updated_at": "2026-10-16T12:05:00Z"
+      "updated_at": "2026-10-16T21:04:00Z"
     },
     "items": [
+      {
+        "title": "Metcalf, en duda por enfermedad: no practicó el viernes",
+        "summary": "DK Metcalf apareció en el parte final con una enfermedad, no entrenó y figura como dudoso (questionable) para el domingo. Kozora cree que \"probablemente igual juega\", pero con Pittman, Wilson y Skowronek afuera espera dos elevaciones del equipo de práctica este fin de semana.",
+        "source_name": "Alex Kozora (Steelers Depot) en X",
+        "url": "https://x.com/Alex_Kozora/status/2111172909540720853",
+        "published_at": "2026-10-16T19:10:19Z",
+        "about": "team"
+      },
+      {
+        "title": "Parte final: Wilson, Skowronek y Elliott, afuera",
+        "summary": "Descartados: DeShon Elliott (rodilla), Roman Wilson (dedo) y Ben Skowronek (pantorrilla). En duda: Benton (tobillo), Dean (tobillo), Dowdle (dedo del pie), Ramsey (muñeca) y Metcalf (enfermedad).",
+        "source_name": "Nick Farabaugh (PennLive) en X",
+        "url": "https://x.com/FarabaughFB/status/2111174751238664443",
+        "published_at": "2026-10-16T19:17:39Z",
+        "about": "team"
+      },
+      {
+        "title": "Elliott no se activa: apunta a debutar en París",
+        "summary": "Brooke Pryor: DeShon Elliott no sale del IR a tiempo para Tampa, lo que lo encamina a hacer su debut de temporada en París. Además marca que lo de Metcalf hay que seguirlo, con otros tres receptores afuera.",
+        "source_name": "Brooke Pryor (ESPN) en X",
+        "url": "https://x.com/bepryor/status/2111181377865453568",
+        "published_at": "2026-10-16T19:43:58Z",
+        "about": "team"
+      },
+      {
+        "title": "Dowdle y Dean, encaminados a volver",
+        "summary": "Dowdle practicó completo y Chris Adamski informa que se espera que juegue en Tampa. Dean, limitado, se dijo \"MUY optimista\" de jugar contra su exequipo después de la práctica del viernes.",
+        "source_name": "Chris Adamski (TribLive) en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162",
+        "published_at": "2026-10-16T17:48:35Z",
+        "about": "team"
+      },
+      {
+        "title": "Bowles descarta a Mayfield y Winfield; Tucker, decisión previa",
+        "summary": "Todd Bowles confirmó que Mayfield y Winfield Jr. no juegan; el resto está en carrera y el RB Sean Tucker se define antes del partido. En el parte final, Josiah Trotter (rodilla) quedó en duda y el CB Benjamin Morrison, como dudoso (doubtful).",
+        "source_name": "Greg Auman (FOX Sports) en X",
+        "url": "https://x.com/gregauman/status/2111132668528394472",
+        "published_at": "2026-10-16T16:30:25Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Ramsey aclara la \"desconexión\" con Patrick Graham",
+        "summary": "Jalen Ramsey explicó que la relación con el coordinador defensivo es directa y de objetivos compartidos, y celebró que Graham ahora esté en el costado de la cancha: pueden hablar después de cada serie.",
+        "source_name": "Brooke Pryor (ESPN) en X",
+        "url": "https://x.com/bepryor/status/2111149398784655696",
+        "published_at": "2026-10-16T17:36:54Z",
+        "about": "team"
+      },
       {
         "title": "Corrección: JuJu está en Pittsburgh, pero no visita a los Steelers",
         "summary": "Noah Strackbein desmintió el rumor de visita de free agent: JuJu Smith-Schuster está en la ciudad este fin de semana, pero no para ver al club. Pittsburgh mira opciones internas ante los Bucs; JuJu probó con Vikings y Chargers.",
@@ -500,14 +548,6 @@
         "source_name": "Nick Farabaugh (PennLive) en X",
         "url": "https://x.com/FarabaughFB/status/2110824271077323105",
         "published_at": "2026-10-15T20:04:58Z",
-        "about": "team"
-      },
-      {
-        "title": "Fittipaldo: Dowdle podría volver para el partido en Tampa",
-        "summary": "Ray Fittipaldo: Dowdle fue participante completo y Elliott y Dean limitados otra vez. \"Parece que Dowdle podría volver al fold para el partido de Tampa\".",
-        "source_name": "Ray Fittipaldo (Post-Gazette) en X",
-        "url": "https://x.com/rayfitt1/status/2110823595090088328",
-        "published_at": "2026-10-15T20:02:16Z",
         "about": "team"
       },
       {
@@ -543,22 +583,6 @@
         "about": "team"
       },
       {
-        "title": "Kozora: buen signo para Dowdle; Warren sigue siendo el feature",
-        "summary": "Alex Kozora (Steelers Depot): primera práctica completa de Dowdle desde el dedo del pie. \"Buen signo para que vuelva este fin de semana\", aunque Warren seguirá siendo el back principal.",
-        "source_name": "Alex Kozora (Steelers Depot) en X",
-        "url": "https://x.com/Alex_Kozora/status/2110824069729800496",
-        "published_at": "2026-10-15T20:04:10Z",
-        "about": "team"
-      },
-      {
-        "title": "Elliott sigue en IR pero entrena junto a Ramsey",
-        "summary": "Brooke Pryor filmó a DeShon Elliott (todavía en IR, ventana de 21 días) trabajando en drills de posición junto a Jalen Ramsey. McCarthy dijo que la decisión de activarlo llega más tarde en la semana.",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2110779084351717712",
-        "published_at": "2026-10-15T17:05:24Z",
-        "about": "team"
-      },
-      {
         "title": "Heyward: \"Tenemos que frenar la carrera\" para ganar de visitante",
         "summary": "Las dos derrotas del año fueron afuera. Enfrente está la dupla Irving-Gainwell. McCormick admitió que la comunicación de la línea en partidos de visitante todavía no fue la mejor.",
         "source_name": "steelers.com",
@@ -573,33 +597,45 @@
         "url": "https://www.steelers.com/news/eyeing-who-s-up-next",
         "published_at": "2026-10-14T20:00:14Z",
         "about": "team"
-      },
-      {
-        "title": "Jaylen Warren, jugador ofensivo de la semana de la AFC",
-        "summary": "Premio por su partido ante los Colts: 188 yardas y 2 TD. McCarthy lo llamó \"the man\" y después \"nuestro featured player\".",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/warren-wins-afc-offensive-player-of-the-week",
-        "published_at": "2026-10-14T16:05:48Z",
-        "about": "team"
-      },
-      {
-        "title": "Auman: Rodgers será el QB más viejo en tirar contra Tampa",
-        "summary": "A los 42, Rodgers se convierte en el QB más longevo en enfrentar a los Bucs. Los QB de 40+ están 7-0 en temporada regular vs. Tampa (13 TD / 2 INT). Él, en cambio, tiene 7 TD y 9 INT contra ellos.",
-        "source_name": "Greg Auman (FOX Sports) en X",
-        "url": "https://x.com/gregauman/status/2110440819199009157",
-        "published_at": "2026-10-14T18:41:16Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Confirmado: Roman Wilson y Ben Skowronek no juegan en Tampa",
-        "summary": "Con Pittman en IR, Pittsburgh llega sin tres de sus mejores receptores. McCarthy no dio plazos de regreso.",
-        "source_name": "Gerry Dulac (Post-Gazette) en X",
-        "url": "https://x.com/gerrydulac/status/2109722564025335832",
-        "published_at": "2026-10-12T19:07:10Z",
-        "about": "team"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Jamel Dean",
+        "role": "CB",
+        "quote": "MUY optimista.",
+        "context": "Sobre si juega el domingo en Tampa, después de la práctica limitada del viernes",
+        "source_name": "Chris Adamski (TribLive) en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162",
+        "date": "2026-10-16T17:48:35Z"
+      },
+      {
+        "speaker": "T.J. Watt",
+        "role": "OLB",
+        "quote": "Para poder llegar a donde queremos llegar y hacer lo que queremos hacer, tenés que ganar partidos seguidos. Ahora estamos en buen lugar. Solo tenemos que encadenarlos y mantener el envión.",
+        "context": "Antes de visitar a Tampa, buscando dos triunfos seguidos",
+        "source_name": "Teresa Varley (steelers.com) en X",
+        "url": "https://x.com/Teresa_Varley/status/2111188044615184546",
+        "date": "2026-10-16T20:10:28Z"
+      },
+      {
+        "speaker": "Jalen Ramsey",
+        "role": "CB",
+        "quote": "La semana pasada dije que había una desconexión [...] pero con mi papá a veces tenemos desconexiones, y es mi mejor amigo. [...] Solo tenemos que ponernos de acuerdo a veces, y venimos trabajando para eso.",
+        "context": "Sobre su relación con el coordinador defensivo Patrick Graham",
+        "source_name": "Brooke Pryor (ESPN) en X",
+        "url": "https://x.com/bepryor/status/2111149398784655696",
+        "date": "2026-10-16T17:36:54Z"
+      },
+      {
+        "speaker": "Todd Bowles",
+        "role": "Head coach de Tampa Bay",
+        "quote": "Me voy a entusiasmar cuando lo vea con el casco puesto en la práctica.",
+        "context": "Sobre si le alienta algún progreso de Baker Mayfield, descartado para el domingo",
+        "source_name": "Greg Auman (FOX Sports) en X",
+        "url": "https://x.com/gregauman/status/2111133420252500131",
+        "date": "2026-10-16T16:33:25Z"
+      },
       {
         "speaker": "Jamel Dean",
         "role": "CB",
@@ -608,15 +644,6 @@
         "source_name": "Brooke Pryor (ESPN) en X",
         "url": "https://x.com/bepryor/status/2110806837838712924",
         "date": "2026-10-15T18:55:41Z"
-      },
-      {
-        "speaker": "Zac Robinson",
-        "role": "Coordinador ofensivo de Tampa Bay",
-        "quote": "El pulgar de Baker todavía no está del todo listo esta semana, pero está trabajando para volver.",
-        "context": "Confirmando que Mayfield no juega vs. Steelers; Daniels será el titular",
-        "source_name": "Greg Auman (FOX Sports) en X",
-        "url": "https://x.com/gregauman/status/2110781440183177663",
-        "date": "2026-10-15T17:14:46Z"
       },
       {
         "speaker": "Cam Heyward",
@@ -637,15 +664,6 @@
         "date": "2026-10-14T21:20:00Z"
       },
       {
-        "speaker": "Brandon Smith",
-        "role": "WR (equipo de práctica)",
-        "quote": "Obvio, venía esperando mi oportunidad.",
-        "context": "Con las bajas en los receptores, apunta a tener más minutos en Tampa",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2110441800016052613",
-        "date": "2026-10-14T18:45:09Z"
-      },
-      {
         "speaker": "Todd Bowles",
         "role": "Head coach de Tampa Bay",
         "quote": "Es una pesadilla armar el plan de juego contra él.",
@@ -653,24 +671,6 @@
         "source_name": "Greg Auman (FOX Sports) en X",
         "url": "https://x.com/gregauman/status/2110420613638807918",
         "date": "2026-10-14T17:20:58Z"
-      },
-      {
-        "speaker": "Mike McCarthy",
-        "role": "Head coach",
-        "quote": "Jaylen es nuestro featured player ahora mismo.",
-        "context": "Aclarando el rol de Warren aunque Dowdle vuelva al backfield",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2109722681243300157",
-        "date": "2026-10-12T19:07:38Z"
-      },
-      {
-        "speaker": "Mike McCarthy",
-        "role": "Head coach",
-        "quote": "El fútbol le resulta fácil. Creo que ayer cometió algunos errores de jugador joven, pero se ve que viene. Se adaptó muy bien a la ofensiva. ... Estoy muy, muy impresionado.",
-        "context": "Sobre el receptor novato Germie Bernard",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2109724544927744384",
-        "date": "2026-10-12T19:15:02Z"
       }
     ],
     "roster_moves": [
@@ -766,53 +766,53 @@
       }
     ],
     "x_pulse": {
-      "mood": "ilusionado",
-      "summary": "El rumor de JuJu generó buzz y se apagó rápido (no hay visita). Queda el clima del jueves: Dowdle a full, Mayfield confirmado afuera, y Kozora remarcando un ataque \"hard to tackle\". Falta el parte del viernes y el primer triunfo de visitante.",
+      "mood": "dividido",
+      "summary": "El parte final cambió el humor: Metcalf en duda por enfermedad encendió la alarma por un cuerpo de receptores ya diezmado (\"golpe potencialmente enorme\", según Shelby Cassesse). Del otro lado, alivio por Dowdle y Dean, que apuntan a jugar, y un rival sin Mayfield ni Winfield Jr.",
       "posts": [
         {
-          "author": "Noah Strackbein",
-          "handle": "@NoahStrackbein",
-          "text": "JuJu Smith-Schuster está en la ciudad este fin de semana, pero no para visitar a los Steelers. Malinterpreté la info. El club mira opciones internas ante los Bucs.",
-          "url": "https://x.com/NoahStrackbein/status/2110890223647510623",
-          "posted_at": "2026-10-16T00:27:02Z"
+          "author": "Nick Farabaugh",
+          "handle": "@FarabaughFB",
+          "text": "DK Metcalf fue agregado hoy al parte de lesiones con una enfermedad. Está en duda para el domingo.",
+          "url": "https://x.com/FarabaughFB/status/2111174471583170700",
+          "posted_at": "2026-10-16T19:16:32Z"
         },
         {
           "author": "Alex Kozora",
           "handle": "@Alex_Kozora",
-          "text": "Pensando en la identidad ofensiva de los Steelers. Una idea: \"difícil de tacklear\". Warren top-10 rompiendo tackles; Washington 3.º y Warren 4.º en pase; Bernard 17.º.",
-          "url": "https://x.com/Alex_Kozora/status/2110828450185355436",
-          "posted_at": "2026-10-15T20:21:34Z"
+          "text": "Metcalf DNP por enfermedad. Probablemente igual juega el domingo, pero el cuerpo de receptores enfrenta muchos desafíos esta semana. Creo que vamos a ver dos elevaciones este fin de semana.",
+          "url": "https://x.com/Alex_Kozora/status/2111172909540720853",
+          "posted_at": "2026-10-16T19:10:19Z"
         },
         {
-          "author": "Nick Farabaugh",
-          "handle": "@FarabaughFB",
-          "text": "Por primera vez desde la lesión en el dedo del pie, Rico Dowdle fue participante completo. Dean, Elliott, Benton y Ramsey, limitados.",
-          "url": "https://x.com/FarabaughFB/status/2110824271077323105",
-          "posted_at": "2026-10-15T20:04:58Z"
-        },
-        {
-          "author": "Rick Stroud",
-          "handle": "@NFLSTROUD",
-          "text": "Baker Mayfield NO practica hoy, así que podemos dejar de especular. Jalon Daniels será titular vs. los Steelers salvo imprevisto.",
-          "url": "https://x.com/NFLSTROUD/status/2110757015337460033",
-          "posted_at": "2026-10-15T15:37:43Z"
+          "author": "Shelby Cassesse",
+          "handle": "@ShelbyCassesse",
+          "text": "Un golpe potencialmente enorme para los receptores de los Steelers el domingo. DK Metcalf está en duda; apareció hoy con una enfermedad.",
+          "url": "https://x.com/ShelbyCassesse/status/2111175310368817478",
+          "posted_at": "2026-10-16T19:19:52Z"
         },
         {
           "author": "Brooke Pryor",
           "handle": "@bepryor",
-          "text": "Jamel Dean sobre enfrentar a su ex-HC Todd Bowles: \"Es casi como cuando el alumno finalmente va contra su maestro.\"",
-          "url": "https://x.com/bepryor/status/2110806837838712924",
-          "posted_at": "2026-10-15T18:55:41Z"
+          "text": "DeShon Elliott no será activado del IR a tiempo para el domingo vs. Tampa, lo que lo encamina a debutar en París.",
+          "url": "https://x.com/bepryor/status/2111181377865453568",
+          "posted_at": "2026-10-16T19:43:58Z"
+        },
+        {
+          "author": "Chris Adamski",
+          "handle": "@C_AdamskiTrib",
+          "text": "Le pregunté a Jamel Dean cómo se sentía, después de la práctica del viernes, sobre jugar el domingo: \"MUY optimista\".",
+          "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162",
+          "posted_at": "2026-10-16T17:48:35Z"
         },
         {
           "author": "Greg Auman",
           "handle": "@gregauman",
-          "text": "El parte de lesiones de Bucs y Steelers muestra a ambos equipos más sanos a medida que se acerca el domingo.",
-          "url": "https://x.com/gregauman/status/2110824989695881398",
-          "posted_at": "2026-10-15T20:07:49Z"
+          "text": "Todd Bowles dice que Baker Mayfield y Antoine Winfield quedan descartados para el domingo. Todos los demás están en carrera; Sean Tucker se decide antes del partido.",
+          "url": "https://x.com/gregauman/status/2111132668528394472",
+          "posted_at": "2026-10-16T16:30:25Z"
         }
       ],
-      "updated_at": "2026-10-16T12:05:00Z"
+      "updated_at": "2026-10-16T21:04:00Z"
     }
   },
   "head_to_head": {
@@ -849,7 +849,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-16T11:59:47.158Z"
+      "updated_at": "2026-10-16T21:02:40.834Z"
     }
   }
 }

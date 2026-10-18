@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-18T15:38:05.000Z",
+    "generated_at": "2026-10-18T22:04:07.000Z",
     "season": 2026,
     "season_type": "regular",
-    "week": 6,
-    "phase": "pregame",
+    "week": 7,
+    "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "1e4f29a6e38ac086"
+    "espn_hash": "0ef56d31a8950234"
   },
   "team": {
     "id": "23",
@@ -17,99 +17,89 @@
     "abbr": "PIT",
     "color": "#FFB612",
     "record": {
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
       "ties": 0
     }
   },
   "next_game": {
-    "id": "401873002",
-    "week": 6,
-    "label": null,
-    "kickoff": "2026-10-18T17:00:00.000Z",
+    "id": "401873011",
+    "week": 7,
+    "label": "NFL Paris Game",
+    "kickoff": "2026-10-25T13:30:00.000Z",
     "time_tbd": false,
     "opponent": {
-      "id": "27",
-      "name": "Tampa Bay Buccaneers",
-      "short_name": "Buccaneers",
-      "abbr": "TB",
+      "id": "18",
+      "name": "New Orleans Saints",
+      "short_name": "Saints",
+      "abbr": "NO",
       "record": {
-        "wins": 1,
+        "wins": 2,
         "losses": 4,
         "ties": 0
       }
     },
-    "home_away": "away",
+    "home_away": "neutral",
     "venue": {
-      "name": "Raymond James Stadium",
-      "city": "Tampa, FL",
+      "name": "Stade de France",
+      "city": "Saint-Denis",
       "indoor": false
     },
-    "weather": {
-      "summary": "Mayormente soleado",
-      "temp_c": 26,
-      "gust_kmh": 43,
-      "precip_pct": 0
-    },
+    "weather": null,
     "broadcast": {
       "us": [
-        "CBS"
+        "NFL Net"
       ],
       "argentina": [
         "NFL Game Pass (DAZN)"
       ]
     },
-    "odds": {
-      "favorite_abbr": "PIT",
-      "spread": 1.5,
-      "over_under": 38.5,
-      "provider": "DraftKings"
-    },
+    "odds": null,
     "source": {
       "name": "ESPN",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-18T15:31:29.256Z"
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
+      "updated_at": "2026-10-18T22:00:42.105Z"
     }
   },
   "form": {
     "record": {
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
       "ties": 0
     },
     "division": {
       "name": "AFC Norte",
-      "position": 3,
+      "position": 2,
       "standings": [
         {
-          "abbr": "BAL",
-          "name": "Ravens",
+          "abbr": "CLE",
+          "name": "Browns",
           "record": {
             "wins": 4,
-            "losses": 1,
+            "losses": 2,
             "ties": 0
           },
           "games_back": 0
         },
         {
-          "abbr": "CLE",
-          "name": "Browns",
-          "record": {
-            "wins": 3,
-            "losses": 2,
-            "ties": 0
-          },
-          "games_back": 1
-        },
-        {
           "abbr": "PIT",
           "name": "Steelers",
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2,
             "ties": 0
           },
-          "games_back": 1
+          "games_back": 0
+        },
+        {
+          "abbr": "BAL",
+          "name": "Ravens",
+          "record": {
+            "wins": 4,
+            "losses": 2,
+            "ties": 0
+          },
+          "games_back": 0
         },
         {
           "abbr": "CIN",
@@ -119,40 +109,57 @@
             "losses": 2,
             "ties": 0
           },
-          "games_back": 1
+          "games_back": 0.5
         }
       ]
     },
     "streak": {
       "type": "W",
-      "count": 1
+      "count": 2
     },
     "thermometer": {
-      "text": "Llegan 3-2 y favoritos por 1,5 en Tampa (14:00 ART), con todos los que estaban en duda disponibles: Freiermuth, Dowdle, Ramsey, Dean y Benton juegan. La duda es un cuerpo de receptores con dos subidos del equipo de práctica. Enfrente, un rival 1-4 sin Mayfield, Winfield Jr., Morrison ni Sean Tucker.",
+      "text": "Llegan 4-2, con dos triunfos seguidos y empatados arriba en la AFC Norte con Browns y Ravens. La defensa sostuvo en Tampa (4 capturas y 2 intercepciones) mientras el ataque recién apareció en el último cuarto, y McCarthy quedó en la mira por el manejo del reloj. Ahora, Saints 2-4 en París.",
       "refs": [
         {
-          "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2111844022855610869"
+          "name": "steelers.com",
+          "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
         },
         {
-          "name": "Greg Auman en X",
-          "url": "https://x.com/gregauman/status/2111843041925341468"
+          "name": "Steelers Depot",
+          "url": "https://steelersdepot.com/2026/10/mike-mccarthy-defends-controversial-clock-management-decisions/"
         },
         {
-          "name": "Greg Auman en X",
-          "url": "https://x.com/gregauman/status/2111550575162617916"
+          "name": "Rod Walker en X",
+          "url": "https://x.com/RodWalkerNola/status/2111922329848840311"
         }
       ],
-      "updated_at": "2026-10-18T15:40:00Z"
+      "updated_at": "2026-10-18T22:04:07Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-18T15:31:29.256Z"
+      "updated_at": "2026-10-18T22:00:42.105Z"
     }
   },
   "recent_results": {
     "games": [
+      {
+        "id": "401873002",
+        "date": "2026-10-18T17:00:00.000Z",
+        "week": 6,
+        "opponent": {
+          "id": "27",
+          "name": "Tampa Bay Buccaneers",
+          "short_name": "Buccaneers",
+          "abbr": "TB"
+        },
+        "home_away": "away",
+        "team_score": 26,
+        "opponent_score": 19,
+        "result": "W",
+        "summary": "Remontada 26-19 en tiempo extra: perdían 16-3 en el último cuarto, Boswell metió tres goles de campo (uno de 58), Rodgers le dio el TD del triunfo a Germie Bernard y Ramsey cerró con una captura en 4.ª y 8.",
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers"
+      },
       {
         "id": "401872985",
         "date": "2026-10-11T17:00:00.000Z",
@@ -220,289 +227,129 @@
         "result": "L",
         "summary": null,
         "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872946/steelers-patriots"
-      },
-      {
-        "id": "401872658",
-        "date": "2026-09-13T17:00:00.000Z",
-        "week": 1,
-        "opponent": {
-          "id": "1",
-          "name": "Atlanta Falcons",
-          "short_name": "Falcons",
-          "abbr": "ATL"
-        },
-        "home_away": "home",
-        "team_score": 20,
-        "opponent_score": 13,
-        "result": "W",
-        "summary": null,
-        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872658/falcons-steelers"
       }
     ],
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-18T15:31:29.256Z"
+      "updated_at": "2026-10-18T22:00:42.105Z"
     }
   },
   "injuries": {
     "team": [
       {
-        "name": "Pat Freiermuth",
-        "position": "TE",
-        "status": "Questionable",
-        "injury": "Pantorrilla",
-        "practice": []
-      },
-      {
-        "name": "Rico Dowdle",
-        "position": "RB",
-        "status": "Questionable",
-        "injury": "Dedo del pie",
-        "practice": []
-      },
-      {
-        "name": "Roman Wilson",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Dedo",
-        "practice": []
-      },
-      {
-        "name": "DeShon Elliott",
-        "position": "S",
-        "status": "IR",
-        "injury": "Rodilla",
-        "practice": []
-      },
-      {
-        "name": "Jalen Ramsey",
+        "name": "Brandin Echols",
         "position": "CB",
         "status": "Questionable",
-        "injury": "Muñeca",
+        "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
+        "name": "Ben Skowronek",
+        "position": "WR",
+        "status": "Out",
+        "injury": "Pantorrilla",
         "practice": []
       }
     ],
     "opponent": [
       {
-        "name": "Sean Tucker",
-        "position": "RB",
-        "status": "Questionable",
-        "injury": "Cuádriceps",
-        "practice": []
-      },
-      {
-        "name": "David Sills V",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Benjamin Morrison",
+        "name": "Kool-Aid McKinstry",
         "position": "CB",
-        "status": "Doubtful",
-        "injury": "Cuádriceps",
+        "status": "Questionable",
+        "injury": "Cabeza",
         "practice": []
       },
       {
-        "name": "Josiah Trotter",
-        "position": "LB",
+        "name": "Quincy Riley",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Cuello",
+        "practice": []
+      },
+      {
+        "name": "Cesar Ruiz",
+        "position": "G",
         "status": "Questionable",
         "injury": "Rodilla",
         "practice": []
       },
       {
-        "name": "Antoine Winfield Jr.",
-        "position": "S",
+        "name": "Nathan Shepherd",
+        "position": "DT",
         "status": "Out",
-        "injury": "Costillas",
+        "injury": "Enfermedad",
         "practice": []
       }
     ],
-    "inactives": {
-      "published_at": "2026-10-18T15:37:05Z",
-      "url": "https://x.com/FarabaughFB/status/2111844022855610869",
-      "team": [
-        {
-          "name": "Will Howard",
-          "position": "QB (3.er QB)"
-        },
-        {
-          "name": "Drew Allar",
-          "position": "QB"
-        },
-        {
-          "name": "Ben Skowronek",
-          "position": "WR"
-        },
-        {
-          "name": "Eli Heidenreich",
-          "position": "RB"
-        },
-        {
-          "name": "Terell Smith",
-          "position": "CB"
-        },
-        {
-          "name": "Sean Murphy-Bunting",
-          "position": "CB"
-        },
-        {
-          "name": "Kevin Jobity Jr.",
-          "position": "DT"
-        }
-      ],
-      "opponent": [
-        {
-          "name": "Baker Mayfield",
-          "position": "QB"
-        },
-        {
-          "name": "Antoine Winfield Jr.",
-          "position": "S"
-        },
-        {
-          "name": "Benjamin Morrison",
-          "position": "CB"
-        },
-        {
-          "name": "Sean Tucker",
-          "position": "RB"
-        },
-        {
-          "name": "Luke Haggard",
-          "position": "G"
-        },
-        {
-          "name": "Billy Schrauth",
-          "position": "G"
-        },
-        {
-          "name": "DeMonte Capehart",
-          "position": "DL"
-        }
-      ]
-    },
+    "inactives": null,
     "source": {
       "name": "ESPN",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-18T15:31:29.256Z"
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
+      "updated_at": "2026-10-18T22:00:42.105Z"
     }
   },
   "comparison": {
     "team": {
-      "offense_rank": 18,
+      "offense_rank": 19,
       "defense_rank": 11,
-      "points_for_pg": 22.2,
-      "points_against_pg": 21.8,
+      "points_for_pg": 22.8,
+      "points_against_pg": 21.3,
       "yards_for_pg": 348,
       "yards_against_pg": null,
       "turnover_diff": 2
     },
     "opponent": {
-      "offense_rank": 25,
-      "defense_rank": 14,
-      "points_for_pg": 20,
-      "points_against_pg": 22.4,
-      "yards_for_pg": 323.4,
+      "offense_rank": 11,
+      "defense_rank": 30,
+      "points_for_pg": 25.3,
+      "points_against_pg": 29.7,
+      "yards_for_pg": 341.6,
       "yards_against_pg": null,
-      "turnover_diff": -2
+      "turnover_diff": -6
     },
     "key_matchups": [
       {
-        "title": "Warren (y Dowdle) contra el muro de Tampa",
-        "team_side": "Jaylen Warren / Rico Dowdle (RB)",
-        "opponent_side": "Defensa contra la carrera de TB",
-        "analysis": "Warren es el \"featured player\" según McCarthy y viene de 188 yardas totales y 2 TD (jugador ofensivo de la semana de la AFC). Dowdle (dedo del pie) vuelve hoy según Jeremy Fowler, después de no jugar desde la semana 2, y Lew Nichols subió al plantel activo. Enfrente, la defensa de Tampa es de las más duras contra la carrera.",
+        "title": "La presión de Pittsburgh contra un Shough castigado",
+        "team_side": "Ramsey, Herbig, Watt (pass rush)",
+        "opponent_side": "Tyler Shough (QB)",
+        "analysis": "En Tampa la defensa metió 4 capturas (2 de Ramsey y 2 de Herbig), la primera vez con más de dos desde la semana 2. Enfrente, Underhill marca que Shough va camino a ser el QB con más contactos recibidos desde 2006.",
         "refs": [
           {
             "name": "steelers.com",
-            "url": "https://www.steelers.com/news/warren-wins-afc-offensive-player-of-the-week"
+            "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
           },
           {
-            "name": "Jeremy Fowler en X",
-            "url": "https://x.com/JFowlerESPN/status/2111775549345669179"
-          },
-          {
-            "name": "Nick Farabaugh en X",
-            "url": "https://x.com/FarabaughFB/status/2111174751238664443"
+            "name": "Nick Underhill en X",
+            "url": "https://x.com/nick_underhill/status/2111790766523609534"
           }
         ]
       },
       {
-        "title": "Secundaria remendada contra el novato Daniels",
-        "team_side": "Jalen Ramsey, Jamel Dean, Asante Samuel Jr., Daylen Everette (CB)",
-        "opponent_side": "Jalon Daniels (QB) con Egbuka y Godwin",
-        "analysis": "Ramsey (muñeca) y Dean (tobillo) estaban en duda pero no figuran entre los inactivos: juegan. Murphy-Bunting y Terell Smith quedan afuera y Elliott sigue en el IR. En Tampa, Daniels hace su 3.ª titularidad seguida en lugar de Mayfield.",
+        "title": "Rodgers y sus receptores contra la secundaria de los Saints",
+        "team_side": "Rodgers, Metcalf y Bernard",
+        "opponent_side": "Emerson Jr., McKinstry (CB)",
+        "analysis": "Metcalf y Bernard tuvieron 11 recepciones cada uno en Tampa. Los Saints llegan como la defensa 30 según ESPN (29,7 puntos en contra por partido), pero Emerson Jr. viene de dos intercepciones, y McKinstry está en duda por la cabeza.",
         "refs": [
           {
-            "name": "Nick Farabaugh en X",
-            "url": "https://x.com/FarabaughFB/status/2111844022855610869"
+            "name": "steelers.com",
+            "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
           },
           {
-            "name": "Brooke Pryor en X",
-            "url": "https://x.com/bepryor/status/2111181377865453568"
-          },
-          {
-            "name": "Greg Auman en X",
-            "url": "https://x.com/gregauman/status/2111132668528394472"
+            "name": "Saints en X",
+            "url": "https://x.com/Saints/status/2111925791126675932"
           }
         ]
       },
       {
-        "title": "Rodgers recupera a Metcalf; el resto, del equipo de práctica",
-        "team_side": "Aaron Rodgers (QB), DK Metcalf y Germie Bernard (WR), Brandon Smith y Brandon Johnson (WR), Darnell Washington y Pat Freiermuth (TE)",
-        "opponent_side": "Secundaria de TB sin Antoine Winfield Jr.",
-        "analysis": "Metcalf superó la enfermedad y juega. Con Pittman y Wilson en el IR y Skowronek inactivo, suben Brandon Smith y Brandon Johnson del equipo de práctica. Freiermuth (pantorrilla) hizo toda la entrada en calor y está activo, así que sigue en pie el plan de dos tight ends. Contra los Bucs, Rodgers tiene 7 TD y 9 INT (rating 79,4); Winfield Jr. (costilla) y el CB Morrison no juegan.",
+        "title": "El juego terrestre de New Orleans contra el frente de Pittsburgh",
+        "team_side": "Heyward, Benton, Payton Wilson",
+        "opponent_side": "Kendre Miller y Alvin Kamara (RB)",
+        "analysis": "Jeff Duncan: los Saints llevan 27 partidos sin un corredor de 100 yardas, su peor racha desde principios de los 70. Contra los Giants, Kendre Miller hizo 70 yardas en 20 acarreos. Si Pittsburgh corta la carrera, Shough queda expuesto a la presión.",
         "refs": [
           {
-            "name": "Nick Farabaugh en X",
-            "url": "https://x.com/FarabaughFB/status/2111837047644193233"
-          },
-          {
-            "name": "Ray Fittipaldo en X",
-            "url": "https://x.com/rayfitt1/status/2111533960207519771"
-          },
-          {
-            "name": "steelers.com",
-            "url": "https://www.steelers.com/news/eyeing-who-s-up-next"
-          }
-        ]
-      },
-      {
-        "title": "La defensa contra la carrera ante Irving y Gainwell",
-        "team_side": "Cam Heyward, Keeanu Benton, Yahya Black (DL) y Patrick Queen (LB)",
-        "opponent_side": "Bucky Irving y Kenny Gainwell (RB)",
-        "analysis": "Ante los Colts, Pittsburgh dejó a Jonathan Taylor en 45 yardas. Benton (tobillo) estaba en duda pero está activo. Irving suma 406 yardas en 77 acarreos (2 TD) y Gainwell, ex-Steeler, es el cambio de ritmo; Sean Tucker (cuádriceps) está inactivo y Tampa subió a Josh Williams.",
-        "refs": [
-          {
-            "name": "steelers.com",
-            "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking"
-          },
-          {
-            "name": "Nick Farabaugh en X",
-            "url": "https://x.com/FarabaughFB/status/2110824271077323105"
-          },
-          {
-            "name": "Ian Rapoport en X",
-            "url": "https://x.com/RapSheet/status/2111782769269633269"
-          }
-        ]
-      },
-      {
-        "title": "Primer triunfo de visitante o más de lo mismo",
-        "team_side": "Ofensiva de Pittsburgh (Rodgers/Warren) y liderazgo de Heyward",
-        "opponent_side": "Raymond James Stadium (Bucs 1-4 en casa)",
-        "analysis": "Las dos derrotas del año fueron afuera. Pittsburgh es favorito por 1,5 de visitante (O/U 38,5) ante un rival 1-4 sin su QB titular. Heyward pidió \"adueñarse del estadio\"; el clima: mayormente soleado, 26 °C y ráfagas de hasta 43 km/h según ESPN.",
-        "refs": [
-          {
-            "name": "steelers.com",
-            "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking"
-          },
-          {
-            "name": "Teresa Varley en X",
-            "url": "https://x.com/Teresa_Varley/status/2110490631923794335"
+            "name": "Jeff Duncan en X",
+            "url": "https://x.com/JeffDuncan_/status/2109657224607932637"
           }
         ]
       }
@@ -510,44 +357,84 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-18T15:31:29.256Z"
+      "updated_at": "2026-10-18T22:00:42.105Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Salieron los inactivos: en Pittsburgh quedan afuera Skowronek, Heidenreich, Terell Smith, Murphy-Bunting, Jobity y los QB Allar y Howard, así que Freiermuth (que hizo toda la entrada en calor), Dowdle, Ramsey y Dean juegan. En Tampa no están Mayfield, Winfield Jr., Morrison ni Sean Tucker. Kickoff a las 14:00 ART.",
+      "text": "Ganaron 26-19 en tiempo extra en Tampa después de ir perdiendo 16-3 en el último cuarto: Bernard hizo el TD del triunfo y Ramsey lo cerró con una captura. Quedan 4-2 y viajan a París para enfrentar a los Saints (2-4), que le ganaron 34-27 a los Giants. A seguir: Brisker (ingle) y Echols (isquiotibial), y el posible debut de Elliott.",
       "refs": [
         {
-          "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2111844022855610869"
+          "name": "steelers.com",
+          "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
         },
         {
-          "name": "Greg Auman en X",
-          "url": "https://x.com/gregauman/status/2111843041925341468"
+          "name": "Brooke Pryor en X",
+          "url": "https://x.com/bepryor/status/2111181377865453568"
         },
         {
-          "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2111837047644193233"
+          "name": "Jeff Duncan en X",
+          "url": "https://x.com/JeffDuncan_/status/2111916692062576870"
         }
       ],
-      "updated_at": "2026-10-18T15:40:00Z"
+      "updated_at": "2026-10-18T22:04:07Z"
     },
     "items": [
       {
-        "title": "Inactivos de Pittsburgh: juegan Freiermuth, Dowdle, Ramsey y Dean",
-        "summary": "Quedan afuera el WR Ben Skowronek, los QB Drew Allar y Will Howard (3.er QB), los CB Sean Murphy-Bunting y Terell Smith, el RB Eli Heidenreich y el DT Kevin Jobity Jr. Todos los que figuraban en duda están activos.",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2111844022855610869",
-        "published_at": "2026-10-18T15:37:05Z",
+        "title": "Remontada en Tampa: 26-19 en tiempo extra",
+        "summary": "Perdían 16-3 en el último cuarto. Darnell Washington descontó, Boswell metió tres goles de campo en el cuarto (uno de 58 yardas para empatar), Rodgers le dio el TD del triunfo en el alargue al novato Germie Bernard y Ramsey cerró con una captura en 4.ª y 8. Primer triunfo de visitante y primera racha de dos.",
+        "source_name": "steelers.com (Brian Batko)",
+        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
+        "published_at": "2026-10-18T20:44:36Z",
         "about": "team"
       },
       {
-        "title": "Inactivos de Tampa: sin Mayfield, Winfield Jr., Morrison ni Tucker",
-        "summary": "Según Greg Auman, los Bucs no tienen al QB Baker Mayfield, al S Antoine Winfield Jr., al CB Benjamin Morrison ni al RB Sean Tucker (todos lesionados); también quedan afuera los G Luke Haggard y Billy Schrauth y el DL DeMonte Capehart.",
-        "source_name": "Greg Auman (FOX Sports) en X",
-        "url": "https://x.com/gregauman/status/2111843041925341468",
-        "published_at": "2026-10-18T15:33:11Z",
-        "about": "opponent"
+        "title": "Ramsey, la figura: dos capturas jugando con la muñeca fracturada",
+        "summary": "Alex Kozora: Ramsey viene jugando hace semanas con la muñeca fracturada, no se perdió ni una jugada y metió la captura que ganó el partido, su segunda del día. ESPN le da 10 tackles y 4 tackles para pérdida.",
+        "source_name": "Alex Kozora (Steelers Depot) en X",
+        "url": "https://x.com/Alex_Kozora/status/2111921325917044792",
+        "published_at": "2026-10-18T20:44:16Z",
+        "about": "team"
+      },
+      {
+        "title": "Jamel Dean, récord contra su ex equipo",
+        "summary": "Seis pases defendidos y una intercepción de 40 yardas que armó el gol de campo del 19-16. Según Pro Football Reference (que lo mide desde 1999), es apenas el 24.º jugador y el primer Steeler con 6 pases defendidos en un partido.",
+        "source_name": "Alex Kozora (Steelers Depot) en X",
+        "url": "https://x.com/Alex_Kozora/status/2111925344836210903",
+        "published_at": "2026-10-18T21:00:14Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy defiende el manejo del reloj y admite una \"falta de comunicación\"",
+        "summary": "El entrenador habló del final de regulación, cuando no pidió tiempo y Tampa empató con un gol de campo de 53 yardas a 8 segundos del final.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/mike-mccarthy-defends-controversial-clock-management-decisions/",
+        "published_at": "2026-10-18T21:58:06Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy está bien: \"lo pisaron\"",
+        "summary": "Pasó el entretiempo en la carpa médica y se lo vio rengo, pero después del partido dijo que lo pisaron y que está bien.",
+        "source_name": "Brooke Pryor (ESPN) en X",
+        "url": "https://x.com/bepryor/status/2111931403902300179",
+        "published_at": "2026-10-18T21:24:19Z",
+        "about": "team"
+      },
+      {
+        "title": "Brisker (ingle) y Echols (isquiotibial), a seguir esta semana",
+        "summary": "Brandin Echols salió con un problema en el isquiotibial y no volvió. Jaquan Brisker se lesionó la ingle en el tercer cuarto y quedó en duda para volver.",
+        "source_name": "Nick Farabaugh (PennLive) en X",
+        "url": "https://x.com/FarabaughFB/status/2111897601910182383",
+        "published_at": "2026-10-18T19:10:00Z",
+        "about": "team"
+      },
+      {
+        "title": "Germie Bernard, 11 recepciones y su primer TD",
+        "summary": "El novato terminó con 11 recepciones para 87 yardas y el TD del alargue; Metcalf también tuvo 11, para 93 yardas (ESPN). Rodgers: 33 de 49, 253 yardas, 2 TD y una intercepción.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2111920458018726140",
+        "published_at": "2026-10-18T20:40:49Z",
+        "about": "team"
       },
       {
         "title": "La NFL confirma el partido en París pese a los disturbios",
@@ -555,78 +442,6 @@
         "source_name": "Adam Schefter (ESPN) en X",
         "url": "https://x.com/AdamSchefter/status/2111839653959540753",
         "published_at": "2026-10-18T15:19:44Z",
-        "about": "team"
-      },
-      {
-        "title": "Freiermuth hizo toda la entrada en calor",
-        "summary": "Con el cuerpo médico mirando, Freiermuth corrió todas sus rutas en la entrada en calor. \"Pareció alguien que va a jugar, como se esperaba\", escribió Farabaugh.",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2111837047644193233",
-        "published_at": "2026-10-18T15:09:22Z",
-        "about": "team"
-      },
-      {
-        "title": "Rapoport: optimismo con Freiermuth",
-        "summary": "Según Ian Rapoport (NFL Network), los Steelers son optimistas en que Pat Freiermuth, sumado al parte el sábado por la pantorrilla, juegue hoy en Tampa.",
-        "source_name": "Ian Rapoport en X",
-        "url": "https://x.com/RapSheet/status/2111782850705932467",
-        "published_at": "2026-10-18T11:34:01Z",
-        "about": "team"
-      },
-      {
-        "title": "Fowler: Dowdle vuelve hoy",
-        "summary": "Según Jeremy Fowler (ESPN), Rico Dowdle (dudoso, dedo del pie) juega contra los Bucs. No juega desde la semana 2.",
-        "source_name": "Jeremy Fowler en X",
-        "url": "https://x.com/JFowlerESPN/status/2111775549345669179",
-        "published_at": "2026-10-18T11:05:00Z",
-        "about": "team"
-      },
-      {
-        "title": "Bucs: Sean Tucker no jugaría; suben Stick y Josh Williams",
-        "summary": "Tampa subió del equipo de práctica al QB Easton Stick (suplente de Daniels) y al RB Josh Williams, señal de que Sean Tucker (cuádriceps) no juega. Rapoport confirmó que no se espera que juegue.",
-        "source_name": "Rick Stroud en X",
-        "url": "https://x.com/NFLSTROUD/status/2111548576346382584",
-        "published_at": "2026-10-17T20:03:05Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Los receptores de Pittsburgh para hoy",
-        "summary": "Batko repasó los receptores disponibles: Metcalf, Bernard, Wetjen, Brandon Smith y Brandon Johnson, más los TE Freiermuth (en duda), Washington y Tonyan. Wilson puede volver el 22/11 en Filadelfia.",
-        "source_name": "Brian Batko en X",
-        "url": "https://x.com/BrianBatko/status/2111538533588689100",
-        "published_at": "2026-10-17T19:23:11Z",
-        "about": "team"
-      },
-      {
-        "title": "Roman Wilson al IR; suben Brandon Smith y Brandon Johnson",
-        "summary": "Wilson (dedo) es el segundo receptor que va al IR en dos semanas y se pierde al menos cuatro partidos. En su lugar firmó el RB Lew Nichols con el plantel activo, y los WR Brandon Smith y Brandon Johnson fueron subidos del equipo de práctica para el domingo.",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2111534532784497026",
-        "published_at": "2026-10-17T19:07:17Z",
-        "about": "team"
-      },
-      {
-        "title": "Freiermuth, en duda por la pantorrilla",
-        "summary": "Pat Freiermuth no figuraba en el parte del viernes y el sábado lo agregaron como dudoso (questionable) por una lesión en la pantorrilla. \"Buena noticia\" lo de Metcalf, \"no tan buena\" lo del TE, resumió Brooke Pryor.",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2111493138917315001",
-        "published_at": "2026-10-17T16:22:48Z",
-        "about": "team"
-      },
-      {
-        "title": "Metcalf juega: lo sacaron del parte de lesiones",
-        "summary": "El equipo informó que DK Metcalf (enfermedad) quedó sin designación y se espera que juegue el domingo en Tampa. Era la gran duda tras faltar a la práctica del viernes.",
-        "source_name": "Burt Lauten (prensa Steelers) en X",
-        "url": "https://x.com/SteelersPRBurt/status/2111492750986121510",
-        "published_at": "2026-10-17T16:21:16Z",
-        "about": "team"
-      },
-      {
-        "title": "Dean y la defensa de Bowles: \"agresiva y con muchos blitz\"",
-        "summary": "Jamel Dean, ex-Buc, describió la defensa de Todd Bowles como agresiva, cargada de blitz y de disfraces de cobertura: \"Es muy creativo y va a ser una tarea difícil\".",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2111467566216417402",
-        "published_at": "2026-10-17T14:41:11Z",
         "about": "team"
       },
       {
@@ -638,94 +453,92 @@
         "about": "team"
       },
       {
-        "title": "Parte final: Wilson, Skowronek y Elliott, afuera",
-        "summary": "Descartados: DeShon Elliott (rodilla), Roman Wilson (dedo) y Ben Skowronek (pantorrilla). En duda: Benton (tobillo), Dean (tobillo), Dowdle (dedo del pie), Ramsey (muñeca) y Metcalf (enfermedad).",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2111174751238664443",
-        "published_at": "2026-10-16T19:17:39Z",
-        "about": "team"
+        "title": "Los Saints cortaron la racha: 34-27 en Nueva York",
+        "summary": "New Orleans ganó en casa de los Giants y cortó una racha de tres derrotas, aunque casi lo pierde: iba 34-10 y los Giants se acercaron en el último cuarto. Quedan 2-4.",
+        "source_name": "Jeff Duncan (Times-Picayune) en X",
+        "url": "https://x.com/JeffDuncan_/status/2111916692062576870",
+        "published_at": "2026-10-18T20:25:51Z",
+        "about": "opponent"
       },
       {
-        "title": "Dowdle y Dean, encaminados a volver",
-        "summary": "Dowdle practicó completo y Chris Adamski informa que se espera que juegue en Tampa. Dean, limitado, se dijo \"MUY optimista\" de jugar contra su exequipo después de la práctica del viernes.",
-        "source_name": "Chris Adamski (TribLive) en X",
-        "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162",
-        "published_at": "2026-10-16T17:48:35Z",
-        "about": "team"
+        "title": "Shough, el QB más golpeado",
+        "summary": "Nick Underhill: Tyler Shough va camino a recibir más contactos (golpes, capturas, derribos) que cualquier QB desde al menos 2006, y el costo se empieza a notar. En Nueva York tiró 3 TD (16 de 30, 144 yardas) y salió un rato por Rattler.",
+        "source_name": "Nick Underhill (NOF) en X",
+        "url": "https://x.com/nick_underhill/status/2111790766523609534",
+        "published_at": "2026-10-18T12:05:28Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Saints: resonancia para Cesar Ruiz",
+        "summary": "El guard titular se hará una resonancia magnética hoy. ESPN lo lista en duda por la rodilla.",
+        "source_name": "Nick Underhill (NOF) en X",
+        "url": "https://x.com/nick_underhill/status/2111924515773292860",
+        "published_at": "2026-10-18T20:56:56Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Saints: McKinstry jugó con migraña",
+        "summary": "Kellen Moore dijo que el CB Kool-Aid McKinstry tuvo una migraña, después de que el equipo no le diera estado de lesión durante el partido. Martin Emerson Jr. metió dos intercepciones.",
+        "source_name": "Katherine Terrell (ESPN) en X",
+        "url": "https://x.com/Kat_Terrell/status/2111923604896276696",
+        "published_at": "2026-10-18T20:53:19Z",
+        "about": "opponent"
       }
     ],
     "quotes": [
       {
+        "speaker": "Jalen Ramsey",
+        "role": "CB de los Steelers",
+        "quote": "Siempre mantenemos la esperanza, siempre creemos y confiamos los unos en los otros en la cancha. Mientras haya tiempo en el reloj, vamos a seguir peleando sin importar el resultado.",
+        "context": "Después de la captura que cerró el partido",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
+        "date": "2026-10-18T20:44:36Z"
+      },
+      {
+        "speaker": "Aaron Rodgers",
+        "role": "QB de los Steelers",
+        "quote": "Hay que darle crédito a la defensa. Nos mantuvo en partido. Hubo muchas oportunidades para que el partido se nos fuera de las manos.",
+        "context": null,
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
+        "date": "2026-10-18T20:44:36Z"
+      },
+      {
+        "speaker": "Mike McCarthy",
+        "role": "Entrenador de los Steelers",
+        "quote": "Ganamos nuestro primer partido de visitante. Encadenamos dos seguidos.",
+        "context": null,
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
+        "date": "2026-10-18T20:44:36Z"
+      },
+      {
         "speaker": "Jamel Dean",
         "role": "CB de los Steelers (ex-Buccaneers)",
-        "quote": "Se siente como que el alumno por fin va a enfrentar al maestro. No veo la hora de ver cómo se da todo... Va a ser un momento agridulce. Cuando entre al estadio, ojalá no vaya en piloto automático y me meta en su vestuario.",
-        "context": "Sobre volver a Tampa por primera vez con otra camiseta",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2111469254008508487",
-        "date": "2026-10-17T14:47:54Z"
-      },
-      {
-        "speaker": "Scott McCurley",
-        "role": "Entrenador de linebackers internos de los Steelers",
-        "quote": "A veces es su crítico más duro, y sabía que después del partido en Cleveland no había estado en su mejor nivel. Así que bajó la cabeza y respondió.",
-        "context": "Sobre Patrick Queen",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2111470612929462295",
-        "date": "2026-10-17T14:53:18Z"
-      },
-      {
-        "speaker": "Jamel Dean",
-        "role": "CB",
-        "quote": "MUY optimista.",
-        "context": "Sobre si juega el domingo en Tampa, después de la práctica limitada del viernes",
-        "source_name": "Chris Adamski (TribLive) en X",
-        "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162",
-        "date": "2026-10-16T17:48:35Z"
-      },
-      {
-        "speaker": "T.J. Watt",
-        "role": "OLB",
-        "quote": "Para poder llegar a donde queremos llegar y hacer lo que queremos hacer, tenés que ganar partidos seguidos. Ahora estamos en buen lugar. Solo tenemos que encadenarlos y mantener el envión.",
-        "context": "Antes de visitar a Tampa, buscando dos triunfos seguidos",
-        "source_name": "Teresa Varley (steelers.com) en X",
-        "url": "https://x.com/Teresa_Varley/status/2111188044615184546",
-        "date": "2026-10-16T20:10:28Z"
-      },
-      {
-        "speaker": "Jalen Ramsey",
-        "role": "CB",
-        "quote": "La semana pasada dije que había una desconexión [...] pero con mi papá a veces tenemos desconexiones, y es mi mejor amigo. [...] Solo tenemos que ponernos de acuerdo a veces, y venimos trabajando para eso.",
-        "context": "Sobre su relación con el coordinador defensivo Patrick Graham",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2111149398784655696",
-        "date": "2026-10-16T17:36:54Z"
-      },
-      {
-        "speaker": "Todd Bowles",
-        "role": "Head coach de Tampa Bay",
-        "quote": "Me voy a entusiasmar cuando lo vea con el casco puesto en la práctica.",
-        "context": "Sobre si le alienta algún progreso de Baker Mayfield, descartado para el domingo",
-        "source_name": "Greg Auman (FOX Sports) en X",
-        "url": "https://x.com/gregauman/status/2111133420252500131",
-        "date": "2026-10-16T16:33:25Z"
-      },
-      {
-        "speaker": "Cam Heyward",
-        "role": "DT",
-        "quote": "Tenemos que jugar mejor. Las últimas veces no estuvimos a la altura de nuestro estándar, y no puede haber un contraste entre local y visitante. Solo tenemos que ejecutar mejor, jugar con mucha emoción y adueñarnos del partido, del estadio.",
-        "context": "Sobre la falta de triunfos de visitante antes de ir a Tampa",
-        "source_name": "Teresa Varley (steelers.com) en X",
-        "url": "https://x.com/Teresa_Varley/status/2110490631923794335",
-        "date": "2026-10-14T21:59:12Z"
-      },
-      {
-        "speaker": "Brian Angelichio",
-        "role": "Coordinador ofensivo",
-        "quote": "Germ te da muchísima flexibilidad porque bloquea muy bien y es bueno con la pelota en las manos. Es un corredor fuerte, rompe tackles. [...] Hay mucho que podemos hacer con Germ.",
-        "context": "Sobre el novato Germie Bernard, con tres receptores afuera",
+        "quote": "El partido no termina hasta que se termina. Mantuvimos la compostura y seguimos peleando todo el tiempo.",
+        "context": "Tras su intercepción contra su ex equipo",
         "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/week-6-blog-time-to-start-stacking",
-        "date": "2026-10-14T21:20:00Z"
+        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
+        "date": "2026-10-18T20:44:36Z"
+      },
+      {
+        "speaker": "Daylen Everette",
+        "role": "CB de los Steelers",
+        "quote": "No voy a mentir, fue una locura. Después de esa jugada miré a la tribuna y se veían más toallas que rojo. Vinimos en masa. Estuvo bueno verlo.",
+        "context": "Sobre su primera intercepción en la NFL",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
+        "date": "2026-10-18T20:44:36Z"
+      },
+      {
+        "speaker": "Kellen Moore",
+        "role": "Entrenador de los Saints",
+        "quote": "Un partido loco.",
+        "context": "Sobre el 34-27 ante los Giants",
+        "source_name": "Katherine Terrell (ESPN) en X",
+        "url": "https://x.com/Kat_Terrell/status/2111923354710028566",
+        "date": "2026-10-18T20:52:20Z"
       }
     ],
     "roster_moves": [
@@ -809,102 +622,93 @@
         "detail": "Subido del equipo de práctica para el partido con los Colts.",
         "source_name": "Steelers en X",
         "url": "https://x.com/steelers/status/2109007955253412191"
-      },
-      {
-        "date": "2026-10-06T19:48:36Z",
-        "player": "Terell Smith",
-        "position": "CB",
-        "move": "signed",
-        "detail": "Firmado al plantel activo desde el equipo de práctica de Washington.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2107558663904718983"
       }
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Los inactivos confirmaron lo que se esperaba en la mañana: Freiermuth, Dowdle, Ramsey y Dean juegan, y Tampa llega sin Mayfield, Winfield Jr., Morrison ni Tucker. La previa se vive con confianza; Kozora pide que los edge apuren por fin a un QB novato (solo una captura combinada en tres partidos).",
+      "summary": "Festejo grande por la remontada y por Ramsey, con críticas a McCarthy por no pedir tiempo al final de regulación y a Boswell por el gol de campo errado de 48 yardas. Desde New Orleans, Katherine Terrell avisa que los dos ataques llegan flojos a París.",
       "posts": [
         {
-          "author": "Nick Farabaugh",
-          "handle": "@FarabaughFB",
-          "text": "Inactivos de los Steelers: WR Ben Skowronek, QB Drew Allar, QB Will Howard (3.er QB), CB Sean Murphy-Bunting, RB Eli Heidenreich, CB Terell Smith, DT Kevin Jobity Jr.",
-          "url": "https://x.com/FarabaughFB/status/2111844022855610869",
-          "posted_at": "2026-10-18T15:37:05Z"
-        },
-        {
-          "author": "Greg Auman",
-          "handle": "@gregauman",
-          "text": "Inactivos de los Bucs contra los Steelers: QB Baker Mayfield, S Antoine Winfield, CB Benjamin Morrison, RB Sean Tucker (todos lesionados); G Luke Haggard, G Billy Schrauth, DL DeMonte Capehart.",
-          "url": "https://x.com/gregauman/status/2111843041925341468",
-          "posted_at": "2026-10-18T15:33:11Z"
-        },
-        {
-          "author": "Nick Farabaugh",
-          "handle": "@FarabaughFB",
-          "text": "Freiermuth corrió todas sus rutas en la entrada en calor. Ahora sale del campo. Pareció alguien que va a jugar, como se esperaba.",
-          "url": "https://x.com/FarabaughFB/status/2111837047644193233",
-          "posted_at": "2026-10-18T15:09:22Z"
+          "author": "Mark Kaboly",
+          "handle": "@MarkKaboly",
+          "text": "Es un triunfo con mucho, mucho coraje.",
+          "url": "https://x.com/MarkKaboly/status/2111921293536972911",
+          "posted_at": "2026-10-18T20:44:08Z"
         },
         {
           "author": "Alex Kozora",
           "handle": "@Alex_Kozora",
-          "text": "Los edge rushers de los Steelers tienen una sola captura combinada en los últimos tres partidos. Hoy, contra un QB novato, es hora de cambiar eso.",
-          "url": "https://x.com/Alex_Kozora/status/2111832229638799464",
-          "posted_at": "2026-10-18T14:50:14Z"
+          "text": "Jalen Ramsey viene jugando hace semanas con la muñeca fracturada, no se perdió ni una jugada y acaba de meter la captura del triunfo, la segunda del día. Un guerrero.",
+          "url": "https://x.com/Alex_Kozora/status/2111921325917044792",
+          "posted_at": "2026-10-18T20:44:16Z"
         },
         {
-          "author": "Ian Rapoport",
-          "handle": "@RapSheet",
-          "text": "Los Steelers son optimistas en que el TE Pat Freiermuth, sumado al parte el sábado por una lesión en la pantorrilla, juegue, según fuentes.",
-          "url": "https://x.com/RapSheet/status/2111782850705932467",
-          "posted_at": "2026-10-18T11:34:01Z"
+          "author": "Nick Farabaugh",
+          "handle": "@FarabaughFB",
+          "text": "Ramsey captura a Jalon Daniels entrando libre por afuera y se termina. Los Steelers ganan un partidazo, y en parte un desastre de los dos lados, 26-19. Quedan 4-2 y enfrentan a los Saints la semana que viene en París.",
+          "url": "https://x.com/FarabaughFB/status/2111921133872099388",
+          "posted_at": "2026-10-18T20:43:30Z"
         },
         {
-          "author": "Jeremy Fowler",
-          "handle": "@JFowlerESPN",
-          "text": "El RB de los Steelers Rico Dowdle (dudoso, dedo del pie) juega el domingo contra los Bucs, según una fuente. Dowdle no juega desde la semana 2.",
-          "url": "https://x.com/JFowlerESPN/status/2111775549345669179",
-          "posted_at": "2026-10-18T11:05:00Z"
+          "author": "Nick Farabaugh",
+          "handle": "@FarabaughFB",
+          "text": "¿Por qué McCarthy no pidió tiempo para intentar guardar reloj para una posible serie?",
+          "url": "https://x.com/FarabaughFB/status/2111913654522175725",
+          "posted_at": "2026-10-18T20:13:47Z"
+        },
+        {
+          "author": "Mark Kaboly",
+          "handle": "@MarkKaboly",
+          "text": "Ramsey hizo un partidazo. Estuvo en todos lados. Esperen a que vuelva Elliott. Puede que tengan algo.",
+          "url": "https://x.com/MarkKaboly/status/2111937226573541849",
+          "posted_at": "2026-10-18T21:47:27Z"
+        },
+        {
+          "author": "Katherine Terrell",
+          "handle": "@Kat_Terrell",
+          "text": "Los ataques de Steelers y Saints se ven horribles de cara a este partido en París.",
+          "url": "https://x.com/Kat_Terrell/status/2111885171280519658",
+          "posted_at": "2026-10-18T18:20:36Z"
         }
       ],
-      "updated_at": "2026-10-18T15:40:00Z"
+      "updated_at": "2026-10-18T22:04:07Z"
     }
   },
   "head_to_head": {
     "all_time": null,
     "games": [
       {
-        "date": "2022-10-16T17:00:00.000Z",
+        "date": "2022-11-13T18:00:00.000Z",
         "season": 2022,
         "home_away": "home",
         "team_score": 20,
-        "opponent_score": 18,
+        "opponent_score": 10,
         "result": "W",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401437785/buccaneers-steelers"
+        "url": "https://www.espn.com/nfl/game/_/gameId/401437838/saints-steelers"
       },
       {
-        "date": "2018-09-25T00:15:00.000Z",
+        "date": "2018-12-23T21:25:00.000Z",
         "season": 2018,
         "home_away": "away",
-        "team_score": 30,
-        "opponent_score": 27,
-        "result": "W",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401030805/steelers-buccaneers"
+        "team_score": 28,
+        "opponent_score": 31,
+        "result": "L",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401030913/steelers-saints"
       },
       {
-        "date": "2014-09-28T17:00:00.000Z",
+        "date": "2014-11-30T18:00:00.000Z",
         "season": 2014,
         "home_away": "home",
-        "team_score": 24,
-        "opponent_score": 27,
+        "team_score": 32,
+        "opponent_score": 35,
         "result": "L",
-        "url": "https://www.espn.com/nfl/game/_/gameId/400554279/buccaneers-steelers"
+        "url": "https://www.espn.com/nfl/game/_/gameId/400554359/saints-steelers"
       }
     ],
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-18T15:31:29.256Z"
+      "updated_at": "2026-10-18T22:00:42.105Z"
     }
   }
 }

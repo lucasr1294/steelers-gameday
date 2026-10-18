@@ -45,6 +45,16 @@
           { "handle": "gregauman", "who": "Greg Auman (FOX Sports)", "verificado": true },
           { "handle": "NFLSTROUD", "who": "Rick Stroud (Tampa Bay Times)", "verificado": true }
         ]
+      },
+      "NO": {
+        "sites": ["neworleanssaints.com", "nola.com"],
+        "x_accounts": [
+          { "handle": "Saints", "who": "Cuenta oficial", "verificado": true },
+          { "handle": "Kat_Terrell", "who": "Katherine Terrell (ESPN)", "verificado": true },
+          { "handle": "nick_underhill", "who": "Nick Underhill (NOF)", "verificado": true },
+          { "handle": "JeffDuncan_", "who": "Jeff Duncan (Times-Picayune)", "verificado": true },
+          { "handle": "RodWalkerNola", "who": "Rod Walker (Times-Picayune)", "verificado": true }
+        ]
       }
     }
   }

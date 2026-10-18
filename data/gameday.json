@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-18T12:04:18.000Z",
+    "generated_at": "2026-10-18T15:38:05.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 6,
-    "phase": "gameday",
+    "phase": "pregame",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "8ae9fb00c4f370a2"
+    "espn_hash": "1e4f29a6e38ac086"
   },
   "team": {
     "id": "23",
@@ -46,7 +46,7 @@
       "indoor": false
     },
     "weather": {
-      "summary": "Nubes intermitentes",
+      "summary": "Mayormente soleado",
       "temp_c": 26,
       "gust_kmh": 43,
       "precip_pct": 0
@@ -61,14 +61,14 @@
     },
     "odds": {
       "favorite_abbr": "PIT",
-      "spread": 2.5,
+      "spread": 1.5,
       "over_under": 38.5,
       "provider": "DraftKings"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-18T12:02:53.879Z"
+      "updated_at": "2026-10-18T15:31:29.256Z"
     }
   },
   "form": {
@@ -128,27 +128,27 @@
       "count": 1
     },
     "thermometer": {
-      "text": "Día de partido en Tampa (14:00 ART): llegan 3-2 y favoritos por 2,5, con buenas noticias de última hora. Dowdle vuelve, hay optimismo con Freiermuth y Metcalf juega. La contra: un cuerpo de receptores con dos subidos del equipo de práctica. Enfrente, un rival 1-4 sin Mayfield, Winfield Jr. ni, probablemente, Sean Tucker.",
+      "text": "Llegan 3-2 y favoritos por 1,5 en Tampa (14:00 ART), con todos los que estaban en duda disponibles: Freiermuth, Dowdle, Ramsey, Dean y Benton juegan. La duda es un cuerpo de receptores con dos subidos del equipo de práctica. Enfrente, un rival 1-4 sin Mayfield, Winfield Jr., Morrison ni Sean Tucker.",
       "refs": [
         {
-          "name": "Jeremy Fowler en X",
-          "url": "https://x.com/JFowlerESPN/status/2111775549345669179"
+          "name": "Nick Farabaugh en X",
+          "url": "https://x.com/FarabaughFB/status/2111844022855610869"
         },
         {
-          "name": "Ian Rapoport en X",
-          "url": "https://x.com/RapSheet/status/2111782850705932467"
+          "name": "Greg Auman en X",
+          "url": "https://x.com/gregauman/status/2111843041925341468"
         },
         {
           "name": "Greg Auman en X",
           "url": "https://x.com/gregauman/status/2111550575162617916"
         }
       ],
-      "updated_at": "2026-10-18T12:04:18Z"
+      "updated_at": "2026-10-18T15:40:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-18T12:02:53.879Z"
+      "updated_at": "2026-10-18T15:31:29.256Z"
     }
   },
   "recent_results": {
@@ -242,11 +242,18 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-18T12:02:53.879Z"
+      "updated_at": "2026-10-18T15:31:29.256Z"
     }
   },
   "injuries": {
     "team": [
+      {
+        "name": "Pat Freiermuth",
+        "position": "TE",
+        "status": "Questionable",
+        "injury": "Pantorrilla",
+        "practice": []
+      },
       {
         "name": "Rico Dowdle",
         "position": "RB",
@@ -259,13 +266,6 @@
         "position": "WR",
         "status": "IR",
         "injury": "Dedo",
-        "practice": []
-      },
-      {
-        "name": "Pat Freiermuth",
-        "position": "TE",
-        "status": "Questionable",
-        "injury": "Pantorrilla",
         "practice": []
       },
       {
@@ -284,6 +284,13 @@
       }
     ],
     "opponent": [
+      {
+        "name": "Sean Tucker",
+        "position": "RB",
+        "status": "Questionable",
+        "injury": "Cuádriceps",
+        "practice": []
+      },
       {
         "name": "David Sills V",
         "position": "WR",
@@ -311,20 +318,76 @@
         "status": "Out",
         "injury": "Costillas",
         "practice": []
-      },
-      {
-        "name": "Sean Tucker",
-        "position": "RB",
-        "status": "Questionable",
-        "injury": "Cuádriceps",
-        "practice": []
       }
     ],
-    "inactives": null,
+    "inactives": {
+      "published_at": "2026-10-18T15:37:05Z",
+      "url": "https://x.com/FarabaughFB/status/2111844022855610869",
+      "team": [
+        {
+          "name": "Will Howard",
+          "position": "QB (3.er QB)"
+        },
+        {
+          "name": "Drew Allar",
+          "position": "QB"
+        },
+        {
+          "name": "Ben Skowronek",
+          "position": "WR"
+        },
+        {
+          "name": "Eli Heidenreich",
+          "position": "RB"
+        },
+        {
+          "name": "Terell Smith",
+          "position": "CB"
+        },
+        {
+          "name": "Sean Murphy-Bunting",
+          "position": "CB"
+        },
+        {
+          "name": "Kevin Jobity Jr.",
+          "position": "DT"
+        }
+      ],
+      "opponent": [
+        {
+          "name": "Baker Mayfield",
+          "position": "QB"
+        },
+        {
+          "name": "Antoine Winfield Jr.",
+          "position": "S"
+        },
+        {
+          "name": "Benjamin Morrison",
+          "position": "CB"
+        },
+        {
+          "name": "Sean Tucker",
+          "position": "RB"
+        },
+        {
+          "name": "Luke Haggard",
+          "position": "G"
+        },
+        {
+          "name": "Billy Schrauth",
+          "position": "G"
+        },
+        {
+          "name": "DeMonte Capehart",
+          "position": "DL"
+        }
+      ]
+    },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873002/steelers-buccaneers",
-      "updated_at": "2026-10-18T12:02:53.879Z"
+      "updated_at": "2026-10-18T15:31:29.256Z"
     }
   },
   "comparison": {
@@ -371,11 +434,11 @@
         "title": "Secundaria remendada contra el novato Daniels",
         "team_side": "Jalen Ramsey, Jamel Dean, Asante Samuel Jr., Daylen Everette (CB)",
         "opponent_side": "Jalon Daniels (QB) con Egbuka y Godwin",
-        "analysis": "Ramsey (muñeca) y Dean (tobillo) quedaron en duda tras practicar limitados; Dean se dijo \"MUY optimista\" de jugar contra su exentrenador Bowles. Elliott no se activa del IR. En Tampa, Bowles confirmó que Mayfield no juega: Daniels apunta a su 3.ª titularidad seguida en casa.",
+        "analysis": "Ramsey (muñeca) y Dean (tobillo) estaban en duda pero no figuran entre los inactivos: juegan. Murphy-Bunting y Terell Smith quedan afuera y Elliott sigue en el IR. En Tampa, Daniels hace su 3.ª titularidad seguida en lugar de Mayfield.",
         "refs": [
           {
-            "name": "Chris Adamski en X",
-            "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162"
+            "name": "Nick Farabaugh en X",
+            "url": "https://x.com/FarabaughFB/status/2111844022855610869"
           },
           {
             "name": "Brooke Pryor en X",
@@ -391,11 +454,11 @@
         "title": "Rodgers recupera a Metcalf; el resto, del equipo de práctica",
         "team_side": "Aaron Rodgers (QB), DK Metcalf y Germie Bernard (WR), Brandon Smith y Brandon Johnson (WR), Darnell Washington y Pat Freiermuth (TE)",
         "opponent_side": "Secundaria de TB sin Antoine Winfield Jr.",
-        "analysis": "Metcalf superó la enfermedad y juega sin designación. Con Pittman y Wilson en el IR y Skowronek afuera, suben Brandon Smith y Brandon Johnson del equipo de práctica. Freiermuth (pantorrilla) figura en duda, pero Rapoport informa optimismo con que juegue, lo que salvaría el plan de dos tight ends. Contra los Bucs, Rodgers tiene 7 TD y 9 INT (rating 79,4); Winfield Jr. (costilla) no juega.",
+        "analysis": "Metcalf superó la enfermedad y juega. Con Pittman y Wilson en el IR y Skowronek inactivo, suben Brandon Smith y Brandon Johnson del equipo de práctica. Freiermuth (pantorrilla) hizo toda la entrada en calor y está activo, así que sigue en pie el plan de dos tight ends. Contra los Bucs, Rodgers tiene 7 TD y 9 INT (rating 79,4); Winfield Jr. (costilla) y el CB Morrison no juegan.",
         "refs": [
           {
-            "name": "Ian Rapoport en X",
-            "url": "https://x.com/RapSheet/status/2111782850705932467"
+            "name": "Nick Farabaugh en X",
+            "url": "https://x.com/FarabaughFB/status/2111837047644193233"
           },
           {
             "name": "Ray Fittipaldo en X",
@@ -411,7 +474,7 @@
         "title": "La defensa contra la carrera ante Irving y Gainwell",
         "team_side": "Cam Heyward, Keeanu Benton, Yahya Black (DL) y Patrick Queen (LB)",
         "opponent_side": "Bucky Irving y Kenny Gainwell (RB)",
-        "analysis": "Ante los Colts, Pittsburgh dejó a Jonathan Taylor en 45 yardas. Benton (tobillo) quedó en duda; Heyward no figura en el parte final. Irving suma 406 yardas en 77 acarreos (2 TD) y Gainwell, ex-Steeler, es el cambio de ritmo; Sean Tucker (cuádriceps) no jugaría y Tampa subió a Josh Williams.",
+        "analysis": "Ante los Colts, Pittsburgh dejó a Jonathan Taylor en 45 yardas. Benton (tobillo) estaba en duda pero está activo. Irving suma 406 yardas en 77 acarreos (2 TD) y Gainwell, ex-Steeler, es el cambio de ritmo; Sean Tucker (cuádriceps) está inactivo y Tampa subió a Josh Williams.",
         "refs": [
           {
             "name": "steelers.com",
@@ -431,7 +494,7 @@
         "title": "Primer triunfo de visitante o más de lo mismo",
         "team_side": "Ofensiva de Pittsburgh (Rodgers/Warren) y liderazgo de Heyward",
         "opponent_side": "Raymond James Stadium (Bucs 1-4 en casa)",
-        "analysis": "Las dos derrotas del año fueron afuera. Pittsburgh es favorito por 2,5 de visitante (O/U 38,5) ante un rival 1-4 sin su QB titular. Heyward pidió \"adueñarse del estadio\"; el clima: nubes intermitentes, 26 °C y ráfagas de hasta 43 km/h según ESPN.",
+        "analysis": "Las dos derrotas del año fueron afuera. Pittsburgh es favorito por 1,5 de visitante (O/U 38,5) ante un rival 1-4 sin su QB titular. Heyward pidió \"adueñarse del estadio\"; el clima: mayormente soleado, 26 °C y ráfagas de hasta 43 km/h según ESPN.",
         "refs": [
           {
             "name": "steelers.com",
@@ -447,29 +510,61 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-18T12:02:53.879Z"
+      "updated_at": "2026-10-18T15:31:29.256Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Domingo de partido (14:00 ART): Rapoport informa optimismo con que Freiermuth (pantorrilla) juegue y Fowler, que vuelve Rico Dowdle. Metcalf juega sin designación; Roman Wilson está en el IR y suben Brandon Smith y Brandon Johnson. En Tampa, sin Mayfield ni Winfield Jr., tampoco jugaría Sean Tucker. Siguen en duda Ramsey, Dean y Benton.",
+      "text": "Salieron los inactivos: en Pittsburgh quedan afuera Skowronek, Heidenreich, Terell Smith, Murphy-Bunting, Jobity y los QB Allar y Howard, así que Freiermuth (que hizo toda la entrada en calor), Dowdle, Ramsey y Dean juegan. En Tampa no están Mayfield, Winfield Jr., Morrison ni Sean Tucker. Kickoff a las 14:00 ART.",
       "refs": [
         {
-          "name": "Ian Rapoport en X",
-          "url": "https://x.com/RapSheet/status/2111782850705932467"
+          "name": "Nick Farabaugh en X",
+          "url": "https://x.com/FarabaughFB/status/2111844022855610869"
         },
         {
-          "name": "Jeremy Fowler en X",
-          "url": "https://x.com/JFowlerESPN/status/2111775549345669179"
+          "name": "Greg Auman en X",
+          "url": "https://x.com/gregauman/status/2111843041925341468"
         },
         {
-          "name": "Rick Stroud en X",
-          "url": "https://x.com/NFLSTROUD/status/2111548576346382584"
+          "name": "Nick Farabaugh en X",
+          "url": "https://x.com/FarabaughFB/status/2111837047644193233"
         }
       ],
-      "updated_at": "2026-10-18T12:04:18Z"
+      "updated_at": "2026-10-18T15:40:00Z"
     },
     "items": [
+      {
+        "title": "Inactivos de Pittsburgh: juegan Freiermuth, Dowdle, Ramsey y Dean",
+        "summary": "Quedan afuera el WR Ben Skowronek, los QB Drew Allar y Will Howard (3.er QB), los CB Sean Murphy-Bunting y Terell Smith, el RB Eli Heidenreich y el DT Kevin Jobity Jr. Todos los que figuraban en duda están activos.",
+        "source_name": "Nick Farabaugh (PennLive) en X",
+        "url": "https://x.com/FarabaughFB/status/2111844022855610869",
+        "published_at": "2026-10-18T15:37:05Z",
+        "about": "team"
+      },
+      {
+        "title": "Inactivos de Tampa: sin Mayfield, Winfield Jr., Morrison ni Tucker",
+        "summary": "Según Greg Auman, los Bucs no tienen al QB Baker Mayfield, al S Antoine Winfield Jr., al CB Benjamin Morrison ni al RB Sean Tucker (todos lesionados); también quedan afuera los G Luke Haggard y Billy Schrauth y el DL DeMonte Capehart.",
+        "source_name": "Greg Auman (FOX Sports) en X",
+        "url": "https://x.com/gregauman/status/2111843041925341468",
+        "published_at": "2026-10-18T15:33:11Z",
+        "about": "opponent"
+      },
+      {
+        "title": "La NFL confirma el partido en París pese a los disturbios",
+        "summary": "Los Saints viajan esta noche a París, donde enfrentan a los Steelers el domingo que viene en el Stade de France. Pese a los disturbios, la NFL dice que el partido sigue en pie y que no hubo impacto en las sedes de la liga.",
+        "source_name": "Adam Schefter (ESPN) en X",
+        "url": "https://x.com/AdamSchefter/status/2111839653959540753",
+        "published_at": "2026-10-18T15:19:44Z",
+        "about": "team"
+      },
+      {
+        "title": "Freiermuth hizo toda la entrada en calor",
+        "summary": "Con el cuerpo médico mirando, Freiermuth corrió todas sus rutas en la entrada en calor. \"Pareció alguien que va a jugar, como se esperaba\", escribió Farabaugh.",
+        "source_name": "Nick Farabaugh (PennLive) en X",
+        "url": "https://x.com/FarabaughFB/status/2111837047644193233",
+        "published_at": "2026-10-18T15:09:22Z",
+        "about": "team"
+      },
       {
         "title": "Rapoport: optimismo con Freiermuth",
         "summary": "Según Ian Rapoport (NFL Network), los Steelers son optimistas en que Pat Freiermuth, sumado al parte el sábado por la pantorrilla, juegue hoy en Tampa.",
@@ -508,14 +603,6 @@
         "source_name": "Brooke Pryor (ESPN) en X",
         "url": "https://x.com/bepryor/status/2111534532784497026",
         "published_at": "2026-10-17T19:07:17Z",
-        "about": "team"
-      },
-      {
-        "title": "Kozora: Heidenreich, probablemente inactivo",
-        "summary": "Con Nichols en el plantel y dos receptores subidos, Alex Kozora cree que Heidenreich probablemente quede entre los inactivos.",
-        "source_name": "Alex Kozora (Steelers Depot) en X",
-        "url": "https://x.com/Alex_Kozora/status/2111534228932645265",
-        "published_at": "2026-10-17T19:06:05Z",
         "about": "team"
       },
       {
@@ -564,30 +651,6 @@
         "source_name": "Chris Adamski (TribLive) en X",
         "url": "https://x.com/C_AdamskiTrib/status/2111152337092059162",
         "published_at": "2026-10-16T17:48:35Z",
-        "about": "team"
-      },
-      {
-        "title": "Ramsey aclara la \"desconexión\" con Patrick Graham",
-        "summary": "Jalen Ramsey explicó que la relación con el coordinador defensivo es directa y de objetivos compartidos, y celebró que Graham ahora esté en el costado de la cancha: pueden hablar después de cada serie.",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2111149398784655696",
-        "published_at": "2026-10-16T17:36:54Z",
-        "about": "team"
-      },
-      {
-        "title": "Bowles descarta a Mayfield y Winfield; Tucker, decisión previa",
-        "summary": "Todd Bowles confirmó que Mayfield y Winfield Jr. no juegan; el resto está en carrera y el RB Sean Tucker se define antes del partido. En el parte final, Josiah Trotter (rodilla) quedó en duda y el CB Benjamin Morrison, como dudoso (doubtful).",
-        "source_name": "Greg Auman (FOX Sports) en X",
-        "url": "https://x.com/gregauman/status/2111132668528394472",
-        "published_at": "2026-10-16T16:30:25Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Corrección: JuJu está en Pittsburgh, pero no visita a los Steelers",
-        "summary": "Noah Strackbein desmintió el rumor de visita de free agent: JuJu Smith-Schuster está en la ciudad este fin de semana, pero no para ver al club. Pittsburgh mira opciones internas ante los Bucs; JuJu probó con Vikings y Chargers.",
-        "source_name": "Noah Strackbein (Steelers On SI) en X",
-        "url": "https://x.com/NoahStrackbein/status/2110890223647510623",
-        "published_at": "2026-10-16T00:27:02Z",
         "about": "team"
       }
     ],
@@ -759,8 +822,36 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "La mañana del partido trajo alivio: Dowdle vuelve y hay optimismo con Freiermuth. La preocupación pasa por los receptores (Auman remarcó que Brandon Smith no tiene recepciones en la NFL), pero con Tampa sin Mayfield la previa se vive con confianza.",
+      "summary": "Los inactivos confirmaron lo que se esperaba en la mañana: Freiermuth, Dowdle, Ramsey y Dean juegan, y Tampa llega sin Mayfield, Winfield Jr., Morrison ni Tucker. La previa se vive con confianza; Kozora pide que los edge apuren por fin a un QB novato (solo una captura combinada en tres partidos).",
       "posts": [
+        {
+          "author": "Nick Farabaugh",
+          "handle": "@FarabaughFB",
+          "text": "Inactivos de los Steelers: WR Ben Skowronek, QB Drew Allar, QB Will Howard (3.er QB), CB Sean Murphy-Bunting, RB Eli Heidenreich, CB Terell Smith, DT Kevin Jobity Jr.",
+          "url": "https://x.com/FarabaughFB/status/2111844022855610869",
+          "posted_at": "2026-10-18T15:37:05Z"
+        },
+        {
+          "author": "Greg Auman",
+          "handle": "@gregauman",
+          "text": "Inactivos de los Bucs contra los Steelers: QB Baker Mayfield, S Antoine Winfield, CB Benjamin Morrison, RB Sean Tucker (todos lesionados); G Luke Haggard, G Billy Schrauth, DL DeMonte Capehart.",
+          "url": "https://x.com/gregauman/status/2111843041925341468",
+          "posted_at": "2026-10-18T15:33:11Z"
+        },
+        {
+          "author": "Nick Farabaugh",
+          "handle": "@FarabaughFB",
+          "text": "Freiermuth corrió todas sus rutas en la entrada en calor. Ahora sale del campo. Pareció alguien que va a jugar, como se esperaba.",
+          "url": "https://x.com/FarabaughFB/status/2111837047644193233",
+          "posted_at": "2026-10-18T15:09:22Z"
+        },
+        {
+          "author": "Alex Kozora",
+          "handle": "@Alex_Kozora",
+          "text": "Los edge rushers de los Steelers tienen una sola captura combinada en los últimos tres partidos. Hoy, contra un QB novato, es hora de cambiar eso.",
+          "url": "https://x.com/Alex_Kozora/status/2111832229638799464",
+          "posted_at": "2026-10-18T14:50:14Z"
+        },
         {
           "author": "Ian Rapoport",
           "handle": "@RapSheet",
@@ -774,37 +865,9 @@
           "text": "El RB de los Steelers Rico Dowdle (dudoso, dedo del pie) juega el domingo contra los Bucs, según una fuente. Dowdle no juega desde la semana 2.",
           "url": "https://x.com/JFowlerESPN/status/2111775549345669179",
           "posted_at": "2026-10-18T11:05:00Z"
-        },
-        {
-          "author": "Greg Auman",
-          "handle": "@gregauman",
-          "text": "Los receptores de los Steelers para el domingo: DK Metcalf, el novato Germie Bernard (13-140-0 en la temporada), el novato Kaden Wetjen (solo devoluciones este año), Brandon Johnson (última recepción en 2024) y Brandon Smith (cero recepciones en su carrera).",
-          "url": "https://x.com/gregauman/status/2111550575162617916",
-          "posted_at": "2026-10-17T20:11:02Z"
-        },
-        {
-          "author": "Ray Fittipaldo",
-          "handle": "@rayfitt1",
-          "text": "Roman Wilson va al IR: se pierde al menos los próximos cuatro partidos. Para mañana, los Steelers firmaron al RB Lew Nichols al plantel activo y subieron a los WR Brandon Smith y Brandon Johnson.",
-          "url": "https://x.com/rayfitt1/status/2111533960207519771",
-          "posted_at": "2026-10-17T19:05:01Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "@Alex_Kozora",
-          "text": "Con Nichols firmado y dos receptores subidos, Heidenreich probablemente quede inactivo mañana.",
-          "url": "https://x.com/Alex_Kozora/status/2111534228932645265",
-          "posted_at": "2026-10-17T19:06:05Z"
-        },
-        {
-          "author": "Nick Farabaugh",
-          "handle": "@FarabaughFB",
-          "text": "Jamel Dean sobre volver a Tampa: \"Se siente como que el alumno por fin va a enfrentar al maestro\".",
-          "url": "https://x.com/FarabaughFB/status/2111469254008508487",
-          "posted_at": "2026-10-17T14:47:54Z"
         }
       ],
-      "updated_at": "2026-10-18T12:04:18Z"
+      "updated_at": "2026-10-18T15:40:00Z"
     }
   },
   "head_to_head": {
@@ -841,7 +904,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-18T12:02:53.879Z"
+      "updated_at": "2026-10-18T15:31:29.256Z"
     }
   }
 }

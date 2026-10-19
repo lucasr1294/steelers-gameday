@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-18T22:04:07.000Z",
+    "generated_at": "2026-10-19T11:59:19.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "0ef56d31a8950234"
+    "espn_hash": "34963f27553183ac"
   },
   "team": {
     "id": "23",
@@ -54,11 +54,16 @@
         "NFL Game Pass (DAZN)"
       ]
     },
-    "odds": null,
+    "odds": {
+      "favorite_abbr": "PIT",
+      "spread": 2.5,
+      "over_under": 44.5,
+      "provider": "DraftKings"
+    },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-18T22:00:42.105Z"
+      "updated_at": "2026-10-19T11:57:25.158Z"
     }
   },
   "form": {
@@ -138,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-18T22:00:42.105Z"
+      "updated_at": "2026-10-19T11:57:25.158Z"
     }
   },
   "recent_results": {
@@ -232,7 +237,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-18T22:00:42.105Z"
+      "updated_at": "2026-10-19T11:57:25.158Z"
     }
   },
   "injuries": {
@@ -257,7 +262,7 @@
         "name": "Kool-Aid McKinstry",
         "position": "CB",
         "status": "Questionable",
-        "injury": "Cabeza",
+        "injury": "Migraine",
         "practice": []
       },
       {
@@ -286,27 +291,27 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-18T22:00:42.105Z"
+      "updated_at": "2026-10-19T11:57:25.158Z"
     }
   },
   "comparison": {
     "team": {
-      "offense_rank": 19,
-      "defense_rank": 11,
+      "offense_rank": 18,
+      "defense_rank": 12,
       "points_for_pg": 22.8,
       "points_against_pg": 21.3,
-      "yards_for_pg": 348,
+      "yards_for_pg": 347,
       "yards_against_pg": null,
-      "turnover_diff": 2
+      "turnover_diff": 3
     },
     "opponent": {
-      "offense_rank": 11,
+      "offense_rank": 10,
       "defense_rank": 30,
       "points_for_pg": 25.3,
       "points_against_pg": 29.7,
-      "yards_for_pg": 341.6,
+      "yards_for_pg": 337.8,
       "yards_against_pg": null,
-      "turnover_diff": -6
+      "turnover_diff": -3
     },
     "key_matchups": [
       {
@@ -357,27 +362,27 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-18T22:00:42.105Z"
+      "updated_at": "2026-10-19T11:57:25.158Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Ganaron 26-19 en tiempo extra en Tampa después de ir perdiendo 16-3 en el último cuarto: Bernard hizo el TD del triunfo y Ramsey lo cerró con una captura. Quedan 4-2 y viajan a París para enfrentar a los Saints (2-4), que le ganaron 34-27 a los Giants. A seguir: Brisker (ingle) y Echols (isquiotibial), y el posible debut de Elliott.",
+      "text": "Ganaron 26-19 en tiempo extra en Tampa después de ir perdiendo 16-3 en el último cuarto, y Rodgers igualó a Peyton Manning como tercero en pases de TD de la historia (539). Quedan 4-2 y el domingo enfrentan en París a los Saints (2-4), que ya llegaron a Francia. A seguir esta semana: Brisker (ingle), Echols (isquiotibial) y el posible debut de Elliott.",
       "refs": [
         {
           "name": "steelers.com",
           "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
         },
         {
-          "name": "Brooke Pryor en X",
-          "url": "https://x.com/bepryor/status/2111181377865453568"
+          "name": "Steelers en X",
+          "url": "https://x.com/steelers/status/2111963475748507756"
         },
         {
-          "name": "Jeff Duncan en X",
-          "url": "https://x.com/JeffDuncan_/status/2111916692062576870"
+          "name": "Katherine Terrell en X",
+          "url": "https://x.com/Kat_Terrell/status/2112148605721313730"
         }
       ],
-      "updated_at": "2026-10-18T22:04:07Z"
+      "updated_at": "2026-10-19T11:59:00Z"
     },
     "items": [
       {
@@ -389,19 +394,27 @@
         "about": "team"
       },
       {
+        "title": "Rodgers iguala a Peyton Manning",
+        "summary": "Con los dos pases de TD en Tampa, Aaron Rodgers llegó a 539 en temporada regular y quedó empatado con Peyton Manning como el tercero con más en la historia de la NFL.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2111963475748507756",
+        "published_at": "2026-10-18T23:31:45Z",
+        "about": "team"
+      },
+      {
+        "title": "Boletín del Post-Gazette: Bernard y Metcalf, los que respondieron",
+        "summary": "Ray Fittipaldo pone las notas del triunfo en Tampa: Germie Bernard y DK Metcalf dieron un paso adelante, y queda la pregunta por el manejo del final de partido de McCarthy.",
+        "source_name": "Pittsburgh Post-Gazette (Ray Fittipaldo)",
+        "url": "https://www.post-gazette.com/sports/steelers/2026/10/18/steelers-report-card-buccaneers-week6/stories/202610180077",
+        "published_at": "2026-10-18T23:38:55Z",
+        "about": "team"
+      },
+      {
         "title": "Ramsey, la figura: dos capturas jugando con la muñeca fracturada",
         "summary": "Alex Kozora: Ramsey viene jugando hace semanas con la muñeca fracturada, no se perdió ni una jugada y metió la captura que ganó el partido, su segunda del día. ESPN le da 10 tackles y 4 tackles para pérdida.",
         "source_name": "Alex Kozora (Steelers Depot) en X",
         "url": "https://x.com/Alex_Kozora/status/2111921325917044792",
         "published_at": "2026-10-18T20:44:16Z",
-        "about": "team"
-      },
-      {
-        "title": "Jamel Dean, récord contra su ex equipo",
-        "summary": "Seis pases defendidos y una intercepción de 40 yardas que armó el gol de campo del 19-16. Según Pro Football Reference (que lo mide desde 1999), es apenas el 24.º jugador y el primer Steeler con 6 pases defendidos en un partido.",
-        "source_name": "Alex Kozora (Steelers Depot) en X",
-        "url": "https://x.com/Alex_Kozora/status/2111925344836210903",
-        "published_at": "2026-10-18T21:00:14Z",
         "about": "team"
       },
       {
@@ -437,20 +450,36 @@
         "about": "team"
       },
       {
-        "title": "La NFL confirma el partido en París pese a los disturbios",
-        "summary": "Los Saints viajan esta noche a París, donde enfrentan a los Steelers el domingo que viene en el Stade de France. Pese a los disturbios, la NFL dice que el partido sigue en pie y que no hubo impacto en las sedes de la liga.",
-        "source_name": "Adam Schefter (ESPN) en X",
-        "url": "https://x.com/AdamSchefter/status/2111839653959540753",
-        "published_at": "2026-10-18T15:19:44Z",
-        "about": "team"
-      },
-      {
         "title": "Elliott no se activa: apunta a debutar en París",
         "summary": "Brooke Pryor: DeShon Elliott no sale del IR a tiempo para Tampa, lo que lo encamina a hacer su debut de temporada en París. Además marca que lo de Metcalf hay que seguirlo, con otros tres receptores afuera.",
         "source_name": "Brooke Pryor (ESPN) en X",
         "url": "https://x.com/bepryor/status/2111181377865453568",
         "published_at": "2026-10-16T19:43:58Z",
         "about": "team"
+      },
+      {
+        "title": "Los Saints ya están en París",
+        "summary": "Viajaron la misma noche del partido en Nueva York. Kellen Moore dijo que le parecía importante llegar antes para aclimatarse y mantener la rutina lo más posible.",
+        "source_name": "Katherine Terrell (ESPN) en X",
+        "url": "https://x.com/Kat_Terrell/status/2112148605721313730",
+        "published_at": "2026-10-19T11:47:24Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Saints: Jordyn Tyson viajó a París",
+        "summary": "El receptor, que viene sin jugar por lesión (Moore había dicho que no iba a practicar la semana pasada), viajó con el equipo.",
+        "source_name": "Katherine Terrell (ESPN) en X",
+        "url": "https://x.com/Kat_Terrell/status/2112149392144957906",
+        "published_at": "2026-10-19T11:50:31Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Underhill: el triunfo les da aire, pero no despeja las dudas",
+        "summary": "Nick Underhill analiza el 34-27 ante los Giants: les compra tiempo, pero los Saints todavía no dejaron atrás las críticas.",
+        "source_name": "NOF (Nick Underhill)",
+        "url": "https://neworleans.football/article/the-saints-win-buys-time-but-they-still-haven-t-beaten-the-allegations",
+        "published_at": "2026-10-18T23:24:28Z",
+        "about": "opponent"
       },
       {
         "title": "Los Saints cortaron la racha: 34-27 en Nueva York",
@@ -474,14 +503,6 @@
         "source_name": "Nick Underhill (NOF) en X",
         "url": "https://x.com/nick_underhill/status/2111924515773292860",
         "published_at": "2026-10-18T20:56:56Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Saints: McKinstry jugó con migraña",
-        "summary": "Kellen Moore dijo que el CB Kool-Aid McKinstry tuvo una migraña, después de que el equipo no le diera estado de lesión durante el partido. Martin Emerson Jr. metió dos intercepciones.",
-        "source_name": "Katherine Terrell (ESPN) en X",
-        "url": "https://x.com/Kat_Terrell/status/2111923604896276696",
-        "published_at": "2026-10-18T20:53:19Z",
         "about": "opponent"
       }
     ],
@@ -512,6 +533,15 @@
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
         "date": "2026-10-18T20:44:36Z"
+      },
+      {
+        "speaker": "Germie Bernard",
+        "role": "WR novato de los Steelers",
+        "quote": "Aaron confió en mí, me encontró y aproveché al máximo mis oportunidades. Solo hice lo que pude por el equipo para que nos fuera bien.",
+        "context": "Tras su TD en el alargue",
+        "source_name": "steelers.com (Brian Batko)",
+        "url": "https://www.steelers.com/news/batko-s-quick-6-steelers-at-buccaneers",
+        "date": "2026-10-18T23:46:24Z"
       },
       {
         "speaker": "Jamel Dean",
@@ -708,7 +738,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-18T22:00:42.105Z"
+      "updated_at": "2026-10-19T11:57:25.158Z"
     }
   }
 }

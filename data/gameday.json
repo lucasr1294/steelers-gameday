@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-19T11:59:19.000Z",
+    "generated_at": "2026-10-20T12:02:36.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "34963f27553183ac"
+    "espn_hash": "9bc17fe1bd662768"
   },
   "team": {
     "id": "23",
@@ -56,14 +56,14 @@
     },
     "odds": {
       "favorite_abbr": "PIT",
-      "spread": 2.5,
+      "spread": 3.5,
       "over_under": 44.5,
       "provider": "DraftKings"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-19T11:57:25.158Z"
+      "updated_at": "2026-10-20T12:01:05.364Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-19T11:57:25.158Z"
+      "updated_at": "2026-10-20T12:01:05.364Z"
     }
   },
   "recent_results": {
@@ -237,11 +237,18 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-19T11:57:25.158Z"
+      "updated_at": "2026-10-20T12:01:05.364Z"
     }
   },
   "injuries": {
     "team": [
+      {
+        "name": "Ben Skowronek",
+        "position": "WR",
+        "status": "Out",
+        "injury": "Pantorrilla",
+        "practice": []
+      },
       {
         "name": "Brandin Echols",
         "position": "CB",
@@ -250,28 +257,28 @@
         "practice": []
       },
       {
-        "name": "Ben Skowronek",
+        "name": "Roman Wilson",
         "position": "WR",
-        "status": "Out",
-        "injury": "Pantorrilla",
+        "status": "IR",
+        "injury": "Dedo",
+        "practice": []
+      },
+      {
+        "name": "DeShon Elliott",
+        "position": "S",
+        "status": "IR",
+        "injury": "Rodilla",
+        "practice": []
+      },
+      {
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "status": "IR",
+        "injury": "Pie",
         "practice": []
       }
     ],
     "opponent": [
-      {
-        "name": "Kool-Aid McKinstry",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Migraine",
-        "practice": []
-      },
-      {
-        "name": "Quincy Riley",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Cuello",
-        "practice": []
-      },
       {
         "name": "Cesar Ruiz",
         "position": "G",
@@ -285,18 +292,39 @@
         "status": "Out",
         "injury": "Enfermedad",
         "practice": []
+      },
+      {
+        "name": "Anfernee Jennings",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Rodilla",
+        "practice": []
+      },
+      {
+        "name": "Kaden Elliss",
+        "position": "LB",
+        "status": "Out",
+        "injury": "Pantorrilla",
+        "practice": []
+      },
+      {
+        "name": "Jordyn Tyson",
+        "position": "WR",
+        "status": "IR",
+        "injury": "Isquiotibial",
+        "practice": []
       }
     ],
     "inactives": null,
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-19T11:57:25.158Z"
+      "updated_at": "2026-10-20T12:01:05.364Z"
     }
   },
   "comparison": {
     "team": {
-      "offense_rank": 18,
+      "offense_rank": 17,
       "defense_rank": 12,
       "points_for_pg": 22.8,
       "points_against_pg": 21.3,
@@ -306,7 +334,7 @@
     },
     "opponent": {
       "offense_rank": 10,
-      "defense_rank": 30,
+      "defense_rank": 31,
       "points_for_pg": 25.3,
       "points_against_pg": 29.7,
       "yards_for_pg": 337.8,
@@ -362,29 +390,53 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-19T11:57:25.158Z"
+      "updated_at": "2026-10-20T12:01:05.364Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Ganaron 26-19 en tiempo extra en Tampa después de ir perdiendo 16-3 en el último cuarto, y Rodgers igualó a Peyton Manning como tercero en pases de TD de la historia (539). Quedan 4-2 y el domingo enfrentan en París a los Saints (2-4), que ya llegaron a Francia. A seguir esta semana: Brisker (ingle), Echols (isquiotibial) y el posible debut de Elliott.",
+      "text": "Ganaron 26-19 en tiempo extra en Tampa, quedan 4-2 y el domingo enfrentan en París a los Saints (2-4). Con Pittman y Wilson en IR y Skowronek afuera, McCarthy reconoció que miran receptores de afuera, y a la noche trascendió que vuelve Marquez Valdes-Scantling al equipo de práctica. A seguir: Brisker (ingle), Echols (isquiotibial) y el posible debut de Elliott.",
       "refs": [
+        {
+          "name": "Mike DeFabo en X",
+          "url": "https://x.com/MikeDeFabo/status/2112343718829367803"
+        },
+        {
+          "name": "Steelers Depot",
+          "url": "https://steelersdepot.com/2026/10/youre-always-looking-mccarthy-acknowledges-front-office-could-consider-external-receiver-options/"
+        },
         {
           "name": "steelers.com",
           "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
-        },
-        {
-          "name": "Steelers en X",
-          "url": "https://x.com/steelers/status/2111963475748507756"
-        },
-        {
-          "name": "Katherine Terrell en X",
-          "url": "https://x.com/Kat_Terrell/status/2112148605721313730"
         }
       ],
-      "updated_at": "2026-10-19T11:59:00Z"
+      "updated_at": "2026-10-20T12:10:00Z"
     },
     "items": [
+      {
+        "title": "Vuelve Marquez Valdes-Scantling",
+        "summary": "Según Mike DeFabo (The Athletic), el receptor de 31 años, cortado por los Chargers el sábado, firma con los Steelers y arrancaría en el equipo de práctica. Se reencuentra con Rodgers por segundo año seguido.",
+        "source_name": "Mike DeFabo (The Athletic) en X",
+        "url": "https://x.com/MikeDeFabo/status/2112343718829367803",
+        "published_at": "2026-10-20T00:42:42Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy: \"Siempre estás mirando\" receptores de afuera",
+        "summary": "Con Pittman y Roman Wilson en IR y Skowronek afuera, McCarthy dijo que confía en los que tiene, pero que no es ciego a los receptores disponibles. Brandon Smith ya usó dos de sus tres ascensos desde el equipo de práctica.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/youre-always-looking-mccarthy-acknowledges-front-office-could-consider-external-receiver-options/",
+        "published_at": "2026-10-19T19:50:59Z",
+        "about": "team"
+      },
+      {
+        "title": "Graham explica la captura final de Ramsey",
+        "summary": "El coordinador defensivo Patrick Graham destacó que Watt, Highsmith, Herbig, Heyward, Queen y Payton Wilson hicieron su parte para que Ramsey llegara libre. También elogió a Keeanu Benton por sus últimas dos semanas.",
+        "source_name": "Brian Batko (steelers.com) en X",
+        "url": "https://x.com/BrianBatko/status/2112272648843702556",
+        "published_at": "2026-10-19T20:00:18Z",
+        "about": "team"
+      },
       {
         "title": "Remontada en Tampa: 26-19 en tiempo extra",
         "summary": "Perdían 16-3 en el último cuarto. Darnell Washington descontó, Boswell metió tres goles de campo en el cuarto (uno de 58 yardas para empatar), Rodgers le dio el TD del triunfo en el alargue al novato Germie Bernard y Ramsey cerró con una captura en 4.ª y 8. Primer triunfo de visitante y primera racha de dos.",
@@ -402,14 +454,6 @@
         "about": "team"
       },
       {
-        "title": "Boletín del Post-Gazette: Bernard y Metcalf, los que respondieron",
-        "summary": "Ray Fittipaldo pone las notas del triunfo en Tampa: Germie Bernard y DK Metcalf dieron un paso adelante, y queda la pregunta por el manejo del final de partido de McCarthy.",
-        "source_name": "Pittsburgh Post-Gazette (Ray Fittipaldo)",
-        "url": "https://www.post-gazette.com/sports/steelers/2026/10/18/steelers-report-card-buccaneers-week6/stories/202610180077",
-        "published_at": "2026-10-18T23:38:55Z",
-        "about": "team"
-      },
-      {
         "title": "Ramsey, la figura: dos capturas jugando con la muñeca fracturada",
         "summary": "Alex Kozora: Ramsey viene jugando hace semanas con la muñeca fracturada, no se perdió ni una jugada y metió la captura que ganó el partido, su segunda del día. ESPN le da 10 tackles y 4 tackles para pérdida.",
         "source_name": "Alex Kozora (Steelers Depot) en X",
@@ -423,14 +467,6 @@
         "source_name": "Steelers Depot",
         "url": "https://steelersdepot.com/2026/10/mike-mccarthy-defends-controversial-clock-management-decisions/",
         "published_at": "2026-10-18T21:58:06Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy está bien: \"lo pisaron\"",
-        "summary": "Pasó el entretiempo en la carpa médica y se lo vio rengo, pero después del partido dijo que lo pisaron y que está bien.",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2111931403902300179",
-        "published_at": "2026-10-18T21:24:19Z",
         "about": "team"
       },
       {
@@ -496,17 +532,27 @@
         "url": "https://x.com/nick_underhill/status/2111790766523609534",
         "published_at": "2026-10-18T12:05:28Z",
         "about": "opponent"
-      },
-      {
-        "title": "Saints: resonancia para Cesar Ruiz",
-        "summary": "El guard titular se hará una resonancia magnética hoy. ESPN lo lista en duda por la rodilla.",
-        "source_name": "Nick Underhill (NOF) en X",
-        "url": "https://x.com/nick_underhill/status/2111924515773292860",
-        "published_at": "2026-10-18T20:56:56Z",
-        "about": "opponent"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Mike McCarthy",
+        "role": "Entrenador de los Steelers",
+        "quote": "Creo en los 68 que tenemos en el edificio y, cuando se presentan oportunidades, prefiero ir con ellos. Pero no soy ciego ni ingenuo con los que están afuera, sobre todo si trabajaste con ellos en el pasado o tienen una relación previa acá. Así que siempre estás mirando.",
+        "context": "Sobre sumar un receptor de afuera, en la conferencia del lunes",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/youre-always-looking-mccarthy-acknowledges-front-office-could-consider-external-receiver-options/",
+        "date": "2026-10-19T19:50:59Z"
+      },
+      {
+        "speaker": "Patrick Graham",
+        "role": "Coordinador defensivo de los Steelers",
+        "quote": "Lo lindo de lo que pasó en la cancha fue cómo lo hicieron todos juntos.",
+        "context": "Sobre la captura de Ramsey que cerró el partido en Tampa",
+        "source_name": "Brian Batko (steelers.com) en X",
+        "url": "https://x.com/BrianBatko/status/2112272648843702556",
+        "date": "2026-10-19T20:00:18Z"
+      },
       {
         "speaker": "Jalen Ramsey",
         "role": "CB de los Steelers",
@@ -553,15 +599,6 @@
         "date": "2026-10-18T20:44:36Z"
       },
       {
-        "speaker": "Daylen Everette",
-        "role": "CB de los Steelers",
-        "quote": "No voy a mentir, fue una locura. Después de esa jugada miré a la tribuna y se veían más toallas que rojo. Vinimos en masa. Estuvo bueno verlo.",
-        "context": "Sobre su primera intercepción en la NFL",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
-        "date": "2026-10-18T20:44:36Z"
-      },
-      {
         "speaker": "Kellen Moore",
         "role": "Entrenador de los Saints",
         "quote": "Un partido loco.",
@@ -572,6 +609,15 @@
       }
     ],
     "roster_moves": [
+      {
+        "date": "2026-10-20T00:42:42Z",
+        "player": "Marquez Valdes-Scantling",
+        "position": "WR",
+        "move": "practice_squad",
+        "detail": "Según The Athletic, firma y arrancaría en el equipo de práctica; falta el anuncio oficial del club.",
+        "source_name": "Mike DeFabo (The Athletic) en X",
+        "url": "https://x.com/MikeDeFabo/status/2112343718829367803"
+      },
       {
         "date": "2026-10-17T19:05:01Z",
         "player": "Roman Wilson",
@@ -656,14 +702,14 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Festejo grande por la remontada y por Ramsey, con críticas a McCarthy por no pedir tiempo al final de regulación y a Boswell por el gol de campo errado de 48 yardas. Desde New Orleans, Katherine Terrell avisa que los dos ataques llegan flojos a París.",
+      "summary": "Sigue el buen clima por la remontada y por Ramsey, mientras se revisa el final de McCarthy. La vuelta de Valdes-Scantling al equipo de práctica divide: unos la ven como un parche flojo y otros como lógica, porque conoce a Rodgers y es un receptor profundo que hoy falta. Desde New Orleans avisan que los dos ataques llegan flojos a París.",
       "posts": [
         {
-          "author": "Mark Kaboly",
-          "handle": "@MarkKaboly",
-          "text": "Es un triunfo con mucho, mucho coraje.",
-          "url": "https://x.com/MarkKaboly/status/2111921293536972911",
-          "posted_at": "2026-10-18T20:44:08Z"
+          "author": "Alex Kozora",
+          "handle": "@Alex_Kozora",
+          "text": "Jaylen Warren se lleva puestos a los dos linebackers que blitzean en esta jugada. Le dio a Rodgers el tiempo justo para soltar el pase. Hace de todo, con y sin la pelota.",
+          "url": "https://x.com/Alex_Kozora/status/2112302911472439585",
+          "posted_at": "2026-10-19T22:00:33Z"
         },
         {
           "author": "Alex Kozora",
@@ -682,9 +728,9 @@
         {
           "author": "Nick Farabaugh",
           "handle": "@FarabaughFB",
-          "text": "¿Por qué McCarthy no pidió tiempo para intentar guardar reloj para una posible serie?",
-          "url": "https://x.com/FarabaughFB/status/2111913654522175725",
-          "posted_at": "2026-10-18T20:13:47Z"
+          "text": "No sorprende. MVS vuelve a los Steelers.",
+          "url": "https://x.com/FarabaughFB/status/2112345448883388472",
+          "posted_at": "2026-10-20T00:49:35Z"
         },
         {
           "author": "Mark Kaboly",
@@ -701,7 +747,7 @@
           "posted_at": "2026-10-18T18:20:36Z"
         }
       ],
-      "updated_at": "2026-10-18T22:04:07Z"
+      "updated_at": "2026-10-20T12:10:00Z"
     }
   },
   "head_to_head": {
@@ -738,7 +784,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-19T11:57:25.158Z"
+      "updated_at": "2026-10-20T12:01:05.364Z"
     }
   }
 }

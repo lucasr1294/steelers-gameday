@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-20T12:02:36.000Z",
+    "generated_at": "2026-10-21T12:02:49.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "9bc17fe1bd662768"
+    "espn_hash": "aa2501a3f63ad9a0"
   },
   "team": {
     "id": "23",
@@ -63,7 +63,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-20T12:01:05.364Z"
+      "updated_at": "2026-10-21T12:01:44.443Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-20T12:01:05.364Z"
+      "updated_at": "2026-10-21T12:01:44.443Z"
     }
   },
   "recent_results": {
@@ -237,7 +237,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-20T12:01:05.364Z"
+      "updated_at": "2026-10-21T12:01:44.443Z"
     }
   },
   "injuries": {
@@ -245,7 +245,7 @@
       {
         "name": "Ben Skowronek",
         "position": "WR",
-        "status": "Out",
+        "status": "Questionable",
         "injury": "Pantorrilla",
         "practice": []
       },
@@ -280,31 +280,31 @@
     ],
     "opponent": [
       {
-        "name": "Cesar Ruiz",
-        "position": "G",
-        "status": "Questionable",
-        "injury": "Rodilla",
-        "practice": []
-      },
-      {
         "name": "Nathan Shepherd",
         "position": "DT",
-        "status": "Out",
+        "status": "Questionable",
         "injury": "Enfermedad",
-        "practice": []
-      },
-      {
-        "name": "Anfernee Jennings",
-        "position": "LB",
-        "status": "Out",
-        "injury": "Rodilla",
         "practice": []
       },
       {
         "name": "Kaden Elliss",
         "position": "LB",
-        "status": "Out",
+        "status": "Questionable",
         "injury": "Pantorrilla",
+        "practice": []
+      },
+      {
+        "name": "Anfernee Jennings",
+        "position": "LB",
+        "status": "Questionable",
+        "injury": "Rodilla",
+        "practice": []
+      },
+      {
+        "name": "Cesar Ruiz",
+        "position": "G",
+        "status": "Questionable",
+        "injury": "Rodilla",
         "practice": []
       },
       {
@@ -319,7 +319,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-20T12:01:05.364Z"
+      "updated_at": "2026-10-21T12:01:44.443Z"
     }
   },
   "comparison": {
@@ -390,43 +390,59 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-20T12:01:05.364Z"
+      "updated_at": "2026-10-21T12:01:44.443Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Ganaron 26-19 en tiempo extra en Tampa, quedan 4-2 y el domingo enfrentan en París a los Saints (2-4). Con Pittman y Wilson en IR y Skowronek afuera, McCarthy reconoció que miran receptores de afuera, y a la noche trascendió que vuelve Marquez Valdes-Scantling al equipo de práctica. A seguir: Brisker (ingle), Echols (isquiotibial) y el posible debut de Elliott.",
+      "text": "Semana de París: la NFL confirmó que el partido ante los Saints (2-4) sigue en pie pese a los disturbios en la ciudad. Valdes-Scantling ya firmó oficialmente con el equipo de práctica para tapar las bajas de Pittman y Wilson, y McCarthy se ilusiona con el regreso de DeShon Elliott. A seguir el primer reporte de práctica: Brisker (ingle) y Echols (isquiotibial).",
       "refs": [
         {
-          "name": "Mike DeFabo en X",
-          "url": "https://x.com/MikeDeFabo/status/2112343718829367803"
-        },
-        {
-          "name": "Steelers Depot",
-          "url": "https://steelersdepot.com/2026/10/youre-always-looking-mccarthy-acknowledges-front-office-could-consider-external-receiver-options/"
+          "name": "Alex Kozora en X",
+          "url": "https://x.com/Alex_Kozora/status/2112626604602192326"
         },
         {
           "name": "steelers.com",
-          "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
+          "url": "https://www.steelers.com/news/steelers-sign-valdes-scantling"
+        },
+        {
+          "name": "Steelers Depot en X",
+          "url": "https://x.com/Steelersdepot/status/2112549807051219037"
         }
       ],
-      "updated_at": "2026-10-20T12:10:00Z"
+      "updated_at": "2026-10-21T12:10:00Z"
     },
     "items": [
       {
-        "title": "Vuelve Marquez Valdes-Scantling",
-        "summary": "Según Mike DeFabo (The Athletic), el receptor de 31 años, cortado por los Chargers el sábado, firma con los Steelers y arrancaría en el equipo de práctica. Se reencuentra con Rodgers por segundo año seguido.",
-        "source_name": "Mike DeFabo (The Athletic) en X",
-        "url": "https://x.com/MikeDeFabo/status/2112343718829367803",
-        "published_at": "2026-10-20T00:42:42Z",
+        "title": "Fautanu y lo difícil de pasar a tackle izquierdo",
+        "summary": null,
+        "source_name": "Post-Gazette (Ray Fittipaldo)",
+        "url": "https://www.post-gazette.com/sports/steelers/2026/10/21/troy-fautanu-move-to-left-tackle-offensive-line/stories/202610210004",
+        "published_at": "2026-10-21T11:34:27Z",
         "about": "team"
       },
       {
-        "title": "McCarthy: \"Siempre estás mirando\" receptores de afuera",
-        "summary": "Con Pittman y Roman Wilson en IR y Skowronek afuera, McCarthy dijo que confía en los que tiene, pero que no es ciego a los receptores disponibles. Brandon Smith ya usó dos de sus tres ascensos desde el equipo de práctica.",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/youre-always-looking-mccarthy-acknowledges-front-office-could-consider-external-receiver-options/",
-        "published_at": "2026-10-19T19:50:59Z",
+        "title": "Oficial: Valdes-Scantling firmó con el equipo de práctica",
+        "summary": "El club confirmó la firma del receptor veterano, que conoce a Rodgers de Green Bay y jugó en los Saints en 2024.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-sign-valdes-scantling",
+        "published_at": "2026-10-20T20:02:23Z",
+        "about": "team"
+      },
+      {
+        "title": "La NFL confirma el partido en París pese a los disturbios",
+        "summary": "Peter O'Reilly, vicepresidente de la liga, dijo que \"todos los planes para el partido de París siguen adelante\" y que nunca estuvieron cerca de mudarlo o postergarlo por los disturbios en la ciudad.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2112626604602192326",
+        "published_at": "2026-10-20T19:26:47Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy, sobre Elliott en París: \"Espero que sí\"",
+        "summary": "El entrenador se ilusiona con que DeShon Elliott pueda volver del todo y jugar el domingo; el plan es dejar que la competencia en la secundaria se defina sola.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2112549807051219037",
+        "published_at": "2026-10-20T14:21:37Z",
         "about": "team"
       },
       {
@@ -438,11 +454,11 @@
         "about": "team"
       },
       {
-        "title": "Remontada en Tampa: 26-19 en tiempo extra",
-        "summary": "Perdían 16-3 en el último cuarto. Darnell Washington descontó, Boswell metió tres goles de campo en el cuarto (uno de 58 yardas para empatar), Rodgers le dio el TD del triunfo en el alargue al novato Germie Bernard y Ramsey cerró con una captura en 4.ª y 8. Primer triunfo de visitante y primera racha de dos.",
-        "source_name": "steelers.com (Brian Batko)",
-        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
-        "published_at": "2026-10-18T20:44:36Z",
+        "title": "McCarthy: \"Siempre estás mirando\" receptores de afuera",
+        "summary": "Con Pittman y Roman Wilson en IR y Skowronek afuera, McCarthy dijo que confía en los que tiene, pero que no es ciego a los receptores disponibles. Brandon Smith ya usó dos de sus tres ascensos desde el equipo de práctica.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/youre-always-looking-mccarthy-acknowledges-front-office-could-consider-external-receiver-options/",
+        "published_at": "2026-10-19T19:50:59Z",
         "about": "team"
       },
       {
@@ -454,14 +470,6 @@
         "about": "team"
       },
       {
-        "title": "Ramsey, la figura: dos capturas jugando con la muñeca fracturada",
-        "summary": "Alex Kozora: Ramsey viene jugando hace semanas con la muñeca fracturada, no se perdió ni una jugada y metió la captura que ganó el partido, su segunda del día. ESPN le da 10 tackles y 4 tackles para pérdida.",
-        "source_name": "Alex Kozora (Steelers Depot) en X",
-        "url": "https://x.com/Alex_Kozora/status/2111921325917044792",
-        "published_at": "2026-10-18T20:44:16Z",
-        "about": "team"
-      },
-      {
         "title": "McCarthy defiende el manejo del reloj y admite una \"falta de comunicación\"",
         "summary": "El entrenador habló del final de regulación, cuando no pidió tiempo y Tampa empató con un gol de campo de 53 yardas a 8 segundos del final.",
         "source_name": "Steelers Depot",
@@ -470,28 +478,20 @@
         "about": "team"
       },
       {
-        "title": "Brisker (ingle) y Echols (isquiotibial), a seguir esta semana",
-        "summary": "Brandin Echols salió con un problema en el isquiotibial y no volvió. Jaquan Brisker se lesionó la ingle en el tercer cuarto y quedó en duda para volver.",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2111897601910182383",
-        "published_at": "2026-10-18T19:10:00Z",
+        "title": "Remontada en Tampa: 26-19 en tiempo extra",
+        "summary": "Perdían 16-3 en el último cuarto. Darnell Washington descontó, Boswell metió tres goles de campo en el cuarto (uno de 58 yardas para empatar), Rodgers le dio el TD del triunfo en el alargue al novato Germie Bernard y Ramsey cerró con una captura en 4.ª y 8. Primer triunfo de visitante y primera racha de dos.",
+        "source_name": "steelers.com (Brian Batko)",
+        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
+        "published_at": "2026-10-18T20:44:36Z",
         "about": "team"
       },
       {
-        "title": "Germie Bernard, 11 recepciones y su primer TD",
-        "summary": "El novato terminó con 11 recepciones para 87 yardas y el TD del alargue; Metcalf también tuvo 11, para 93 yardas (ESPN). Rodgers: 33 de 49, 253 yardas, 2 TD y una intercepción.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2111920458018726140",
-        "published_at": "2026-10-18T20:40:49Z",
-        "about": "team"
-      },
-      {
-        "title": "Elliott no se activa: apunta a debutar en París",
-        "summary": "Brooke Pryor: DeShon Elliott no sale del IR a tiempo para Tampa, lo que lo encamina a hacer su debut de temporada en París. Además marca que lo de Metcalf hay que seguirlo, con otros tres receptores afuera.",
-        "source_name": "Brooke Pryor (ESPN) en X",
-        "url": "https://x.com/bepryor/status/2111181377865453568",
-        "published_at": "2026-10-16T19:43:58Z",
-        "about": "team"
+        "title": "Underhill: Shough jugó mejor de lo que dicen los números",
+        "summary": "Análisis de Nick Underhill sobre el QB de los Saints en el triunfo ante los Giants.",
+        "source_name": "Nick Underhill en X",
+        "url": "https://x.com/nick_underhill/status/2112633265203118373",
+        "published_at": "2026-10-20T19:53:15Z",
+        "about": "opponent"
       },
       {
         "title": "Los Saints ya están en París",
@@ -535,6 +535,15 @@
       }
     ],
     "quotes": [
+      {
+        "speaker": "Mike McCarthy",
+        "role": "Entrenador de los Steelers",
+        "quote": "Espero que sí. Me pareció que tuvo una gran semana la semana pasada. Esas son las conversaciones que estamos teniendo.",
+        "context": "Sobre si DeShon Elliott puede volver del todo y jugar el domingo en París.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2112549807051219037",
+        "date": "2026-10-20T14:21:37Z"
+      },
       {
         "speaker": "Mike McCarthy",
         "role": "Entrenador de los Steelers",
@@ -597,26 +606,17 @@
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
         "date": "2026-10-18T20:44:36Z"
-      },
-      {
-        "speaker": "Kellen Moore",
-        "role": "Entrenador de los Saints",
-        "quote": "Un partido loco.",
-        "context": "Sobre el 34-27 ante los Giants",
-        "source_name": "Katherine Terrell (ESPN) en X",
-        "url": "https://x.com/Kat_Terrell/status/2111923354710028566",
-        "date": "2026-10-18T20:52:20Z"
       }
     ],
     "roster_moves": [
       {
-        "date": "2026-10-20T00:42:42Z",
+        "date": "2026-10-20T20:02:23Z",
         "player": "Marquez Valdes-Scantling",
         "position": "WR",
         "move": "practice_squad",
-        "detail": "Según The Athletic, firma y arrancaría en el equipo de práctica; falta el anuncio oficial del club.",
-        "source_name": "Mike DeFabo (The Athletic) en X",
-        "url": "https://x.com/MikeDeFabo/status/2112343718829367803"
+        "detail": "Firma oficial con el equipo de práctica; jugó cuatro temporadas con Rodgers en Green Bay.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-sign-valdes-scantling"
       },
       {
         "date": "2026-10-17T19:05:01Z",
@@ -702,8 +702,15 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Sigue el buen clima por la remontada y por Ramsey, mientras se revisa el final de McCarthy. La vuelta de Valdes-Scantling al equipo de práctica divide: unos la ven como un parche flojo y otros como lógica, porque conoce a Rodgers y es un receptor profundo que hoy falta. Desde New Orleans avisan que los dos ataques llegan flojos a París.",
+      "summary": "Sigue el buen clima por la remontada en Tampa, con elogios para Heyward y Ramsey. La firma de Valdes-Scantling se toma como un parche lógico ante las bajas, y hay ilusión con la vuelta de Elliott. Los disturbios en París generaron ruido, pero la liga lo descartó.",
       "posts": [
+        {
+          "author": "Alex Kozora",
+          "handle": "@Alex_Kozora",
+          "text": "Cam Heyward se saca de encima a Tristan Wirfs y aplasta al corredor. Sigue jugando fútbol de primer nivel a los 37 años.",
+          "url": "https://x.com/Alex_Kozora/status/2112623136562917506",
+          "posted_at": "2026-10-20T19:13:01Z"
+        },
         {
           "author": "Alex Kozora",
           "handle": "@Alex_Kozora",
@@ -738,16 +745,9 @@
           "text": "Ramsey hizo un partidazo. Estuvo en todos lados. Esperen a que vuelva Elliott. Puede que tengan algo.",
           "url": "https://x.com/MarkKaboly/status/2111937226573541849",
           "posted_at": "2026-10-18T21:47:27Z"
-        },
-        {
-          "author": "Katherine Terrell",
-          "handle": "@Kat_Terrell",
-          "text": "Los ataques de Steelers y Saints se ven horribles de cara a este partido en París.",
-          "url": "https://x.com/Kat_Terrell/status/2111885171280519658",
-          "posted_at": "2026-10-18T18:20:36Z"
         }
       ],
-      "updated_at": "2026-10-20T12:10:00Z"
+      "updated_at": "2026-10-21T12:10:00Z"
     }
   },
   "head_to_head": {
@@ -784,7 +784,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-20T12:01:05.364Z"
+      "updated_at": "2026-10-21T12:01:44.443Z"
     }
   }
 }

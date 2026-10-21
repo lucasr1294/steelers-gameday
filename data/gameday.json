@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-21T12:02:49.000Z",
+    "generated_at": "2026-10-21T20:58:27.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "aa2501a3f63ad9a0"
+    "espn_hash": "c80be5d48051c7c7"
   },
   "team": {
     "id": "23",
@@ -63,7 +63,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-21T12:01:44.443Z"
+      "updated_at": "2026-10-21T20:57:05.942Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-21T12:01:44.443Z"
+      "updated_at": "2026-10-21T20:57:05.942Z"
     }
   },
   "recent_results": {
@@ -237,7 +237,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-21T12:01:44.443Z"
+      "updated_at": "2026-10-21T20:57:05.942Z"
     }
   },
   "injuries": {
@@ -280,6 +280,13 @@
     ],
     "opponent": [
       {
+        "name": "Jordyn Tyson",
+        "position": "WR",
+        "status": "IR",
+        "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
         "name": "Nathan Shepherd",
         "position": "DT",
         "status": "Questionable",
@@ -306,20 +313,13 @@
         "status": "Questionable",
         "injury": "Rodilla",
         "practice": []
-      },
-      {
-        "name": "Jordyn Tyson",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Isquiotibial",
-        "practice": []
       }
     ],
     "inactives": null,
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-21T12:01:44.443Z"
+      "updated_at": "2026-10-21T20:57:05.942Z"
     }
   },
   "comparison": {
@@ -390,29 +390,53 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-21T12:01:44.443Z"
+      "updated_at": "2026-10-21T20:57:05.942Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Semana de París: la NFL confirmó que el partido ante los Saints (2-4) sigue en pie pese a los disturbios en la ciudad. Valdes-Scantling ya firmó oficialmente con el equipo de práctica para tapar las bajas de Pittman y Wilson, y McCarthy se ilusiona con el regreso de DeShon Elliott. A seguir el primer reporte de práctica: Brisker (ingle) y Echols (isquiotibial).",
+      "text": "Miércoles movido antes de viajar a París: los Steelers cortaron al safety Rayshawn Jenkins, una señal fuerte de que DeShon Elliott vuelve de la lista de lesionados para el domingo. Ramsey fue elegido Defensor de la Semana en la AFC, y McCarthy dijo que todavía no sabe si Valdes-Scantling jugará. En los Saints, Jordyn Tyson no practica en toda la semana.",
       "refs": [
         {
-          "name": "Alex Kozora en X",
-          "url": "https://x.com/Alex_Kozora/status/2112626604602192326"
+          "name": "Steelers en X",
+          "url": "https://x.com/steelers/status/2112984956893094294"
         },
         {
           "name": "steelers.com",
-          "url": "https://www.steelers.com/news/steelers-sign-valdes-scantling"
+          "url": "https://www.steelers.com/news/ramsey-wins-afc-defensive-player-of-the-week"
         },
         {
-          "name": "Steelers Depot en X",
-          "url": "https://x.com/Steelersdepot/status/2112549807051219037"
+          "name": "Katherine Terrell en X",
+          "url": "https://x.com/Kat_Terrell/status/2112897274795741193"
         }
       ],
-      "updated_at": "2026-10-21T12:10:00Z"
+      "updated_at": "2026-10-21T21:05:00Z"
     },
     "items": [
+      {
+        "title": "McCarthy sobre MVS: \"Vamos a ver\" si juega el domingo",
+        "summary": "Práctica reducida el miércoles y una completa el jueves antes de viajar a París. Valdes-Scantling vuelve con el número 83.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/mike-mccarthy-reacts-to-steelers-signing-marquez-valdes-scantling-discusses-potential-role/",
+        "published_at": "2026-10-21T20:22:12Z",
+        "about": "team"
+      },
+      {
+        "title": "Ramsey, Defensor de la Semana en la AFC",
+        "summary": "Premio para Jalen Ramsey tras las dos capturas, incluida la del triunfo, en Tampa.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/ramsey-wins-afc-defensive-player-of-the-week",
+        "published_at": "2026-10-21T19:46:45Z",
+        "about": "team"
+      },
+      {
+        "title": "Cortaron a Rayshawn Jenkins: señal de que vuelve DeShon Elliott",
+        "summary": "El club liberó al safety veterano, que había perdido su rol en los paquetes especiales con Robert Spears-Jennings. Kozora y Kaboly lo leen como la antesala del regreso de Elliott este fin de semana.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2112984956893094294",
+        "published_at": "2026-10-21T19:10:45Z",
+        "about": "team"
+      },
       {
         "title": "Fautanu y lo difícil de pasar a tackle izquierdo",
         "summary": null,
@@ -462,28 +486,20 @@
         "about": "team"
       },
       {
-        "title": "Rodgers iguala a Peyton Manning",
-        "summary": "Con los dos pases de TD en Tampa, Aaron Rodgers llegó a 539 en temporada regular y quedó empatado con Peyton Manning como el tercero con más en la historia de la NFL.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2111963475748507756",
-        "published_at": "2026-10-18T23:31:45Z",
-        "about": "team"
+        "title": "Loomis banca el proceso pese a las críticas",
+        "summary": "El GM de los Saints entiende el malestar, pero sostiene el rumbo y apuesta al desarrollo de Shough.",
+        "source_name": "Nick Underhill (NOF)",
+        "url": "https://neworleans.football/article/mickey-loomis-understands-the-heat-but-still-believes-in-the-saints-process",
+        "published_at": "2026-10-21T16:36:54Z",
+        "about": "opponent"
       },
       {
-        "title": "McCarthy defiende el manejo del reloj y admite una \"falta de comunicación\"",
-        "summary": "El entrenador habló del final de regulación, cuando no pidió tiempo y Tampa empató con un gol de campo de 53 yardas a 8 segundos del final.",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/mike-mccarthy-defends-controversial-clock-management-decisions/",
-        "published_at": "2026-10-18T21:58:06Z",
-        "about": "team"
-      },
-      {
-        "title": "Remontada en Tampa: 26-19 en tiempo extra",
-        "summary": "Perdían 16-3 en el último cuarto. Darnell Washington descontó, Boswell metió tres goles de campo en el cuarto (uno de 58 yardas para empatar), Rodgers le dio el TD del triunfo en el alargue al novato Germie Bernard y Ramsey cerró con una captura en 4.ª y 8. Primer triunfo de visitante y primera racha de dos.",
-        "source_name": "steelers.com (Brian Batko)",
-        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
-        "published_at": "2026-10-18T20:44:36Z",
-        "about": "team"
+        "title": "Saints: Jordyn Tyson no practica en toda la semana",
+        "summary": "Mickey Loomis dijo que el receptor no va a practicar esta semana, aunque \"está mejorando\" y es una lesión distinta a la anterior.",
+        "source_name": "Katherine Terrell en X",
+        "url": "https://x.com/Kat_Terrell/status/2112897274795741193",
+        "published_at": "2026-10-21T13:22:20Z",
+        "about": "opponent"
       },
       {
         "title": "Underhill: Shough jugó mejor de lo que dicen los números",
@@ -491,14 +507,6 @@
         "source_name": "Nick Underhill en X",
         "url": "https://x.com/nick_underhill/status/2112633265203118373",
         "published_at": "2026-10-20T19:53:15Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Los Saints ya están en París",
-        "summary": "Viajaron la misma noche del partido en Nueva York. Kellen Moore dijo que le parecía importante llegar antes para aclimatarse y mantener la rutina lo más posible.",
-        "source_name": "Katherine Terrell (ESPN) en X",
-        "url": "https://x.com/Kat_Terrell/status/2112148605721313730",
-        "published_at": "2026-10-19T11:47:24Z",
         "about": "opponent"
       },
       {
@@ -524,17 +532,27 @@
         "url": "https://x.com/JeffDuncan_/status/2111916692062576870",
         "published_at": "2026-10-18T20:25:51Z",
         "about": "opponent"
-      },
-      {
-        "title": "Shough, el QB más golpeado",
-        "summary": "Nick Underhill: Tyler Shough va camino a recibir más contactos (golpes, capturas, derribos) que cualquier QB desde al menos 2006, y el costo se empieza a notar. En Nueva York tiró 3 TD (16 de 30, 144 yardas) y salió un rato por Rattler.",
-        "source_name": "Nick Underhill (NOF) en X",
-        "url": "https://x.com/nick_underhill/status/2111790766523609534",
-        "published_at": "2026-10-18T12:05:28Z",
-        "about": "opponent"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Mike McCarthy",
+        "role": "Entrenador de los Steelers",
+        "quote": "Vamos a ver. Hoy tenemos una práctica reducida y una práctica completa más antes de viajar mañana. Vamos a ver cómo van las cosas y qué pasa a partir de ahí.",
+        "context": "Sobre si Valdes-Scantling estará activo ante los Saints.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2112991474891825455",
+        "date": "2026-10-21T19:36:39Z"
+      },
+      {
+        "speaker": "Mickey Loomis",
+        "role": "GM de los Saints",
+        "quote": "Todo empieza con un quarterback, ¿no? Creo que estamos todos entusiasmados con él, con cómo rinde por momentos y cómo reacciona cuando las cosas no salen bien. Ese es el punto de partida. Pero todavía hay mucho desarrollo por delante.",
+        "context": "Sobre Tyler Shough.",
+        "source_name": "Katherine Terrell en X",
+        "url": "https://x.com/Kat_Terrell/status/2112940160178606297",
+        "date": "2026-10-21T16:12:45Z"
+      },
       {
         "speaker": "Mike McCarthy",
         "role": "Entrenador de los Steelers",
@@ -588,27 +606,18 @@
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
         "date": "2026-10-18T20:44:36Z"
-      },
-      {
-        "speaker": "Germie Bernard",
-        "role": "WR novato de los Steelers",
-        "quote": "Aaron confió en mí, me encontró y aproveché al máximo mis oportunidades. Solo hice lo que pude por el equipo para que nos fuera bien.",
-        "context": "Tras su TD en el alargue",
-        "source_name": "steelers.com (Brian Batko)",
-        "url": "https://www.steelers.com/news/batko-s-quick-6-steelers-at-buccaneers",
-        "date": "2026-10-18T23:46:24Z"
-      },
-      {
-        "speaker": "Jamel Dean",
-        "role": "CB de los Steelers (ex-Buccaneers)",
-        "quote": "El partido no termina hasta que se termina. Mantuvimos la compostura y seguimos peleando todo el tiempo.",
-        "context": "Tras su intercepción contra su ex equipo",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
-        "date": "2026-10-18T20:44:36Z"
       }
     ],
     "roster_moves": [
+      {
+        "date": "2026-10-21T19:10:45Z",
+        "player": "Rayshawn Jenkins",
+        "position": "S",
+        "move": "released",
+        "detail": "Había perdido su rol en los paquetes especiales; se espera la activación de DeShon Elliott.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2112984956893094294"
+      },
       {
         "date": "2026-10-20T20:02:23Z",
         "player": "Marquez Valdes-Scantling",
@@ -689,21 +698,26 @@
         "detail": "Subido del equipo de práctica para el partido con los Colts.",
         "source_name": "Steelers en X",
         "url": "https://x.com/steelers/status/2109007955253412191"
-      },
-      {
-        "date": "2026-10-10T19:47:34Z",
-        "player": "Brandon Smith",
-        "position": "WR",
-        "move": "elevated",
-        "detail": "Subido del equipo de práctica para el partido con los Colts.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2109007955253412191"
       }
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Sigue el buen clima por la remontada en Tampa, con elogios para Heyward y Ramsey. La firma de Valdes-Scantling se toma como un parche lógico ante las bajas, y hay ilusión con la vuelta de Elliott. Los disturbios en París generaron ruido, pero la liga lo descartó.",
+      "summary": "El corte de Rayshawn Jenkins se leyó enseguida como la vuelta de DeShon Elliott, y eso entusiasma. Sigue el buen clima por la remontada en Tampa y el premio a Ramsey, aunque hay voces de afuera, como Cris Carter, que dudan de Rodgers y de la línea ofensiva.",
       "posts": [
+        {
+          "author": "Alex Kozora",
+          "handle": "@Alex_Kozora",
+          "text": "Los Steelers cortan al safety Rayshawn Jenkins. Había perdido su rol en los paquetes especiales con Robert Spears-Jennings, y todo indica que DeShon Elliott vuelve este fin de semana.",
+          "url": "https://x.com/Alex_Kozora/status/2112984793118069091",
+          "posted_at": "2026-10-21T19:10:06Z"
+        },
+        {
+          "author": "Mark Kaboly",
+          "handle": "@MarkKaboly",
+          "text": "Los Steelers liberaron a Rayshawn Jenkins. Mmm. ¿Llegó la hora de DeShon Elliott?",
+          "url": "https://x.com/MarkKaboly/status/2112985349748068663",
+          "posted_at": "2026-10-21T19:12:19Z"
+        },
         {
           "author": "Alex Kozora",
           "handle": "@Alex_Kozora",
@@ -731,23 +745,9 @@
           "text": "Ramsey captura a Jalon Daniels entrando libre por afuera y se termina. Los Steelers ganan un partidazo, y en parte un desastre de los dos lados, 26-19. Quedan 4-2 y enfrentan a los Saints la semana que viene en París.",
           "url": "https://x.com/FarabaughFB/status/2111921133872099388",
           "posted_at": "2026-10-18T20:43:30Z"
-        },
-        {
-          "author": "Nick Farabaugh",
-          "handle": "@FarabaughFB",
-          "text": "No sorprende. MVS vuelve a los Steelers.",
-          "url": "https://x.com/FarabaughFB/status/2112345448883388472",
-          "posted_at": "2026-10-20T00:49:35Z"
-        },
-        {
-          "author": "Mark Kaboly",
-          "handle": "@MarkKaboly",
-          "text": "Ramsey hizo un partidazo. Estuvo en todos lados. Esperen a que vuelva Elliott. Puede que tengan algo.",
-          "url": "https://x.com/MarkKaboly/status/2111937226573541849",
-          "posted_at": "2026-10-18T21:47:27Z"
         }
       ],
-      "updated_at": "2026-10-21T12:10:00Z"
+      "updated_at": "2026-10-21T21:05:00Z"
     }
   },
   "head_to_head": {
@@ -784,7 +784,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-21T12:01:44.443Z"
+      "updated_at": "2026-10-21T20:57:05.942Z"
     }
   }
 }

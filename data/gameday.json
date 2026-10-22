@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-21T20:58:27.000Z",
+    "generated_at": "2026-10-22T12:03:58.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "c80be5d48051c7c7"
+    "espn_hash": "f1616b3b5d4090f7"
   },
   "team": {
     "id": "23",
@@ -63,7 +63,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-21T20:57:05.942Z"
+      "updated_at": "2026-10-22T12:02:07.078Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-21T20:57:05.942Z"
+      "updated_at": "2026-10-22T12:02:07.078Z"
     }
   },
   "recent_results": {
@@ -237,32 +237,11 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-21T20:57:05.942Z"
+      "updated_at": "2026-10-22T12:02:07.078Z"
     }
   },
   "injuries": {
     "team": [
-      {
-        "name": "Ben Skowronek",
-        "position": "WR",
-        "status": "Questionable",
-        "injury": "Pantorrilla",
-        "practice": []
-      },
-      {
-        "name": "Brandin Echols",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Roman Wilson",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Dedo",
-        "practice": []
-      },
       {
         "name": "DeShon Elliott",
         "position": "S",
@@ -271,28 +250,35 @@
         "practice": []
       },
       {
-        "name": "Michael Pittman Jr.",
+        "name": "Ben Skowronek",
         "position": "WR",
-        "status": "IR",
-        "injury": "Pie",
+        "status": "Questionable",
+        "injury": "Pantorrilla",
+        "practice": []
+      },
+      {
+        "name": "Rico Dowdle",
+        "position": "RB",
+        "status": "Questionable",
+        "injury": "Rodilla",
+        "practice": []
+      },
+      {
+        "name": "Sebastian Joseph-Day",
+        "position": "DT",
+        "status": "Questionable",
+        "injury": "Tríceps",
+        "practice": []
+      },
+      {
+        "name": "Alex Highsmith",
+        "position": "LB",
+        "status": "Questionable",
+        "injury": "Ingle",
         "practice": []
       }
     ],
     "opponent": [
-      {
-        "name": "Jordyn Tyson",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Nathan Shepherd",
-        "position": "DT",
-        "status": "Questionable",
-        "injury": "Enfermedad",
-        "practice": []
-      },
       {
         "name": "Kaden Elliss",
         "position": "LB",
@@ -301,15 +287,29 @@
         "practice": []
       },
       {
-        "name": "Anfernee Jennings",
-        "position": "LB",
+        "name": "CJ Donaldson",
+        "position": "RB",
         "status": "Questionable",
-        "injury": "Rodilla",
+        "injury": "Hombro",
         "practice": []
       },
       {
-        "name": "Cesar Ruiz",
-        "position": "G",
+        "name": "Alvin Kamara",
+        "position": "RB",
+        "status": "Questionable",
+        "injury": "Espalda",
+        "practice": []
+      },
+      {
+        "name": "Jordyn Tyson",
+        "position": "WR",
+        "status": "IR",
+        "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
+        "name": "Anfernee Jennings",
+        "position": "LB",
         "status": "Questionable",
         "injury": "Rodilla",
         "practice": []
@@ -319,7 +319,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-21T20:57:05.942Z"
+      "updated_at": "2026-10-22T12:02:07.078Z"
     }
   },
   "comparison": {
@@ -346,7 +346,7 @@
         "title": "La presión de Pittsburgh contra un Shough castigado",
         "team_side": "Ramsey, Herbig, Watt (pass rush)",
         "opponent_side": "Tyler Shough (QB)",
-        "analysis": "En Tampa la defensa metió 4 capturas (2 de Ramsey y 2 de Herbig), la primera vez con más de dos desde la semana 2. Enfrente, Underhill marca que Shough va camino a ser el QB con más contactos recibidos desde 2006.",
+        "analysis": "En Tampa la defensa metió 4 capturas (2 de Ramsey y 2 de Herbig), la primera vez con más de dos desde la semana 2. Enfrente, Underhill marca que Shough va camino a ser el QB con más contactos recibidos desde 2006. Ojo: Highsmith apareció limitado por la ingle en el primer reporte.",
         "refs": [
           {
             "name": "steelers.com",
@@ -355,6 +355,10 @@
           {
             "name": "Nick Underhill en X",
             "url": "https://x.com/nick_underhill/status/2111790766523609534"
+          },
+          {
+            "name": "Steelers Depot",
+            "url": "https://steelersdepot.com/2026/10/steelers-week-seven-wednesday-injury-report-team-deals-with-multiple-new-injuries/"
           }
         ]
       },
@@ -390,29 +394,61 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-21T20:57:05.942Z"
+      "updated_at": "2026-10-22T12:02:07.078Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Miércoles movido antes de viajar a París: los Steelers cortaron al safety Rayshawn Jenkins, una señal fuerte de que DeShon Elliott vuelve de la lista de lesionados para el domingo. Ramsey fue elegido Defensor de la Semana en la AFC, y McCarthy dijo que todavía no sabe si Valdes-Scantling jugará. En los Saints, Jordyn Tyson no practica en toda la semana.",
+      "text": "El primer reporte de lesiones de la semana trajo una buena y varias para seguir: DeShon Elliott practicó completo por primera vez desde que le abrieron la ventana de regreso, y su vuelta parece cercana. Pero aparecieron Alex Highsmith (ingle) y Rico Dowdle (rodilla) como limitados, y Ramsey, Skowronek, Echols y Joseph-Day no practicaron (Watt y Heyward, por descanso). El equipo viaja a París el jueves a la noche. En los Saints, Cesar Ruiz no practicó.",
       "refs": [
         {
           "name": "Steelers en X",
-          "url": "https://x.com/steelers/status/2112984956893094294"
+          "url": "https://x.com/steelers/status/2113019480255111593"
         },
         {
-          "name": "steelers.com",
-          "url": "https://www.steelers.com/news/ramsey-wins-afc-defensive-player-of-the-week"
+          "name": "Ray Fittipaldo en X",
+          "url": "https://x.com/rayfitt1/status/2113017461285048814"
         },
         {
-          "name": "Katherine Terrell en X",
-          "url": "https://x.com/Kat_Terrell/status/2112897274795741193"
+          "name": "neworleanssaints.com",
+          "url": "https://www.neworleanssaints.com/news/injury-report-pittsburgh-steelers-vs-new-orleans-saints-2026-nfl-week-7-wednesday"
         }
       ],
-      "updated_at": "2026-10-21T21:05:00Z"
+      "updated_at": "2026-10-22T12:20:00Z"
     },
     "items": [
+      {
+        "title": "Rodgers convenció a Valdes-Scantling de no volver a los Chargers",
+        "summary": null,
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/aaron-rodgers-steered-marquez-valdes-scantling-away-from-chargers-return/",
+        "published_at": "2026-10-21T23:04:55Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy y el viaje a París: \"Esto es distinto\"",
+        "summary": "El entrenador habló de cuidar el sueño, la hidratación y cuándo viajar en una semana normal de siete días. La preparación de fútbol, dijo, es \"lo de siempre\".",
+        "source_name": "steelers.com (Brian Batko)",
+        "url": "https://www.steelers.com/news/ready-to-fly",
+        "published_at": "2026-10-21T22:40:06Z",
+        "about": "team"
+      },
+      {
+        "title": "Reporte de lesiones: Elliott completo, Highsmith y Dowdle limitados",
+        "summary": "No practicaron Jalen Ramsey (muñeca), Ben Skowronek (pantorrilla), Brandin Echols (isquiotibial) y Sebastian Joseph-Day (tríceps); Watt y Heyward descansaron. Limitados: Rico Dowdle (rodilla) y Alex Highsmith (ingle). DeShon Elliott, completo.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/steelers-week-seven-wednesday-injury-report-team-deals-with-multiple-new-injuries/",
+        "published_at": "2026-10-21T21:27:36Z",
+        "about": "team"
+      },
+      {
+        "title": "Elliott practicó completo: su regreso está cerca",
+        "summary": "Fittipaldo marca que fue su primera práctica completa desde que se abrió la ventana de 21 días; el equipo tiene hasta la semana que viene para subirlo al plantel de 53.",
+        "source_name": "Ray Fittipaldo en X",
+        "url": "https://x.com/rayfitt1/status/2113017461285048814",
+        "published_at": "2026-10-21T21:19:55Z",
+        "about": "team"
+      },
       {
         "title": "McCarthy sobre MVS: \"Vamos a ver\" si juega el domingo",
         "summary": "Práctica reducida el miércoles y una completa el jueves antes de viajar a París. Valdes-Scantling vuelve con el número 83.",
@@ -462,28 +498,20 @@
         "about": "team"
       },
       {
-        "title": "McCarthy, sobre Elliott en París: \"Espero que sí\"",
-        "summary": "El entrenador se ilusiona con que DeShon Elliott pueda volver del todo y jugar el domingo; el plan es dejar que la competencia en la secundaria se defina sola.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2112549807051219037",
-        "published_at": "2026-10-20T14:21:37Z",
-        "about": "team"
-      },
-      {
-        "title": "Graham explica la captura final de Ramsey",
-        "summary": "El coordinador defensivo Patrick Graham destacó que Watt, Highsmith, Herbig, Heyward, Queen y Payton Wilson hicieron su parte para que Ramsey llegara libre. También elogió a Keeanu Benton por sus últimas dos semanas.",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2112272648843702556",
-        "published_at": "2026-10-19T20:00:18Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy: \"Siempre estás mirando\" receptores de afuera",
-        "summary": "Con Pittman y Roman Wilson en IR y Skowronek afuera, McCarthy dijo que confía en los que tiene, pero que no es ciego a los receptores disponibles. Brandon Smith ya usó dos de sus tres ascensos desde el equipo de práctica.",
+        "title": "El entrenador de los Saints explica por qué viajar antes es una ventaja",
+        "summary": null,
         "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/youre-always-looking-mccarthy-acknowledges-front-office-could-consider-external-receiver-options/",
-        "published_at": "2026-10-19T19:50:59Z",
-        "about": "team"
+        "url": "https://steelersdepot.com/2026/10/saints-hc-explains-why-early-travel-an-advantage-ahead-of-paris-game-vs-steelers/",
+        "published_at": "2026-10-22T09:47:16Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Saints: nueve jugadores en el primer reporte, Ruiz no practicó",
+        "summary": "El guardia Cesar Ruiz no practicó el miércoles en el primer reporte de lesiones de la semana en París.",
+        "source_name": "neworleanssaints.com",
+        "url": "https://www.neworleanssaints.com/news/injury-report-pittsburgh-steelers-vs-new-orleans-saints-2026-nfl-week-7-wednesday",
+        "published_at": "2026-10-21T21:34:10Z",
+        "about": "opponent"
       },
       {
         "title": "Loomis banca el proceso pese a las críticas",
@@ -508,33 +536,27 @@
         "url": "https://x.com/nick_underhill/status/2112633265203118373",
         "published_at": "2026-10-20T19:53:15Z",
         "about": "opponent"
-      },
-      {
-        "title": "Saints: Jordyn Tyson viajó a París",
-        "summary": "El receptor, que viene sin jugar por lesión (Moore había dicho que no iba a practicar la semana pasada), viajó con el equipo.",
-        "source_name": "Katherine Terrell (ESPN) en X",
-        "url": "https://x.com/Kat_Terrell/status/2112149392144957906",
-        "published_at": "2026-10-19T11:50:31Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Underhill: el triunfo les da aire, pero no despeja las dudas",
-        "summary": "Nick Underhill analiza el 34-27 ante los Giants: les compra tiempo, pero los Saints todavía no dejaron atrás las críticas.",
-        "source_name": "NOF (Nick Underhill)",
-        "url": "https://neworleans.football/article/the-saints-win-buys-time-but-they-still-haven-t-beaten-the-allegations",
-        "published_at": "2026-10-18T23:24:28Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Los Saints cortaron la racha: 34-27 en Nueva York",
-        "summary": "New Orleans ganó en casa de los Giants y cortó una racha de tres derrotas, aunque casi lo pierde: iba 34-10 y los Giants se acercaron en el último cuarto. Quedan 2-4.",
-        "source_name": "Jeff Duncan (Times-Picayune) en X",
-        "url": "https://x.com/JeffDuncan_/status/2111916692062576870",
-        "published_at": "2026-10-18T20:25:51Z",
-        "about": "opponent"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Mike McCarthy",
+        "role": "Entrenador de los Steelers",
+        "quote": "Estamos jugando un partido en París en una semana normal de siete días, así que hay que ser inteligente sobre cuándo viajás, cómo viajás, qué hacés exactamente cuando llegás y cuánto dormís.",
+        "context": "Antes de la práctica del miércoles, sobre el primer partido internacional de su carrera como entrenador en jefe.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/ready-to-fly",
+        "date": "2026-10-21T22:40:06Z"
+      },
+      {
+        "speaker": "Pat Freiermuth",
+        "role": "Tight end de los Steelers",
+        "quote": "Es difícil, pero para eso estamos acá: salir a jugar lo mejor que podamos.",
+        "context": "Sobre el desafío del viaje y el cambio de horario.",
+        "source_name": "steelers.com (Teresa Varley)",
+        "url": "https://www.steelers.com/news/week-7-blog-the-stacking-has-begun",
+        "date": "2026-10-21T23:01:00Z"
+      },
       {
         "speaker": "Mike McCarthy",
         "role": "Entrenador de los Steelers",
@@ -585,24 +607,6 @@
         "role": "CB de los Steelers",
         "quote": "Siempre mantenemos la esperanza, siempre creemos y confiamos los unos en los otros en la cancha. Mientras haya tiempo en el reloj, vamos a seguir peleando sin importar el resultado.",
         "context": "Después de la captura que cerró el partido",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
-        "date": "2026-10-18T20:44:36Z"
-      },
-      {
-        "speaker": "Aaron Rodgers",
-        "role": "QB de los Steelers",
-        "quote": "Hay que darle crédito a la defensa. Nos mantuvo en partido. Hubo muchas oportunidades para que el partido se nos fuera de las manos.",
-        "context": null,
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
-        "date": "2026-10-18T20:44:36Z"
-      },
-      {
-        "speaker": "Mike McCarthy",
-        "role": "Entrenador de los Steelers",
-        "quote": "Ganamos nuestro primer partido de visitante. Encadenamos dos seguidos.",
-        "context": null,
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime",
         "date": "2026-10-18T20:44:36Z"
@@ -702,8 +706,22 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "El corte de Rayshawn Jenkins se leyó enseguida como la vuelta de DeShon Elliott, y eso entusiasma. Sigue el buen clima por la remontada en Tampa y el premio a Ramsey, aunque hay voces de afuera, como Cris Carter, que dudan de Rodgers y de la línea ofensiva.",
+      "summary": "Alivio por DeShon Elliott, que practicó completo y apunta a volver en París. Pero el reporte de lesiones sumó preocupación con Highsmith y Dowdle limitados, y sigue el ruido por el manejo del reloj de McCarthy en Tampa.",
       "posts": [
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "Rico Dowdle, Alex Highsmith y Sebastian Joseph-Day aparecen en el reporte de lesiones de hoy. Ojalá todos puedan jugar el domingo. La buena: DeShon Elliott trabajó completo por primera vez desde que se abrió su ventana.",
+          "url": "https://x.com/Alex_Kozora/status/2113019710811877730",
+          "posted_at": "2026-10-21T21:28:51Z"
+        },
+        {
+          "author": "Ray Fittipaldo",
+          "handle": "rayfitt1",
+          "text": "DeShon Elliott participó completo por primera vez desde que se abrió su ventana de 21 días. Parecería que su regreso está cerca.",
+          "url": "https://x.com/rayfitt1/status/2113017461285048814",
+          "posted_at": "2026-10-21T21:19:55Z"
+        },
         {
           "author": "Alex Kozora",
           "handle": "@Alex_Kozora",
@@ -731,23 +749,9 @@
           "text": "Jaylen Warren se lleva puestos a los dos linebackers que blitzean en esta jugada. Le dio a Rodgers el tiempo justo para soltar el pase. Hace de todo, con y sin la pelota.",
           "url": "https://x.com/Alex_Kozora/status/2112302911472439585",
           "posted_at": "2026-10-19T22:00:33Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "@Alex_Kozora",
-          "text": "Jalen Ramsey viene jugando hace semanas con la muñeca fracturada, no se perdió ni una jugada y acaba de meter la captura del triunfo, la segunda del día. Un guerrero.",
-          "url": "https://x.com/Alex_Kozora/status/2111921325917044792",
-          "posted_at": "2026-10-18T20:44:16Z"
-        },
-        {
-          "author": "Nick Farabaugh",
-          "handle": "@FarabaughFB",
-          "text": "Ramsey captura a Jalon Daniels entrando libre por afuera y se termina. Los Steelers ganan un partidazo, y en parte un desastre de los dos lados, 26-19. Quedan 4-2 y enfrentan a los Saints la semana que viene en París.",
-          "url": "https://x.com/FarabaughFB/status/2111921133872099388",
-          "posted_at": "2026-10-18T20:43:30Z"
         }
       ],
-      "updated_at": "2026-10-21T21:05:00Z"
+      "updated_at": "2026-10-22T12:20:00Z"
     }
   },
   "head_to_head": {
@@ -784,7 +788,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-21T20:57:05.942Z"
+      "updated_at": "2026-10-22T12:02:07.078Z"
     }
   }
 }

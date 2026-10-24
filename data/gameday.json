@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-23T21:02:26.000Z",
+    "generated_at": "2026-10-24T11:57:47.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "7820d89b9fe2a100"
+    "espn_hash": "dbe56de9e32f6567"
   },
   "team": {
     "id": "23",
@@ -63,7 +63,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-23T21:01:27.452Z"
+      "updated_at": "2026-10-24T11:56:56.733Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-23T21:01:27.452Z"
+      "updated_at": "2026-10-24T11:56:56.733Z"
     }
   },
   "recent_results": {
@@ -237,7 +237,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-23T21:01:27.452Z"
+      "updated_at": "2026-10-24T11:56:56.733Z"
     }
   },
   "injuries": {
@@ -280,10 +280,17 @@
     ],
     "opponent": [
       {
+        "name": "Cesar Ruiz",
+        "position": "G",
+        "status": "Questionable",
+        "injury": "Rodilla",
+        "practice": []
+      },
+      {
         "name": "Nathan Shepherd",
         "position": "DT",
         "status": "Questionable",
-        "injury": "Tendón de Aquiles",
+        "injury": "Enfermedad",
         "practice": []
       },
       {
@@ -291,13 +298,6 @@
         "position": "WR",
         "status": "IR",
         "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Cesar Ruiz",
-        "position": "G",
-        "status": "Questionable",
-        "injury": "Rodilla",
         "practice": []
       },
       {
@@ -319,7 +319,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-23T21:01:27.452Z"
+      "updated_at": "2026-10-24T11:56:56.733Z"
     }
   },
   "comparison": {
@@ -402,12 +402,12 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-23T21:01:27.452Z"
+      "updated_at": "2026-10-24T11:56:56.733Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Salió el reporte final de lesiones y las noticias son buenas: T.J. Watt, Alex Highsmith y Jalen Ramsey quedaron sin designación, así que no hay dudas para el domingo. DeShon Elliott (rodilla) figura como duda tras practicar completo los tres días y todo indica que vuelve después de un año; Rico Dowdle (rodilla), limitado toda la semana, también es duda. Echols y Skowronek, afuera. En los Saints solo Cesar Ruiz y Nathan Shepherd son duda: el resto, incluido Kamara, está disponible.",
+      "text": "Salió el reporte final de lesiones y las noticias son buenas: T.J. Watt, Alex Highsmith y Jalen Ramsey quedaron sin designación, así que no hay dudas para el domingo. DeShon Elliott (rodilla) figura como duda tras practicar completo los tres días y todo indica que vuelve después de un año; Rico Dowdle (rodilla), limitado toda la semana, también es duda. Echols y Skowronek, afuera. En los Saints solo Cesar Ruiz y Nathan Shepherd son duda: el resto, incluido Kamara, está disponible. Afuera de la cancha, las protestas en París obligaron a cancelar eventos y postergar el PSG-Lyon, pero la NFL mantiene el partido el domingo en el Stade de France.",
       "refs": [
         {
           "name": "Nick Farabaugh en X",
@@ -418,19 +418,51 @@
           "url": "https://x.com/MikeDeFabo/status/2113606939460476999"
         },
         {
-          "name": "Mike Triplett en X",
-          "url": "https://x.com/MikeTriplett/status/2113632654277173584"
+          "name": "ProFootballTalk en X",
+          "url": "https://x.com/ProFootballTalk/status/2113647664642588882"
         }
       ],
-      "updated_at": "2026-10-23T21:10:00Z"
+      "updated_at": "2026-10-24T12:05:00Z"
     },
     "items": [
+      {
+        "title": "Trump: la NFL \"probablemente podría haberlo postergado\"",
+        "summary": "El presidente de EE.UU. opinó sobre el partido en París en medio de las protestas en Francia; la liga lo mantiene.",
+        "source_name": "ProFootballTalk en X",
+        "url": "https://x.com/ProFootballTalk/status/2113825867780730964",
+        "published_at": "2026-10-24T02:52:14Z",
+        "about": "team"
+      },
+      {
+        "title": "Kaboly: tras jugar afuera, 16-12-1 sin semana libre",
+        "summary": "29 equipos jugaron la semana siguiente a un partido internacional sin descanso, con récord de 16-12-1 (4-3-1 este año). Los Steelers reciben a los Browns el domingo que viene.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2113802424179732610",
+        "published_at": "2026-10-24T01:19:05Z",
+        "about": "team"
+      },
+      {
+        "title": "Se canceló el walk-through del viernes en París",
+        "summary": "Kaboly no cree que influya en el resultado: el sábado hacen la práctica completa de siempre antes del partido.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2113741010933285351",
+        "published_at": "2026-10-23T21:15:03Z",
+        "about": "team"
+      },
       {
         "title": "Rodgers: \"No juego para ir 9-8\"",
         "summary": "El QB dijo que volvió porque cree en el equipo y que empiezan a tomar envión para hacer algo especial.",
         "source_name": "Chris Adamski en X",
         "url": "https://x.com/C_AdamskiTrib/status/2113655735796306138",
         "published_at": "2026-10-23T15:36:11Z",
+        "about": "team"
+      },
+      {
+        "title": "Pese a los disturbios en París, el partido sigue en pie",
+        "summary": "Las autoridades postergaron el PSG-Lyon del domingo por las protestas, pero la NFL mantiene el Steelers-Saints en el Stade de France.",
+        "source_name": "ProFootballTalk en X",
+        "url": "https://x.com/ProFootballTalk/status/2113647664642588882",
+        "published_at": "2026-10-23T15:04:07Z",
         "about": "team"
       },
       {
@@ -511,38 +543,6 @@
         "source_name": "Nick Farabaugh en X",
         "url": "https://x.com/FarabaughFB/status/2113561506382307806",
         "published_at": "2026-10-23T09:21:45Z",
-        "about": "team"
-      },
-      {
-        "title": "Saints: Ruiz volvió a no practicar y Kamara sigue limitado",
-        "summary": "El reporte del jueves en París abre la chance de que el novato Jeremiah Wright sea titular en la línea.",
-        "source_name": "ESPN 104.5 en X",
-        "url": "https://x.com/1045espn/status/2113370392446615706",
-        "published_at": "2026-10-22T20:42:20Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Elliott, completo por segundo día: encaminado a jugar en París",
-        "summary": "DeShon Elliott practicó completo otra vez y va camino a ser activado para el domingo.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2113350611118813660",
-        "published_at": "2026-10-22T19:23:44Z",
-        "about": "team"
-      },
-      {
-        "title": "T.J. Watt apareció en el reporte con la pantorrilla",
-        "summary": "En el reporte del jueves, Watt pasó de descanso a práctica limitada con una lesión en la pantorrilla. Skowronek (pantorrilla) y Echols (isquiotibial) quedaron descartados para el domingo; Ramsey (muñeca), Dowdle (rodilla) y Highsmith (ingle), limitados; Heyward no practicó por descanso. Las designaciones finales salen el viernes.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2113349779493175332",
-        "published_at": "2026-10-22T19:20:26Z",
-        "about": "team"
-      },
-      {
-        "title": "Sebastian Joseph-Day, a la lista de lesionados",
-        "summary": "Por una lesión en el tríceps; ya son dos linieros defensivos en la lista, con Derrick Harmon. Quedan dos lugares libres en el plantel de 53.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2113296116510785627",
-        "published_at": "2026-10-22T15:47:11Z",
         "about": "team"
       }
     ],
@@ -714,7 +714,7 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "El reporte final despejó la mayor duda: Watt, Highsmith y Ramsey juegan, y Elliott se encamina a volver. Rodgers le sumó ambición con su \"no juego para ir 9-8\", y el debate del viaje tardío sigue, aunque Kaboly lo resume: si ganan, no es tema.",
+      "summary": "El reporte final despejó la mayor duda: Watt, Highsmith y Ramsey juegan, y Elliott se encamina a volver. Rodgers le sumó ambición con su \"no juego para ir 9-8\". El ruido ahora es por las protestas en París: se cayó el walk-through del viernes, aunque Kaboly cree que no cambia nada.",
       "posts": [
         {
           "author": "Nick Farabaugh",
@@ -752,14 +752,14 @@
           "posted_at": "2026-10-23T16:15:18Z"
         },
         {
-          "author": "Steelers",
-          "handle": "steelers",
-          "text": "Pittsburgh se encuentra con París 🤝🇫🇷",
-          "url": "https://x.com/steelers/status/2113678431602737569",
-          "posted_at": "2026-10-23T17:06:22Z"
+          "author": "Mark Kaboly",
+          "handle": "MarkKaboly",
+          "text": "Los Steelers tenían un walk-through de 30 minutos el viernes en París que se canceló. No creo que eso afecte el resultado del partido. El sábado van a tener la práctica completa, como todos los sábados antes de un partido.",
+          "url": "https://x.com/MarkKaboly/status/2113741010933285351",
+          "posted_at": "2026-10-23T21:15:03Z"
         }
       ],
-      "updated_at": "2026-10-23T21:10:00Z"
+      "updated_at": "2026-10-24T12:05:00Z"
     }
   },
   "head_to_head": {
@@ -796,7 +796,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-23T21:01:27.452Z"
+      "updated_at": "2026-10-24T11:56:56.733Z"
     }
   }
 }

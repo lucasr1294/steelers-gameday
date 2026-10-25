@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-25T11:57:58.000Z",
+    "generated_at": "2026-10-25T12:21:06.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
-    "phase": "gameday",
+    "phase": "pregame",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "e0ed2011b3860047"
+    "espn_hash": "cc577c5c7b8dad2c"
   },
   "team": {
     "id": "23",
@@ -63,7 +63,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-25T11:57:11.043Z"
+      "updated_at": "2026-10-25T12:20:36.699Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-25T11:57:11.043Z"
+      "updated_at": "2026-10-25T12:20:36.699Z"
     }
   },
   "recent_results": {
@@ -237,39 +237,11 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-25T11:57:11.043Z"
+      "updated_at": "2026-10-25T12:20:36.699Z"
     }
   },
   "injuries": {
     "team": [
-      {
-        "name": "DeShon Elliott",
-        "position": "S",
-        "status": "Questionable",
-        "injury": "Rodilla",
-        "practice": []
-      },
-      {
-        "name": "Rico Dowdle",
-        "position": "RB",
-        "status": "Questionable",
-        "injury": "Rodilla",
-        "practice": []
-      },
-      {
-        "name": "Brandin Echols",
-        "position": "CB",
-        "status": "Out",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Sebastian Joseph-Day",
-        "position": "DT",
-        "status": "IR",
-        "injury": "Tríceps",
-        "practice": []
-      },
       {
         "name": "Ben Skowronek",
         "position": "WR",
@@ -282,44 +254,75 @@
       {
         "name": "Cesar Ruiz",
         "position": "G",
-        "status": "Questionable",
+        "status": "Out",
         "injury": "Rodilla",
-        "practice": []
-      },
-      {
-        "name": "Nathan Shepherd",
-        "position": "DT",
-        "status": "Questionable",
-        "injury": "Enfermedad",
-        "practice": []
-      },
-      {
-        "name": "Jordyn Tyson",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Travis Etienne Jr.",
-        "position": "RB",
-        "status": "IR",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Kelvin Banks Jr.",
-        "position": "OT",
-        "status": "IR",
-        "injury": "Tobillo",
         "practice": []
       }
     ],
-    "inactives": null,
+    "inactives": {
+      "published_at": "2026-10-25T12:09:13Z",
+      "url": "https://x.com/Steelersdepot/status/2114328424584192137",
+      "team": [
+        {
+          "name": "Will Howard",
+          "position": "QB (3er QB)"
+        },
+        {
+          "name": "Drew Allar",
+          "position": "QB"
+        },
+        {
+          "name": "Ben Skowronek",
+          "position": "WR"
+        },
+        {
+          "name": "Brandin Echols",
+          "position": "CB"
+        },
+        {
+          "name": "Eli Heidenreich",
+          "position": "RB/WR"
+        },
+        {
+          "name": "Terell Smith",
+          "position": "CB"
+        }
+      ],
+      "opponent": [
+        {
+          "name": "Zach Wilson",
+          "position": "QB (3er QB)"
+        },
+        {
+          "name": "Mike Reid",
+          "position": "S"
+        },
+        {
+          "name": "Cesar Ruiz",
+          "position": "G"
+        },
+        {
+          "name": "Treyton Welch",
+          "position": "TE"
+        },
+        {
+          "name": "Nathan Shepherd",
+          "position": "DL"
+        },
+        {
+          "name": "John Ridgeway III",
+          "position": "DL"
+        },
+        {
+          "name": "Tyree Wilson",
+          "position": "EDGE"
+        }
+      ]
+    },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-25T11:57:11.043Z"
+      "updated_at": "2026-10-25T12:20:36.699Z"
     }
   },
   "comparison": {
@@ -402,36 +405,44 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-25T11:57:11.043Z"
+      "updated_at": "2026-10-25T12:20:36.699Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Llegó el día: el sol salió en París y todo está listo en el Stade de France (kickoff 10:30 hora argentina). El sábado los Steelers activaron a DeShon Elliott de la lista de lesionados, que vuelve casi un año después de su lesión, y subieron a los WR Brandon Smith y Brandon Johnson; los Saints subieron a Easton Kilty y Cedric Tillman. Watt, Highsmith y Ramsey juegan; Dowdle sigue como duda. Pese a las protestas de la semana, los periodistas llegaron al estadio sin incidentes.",
+      "text": "Ya están los inactivos en el Stade de France (kickoff 10:30 hora argentina): Rico Dowdle está activo pese a la rodilla, y en los Steelers quedan afuera Echols y Skowronek (ya descartados) más Allar, Howard (3er QB), Heidenreich y Terell Smith. En los Saints no juegan el G Cesar Ruiz ni el DL Nathan Shepherd, que eran duda. El sábado Pittsburgh activó a DeShon Elliott, que vuelve casi un año después de su lesión.",
       "refs": [
+        {
+          "name": "Inactivos Steelers (Steelers Depot)",
+          "url": "https://x.com/Steelersdepot/status/2114328424584192137"
+        },
+        {
+          "name": "Inactivos Saints (Matthew Paras)",
+          "url": "https://x.com/Matthew_Paras/status/2114327254138511430"
+        },
         {
           "name": "Steelers en X",
           "url": "https://x.com/steelers/status/2114002213316297184"
-        },
-        {
-          "name": "Katherine Terrell en X",
-          "url": "https://x.com/Kat_Terrell/status/2113979455891022128"
-        },
-        {
-          "name": "Nick Underhill en X",
-          "url": "https://x.com/nick_underhill/status/2114310926203572696"
         }
       ],
-      "updated_at": "2026-10-25T12:00:00Z"
+      "updated_at": "2026-10-25T12:22:00Z"
     },
     "items": [
       {
-        "title": "Día de partido en el Stade de France",
-        "summary": "Salió el sol en París; el estadio está listo para Steelers-Saints, el primer partido de la NFL en Francia.",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2114293616088924329",
-        "published_at": "2026-10-25T09:50:54Z",
+        "title": "Inactivos Steelers: Dowdle juega; afuera Echols y Skowronek",
+        "summary": "Rico Dowdle (rodilla) está activo. Inactivos de Pittsburgh: QB Will Howard (3er QB), QB Drew Allar, WR Ben Skowronek, CB Brandin Echols, RB/WR Eli Heidenreich y CB Terell Smith.",
+        "source_name": "Noah Strackbein en X",
+        "url": "https://x.com/NoahStrackbein/status/2114328763928563751",
+        "published_at": "2026-10-25T12:10:34Z",
         "about": "team"
+      },
+      {
+        "title": "Inactivos Saints: afuera Ruiz y Shepherd",
+        "summary": "New Orleans no tendrá al G Cesar Ruiz (rodilla) ni al DL Nathan Shepherd (enfermedad). También inactivos: S Mike Reid, TE Treyton Welch, DL John Ridgeway III, EDGE Tyree Wilson y QB Zach Wilson (3er QB).",
+        "source_name": "Matthew Paras en X",
+        "url": "https://x.com/Matthew_Paras/status/2114327254138511430",
+        "published_at": "2026-10-25T12:04:34Z",
+        "about": "opponent"
       },
       {
         "title": "Hinchada repartida en París",
@@ -439,6 +450,14 @@
         "source_name": "Nick Farabaugh en X",
         "url": "https://x.com/FarabaughFB/status/2114316458813485350",
         "published_at": "2026-10-25T11:21:40Z",
+        "about": "team"
+      },
+      {
+        "title": "Día de partido en el Stade de France",
+        "summary": "Salió el sol en París; el estadio está listo para Steelers-Saints, el primer partido de la NFL en Francia.",
+        "source_name": "Brian Batko (steelers.com) en X",
+        "url": "https://x.com/BrianBatko/status/2114293616088924329",
+        "published_at": "2026-10-25T09:50:54Z",
         "about": "team"
       },
       {
@@ -528,22 +547,6 @@
         "url": "https://x.com/Saints/status/2113627835961339908",
         "published_at": "2026-10-23T13:45:20Z",
         "about": "opponent"
-      },
-      {
-        "title": "Reporte final: Watt, Highsmith y Ramsey, sin designación",
-        "summary": "Elliott (rodilla) y Dowdle (rodilla) quedaron como duda. Elliott practicó completo por tercer día seguido y apunta a volver; Dowdle estuvo limitado los tres días.",
-        "source_name": "Nick Farabaugh en X",
-        "url": "https://x.com/FarabaughFB/status/2113607307879674084",
-        "published_at": "2026-10-23T12:23:45Z",
-        "about": "team"
-      },
-      {
-        "title": "Echols y Skowronek, descartados; Dowdle, a seguir",
-        "summary": "Mike DeFabo marca que la lesión de rodilla de Dowdle es distinta a la que lo marginó antes en la temporada. Pittsburgh venía apuntando a este domingo para la vuelta de Elliott.",
-        "source_name": "Mike DeFabo en X",
-        "url": "https://x.com/MikeDeFabo/status/2113606939460476999",
-        "published_at": "2026-10-23T12:22:17Z",
-        "about": "team"
       }
     ],
     "quotes": [
@@ -796,7 +799,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-25T11:57:11.043Z"
+      "updated_at": "2026-10-25T12:20:36.699Z"
     }
   }
 }

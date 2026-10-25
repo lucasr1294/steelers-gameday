@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-25T15:25:09.474Z",
+    "generated_at": "2026-10-25T21:57:47.000Z",
     "season": 2026,
     "season_type": "regular",
-    "week": 7,
-    "phase": "live",
+    "week": 8,
+    "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "af024261ff3e44ed"
+    "espn_hash": "3cc23cdee7ad55e4"
   },
   "team": {
     "id": "23",
@@ -17,38 +17,43 @@
     "abbr": "PIT",
     "color": "#FFB612",
     "record": {
-      "wins": 4,
+      "wins": 5,
       "losses": 2,
       "ties": 0
     }
   },
   "next_game": {
-    "id": "401873011",
-    "week": 7,
-    "label": "NFL Paris Game",
-    "kickoff": "2026-10-25T13:30:00.000Z",
+    "id": "401873027",
+    "week": 8,
+    "label": null,
+    "kickoff": "2026-11-01T18:00:00.000Z",
     "time_tbd": false,
     "opponent": {
-      "id": "18",
-      "name": "New Orleans Saints",
-      "short_name": "Saints",
-      "abbr": "NO",
+      "id": "5",
+      "name": "Cleveland Browns",
+      "short_name": "Browns",
+      "abbr": "CLE",
       "record": {
-        "wins": 2,
-        "losses": 4,
+        "wins": 5,
+        "losses": 2,
         "ties": 0
       }
     },
-    "home_away": "neutral",
+    "home_away": "home",
     "venue": {
-      "name": "Stade de France",
-      "city": "Saint-Denis",
+      "name": "Acrisure Stadium",
+      "city": "Pittsburgh, PA",
       "indoor": false
     },
-    "weather": null,
+    "weather": {
+      "summary": "Lluvia",
+      "temp_c": 17,
+      "gust_kmh": 21,
+      "precip_pct": 69
+    },
     "broadcast": {
       "us": [
-        "NFL Net"
+        "CBS"
       ],
       "argentina": [
         "NFL Game Pass (DAZN)"
@@ -56,18 +61,19 @@
     },
     "odds": {
       "favorite_abbr": "PIT",
-      "spread": 3,
-      "over_under": 42.5,
+      "spread": 3.5,
+      "over_under": 39.5,
       "provider": "DraftKings"
     },
     "source": {
       "name": "ESPN",
-      "updated_at": "2026-10-25T15:25:09.474Z"
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
+      "updated_at": "2026-10-25T21:55:56.433Z"
     }
   },
   "form": {
     "record": {
-      "wins": 4,
+      "wins": 5,
       "losses": 2,
       "ties": 0
     },
@@ -79,7 +85,7 @@
           "abbr": "CLE",
           "name": "Browns",
           "record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
             "ties": 0
           },
@@ -89,17 +95,7 @@
           "abbr": "PIT",
           "name": "Steelers",
           "record": {
-            "wins": 4,
-            "losses": 2,
-            "ties": 0
-          },
-          "games_back": 0
-        },
-        {
-          "abbr": "BAL",
-          "name": "Ravens",
-          "record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
             "ties": 0
           },
@@ -109,44 +105,67 @@
           "abbr": "CIN",
           "name": "Bengals",
           "record": {
-            "wins": 3,
+            "wins": 4,
             "losses": 2,
             "ties": 0
           },
           "games_back": 0.5
+        },
+        {
+          "abbr": "BAL",
+          "name": "Ravens",
+          "record": {
+            "wins": 4,
+            "losses": 3,
+            "ties": 0
+          },
+          "games_back": 1
         }
       ]
     },
     "streak": {
       "type": "W",
-      "count": 2
+      "count": 3
     },
     "thermometer": {
-      "text": "Llegan 4-2, con dos triunfos seguidos y empatados arriba en la AFC Norte con Browns y Ravens. La defensa sostuvo en Tampa (4 capturas y 2 intercepciones) mientras el ataque recién apareció en el último cuarto, y McCarthy quedó en la mira por el manejo del reloj. Ahora, Saints 2-4 en París.",
+      "text": "Llegan 5-2 y con tres triunfos seguidos tras ganarle 16-10 a los Saints en París, con una defensa que dejó al rival en 18 yardas por tierra. Ahora viene la pelea por la punta de la AFC Norte contra los Browns, también 5-2, que ya les ganaron 27-24 en Cleveland.",
       "refs": [
         {
           "name": "steelers.com",
-          "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
+          "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris"
         },
         {
-          "name": "Steelers Depot",
-          "url": "https://steelersdepot.com/2026/10/mike-mccarthy-defends-controversial-clock-management-decisions/"
-        },
-        {
-          "name": "Rod Walker en X",
-          "url": "https://x.com/RodWalkerNola/status/2111922329848840311"
+          "name": "Alex Kozora en X",
+          "url": "https://x.com/Alex_Kozora/status/2114449067849703586"
         }
       ],
-      "updated_at": "2026-10-18T22:04:07Z"
+      "updated_at": "2026-10-25T22:00:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-25T15:25:09.474Z"
+      "updated_at": "2026-10-25T21:55:56.433Z"
     }
   },
   "recent_results": {
     "games": [
+      {
+        "id": "401873011",
+        "date": "2026-10-25T13:30:00.000Z",
+        "week": 7,
+        "opponent": {
+          "id": "18",
+          "name": "New Orleans Saints",
+          "short_name": "Saints",
+          "abbr": "NO"
+        },
+        "home_away": "neutral",
+        "team_score": 16,
+        "opponent_score": 10,
+        "result": "W",
+        "summary": "Triunfo 16-10 en París a puro físico: la defensa dejó a los Saints en 18 yardas por tierra, Payton Wilson interceptó en la zona roja, Warren corrió 101 yardas y Rodgers pasó a Peyton Manning con su TD 540 (a Darnell Washington).",
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints"
+      },
       {
         "id": "401873002",
         "date": "2026-10-18T17:00:00.000Z",
@@ -214,29 +233,12 @@
         "result": "W",
         "summary": null,
         "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872950/bengals-steelers"
-      },
-      {
-        "id": "401872946",
-        "date": "2026-09-20T17:00:00.000Z",
-        "week": 2,
-        "opponent": {
-          "id": "17",
-          "name": "New England Patriots",
-          "short_name": "Patriots",
-          "abbr": "NE"
-        },
-        "home_away": "away",
-        "team_score": 3,
-        "opponent_score": 20,
-        "result": "L",
-        "summary": null,
-        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872946/steelers-patriots"
       }
     ],
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-25T15:25:09.474Z"
+      "updated_at": "2026-10-25T21:55:56.433Z"
     }
   },
   "injuries": {
@@ -251,165 +253,107 @@
     ],
     "opponent": [
       {
-        "name": "CJ Donaldson",
-        "position": "RB",
+        "name": "Tytus Howard",
+        "position": "OT",
         "status": "Questionable",
-        "injury": "Hombro",
+        "injury": "Cabeza",
         "practice": []
       },
       {
-        "name": "Nathan Shepherd",
+        "name": "Myles Harden",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
+        "name": "Mike Hall Jr.",
         "position": "DT",
         "status": "Out",
-        "injury": "Enfermedad",
-        "practice": []
-      },
-      {
-        "name": "Cesar Ruiz",
-        "position": "G",
-        "status": "Out",
-        "injury": "Rodilla",
+        "injury": "Tobillo",
         "practice": []
       }
     ],
-    "inactives": {
-      "published_at": "2026-10-25T12:09:13Z",
-      "url": "https://x.com/Steelersdepot/status/2114328424584192137",
-      "team": [
-        {
-          "name": "Will Howard",
-          "position": "QB (3er QB)"
-        },
-        {
-          "name": "Drew Allar",
-          "position": "QB"
-        },
-        {
-          "name": "Ben Skowronek",
-          "position": "WR"
-        },
-        {
-          "name": "Brandin Echols",
-          "position": "CB"
-        },
-        {
-          "name": "Eli Heidenreich",
-          "position": "RB/WR"
-        },
-        {
-          "name": "Terell Smith",
-          "position": "CB"
-        }
-      ],
-      "opponent": [
-        {
-          "name": "Zach Wilson",
-          "position": "QB (3er QB)"
-        },
-        {
-          "name": "Mike Reid",
-          "position": "S"
-        },
-        {
-          "name": "Cesar Ruiz",
-          "position": "G"
-        },
-        {
-          "name": "Treyton Welch",
-          "position": "TE"
-        },
-        {
-          "name": "Nathan Shepherd",
-          "position": "DL"
-        },
-        {
-          "name": "John Ridgeway III",
-          "position": "DL"
-        },
-        {
-          "name": "Tyree Wilson",
-          "position": "EDGE"
-        }
-      ]
-    },
+    "inactives": null,
     "source": {
       "name": "ESPN",
-      "updated_at": "2026-10-25T15:25:09.474Z"
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
+      "updated_at": "2026-10-25T21:55:56.433Z"
     }
   },
   "comparison": {
     "team": {
-      "offense_rank": 18,
-      "defense_rank": 12,
-      "points_for_pg": 22.8,
-      "points_against_pg": 21.3,
+      "offense_rank": 22,
+      "defense_rank": 4,
+      "points_for_pg": 21.9,
+      "points_against_pg": 19.7,
       "yards_for_pg": 347,
       "yards_against_pg": null,
       "turnover_diff": 3
     },
     "opponent": {
-      "offense_rank": 11,
-      "defense_rank": 31,
-      "points_for_pg": 25.3,
-      "points_against_pg": 29.7,
-      "yards_for_pg": 337.8,
+      "offense_rank": 27,
+      "defense_rank": 12,
+      "points_for_pg": 19,
+      "points_against_pg": 20.9,
+      "yards_for_pg": 289.7,
       "yards_against_pg": null,
-      "turnover_diff": -3
+      "turnover_diff": 0
     },
     "key_matchups": [
       {
-        "title": "La presión de Pittsburgh contra un Shough castigado",
-        "team_side": "Ramsey, Herbig, Watt (pass rush)",
-        "opponent_side": "Tyler Shough (QB)",
-        "analysis": "En Tampa la defensa metió 4 capturas (2 de Ramsey y 2 de Herbig), la primera vez con más de dos desde la semana 2. Enfrente, Underhill marca que Shough va camino a ser el QB con más contactos recibidos desde 2006. Buena noticia: Watt, Highsmith y Ramsey quedaron sin designación en el reporte final.",
+        "title": "La presión de Pittsburgh contra Deshaun Watson en el último cuarto",
+        "team_side": "Watt, Herbig, Queen (presión)",
+        "opponent_side": "Deshaun Watson (QB)",
+        "analysis": "Watson viene de su quinta serie ganadora en el último cuarto en la temporada (27-24 a los Titans). Del otro lado, la defensa de Pittsburgh cerró los dos últimos partidos con una captura: Ramsey en Tampa y Queen hoy en 3.ª y 10.",
         "refs": [
           {
-            "name": "steelers.com",
-            "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
+            "name": "Mary Kay Cabot en X",
+            "url": "https://x.com/MaryKayCabot/status/2114455666840727571"
           },
           {
-            "name": "Nick Underhill en X",
-            "url": "https://x.com/nick_underhill/status/2111790766523609534"
-          },
-          {
-            "name": "Steelers Depot",
-            "url": "https://steelersdepot.com/2026/10/steelers-week-seven-wednesday-injury-report-team-deals-with-multiple-new-injuries/"
-          },
-          {
-            "name": "Nick Farabaugh en X",
-            "url": "https://x.com/FarabaughFB/status/2113607307879674084"
+            "name": "Gerry Dulac en X",
+            "url": "https://x.com/gerrydulac/status/2114475175215264167"
           }
         ]
       },
       {
-        "title": "Rodgers y sus receptores contra la secundaria de los Saints",
-        "team_side": "Rodgers, Metcalf y Bernard",
-        "opponent_side": "Emerson Jr., McKinstry (CB)",
-        "analysis": "Metcalf y Bernard tuvieron 11 recepciones cada uno en Tampa. Los Saints llegan como la defensa 30 según ESPN (29,7 puntos en contra por partido), pero Emerson Jr. viene de dos intercepciones, y en el reporte final solo Ruiz y Shepherd quedaron como duda, así que la secundaria llega completa.",
+        "title": "El juego terrestre de los Steelers contra el frente de Cleveland",
+        "team_side": "Jaylen Warren, Rico Dowdle y la línea",
+        "opponent_side": "Defensa de los Browns",
+        "analysis": "Contra los Saints corrieron para 150 yardas, con Warren en 101 y Dowdle sumando 86 desde la línea de golpeo, y usaron 12 veces a Spencer Anderson como tight end extra. Fittipaldo pide que Warren juegue más: es el mejor jugador del ataque.",
         "refs": [
           {
             "name": "steelers.com",
-            "url": "https://www.steelers.com/news/steelers-rally-past-buccaneers-26-19-in-overtime"
+            "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris"
           },
           {
-            "name": "Saints en X",
-            "url": "https://x.com/Saints/status/2111925791126675932"
+            "name": "Mark Kaboly en X",
+            "url": "https://x.com/MarkKaboly/status/2114455190648832357"
           },
           {
-            "name": "Mike Triplett en X",
-            "url": "https://x.com/MikeTriplett/status/2113632654277173584"
+            "name": "Ray Fittipaldo en X",
+            "url": "https://x.com/rayfitt1/status/2114375164427117038"
           }
         ]
       },
       {
-        "title": "El juego terrestre de New Orleans contra el frente de Pittsburgh",
-        "team_side": "Heyward, Benton, Payton Wilson",
-        "opponent_side": "Kendre Miller y Alvin Kamara (RB)",
-        "analysis": "Jeff Duncan: los Saints llevan 27 partidos sin un corredor de 100 yardas, su peor racha desde principios de los 70. Contra los Giants, Kendre Miller hizo 70 yardas en 20 acarreos. Si Pittsburgh corta la carrera, Shough queda expuesto a la presión.",
+        "title": "La secundaria contra KC Concepcion",
+        "team_side": "Ramsey, Dean, Samuel Jr. (CB)",
+        "opponent_side": "KC Concepcion (WR)",
+        "analysis": "Concepcion se recuperó de un drop y fue figura en el triunfo de Cleveland ante Tennessee; Todd Monken destacó lo difícil que es bajarlo. Del lado de los Browns, Denzel Ward se dislocó un dedo el viernes y aun así interceptó.",
         "refs": [
           {
-            "name": "Jeff Duncan en X",
-            "url": "https://x.com/JeffDuncan_/status/2109657224607932637"
+            "name": "Mary Kay Cabot en X",
+            "url": "https://x.com/MaryKayCabot/status/2114458506153591244"
+          },
+          {
+            "name": "Mary Kay Cabot en X",
+            "url": "https://x.com/MaryKayCabot/status/2114456379645952426"
+          },
+          {
+            "name": "Mary Kay Cabot en X",
+            "url": "https://x.com/MaryKayCabot/status/2114468920908509566"
           }
         ]
       }
@@ -417,222 +361,163 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-25T15:25:09.474Z"
+      "updated_at": "2026-10-25T21:55:56.433Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Ya están los inactivos en el Stade de France (kickoff 10:30 hora argentina): Rico Dowdle está activo pese a la rodilla, y en los Steelers quedan afuera Echols y Skowronek (ya descartados) más Allar, Howard (3er QB), Heidenreich y Terell Smith. En los Saints no juegan el G Cesar Ruiz ni el DL Nathan Shepherd, que eran duda. El sábado Pittsburgh activó a DeShon Elliott, que vuelve casi un año después de su lesión.",
+      "text": "Ganaron 16-10 en París y quedaron 5-2, con tres triunfos al hilo. Rodgers superó a Peyton Manning y es tercero en la historia en pases de TD (540). El domingo que viene reciben a los Browns, que le ganaron 27-24 a los Titans y también están 5-2: el ganador queda solo arriba en la AFC Norte.",
       "refs": [
         {
-          "name": "Inactivos Steelers (Steelers Depot)",
-          "url": "https://x.com/Steelersdepot/status/2114328424584192137"
-        },
-        {
-          "name": "Inactivos Saints (Matthew Paras)",
-          "url": "https://x.com/Matthew_Paras/status/2114327254138511430"
+          "name": "steelers.com",
+          "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris"
         },
         {
           "name": "Steelers en X",
-          "url": "https://x.com/steelers/status/2114002213316297184"
+          "url": "https://x.com/steelers/status/2114364753711899068"
+        },
+        {
+          "name": "Mary Kay Cabot en X",
+          "url": "https://x.com/MaryKayCabot/status/2114455666840727571"
         }
       ],
-      "updated_at": "2026-10-25T12:22:00Z"
+      "updated_at": "2026-10-25T22:00:00Z"
     },
     "items": [
       {
-        "title": "Inactivos Steelers: Dowdle juega; afuera Echols y Skowronek",
-        "summary": "Rico Dowdle (rodilla) está activo. Inactivos de Pittsburgh: QB Will Howard (3er QB), QB Drew Allar, WR Ben Skowronek, CB Brandin Echols, RB/WR Eli Heidenreich y CB Terell Smith.",
-        "source_name": "Noah Strackbein en X",
-        "url": "https://x.com/NoahStrackbein/status/2114328763928563751",
-        "published_at": "2026-10-25T12:10:34Z",
+        "title": "Steelers 16, Saints 10: la defensa ganó el partido en París",
+        "summary": "Payton Wilson interceptó a Shough en la yarda 11 cuando los Saints iban por el TD de la ventaja, y Queen cerró con una captura. Los Saints corrieron apenas 18 yardas.",
+        "source_name": "steelers.com (Brian Batko)",
+        "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris",
+        "published_at": "2026-10-25T16:35:00Z",
         "about": "team"
       },
       {
-        "title": "Inactivos Saints: afuera Ruiz y Shepherd",
-        "summary": "New Orleans no tendrá al G Cesar Ruiz (rodilla) ni al DL Nathan Shepherd (enfermedad). También inactivos: S Mike Reid, TE Treyton Welch, DL John Ridgeway III, EDGE Tyree Wilson y QB Zach Wilson (3er QB).",
-        "source_name": "Matthew Paras en X",
-        "url": "https://x.com/Matthew_Paras/status/2114327254138511430",
-        "published_at": "2026-10-25T12:04:34Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Hinchada repartida en París",
-        "summary": "Farabaugh ve un contingente fuerte de ambos equipos: no va a ser como Dublín, donde eran casi todos hinchas de Pittsburgh.",
-        "source_name": "Nick Farabaugh en X",
-        "url": "https://x.com/FarabaughFB/status/2114316458813485350",
-        "published_at": "2026-10-25T11:21:40Z",
-        "about": "team"
-      },
-      {
-        "title": "Día de partido en el Stade de France",
-        "summary": "Salió el sol en París; el estadio está listo para Steelers-Saints, el primer partido de la NFL en Francia.",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2114293616088924329",
-        "published_at": "2026-10-25T09:50:54Z",
-        "about": "team"
-      },
-      {
-        "title": "Underhill: sin problemas para llegar, y el viento a seguir",
-        "summary": "El periodista de los Saints llegó al estadio sin ver incidentes, solo mucho tráfico. Se fue la lluvia; habrá que ver cómo influye el viento.",
-        "source_name": "Nick Underhill en X",
-        "url": "https://x.com/nick_underhill/status/2114282624839557291",
-        "published_at": "2026-10-25T09:07:13Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Elliott vuelve: activado de la lista de lesionados",
-        "summary": "Juega hoy su primer partido oficial en 364 días. Kozora estima que tendrá snaps limitados. También subieron a los WR Brandon Smith y Brandon Johnson.",
+        "title": "Rodgers supera a Peyton Manning en pases de TD",
+        "summary": "Con el pase de 4 yardas a Darnell Washington llegó a 540 en temporada regular y quedó tercero en la historia.",
         "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2114002213316297184",
-        "published_at": "2026-10-24T14:32:58Z",
+        "url": "https://x.com/steelers/status/2114364753711899068",
+        "published_at": "2026-10-25T14:33:34Z",
         "about": "team"
       },
       {
-        "title": "Saints suben a Easton Kilty y Cedric Tillman",
-        "summary": "El tackle y el receptor pasan del equipo de práctica al plantel para el partido.",
-        "source_name": "Katherine Terrell (ESPN) en X",
-        "url": "https://x.com/Kat_Terrell/status/2113979455891022128",
-        "published_at": "2026-10-24T13:02:32Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Trump: la NFL \"probablemente podría haberlo postergado\"",
-        "summary": "El presidente de EE.UU. opinó sobre el partido en París en medio de las protestas en Francia; la liga lo mantiene.",
-        "source_name": "ProFootballTalk en X",
-        "url": "https://x.com/ProFootballTalk/status/2113825867780730964",
-        "published_at": "2026-10-24T02:52:14Z",
-        "about": "team"
-      },
-      {
-        "title": "Kaboly: tras jugar afuera, 16-12-1 sin semana libre",
-        "summary": "29 equipos jugaron la semana siguiente a un partido internacional sin descanso, con récord de 16-12-1 (4-3-1 este año). Los Steelers reciben a los Browns el domingo que viene.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2113802424179732610",
-        "published_at": "2026-10-24T01:19:05Z",
-        "about": "team"
-      },
-      {
-        "title": "Se canceló el walk-through del viernes en París",
-        "summary": "Kaboly no cree que influya en el resultado: el sábado hacen la práctica completa de siempre antes del partido.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2113741010933285351",
-        "published_at": "2026-10-23T21:15:03Z",
-        "about": "team"
-      },
-      {
-        "title": "Rodgers: \"No juego para ir 9-8\"",
-        "summary": "El QB dijo que volvió porque cree en el equipo y que empiezan a tomar envión para hacer algo especial.",
-        "source_name": "Chris Adamski en X",
-        "url": "https://x.com/C_AdamskiTrib/status/2113655735796306138",
-        "published_at": "2026-10-23T15:36:11Z",
-        "about": "team"
-      },
-      {
-        "title": "Pese a los disturbios en París, el partido sigue en pie",
-        "summary": "Las autoridades postergaron el PSG-Lyon del domingo por las protestas, pero la NFL mantiene el Steelers-Saints en el Stade de France.",
-        "source_name": "ProFootballTalk en X",
-        "url": "https://x.com/ProFootballTalk/status/2113647664642588882",
-        "published_at": "2026-10-23T15:04:07Z",
-        "about": "team"
-      },
-      {
-        "title": "Elliott podría volver un año después de su grave lesión",
+        "title": "Browns 5-2 vs. Steelers 5-2: se juega la punta de la AFC Norte",
         "summary": null,
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2113646114247491844",
-        "published_at": "2026-10-23T14:57:57Z",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2114449067849703586",
+        "published_at": "2026-10-25T20:08:36Z",
         "about": "team"
       },
       {
-        "title": "Saints: solo Ruiz y Shepherd son duda",
-        "summary": "El resto del plantel está disponible. Ruiz practicó limitado el viernes; Shepherd viene enfermo hace semanas y no practicó.",
-        "source_name": "Mike Triplett en X",
-        "url": "https://x.com/MikeTriplett/status/2113632654277173584",
-        "published_at": "2026-10-23T14:04:28Z",
+        "title": "Watson lidera otra remontada: Browns 27, Titans 24",
+        "summary": "Fue su quinta serie ganadora en el último cuarto en la temporada, según Todd Monken.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2114455666840727571",
+        "published_at": "2026-10-25T20:34:50Z",
         "about": "opponent"
       },
       {
-        "title": "Rooney, Benson y Goodell, con Macron en el Elíseo",
-        "summary": "Los dueños de ambos equipos y el comisionado se reunieron dos horas con el presidente francés para hablar del partido y del futuro de la NFL en Francia.",
-        "source_name": "Saints en X",
-        "url": "https://x.com/Saints/status/2113627835961339908",
-        "published_at": "2026-10-23T13:45:20Z",
+        "title": "Denzel Ward se dislocó un dedo, pero jugó e interceptó",
+        "summary": "Se lastimó la mano en la práctica del viernes y le dieron 5 puntos.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2114468920908509566",
+        "published_at": "2026-10-25T21:27:30Z",
         "about": "opponent"
+      },
+      {
+        "title": "Boletín de Fittipaldo: corredores y línea defensiva, lo mejor",
+        "summary": null,
+        "source_name": "Pittsburgh Post-Gazette",
+        "url": "https://www.post-gazette.com/sports/steelers/2026/10/25/steelers-report-card-saints-week7/stories/202610250084",
+        "published_at": "2026-10-25T19:47:32Z",
+        "about": "team"
+      },
+      {
+        "title": "Payton Wilson y Patrick Queen, las grandes jugadas",
+        "summary": null,
+        "source_name": "Pittsburgh Post-Gazette",
+        "url": "https://www.post-gazette.com/sports/steelers/2026/10/25/payton-wilson-patrick-queen-nfl-steelers-paris-france/stories/202610250083",
+        "published_at": "2026-10-25T21:05:44Z",
+        "about": "team"
+      },
+      {
+        "title": "El fútbol de los Steelers no es lindo, pero funciona",
+        "summary": "Farabaugh explica por qué les sirve: carrera a casi 5 yardas por acarreo y una defensa que se dobla pero no se rompe.",
+        "source_name": "PennLive (Nick Farabaugh)",
+        "url": "https://www.pennlive.com/steelers/2026/10/the-steelers-brand-of-football-might-not-be-aesthetically-pleasing-but-it-works-heres-whyfarabaugh.html",
+        "published_at": "2026-10-25T17:32:45Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy, en un grupo selecto: arrancó 5-2",
+        "summary": "Solo los últimos tres entrenadores contratados por Pittsburgh (Cowher, Tomlin y McCarthy) empezaron así.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2114441910634856588",
+        "published_at": "2026-10-25T19:40:10Z",
+        "about": "team"
+      },
+      {
+        "title": "Spencer Anderson, el tight end extra",
+        "summary": "El liniero entró como tight end 12 veces, incluidas 7 en la serie final que cerró el partido.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2114455190648832357",
+        "published_at": "2026-10-25T20:32:56Z",
+        "about": "team"
+      },
+      {
+        "title": "Quick 6 de Batko: el ambiente en el Stade de France",
+        "summary": null,
+        "source_name": "steelers.com (Brian Batko)",
+        "url": "https://www.steelers.com/news/batko-s-quick-6-steelers-vs-saints",
+        "published_at": "2026-10-25T20:04:12Z",
+        "about": "team"
       }
     ],
     "quotes": [
       {
-        "speaker": "Aaron Rodgers",
-        "role": "QB de los Steelers",
-        "quote": "No jugás solo para tratar de terminar 9-8 o 10-7. Jugás porque querés ganar un campeonato. No necesito esto. No tenía que volver, pero creí en el equipo y siento que estamos empezando a tomar envión y tenemos la chance de hacer algo especial.",
-        "context": "En la conferencia de prensa en París.",
-        "source_name": "Chris Adamski en X",
-        "url": "https://x.com/C_AdamskiTrib/status/2113655735796306138",
-        "date": "2026-10-23T15:36:11Z"
-      },
-      {
-        "speaker": "Cam Heyward",
-        "role": "DL de los Steelers",
-        "quote": "Todavía está creciendo como defensor contra la carrera, pero puede salir a presionar con todo.",
-        "context": "Sobre Kevin Jobity Jr., que gana rol tras la baja de Joseph-Day.",
-        "source_name": "Nick Farabaugh en X",
-        "url": "https://x.com/FarabaughFB/status/2113592452313649485",
-        "date": "2026-10-23T11:24:43Z"
-      },
-      {
-        "speaker": "Aaron Rodgers",
-        "role": "QB de los Steelers",
-        "quote": "Jugué en tres países y en todos salimos el jueves temprano a la noche. Hubiera estado bueno, una vez, venir un lunes.",
-        "context": "Sobre la decisión de llegar a París recién el viernes.",
-        "source_name": "Mike DeFabo en X",
-        "url": "https://x.com/MikeDeFabo/status/2113565106051109024",
-        "date": "2026-10-23T09:36:04Z"
-      },
-      {
-        "speaker": "Mike McCarthy",
-        "role": "Entrenador de los Steelers",
-        "quote": "Diría que no. La práctica de mañana va a responder ese tipo de preguntas.",
-        "context": "Sobre si la pantorrilla de T.J. Watt pone en duda su presencia el domingo.",
-        "source_name": "Chris Adamski en X",
-        "url": "https://x.com/C_AdamskiTrib/status/2113560713696522310",
-        "date": "2026-10-23T09:18:36Z"
-      },
-      {
-        "speaker": "Pat Freiermuth",
-        "role": "Tight end de los Steelers",
-        "quote": "Es difícil, pero para eso estamos acá: salir a jugar lo mejor que podamos.",
-        "context": "Sobre el desafío del viaje y el cambio de horario.",
-        "source_name": "steelers.com (Teresa Varley)",
-        "url": "https://www.steelers.com/news/week-7-blog-the-stacking-has-begun",
-        "date": "2026-10-21T23:01:00Z"
-      },
-      {
-        "speaker": "Mike McCarthy",
-        "role": "Entrenador de los Steelers",
-        "quote": "Estamos jugando un partido en París en una semana normal de siete días, así que hay que ser inteligente sobre cuándo viajás, cómo viajás, qué hacés exactamente cuando llegás y cuánto dormís.",
-        "context": "Antes de la práctica del miércoles, sobre el primer partido internacional de su carrera como entrenador en jefe.",
+        "speaker": "T.J. Watt",
+        "role": "LB de los Steelers",
+        "quote": "Las buenas defensas siempre están sentadas en el banco. Se sintió como uno de esos partidos hoy.",
+        "context": "Sobre el control del reloj del ataque ante los Saints.",
         "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/ready-to-fly",
-        "date": "2026-10-21T22:40:06Z"
+        "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris",
+        "date": "2026-10-25T16:35:00Z"
       },
       {
         "speaker": "Mike McCarthy",
         "role": "Entrenador de los Steelers",
-        "quote": "Vamos a ver. Hoy tenemos una práctica reducida y una práctica completa más antes de viajar mañana. Vamos a ver cómo van las cosas y qué pasa a partir de ahí.",
-        "context": "Sobre si Valdes-Scantling estará activo ante los Saints.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2112991474891825455",
-        "date": "2026-10-21T19:36:39Z"
+        "quote": "Sentíamos como equipo que teníamos que dominar la línea de golpeo de los dos lados. Definitivamente dimos en el blanco.",
+        "context": "Después del 16-10 en París.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris",
+        "date": "2026-10-25T16:35:00Z"
       },
       {
-        "speaker": "Mickey Loomis",
-        "role": "GM de los Saints",
-        "quote": "Todo empieza con un quarterback, ¿no? Creo que estamos todos entusiasmados con él, con cómo rinde por momentos y cómo reacciona cuando las cosas no salen bien. Ese es el punto de partida. Pero todavía hay mucho desarrollo por delante.",
-        "context": "Sobre Tyler Shough.",
-        "source_name": "Katherine Terrell en X",
-        "url": "https://x.com/Kat_Terrell/status/2112940160178606297",
-        "date": "2026-10-21T16:12:45Z"
+        "speaker": "Payton Wilson",
+        "role": "LB de los Steelers",
+        "quote": "Lo practicamos muchísimas veces. Confío en que, si me la juego y no tiran ahí, los de atrás me van a cubrir.",
+        "context": "Sobre la intercepción en la zona roja.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris",
+        "date": "2026-10-25T16:35:00Z"
+      },
+      {
+        "speaker": "Mason McCormick",
+        "role": "Guard de los Steelers",
+        "quote": "El juego terrestre es una mentalidad. Nos enorgullece. Tenemos un ataque muy generoso que quiere correr bien la pelota, y es lindo ser parte de eso.",
+        "context": null,
+        "source_name": "Nick Farabaugh en X",
+        "url": "https://x.com/FarabaughFB/status/2114408234177929697",
+        "date": "2026-10-25T17:26:21Z"
+      },
+      {
+        "speaker": "Tom Arth",
+        "role": "Entrenador de QBs de los Steelers",
+        "quote": "Lo que más noté físicamente son sus piernas. Se lo ve muy bien, se mueve muy bien en el pocket y sale a improvisar. Siento que está mejor, por la razón que sea.",
+        "context": "Sobre la movilidad de Rodgers, en declaraciones del jueves.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2114393500485886424",
+        "date": "2026-10-25T16:27:48Z"
       }
     ],
     "roster_moves": [
@@ -728,90 +613,117 @@
       }
     ],
     "x_pulse": {
-      "mood": "dividido",
-      "summary": "En vivo desde París: Steelers arriba 13-10 al entretiempo. Elogios para Jaylen Warren y el TD de Darnell Washington (con récord de Rodgers), pero bronca por las yardas que no se convierten en puntos, los cuartos downs fáciles de los Saints y los árbitros.",
+      "mood": "optimista",
+      "summary": "Festejo en X por el triunfo en París y el récord de Rodgers, con elogios al juego físico. La mirada ya está en los Browns: duelo de 5-2 por la punta de la división.",
       "posts": [
         {
-          "author": "Brian Batko",
-          "handle": "BrianBatko",
-          "text": "Entretiempo: Steelers 13, Saints 10 tras un FG de 47 yardas de Chris Boswell. Jaylen Warren: 9 acarreos para 78 yardas y 3 recepciones para 36.",
-          "url": "https://x.com/BrianBatko/status/2114372581658927376",
-          "posted_at": "2026-10-25T15:04:41Z"
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "Simple: los Steelers fueron el equipo más físico hoy. Por eso ganaron.",
+          "url": "https://x.com/Alex_Kozora/status/2114465121099743246",
+          "posted_at": "2026-10-25T21:12:24Z"
+        },
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "La semana que viene: Browns 5-2 contra Steelers 5-2. La pelea por la AFC Norte.",
+          "url": "https://x.com/Alex_Kozora/status/2114449067849703586",
+          "posted_at": "2026-10-25T20:08:36Z"
+        },
+        {
+          "author": "Mark Kaboly",
+          "handle": "MarkKaboly",
+          "text": "El coeficiente intelectual de Aaron Rodgers como QB está fuera de este mundo.",
+          "url": "https://x.com/MarkKaboly/status/2114396248555893178",
+          "posted_at": "2026-10-25T16:38:43Z"
+        },
+        {
+          "author": "Gerry Dulac",
+          "handle": "gerrydulac",
+          "text": "Segundo partido seguido que la defensa lo cierra con una captura: Jalen Ramsey la semana pasada, Patrick Queen hoy.",
+          "url": "https://x.com/gerrydulac/status/2114475175215264167",
+          "posted_at": "2026-10-25T21:52:21Z"
         },
         {
           "author": "Ray Fittipaldo",
           "handle": "rayfitt1",
-          "text": "Los Steelers tienen 250 yardas al entretiempo y Jaylen Warren 114 de ellas. Es el mejor jugador de la ofensiva; McCarthy no debería complicarla, que lo deje en la cancha.",
+          "text": "Los Steelers tienen 250 yardas al entretiempo y Jaylen Warren hizo 114. Debería jugar más: es el mejor jugador del ataque.",
           "url": "https://x.com/rayfitt1/status/2114375164427117038",
           "posted_at": "2026-10-25T15:14:57Z"
         },
         {
-          "author": "Brian Batko",
-          "handle": "BrianBatko",
-          "text": "TD de Darnell Washington, recepción de 4 yardas de Aaron Rodgers. Rodgers pasa a Peyton Manning y queda solo tercero en pases de TD de temporada regular en la historia (540).",
-          "url": "https://x.com/BrianBatko/status/2114364032362725720",
-          "posted_at": "2026-10-25T14:30:42Z"
-        },
-        {
-          "author": "Chris Adamski",
-          "handle": "C_AdamskiTrib",
-          "text": "Los Steelers ya tienen 195 yardas, ritmo de más de 400... pero solo 10 puntos.",
-          "url": "https://x.com/C_AdamskiTrib/status/2114366484394967463",
-          "posted_at": "2026-10-25T14:40:27Z"
-        },
-        {
-          "author": "Ray Fittipaldo",
-          "handle": "rayfitt1",
-          "text": "Dos conversiones de cuarto down en ese drive de los Saints, y las dos demasiado fáciles.",
-          "url": "https://x.com/rayfitt1/status/2114369029813186971",
-          "posted_at": "2026-10-25T14:50:34Z"
-        },
-        {
-          "author": "Chris Adamski",
-          "handle": "C_AdamskiTrib",
-          "text": "DK Metcalf hace jugadas grandes en Europa: 2 de sus 3 recepciones más largas con los Steelers fueron allá (80 en Dublín el año pasado, 51 hoy en París).",
-          "url": "https://x.com/C_AdamskiTrib/status/2114363619106504753",
-          "posted_at": "2026-10-25T14:29:04Z"
+          "author": "Steelers",
+          "handle": "steelers",
+          "text": "Secured the (bag)uette",
+          "url": "https://x.com/steelers/status/2114449162796196054",
+          "posted_at": "2026-10-25T20:08:59Z"
         }
       ],
-      "updated_at": "2026-10-25T15:27:00Z"
+      "updated_at": "2026-10-25T22:00:00Z"
     }
   },
   "head_to_head": {
     "all_time": null,
     "games": [
       {
-        "date": "2022-11-13T18:00:00.000Z",
-        "season": 2022,
-        "home_away": "home",
-        "team_score": 20,
-        "opponent_score": 10,
-        "result": "W",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401437838/saints-steelers"
-      },
-      {
-        "date": "2018-12-23T21:25:00.000Z",
-        "season": 2018,
+        "date": "2026-10-02T00:15:00.000Z",
+        "season": 2026,
         "home_away": "away",
-        "team_score": 28,
-        "opponent_score": 31,
+        "team_score": 24,
+        "opponent_score": 27,
         "result": "L",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401030913/steelers-saints"
+        "url": "https://www.espn.com/nfl/game/_/gameId/401872964/steelers-browns"
       },
       {
-        "date": "2014-11-30T18:00:00.000Z",
-        "season": 2014,
-        "home_away": "home",
-        "team_score": 32,
-        "opponent_score": 35,
+        "date": "2025-12-28T18:00:00.000Z",
+        "season": 2025,
+        "home_away": "away",
+        "team_score": 6,
+        "opponent_score": 13,
         "result": "L",
-        "url": "https://www.espn.com/nfl/game/_/gameId/400554359/saints-steelers"
+        "url": "https://www.espn.com/nfl/game/_/gameId/401772807/steelers-browns"
+      },
+      {
+        "date": "2025-10-12T17:00:00.000Z",
+        "season": 2025,
+        "home_away": "home",
+        "team_score": 23,
+        "opponent_score": 9,
+        "result": "W",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401772748/browns-steelers"
+      },
+      {
+        "date": "2024-12-08T18:00:00.000Z",
+        "season": 2024,
+        "home_away": "home",
+        "team_score": 27,
+        "opponent_score": 14,
+        "result": "W",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401671631/browns-steelers"
+      },
+      {
+        "date": "2024-11-22T01:15:00.000Z",
+        "season": 2024,
+        "home_away": "away",
+        "team_score": 19,
+        "opponent_score": 24,
+        "result": "L",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401671875/steelers-browns"
+      },
+      {
+        "date": "2023-11-19T18:00:00.000Z",
+        "season": 2023,
+        "home_away": "away",
+        "team_score": 10,
+        "opponent_score": 13,
+        "result": "L",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401547539/steelers-browns"
       }
     ],
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-25T15:25:09.474Z"
+      "updated_at": "2026-10-25T21:55:56.433Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-24T11:57:47.000Z",
+    "generated_at": "2026-10-25T11:57:58.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 7,
-    "phase": "week",
+    "phase": "gameday",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "dbe56de9e32f6567"
+    "espn_hash": "e0ed2011b3860047"
   },
   "team": {
     "id": "23",
@@ -57,13 +57,13 @@
     "odds": {
       "favorite_abbr": "PIT",
       "spread": 3,
-      "over_under": 44.5,
+      "over_under": 43.5,
       "provider": "DraftKings"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-24T11:56:56.733Z"
+      "updated_at": "2026-10-25T11:57:11.043Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-24T11:56:56.733Z"
+      "updated_at": "2026-10-25T11:57:11.043Z"
     }
   },
   "recent_results": {
@@ -237,11 +237,18 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-24T11:56:56.733Z"
+      "updated_at": "2026-10-25T11:57:11.043Z"
     }
   },
   "injuries": {
     "team": [
+      {
+        "name": "DeShon Elliott",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Rodilla",
+        "practice": []
+      },
       {
         "name": "Rico Dowdle",
         "position": "RB",
@@ -268,13 +275,6 @@
         "position": "WR",
         "status": "Out",
         "injury": "Pantorrilla",
-        "practice": []
-      },
-      {
-        "name": "DeShon Elliott",
-        "position": "S",
-        "status": "IR",
-        "injury": "Rodilla",
         "practice": []
       }
     ],
@@ -319,7 +319,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873011/steelers-saints",
-      "updated_at": "2026-10-24T11:56:56.733Z"
+      "updated_at": "2026-10-25T11:57:11.043Z"
     }
   },
   "comparison": {
@@ -402,29 +402,69 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-24T11:56:56.733Z"
+      "updated_at": "2026-10-25T11:57:11.043Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Salió el reporte final de lesiones y las noticias son buenas: T.J. Watt, Alex Highsmith y Jalen Ramsey quedaron sin designación, así que no hay dudas para el domingo. DeShon Elliott (rodilla) figura como duda tras practicar completo los tres días y todo indica que vuelve después de un año; Rico Dowdle (rodilla), limitado toda la semana, también es duda. Echols y Skowronek, afuera. En los Saints solo Cesar Ruiz y Nathan Shepherd son duda: el resto, incluido Kamara, está disponible. Afuera de la cancha, las protestas en París obligaron a cancelar eventos y postergar el PSG-Lyon, pero la NFL mantiene el partido el domingo en el Stade de France.",
+      "text": "Llegó el día: el sol salió en París y todo está listo en el Stade de France (kickoff 10:30 hora argentina). El sábado los Steelers activaron a DeShon Elliott de la lista de lesionados, que vuelve casi un año después de su lesión, y subieron a los WR Brandon Smith y Brandon Johnson; los Saints subieron a Easton Kilty y Cedric Tillman. Watt, Highsmith y Ramsey juegan; Dowdle sigue como duda. Pese a las protestas de la semana, los periodistas llegaron al estadio sin incidentes.",
       "refs": [
         {
-          "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2113607307879674084"
+          "name": "Steelers en X",
+          "url": "https://x.com/steelers/status/2114002213316297184"
         },
         {
-          "name": "Mike DeFabo en X",
-          "url": "https://x.com/MikeDeFabo/status/2113606939460476999"
+          "name": "Katherine Terrell en X",
+          "url": "https://x.com/Kat_Terrell/status/2113979455891022128"
         },
         {
-          "name": "ProFootballTalk en X",
-          "url": "https://x.com/ProFootballTalk/status/2113647664642588882"
+          "name": "Nick Underhill en X",
+          "url": "https://x.com/nick_underhill/status/2114310926203572696"
         }
       ],
-      "updated_at": "2026-10-24T12:05:00Z"
+      "updated_at": "2026-10-25T12:00:00Z"
     },
     "items": [
+      {
+        "title": "Día de partido en el Stade de France",
+        "summary": "Salió el sol en París; el estadio está listo para Steelers-Saints, el primer partido de la NFL en Francia.",
+        "source_name": "Brian Batko (steelers.com) en X",
+        "url": "https://x.com/BrianBatko/status/2114293616088924329",
+        "published_at": "2026-10-25T09:50:54Z",
+        "about": "team"
+      },
+      {
+        "title": "Hinchada repartida en París",
+        "summary": "Farabaugh ve un contingente fuerte de ambos equipos: no va a ser como Dublín, donde eran casi todos hinchas de Pittsburgh.",
+        "source_name": "Nick Farabaugh en X",
+        "url": "https://x.com/FarabaughFB/status/2114316458813485350",
+        "published_at": "2026-10-25T11:21:40Z",
+        "about": "team"
+      },
+      {
+        "title": "Underhill: sin problemas para llegar, y el viento a seguir",
+        "summary": "El periodista de los Saints llegó al estadio sin ver incidentes, solo mucho tráfico. Se fue la lluvia; habrá que ver cómo influye el viento.",
+        "source_name": "Nick Underhill en X",
+        "url": "https://x.com/nick_underhill/status/2114282624839557291",
+        "published_at": "2026-10-25T09:07:13Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Elliott vuelve: activado de la lista de lesionados",
+        "summary": "Juega hoy su primer partido oficial en 364 días. Kozora estima que tendrá snaps limitados. También subieron a los WR Brandon Smith y Brandon Johnson.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2114002213316297184",
+        "published_at": "2026-10-24T14:32:58Z",
+        "about": "team"
+      },
+      {
+        "title": "Saints suben a Easton Kilty y Cedric Tillman",
+        "summary": "El tackle y el receptor pasan del equipo de práctica al plantel para el partido.",
+        "source_name": "Katherine Terrell (ESPN) en X",
+        "url": "https://x.com/Kat_Terrell/status/2113979455891022128",
+        "published_at": "2026-10-24T13:02:32Z",
+        "about": "opponent"
+      },
       {
         "title": "Trump: la NFL \"probablemente podría haberlo postergado\"",
         "summary": "El presidente de EE.UU. opinó sobre el partido en París en medio de las protestas en Francia; la liga lo mantiene.",
@@ -504,46 +544,6 @@
         "url": "https://x.com/MikeDeFabo/status/2113606939460476999",
         "published_at": "2026-10-23T12:22:17Z",
         "about": "team"
-      },
-      {
-        "title": "MVS tuvo \"una gran semana\" y apunta a ser subido",
-        "summary": "McCarthy dijo que Marquez Valdes-Scantling practicó muy bien; Rodgers agregó que solo le falta ajustar detalles para ser elevado del equipo de práctica.",
-        "source_name": "Nick Farabaugh en X",
-        "url": "https://x.com/FarabaughFB/status/2113566249364131921",
-        "published_at": "2026-10-23T09:40:36Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy confía en Rubio y Jobity tras la baja de Joseph-Day",
-        "summary": "El entrenador dijo que no le preocupa darles más rol a los jóvenes linieros defensivos Gabriel Rubio y Kevin Jobity Jr.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2113566189486293227",
-        "published_at": "2026-10-23T09:40:22Z",
-        "about": "team"
-      },
-      {
-        "title": "Elliott, rumbo a ser activado; los movimientos, el sábado",
-        "summary": "Según Ray Fittipaldo, todo indica que DeShon Elliott será activado para el partido, pero McCarthy dijo que los movimientos recién se anuncian el sábado. También se mostró optimista con que Valdes-Scantling se vista.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2113565415813374174",
-        "published_at": "2026-10-23T09:37:17Z",
-        "about": "team"
-      },
-      {
-        "title": "Rodgers hubiera preferido llegar antes, como los Saints",
-        "summary": "En su cuarto partido internacional, el QB contó que siempre viajó jueves a la noche y que le habría gustado tener tiempo para aclimatarse.",
-        "source_name": "Mike DeFabo en X",
-        "url": "https://x.com/MikeDeFabo/status/2113565106051109024",
-        "published_at": "2026-10-23T09:36:04Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy, tranquilo con Watt: \"Diría que no\" le afecta para el domingo",
-        "summary": "Consultado por la pantorrilla de T.J. Watt, el entrenador dijo que no cree que comprometa su presencia, aunque aclaró que la práctica del sábado va a despejar las dudas.",
-        "source_name": "Nick Farabaugh en X",
-        "url": "https://x.com/FarabaughFB/status/2113561506382307806",
-        "published_at": "2026-10-23T09:21:45Z",
-        "about": "team"
       }
     ],
     "quotes": [
@@ -622,6 +622,33 @@
     ],
     "roster_moves": [
       {
+        "date": "2026-10-24T14:32:58Z",
+        "player": "DeShon Elliott",
+        "position": "S",
+        "move": "activated",
+        "detail": "Activado de la lista de lesionados: vuelve tras casi un año por la grave lesión de pierna y rodilla de 2025.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2114002213316297184"
+      },
+      {
+        "date": "2026-10-24T14:32:58Z",
+        "player": "Brandon Smith",
+        "position": "WR",
+        "move": "elevated",
+        "detail": "Subido del equipo de práctica para el partido en París.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2114002213316297184"
+      },
+      {
+        "date": "2026-10-24T14:32:58Z",
+        "player": "Brandon Johnson",
+        "position": "WR",
+        "move": "elevated",
+        "detail": "Subido del equipo de práctica para el partido en París.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2114002213316297184"
+      },
+      {
         "date": "2026-10-22T15:47:11Z",
         "player": "Sebastian Joseph-Day",
         "position": "DE",
@@ -683,39 +710,33 @@
         "detail": "Subido del equipo de práctica para el partido en Tampa.",
         "source_name": "Ray Fittipaldo (Post-Gazette) en X",
         "url": "https://x.com/rayfitt1/status/2111533960207519771"
-      },
-      {
-        "date": "2026-10-12T21:02:34Z",
-        "player": "Elandon Roberts",
-        "position": "LB",
-        "move": "practice_squad",
-        "detail": "Vuelve a Pittsburgh: firmado al equipo de práctica.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2109751602944835939"
-      },
-      {
-        "date": "2026-10-10T19:47:34Z",
-        "player": "Michael Pittman Jr.",
-        "position": "WR",
-        "move": "ir",
-        "detail": "A la lista de lesionados por el pie; mínimo cuatro partidos.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2109007955253412191"
-      },
-      {
-        "date": "2026-10-10T19:47:34Z",
-        "player": "Doneiko Slaughter",
-        "position": "DB",
-        "move": "signed",
-        "detail": "Del equipo de práctica al plantel activo, en el lugar de Pittman.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2109007955253412191"
       }
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "El reporte final despejó la mayor duda: Watt, Highsmith y Ramsey juegan, y Elliott se encamina a volver. Rodgers le sumó ambición con su \"no juego para ir 9-8\". El ruido ahora es por las protestas en París: se cayó el walk-through del viernes, aunque Kaboly cree que no cambia nada.",
+      "summary": "Ambiente de fiesta en París: la vuelta de Elliott fue lo más celebrado del sábado y el reporte final dejó a Watt, Highsmith y Ramsey disponibles. Las protestas no se sintieron en la previa; la duda es el viento en el estadio.",
       "posts": [
+        {
+          "author": "Mark Kaboly",
+          "handle": "MarkKaboly",
+          "text": "Nada sorpresivo: los Steelers activan al S DeShon Elliott de la lista de lesionados. Un gran impulso para la defensa.",
+          "url": "https://x.com/MarkKaboly/status/2114002261420482818",
+          "posted_at": "2026-10-24T14:33:10Z"
+        },
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "El domingo, DeShon Elliott jugará su primer partido oficial en 364 días tras su grave lesión de pierna y rodilla de 2025. Largo camino de vuelta. Probablemente tenga snaps limitados, pero qué bueno que vuelva a la cancha.",
+          "url": "https://x.com/Alex_Kozora/status/2114004475492848010",
+          "posted_at": "2026-10-24T14:41:57Z"
+        },
+        {
+          "author": "Nick Underhill",
+          "handle": "nick_underhill",
+          "text": "Se fue la lluvia. Veremos cómo se mueve el viento en el estadio. Lo bueno: los Saints quizás no necesiten un juego terrestre efectivo para ganar. Lo malo: quizás no se vean obligados a insistir con la carrera hasta encontrarle la vuelta.",
+          "url": "https://x.com/nick_underhill/status/2114282624839557291",
+          "posted_at": "2026-10-25T09:07:13Z"
+        },
         {
           "author": "Nick Farabaugh",
           "handle": "FarabaughFB",
@@ -736,30 +757,9 @@
           "text": "Si los Steelers ganan, el itinerario del viaje no es noticia. Si pierden, el itinerario es una gran noticia.",
           "url": "https://x.com/MarkKaboly/status/2113610883213803800",
           "posted_at": "2026-10-23T12:37:58Z"
-        },
-        {
-          "author": "Mike Triplett",
-          "handle": "MikeTriplett",
-          "text": "Solo Cesar Ruiz y Nathan Shepherd son duda en los Saints. Todos los demás, disponibles.",
-          "url": "https://x.com/MikeTriplett/status/2113632654277173584",
-          "posted_at": "2026-10-23T14:04:28Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "Alex_Kozora",
-          "text": "Kellen Moore fue QB universitario, suplente en la NFL, asistente y entrenador principal, todo durante la carrera de Aaron Rodgers en la NFL. Además, fue el coordinador ofensivo de McCarthy en Dallas.",
-          "url": "https://x.com/Alex_Kozora/status/2113665578548215999",
-          "posted_at": "2026-10-23T16:15:18Z"
-        },
-        {
-          "author": "Mark Kaboly",
-          "handle": "MarkKaboly",
-          "text": "Los Steelers tenían un walk-through de 30 minutos el viernes en París que se canceló. No creo que eso afecte el resultado del partido. El sábado van a tener la práctica completa, como todos los sábados antes de un partido.",
-          "url": "https://x.com/MarkKaboly/status/2113741010933285351",
-          "posted_at": "2026-10-23T21:15:03Z"
         }
       ],
-      "updated_at": "2026-10-24T12:05:00Z"
+      "updated_at": "2026-10-25T12:00:00Z"
     }
   },
   "head_to_head": {
@@ -796,7 +796,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-24T11:56:56.733Z"
+      "updated_at": "2026-10-25T11:57:11.043Z"
     }
   }
 }

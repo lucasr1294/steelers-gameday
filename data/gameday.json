@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-25T21:57:47.000Z",
+    "generated_at": "2026-10-26T11:57:07.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "3cc23cdee7ad55e4"
+    "espn_hash": "1220a456d030f1aa"
   },
   "team": {
     "id": "23",
@@ -47,9 +47,9 @@
     },
     "weather": {
       "summary": "Lluvia",
-      "temp_c": 17,
-      "gust_kmh": 21,
-      "precip_pct": 69
+      "temp_c": 19,
+      "gust_kmh": 11,
+      "precip_pct": 68
     },
     "broadcast": {
       "us": [
@@ -62,13 +62,13 @@
     "odds": {
       "favorite_abbr": "PIT",
       "spread": 3.5,
-      "over_under": 39.5,
+      "over_under": 38.5,
       "provider": "DraftKings"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-25T21:55:56.433Z"
+      "updated_at": "2026-10-26T11:56:20.684Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-25T21:55:56.433Z"
+      "updated_at": "2026-10-26T11:56:20.684Z"
     }
   },
   "recent_results": {
@@ -238,7 +238,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-25T21:55:56.433Z"
+      "updated_at": "2026-10-26T11:56:20.684Z"
     }
   },
   "injuries": {
@@ -278,25 +278,25 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-25T21:55:56.433Z"
+      "updated_at": "2026-10-26T11:56:20.684Z"
     }
   },
   "comparison": {
     "team": {
       "offense_rank": 22,
-      "defense_rank": 4,
+      "defense_rank": 5,
       "points_for_pg": 21.9,
       "points_against_pg": 19.7,
-      "yards_for_pg": 347,
+      "yards_for_pg": 348.9,
       "yards_against_pg": null,
-      "turnover_diff": 3
+      "turnover_diff": 4
     },
     "opponent": {
-      "offense_rank": 27,
+      "offense_rank": 28,
       "defense_rank": 12,
       "points_for_pg": 19,
       "points_against_pg": 20.9,
-      "yards_for_pg": 289.7,
+      "yards_for_pg": 318.4,
       "yards_against_pg": null,
       "turnover_diff": 0
     },
@@ -361,7 +361,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-25T21:55:56.433Z"
+      "updated_at": "2026-10-26T11:56:20.684Z"
     }
   },
   "news": {
@@ -385,6 +385,110 @@
     },
     "items": [
       {
+        "title": "Patrick Queen cuenta cómo Elandon Roberts motivó a los linebackers",
+        "summary": null,
+        "source_name": "Steelers Depot",
+        "url": "https://x.com/Alex_Kozora/status/2114510113444667838",
+        "published_at": "2026-10-26T00:11:11Z",
+        "about": "team"
+      },
+      {
+        "title": "Watson, candidato a Regreso del Año tras su quinta remontada",
+        "summary": "Mary Kay Cabot lo pone en la conversación por el premio después del 27-24 a los Titans.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2114502218804011223",
+        "published_at": "2026-10-25T23:39:49Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Yahya Black, en su mejor momento",
+        "summary": "Kozora destaca que el tackle defensivo de 370 libras viene jugando su mejor fútbol en las últimas tres semanas.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2114495029779865764",
+        "published_at": "2026-10-25T23:11:15Z",
+        "about": "team"
+      },
+      {
+        "title": "Cam Heyward llegó a 200 partidos como titular",
+        "summary": "Es apenas el tercer Steeler en lograrlo, junto a Ben Roethlisberger y Mike Webster.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2114477947738337407",
+        "published_at": "2026-10-25T22:03:22Z",
+        "about": "team"
+      },
+      {
+        "title": "Denzel Ward se dislocó un dedo, pero jugó e interceptó",
+        "summary": "Se lastimó la mano en la práctica del viernes y le dieron 5 puntos.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2114468920908509566",
+        "published_at": "2026-10-25T21:27:30Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Payton Wilson y Patrick Queen, las grandes jugadas",
+        "summary": null,
+        "source_name": "Pittsburgh Post-Gazette",
+        "url": "https://www.post-gazette.com/sports/steelers/2026/10/25/payton-wilson-patrick-queen-nfl-steelers-paris-france/stories/202610250083",
+        "published_at": "2026-10-25T21:05:44Z",
+        "about": "team"
+      },
+      {
+        "title": "Watson lidera otra remontada: Browns 27, Titans 24",
+        "summary": "Fue su quinta serie ganadora en el último cuarto en la temporada, según Todd Monken.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2114455666840727571",
+        "published_at": "2026-10-25T20:34:50Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Spencer Anderson, el tight end extra",
+        "summary": "El liniero entró como tight end 12 veces, incluidas 7 en la serie final que cerró el partido.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2114455190648832357",
+        "published_at": "2026-10-25T20:32:56Z",
+        "about": "team"
+      },
+      {
+        "title": "Browns 5-2 vs. Steelers 5-2: se juega la punta de la AFC Norte",
+        "summary": null,
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2114449067849703586",
+        "published_at": "2026-10-25T20:08:36Z",
+        "about": "team"
+      },
+      {
+        "title": "Quick 6 de Batko: el ambiente en el Stade de France",
+        "summary": null,
+        "source_name": "steelers.com (Brian Batko)",
+        "url": "https://www.steelers.com/news/batko-s-quick-6-steelers-vs-saints",
+        "published_at": "2026-10-25T20:04:12Z",
+        "about": "team"
+      },
+      {
+        "title": "Boletín de Fittipaldo: corredores y línea defensiva, lo mejor",
+        "summary": null,
+        "source_name": "Pittsburgh Post-Gazette",
+        "url": "https://www.post-gazette.com/sports/steelers/2026/10/25/steelers-report-card-saints-week7/stories/202610250084",
+        "published_at": "2026-10-25T19:47:32Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy, en un grupo selecto: arrancó 5-2",
+        "summary": "Solo los últimos tres entrenadores contratados por Pittsburgh (Cowher, Tomlin y McCarthy) empezaron así.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2114441910634856588",
+        "published_at": "2026-10-25T19:40:10Z",
+        "about": "team"
+      },
+      {
+        "title": "El fútbol de los Steelers no es lindo, pero funciona",
+        "summary": "Farabaugh explica por qué les sirve: carrera a casi 5 yardas por acarreo y una defensa que se dobla pero no se rompe.",
+        "source_name": "PennLive (Nick Farabaugh)",
+        "url": "https://www.pennlive.com/steelers/2026/10/the-steelers-brand-of-football-might-not-be-aesthetically-pleasing-but-it-works-heres-whyfarabaugh.html",
+        "published_at": "2026-10-25T17:32:45Z",
+        "about": "team"
+      },
+      {
         "title": "Steelers 16, Saints 10: la defensa ganó el partido en París",
         "summary": "Payton Wilson interceptó a Shough en la yarda 11 cuando los Saints iban por el TD de la ventaja, y Queen cerró con una captura. Los Saints corrieron apenas 18 yardas.",
         "source_name": "steelers.com (Brian Batko)",
@@ -398,78 +502,6 @@
         "source_name": "Steelers en X",
         "url": "https://x.com/steelers/status/2114364753711899068",
         "published_at": "2026-10-25T14:33:34Z",
-        "about": "team"
-      },
-      {
-        "title": "Browns 5-2 vs. Steelers 5-2: se juega la punta de la AFC Norte",
-        "summary": null,
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2114449067849703586",
-        "published_at": "2026-10-25T20:08:36Z",
-        "about": "team"
-      },
-      {
-        "title": "Watson lidera otra remontada: Browns 27, Titans 24",
-        "summary": "Fue su quinta serie ganadora en el último cuarto en la temporada, según Todd Monken.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2114455666840727571",
-        "published_at": "2026-10-25T20:34:50Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Denzel Ward se dislocó un dedo, pero jugó e interceptó",
-        "summary": "Se lastimó la mano en la práctica del viernes y le dieron 5 puntos.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2114468920908509566",
-        "published_at": "2026-10-25T21:27:30Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Boletín de Fittipaldo: corredores y línea defensiva, lo mejor",
-        "summary": null,
-        "source_name": "Pittsburgh Post-Gazette",
-        "url": "https://www.post-gazette.com/sports/steelers/2026/10/25/steelers-report-card-saints-week7/stories/202610250084",
-        "published_at": "2026-10-25T19:47:32Z",
-        "about": "team"
-      },
-      {
-        "title": "Payton Wilson y Patrick Queen, las grandes jugadas",
-        "summary": null,
-        "source_name": "Pittsburgh Post-Gazette",
-        "url": "https://www.post-gazette.com/sports/steelers/2026/10/25/payton-wilson-patrick-queen-nfl-steelers-paris-france/stories/202610250083",
-        "published_at": "2026-10-25T21:05:44Z",
-        "about": "team"
-      },
-      {
-        "title": "El fútbol de los Steelers no es lindo, pero funciona",
-        "summary": "Farabaugh explica por qué les sirve: carrera a casi 5 yardas por acarreo y una defensa que se dobla pero no se rompe.",
-        "source_name": "PennLive (Nick Farabaugh)",
-        "url": "https://www.pennlive.com/steelers/2026/10/the-steelers-brand-of-football-might-not-be-aesthetically-pleasing-but-it-works-heres-whyfarabaugh.html",
-        "published_at": "2026-10-25T17:32:45Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy, en un grupo selecto: arrancó 5-2",
-        "summary": "Solo los últimos tres entrenadores contratados por Pittsburgh (Cowher, Tomlin y McCarthy) empezaron así.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2114441910634856588",
-        "published_at": "2026-10-25T19:40:10Z",
-        "about": "team"
-      },
-      {
-        "title": "Spencer Anderson, el tight end extra",
-        "summary": "El liniero entró como tight end 12 veces, incluidas 7 en la serie final que cerró el partido.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2114455190648832357",
-        "published_at": "2026-10-25T20:32:56Z",
-        "about": "team"
-      },
-      {
-        "title": "Quick 6 de Batko: el ambiente en el Stade de France",
-        "summary": null,
-        "source_name": "steelers.com (Brian Batko)",
-        "url": "https://www.steelers.com/news/batko-s-quick-6-steelers-vs-saints",
-        "published_at": "2026-10-25T20:04:12Z",
         "about": "team"
       }
     ],
@@ -617,6 +649,13 @@
       "summary": "Festejo en X por el triunfo en París y el récord de Rodgers, con elogios al juego físico. La mirada ya está en los Browns: duelo de 5-2 por la punta de la división.",
       "posts": [
         {
+          "author": "Mark Kaboly",
+          "handle": "MarkKaboly",
+          "text": "If the season ended today, the Steelers would travel to AFC North champions Cleveland Browns for a first round playoff game.",
+          "url": "https://x.com/MarkKaboly/status/2114570778654232824",
+          "posted_at": "2026-10-26T04:12:15Z"
+        },
+        {
           "author": "Alex Kozora",
           "handle": "Alex_Kozora",
           "text": "Simple: los Steelers fueron el equipo más físico hoy. Por eso ganaron.",
@@ -650,16 +689,9 @@
           "text": "Los Steelers tienen 250 yardas al entretiempo y Jaylen Warren hizo 114. Debería jugar más: es el mejor jugador del ataque.",
           "url": "https://x.com/rayfitt1/status/2114375164427117038",
           "posted_at": "2026-10-25T15:14:57Z"
-        },
-        {
-          "author": "Steelers",
-          "handle": "steelers",
-          "text": "Secured the (bag)uette",
-          "url": "https://x.com/steelers/status/2114449162796196054",
-          "posted_at": "2026-10-25T20:08:59Z"
         }
       ],
-      "updated_at": "2026-10-25T22:00:00Z"
+      "updated_at": "2026-10-26T12:00:00Z"
     }
   },
   "head_to_head": {
@@ -723,7 +755,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-25T21:55:56.433Z"
+      "updated_at": "2026-10-26T11:56:20.684Z"
     }
   }
 }

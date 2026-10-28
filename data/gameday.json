@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-27T12:01:33.000Z",
+    "generated_at": "2026-10-28T12:05:34.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "122692ba404b61f8"
+    "espn_hash": "481b16a5c64dc9bf"
   },
   "team": {
     "id": "23",
@@ -46,10 +46,10 @@
       "indoor": false
     },
     "weather": {
-      "summary": "Nublado",
-      "temp_c": 18,
+      "summary": "Mayormente nublado",
+      "temp_c": 20,
       "gust_kmh": 13,
-      "precip_pct": 25
+      "precip_pct": 7
     },
     "broadcast": {
       "us": [
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-27T12:00:37.027Z"
+      "updated_at": "2026-10-28T12:04:41.020Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-27T12:00:37.027Z"
+      "updated_at": "2026-10-28T12:04:41.020Z"
     }
   },
   "recent_results": {
@@ -238,7 +238,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-27T12:00:37.027Z"
+      "updated_at": "2026-10-28T12:04:41.020Z"
     }
   },
   "injuries": {
@@ -246,14 +246,14 @@
       {
         "name": "Ben Skowronek",
         "position": "WR",
-        "status": "Out",
+        "status": "Questionable",
         "injury": "Pantorrilla",
         "practice": []
       },
       {
         "name": "Brandin Echols",
         "position": "CB",
-        "status": "Out",
+        "status": "Questionable",
         "injury": "Isquiotibial",
         "practice": []
       },
@@ -281,9 +281,16 @@
     ],
     "opponent": [
       {
+        "name": "Kalia Davis",
+        "position": "DT",
+        "status": "IR",
+        "injury": "Cuádriceps",
+        "practice": []
+      },
+      {
         "name": "Mike Hall Jr.",
         "position": "DT",
-        "status": "Out",
+        "status": "Questionable",
         "injury": "Tobillo",
         "practice": []
       },
@@ -307,20 +314,13 @@
         "status": "IR",
         "injury": "Espalda",
         "practice": []
-      },
-      {
-        "name": "Kalia Davis",
-        "position": "DT",
-        "status": "IR",
-        "injury": "Cuádriceps",
-        "practice": []
       }
     ],
     "inactives": null,
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-27T12:00:37.027Z"
+      "updated_at": "2026-10-28T12:04:41.020Z"
     }
   },
   "comparison": {
@@ -403,29 +403,85 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-27T12:00:37.027Z"
+      "updated_at": "2026-10-28T12:04:41.020Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Semana de clásico: McCarthy destacó la confianza que dejan tres triunfos seguidos y el viaje a París, y la defensa contra la carrera es de lo mejor de la liga. En Cleveland, Monken pide cabeza fría tras las acusaciones de juego sucio del primer cruce, renovaron a Maliek Collins y volvió Dillon Gabriel.",
+      "text": "Semana de clásico con la punta de la AFC Norte en juego: Heyward dice que las acusaciones de juego sucio de Verse se responden el domingo, y Cleveland no gana en Pittsburgh hace 23 años. Además, la defensa sigue fuerte contra la carrera, se habla de un receptor en el mercado de pases y Brandon Smith podría ocupar el lugar 53 del plantel.",
       "refs": [
         {
-          "name": "Brian Batko en X",
-          "url": "https://x.com/BrianBatko/status/2114796479445610826"
+          "name": "Mary Kay Cabot en X",
+          "url": "https://x.com/MaryKayCabot/status/2115209261127282794"
         },
         {
           "name": "Alex Kozora en X",
-          "url": "https://x.com/Alex_Kozora/status/2114860901618585830"
+          "url": "https://x.com/Alex_Kozora/status/2115118513925042468"
         },
         {
-          "name": "Mary Kay Cabot en X",
-          "url": "https://x.com/MaryKayCabot/status/2114829117321302086"
+          "name": "Nick Farabaugh en X",
+          "url": "https://x.com/FarabaughFB/status/2115201305295872285"
         }
       ],
-      "updated_at": "2026-10-27T12:10:00Z"
+      "updated_at": "2026-10-28T12:10:00Z"
     },
     "items": [
+      {
+        "title": "Contra la AFC Norte desde 2020: Cleveland es el hueso más duro",
+        "summary": "Incluyendo playoffs, Pittsburgh va 10-3 contra Baltimore, 7-6 contra Cincinnati y 7-7 contra Cleveland.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2115228585862529337",
+        "published_at": "2026-10-27T23:46:08Z",
+        "about": "team"
+      },
+      {
+        "title": "Heyward responde a Verse: lo de \"juego sucio\" se contesta el domingo",
+        "summary": "Cam Heyward dijo que las acusaciones de Jared Verse se van a responder en la cancha. Dato: los Browns no ganan un partido de temporada regular en Pittsburgh hace 23 años.",
+        "source_name": "Mary Kay Cabot (cleveland.com) en X",
+        "url": "https://x.com/MaryKayCabot/status/2115209261127282794",
+        "published_at": "2026-10-27T22:29:21Z",
+        "about": "team"
+      },
+      {
+        "title": "Mercado de pases: ¿Downs como receptor?",
+        "summary": "Farabaugh opina que Downs tiene sentido para los Steelers por el tipo de receptor que necesitan: uno que gane contra marca personal y corra bien las rutas.",
+        "source_name": "Nick Farabaugh (PennLive) en X",
+        "url": "https://x.com/FarabaughFB/status/2115201305295872285",
+        "published_at": "2026-10-27T21:57:44Z",
+        "about": "team"
+      },
+      {
+        "title": "Browns: movimientos en el equipo de práctica",
+        "summary": "Firmaron al DE Nadame Tucker y liberaron al RB Jaret Patterson y al S John Saunders.",
+        "source_name": "Browns en X",
+        "url": "https://x.com/Browns/status/2115163161661943986",
+        "published_at": "2026-10-27T19:26:10Z",
+        "about": "opponent"
+      },
+      {
+        "title": "El truco de Elandon Roberts contra los Saints",
+        "summary": "Vieron en video que Tyler Shough no hacía los cambios en la línea, se los pasaba Kellen Moore. Por eso la defensa se quedaba quieta hasta que faltaban menos de 15 segundos, cuando ya no se puede hablar con el QB.",
+        "source_name": "Alex Kozora (Steelers Depot) en X",
+        "url": "https://x.com/Alex_Kozora/status/2115139893332418589",
+        "published_at": "2026-10-27T17:53:42Z",
+        "about": "team"
+      },
+      {
+        "title": "Brandon Smith, sin más subidas: ¿el lugar 53 es para él?",
+        "summary": "Pittsburgh jugó con 52 en el plantel ante los Saints. Kozora cree que guardan ese lugar para firmarlo el sábado, antes de los Browns, porque ya agotó las subidas desde el equipo de práctica.",
+        "source_name": "Alex Kozora (Steelers Depot) en X",
+        "url": "https://x.com/Alex_Kozora/status/2115118513925042468",
+        "published_at": "2026-10-27T16:28:45Z",
+        "about": "team"
+      },
+      {
+        "title": "Línea ofensiva: Frazier y McCormick, dos partidazos",
+        "summary": "En el All-22, Mason McCormick estuvo tan bien como Zach Frazier contra los Saints.",
+        "source_name": "Alex Kozora (Steelers Depot) en X",
+        "url": "https://x.com/Alex_Kozora/status/2115084612888055890",
+        "published_at": "2026-10-27T14:14:02Z",
+        "about": "team"
+      },
       {
         "title": "Spencer Anderson, ¿también como receptor en el paquete pesado?",
         "summary": "Los Steelers dejaron entrever que podrían usarlo para recibir, aunque Kaboly cree que lo van a seguir usando como bloqueador, como contra los Saints.",
@@ -488,62 +544,6 @@
         "source_name": "Mark Kaboly en X",
         "url": "https://x.com/MarkKaboly/status/2114813383446872079",
         "published_at": "2026-10-26T20:16:16Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy: rachas de triunfos, confianza y buena onda tras París",
-        "summary": "En la conferencia del lunes dijo que el viaje no fue fácil para nadie, pero que dejó mucho bueno y, sobre todo, un triunfo. Quiere que la línea ofensiva, de las más jóvenes del plantel, sea la de los \"hermanos mayores\" del equipo.",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2114796479445610826",
-        "published_at": "2026-10-26T19:09:06Z",
-        "about": "team"
-      },
-      {
-        "title": "Patrick Queen cuenta cómo Elandon Roberts motivó a los linebackers",
-        "summary": null,
-        "source_name": "Steelers Depot",
-        "url": "https://x.com/Alex_Kozora/status/2114510113444667838",
-        "published_at": "2026-10-26T00:11:11Z",
-        "about": "team"
-      },
-      {
-        "title": "Watson, candidato a Regreso del Año tras su quinta remontada",
-        "summary": "Mary Kay Cabot lo pone en la conversación por el premio después del 27-24 a los Titans.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2114502218804011223",
-        "published_at": "2026-10-25T23:39:49Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Yahya Black, en su mejor momento",
-        "summary": "Kozora destaca que el tackle defensivo de 370 libras viene jugando su mejor fútbol en las últimas tres semanas.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2114495029779865764",
-        "published_at": "2026-10-25T23:11:15Z",
-        "about": "team"
-      },
-      {
-        "title": "Cam Heyward llegó a 200 partidos como titular",
-        "summary": "Es apenas el tercer Steeler en lograrlo, junto a Ben Roethlisberger y Mike Webster.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2114477947738337407",
-        "published_at": "2026-10-25T22:03:22Z",
-        "about": "team"
-      },
-      {
-        "title": "Denzel Ward se dislocó un dedo, pero jugó e interceptó",
-        "summary": "Se lastimó la mano en la práctica del viernes y le dieron 5 puntos.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2114468920908509566",
-        "published_at": "2026-10-25T21:27:30Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Payton Wilson y Patrick Queen, las grandes jugadas",
-        "summary": null,
-        "source_name": "Pittsburgh Post-Gazette",
-        "url": "https://www.post-gazette.com/sports/steelers/2026/10/25/payton-wilson-patrick-queen-nfl-steelers-paris-france/stories/202610250083",
-        "published_at": "2026-10-25T21:05:44Z",
         "about": "team"
       }
     ],
@@ -697,8 +697,22 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Sigue el buen clima tras París: elogios a la defensa contra la carrera, a Queen y a los corredores. La previa del clásico con los Browns ya se calienta por el primer cruce picante.",
+      "summary": "Buen clima tras París: elogios a la energía del vestuario y a la defensa contra la carrera. La previa con los Browns se calienta por las acusaciones de juego sucio y el 7-7 parejo contra Cleveland desde 2020.",
       "posts": [
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "No se puede medir, pero me encanta la energía de los Steelers en todas las líneas: la ofensiva festejando cada primer down, compañeros celebrando pases tapados y capturas. Son señales de buena cultura y buen vestuario.",
+          "url": "https://x.com/Alex_Kozora/status/2115154047959183463",
+          "posted_at": "2026-10-27T18:49:57Z"
+        },
+        {
+          "author": "Mark Kaboly",
+          "handle": "MarkKaboly",
+          "text": "Desde 2020, récord de los Steelers contra la AFC Norte (con playoffs): Baltimore 10-3, Cleveland 7-7, Cincinnati 7-6.",
+          "url": "https://x.com/MarkKaboly/status/2115228585862529337",
+          "posted_at": "2026-10-27T23:46:08Z"
+        },
         {
           "author": "Alex Kozora",
           "handle": "Alex_Kozora",
@@ -716,7 +730,7 @@
         {
           "author": "Mark Kaboly",
           "handle": "MarkKaboly",
-          "text": "If the season ended today, the Steelers would travel to AFC North champions Cleveland Browns for a first round playoff game.",
+          "text": "Si la temporada terminara hoy, los Steelers visitarían a los Browns, campeones de la AFC Norte, en la primera ronda de playoffs.",
           "url": "https://x.com/MarkKaboly/status/2114570778654232824",
           "posted_at": "2026-10-26T04:12:15Z"
         },
@@ -726,23 +740,9 @@
           "text": "Simple: los Steelers fueron el equipo más físico hoy. Por eso ganaron.",
           "url": "https://x.com/Alex_Kozora/status/2114465121099743246",
           "posted_at": "2026-10-25T21:12:24Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "Alex_Kozora",
-          "text": "La semana que viene: Browns 5-2 contra Steelers 5-2. La pelea por la AFC Norte.",
-          "url": "https://x.com/Alex_Kozora/status/2114449067849703586",
-          "posted_at": "2026-10-25T20:08:36Z"
-        },
-        {
-          "author": "Mark Kaboly",
-          "handle": "MarkKaboly",
-          "text": "El coeficiente intelectual de Aaron Rodgers como QB está fuera de este mundo.",
-          "url": "https://x.com/MarkKaboly/status/2114396248555893178",
-          "posted_at": "2026-10-25T16:38:43Z"
         }
       ],
-      "updated_at": "2026-10-27T12:10:00Z"
+      "updated_at": "2026-10-28T12:10:00Z"
     }
   },
   "head_to_head": {
@@ -806,7 +806,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-27T12:00:37.027Z"
+      "updated_at": "2026-10-28T12:04:41.020Z"
     }
   }
 }

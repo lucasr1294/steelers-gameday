@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-28T12:05:34.000Z",
+    "generated_at": "2026-10-28T20:56:00.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "481b16a5c64dc9bf"
+    "espn_hash": "969588c6cafbf449"
   },
   "team": {
     "id": "23",
@@ -46,10 +46,10 @@
       "indoor": false
     },
     "weather": {
-      "summary": "Mayormente nublado",
-      "temp_c": 20,
-      "gust_kmh": 13,
-      "precip_pct": 7
+      "summary": "Nubes intermitentes",
+      "temp_c": 19,
+      "gust_kmh": 6,
+      "precip_pct": 4
     },
     "broadcast": {
       "us": [
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-28T12:04:41.020Z"
+      "updated_at": "2026-10-28T20:55:00.666Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-28T12:04:41.020Z"
+      "updated_at": "2026-10-28T20:55:00.666Z"
     }
   },
   "recent_results": {
@@ -238,7 +238,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-28T12:04:41.020Z"
+      "updated_at": "2026-10-28T20:55:00.666Z"
     }
   },
   "injuries": {
@@ -281,6 +281,13 @@
     ],
     "opponent": [
       {
+        "name": "Jared Verse",
+        "position": "DE",
+        "status": "Questionable",
+        "injury": "Rodilla",
+        "practice": []
+      },
+      {
         "name": "Kalia Davis",
         "position": "DT",
         "status": "IR",
@@ -298,7 +305,7 @@
         "name": "Tytus Howard",
         "position": "OT",
         "status": "Questionable",
-        "injury": "Cabeza",
+        "injury": "Conmoción",
         "practice": []
       },
       {
@@ -307,20 +314,13 @@
         "status": "Questionable",
         "injury": "Isquiotibial",
         "practice": []
-      },
-      {
-        "name": "Teven Jenkins",
-        "position": "G",
-        "status": "IR",
-        "injury": "Espalda",
-        "practice": []
       }
     ],
     "inactives": null,
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-28T12:04:41.020Z"
+      "updated_at": "2026-10-28T20:55:00.666Z"
     }
   },
   "comparison": {
@@ -403,29 +403,61 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-28T12:04:41.020Z"
+      "updated_at": "2026-10-28T20:55:00.666Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Semana de clásico con la punta de la AFC Norte en juego: Heyward dice que las acusaciones de juego sucio de Verse se responden el domingo, y Cleveland no gana en Pittsburgh hace 23 años. Además, la defensa sigue fuerte contra la carrera, se habla de un receptor en el mercado de pases y Brandon Smith podría ocupar el lugar 53 del plantel.",
+      "text": "Semana de clásico con la punta de la AFC Norte en juego. Los Steelers muestran interés en Josh Downs, que pidió salir de los Colts, y en la práctica del miércoles volvió Ben Skowronek pero faltó Brandin Echols. En Cleveland no practicaron Jared Verse, Tytus Howard ni Elgton Jenkins, aunque Monken cree que Verse va a jugar.",
       "refs": [
         {
-          "name": "Mary Kay Cabot en X",
-          "url": "https://x.com/MaryKayCabot/status/2115209261127282794"
-        },
-        {
           "name": "Alex Kozora en X",
-          "url": "https://x.com/Alex_Kozora/status/2115118513925042468"
+          "url": "https://x.com/Alex_Kozora/status/2115480713088696482"
         },
         {
           "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2115201305295872285"
+          "url": "https://x.com/FarabaughFB/status/2115531042354549053"
+        },
+        {
+          "name": "Mary Kay Cabot en X",
+          "url": "https://x.com/MaryKayCabot/status/2115493583352725624"
         }
       ],
-      "updated_at": "2026-10-28T12:10:00Z"
+      "updated_at": "2026-10-28T21:05:00Z"
     },
     "items": [
+      {
+        "title": "Partidos cerrados: Steelers y Browns suman 11 de una posesión",
+        "summary": "Brian Batko repasa cómo McCarthy ve a un plantel veterano que gana confianza en los finales ajustados, incluido el primer cruce con Cleveland.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/rising-to-the-occasions",
+        "published_at": "2026-10-28T20:23:06Z",
+        "about": "team"
+      },
+      {
+        "title": "Práctica del miércoles: vuelve Skowronek, no está Echols",
+        "summary": "Ben Skowronek (pantorrilla) volvió a practicar tras dos semanas y DeShon Elliott también estuvo. No se vio a Brandin Echols (isquiotibial); Heyward, Ramsey y Watt tuvieron su descanso habitual de los miércoles.",
+        "source_name": "Nick Farabaugh en X",
+        "url": "https://x.com/FarabaughFB/status/2115531042354549053",
+        "published_at": "2026-10-28T19:47:59Z",
+        "about": "team"
+      },
+      {
+        "title": "Browns: Verse, Howard y Elgton Jenkins no practicaron",
+        "summary": "Jared Verse (rodilla), el tackle derecho Tytus Howard (conmoción) y el centro Elgton Jenkins (rodilla) no practicaron el miércoles. Monken dijo que no espera que Verse se pierda el partido: tiene algo de hinchazón y lo quieren hacer descansar.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2115493583352725624",
+        "published_at": "2026-10-28T17:19:08Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Josh Downs pidió salir de los Colts y los Steelers muestran interés real",
+        "summary": "Según Jeremy Fowler (ESPN) y Jordan Schultz, el receptor de Indianapolis pidió ser traspasado y Pittsburgh está interesado. Kozora duda: Downs rinde mejor en movimiento y Bernard ya cubre buena parte de ese rol.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2115480713088696482",
+        "published_at": "2026-10-28T16:28:00Z",
+        "about": "team"
+      },
       {
         "title": "Contra la AFC Norte desde 2020: Cleveland es el hueso más duro",
         "summary": "Incluyendo playoffs, Pittsburgh va 10-3 contra Baltimore, 7-6 contra Cincinnati y 7-7 contra Cleveland.",
@@ -513,38 +545,6 @@
         "url": "https://x.com/MaryKayCabot/status/2114829117321302086",
         "published_at": "2026-10-26T21:18:47Z",
         "about": "opponent"
-      },
-      {
-        "title": "Browns: vuelve Dillon Gabriel y se quedan con 4 QB",
-        "summary": "Activaron a Gabriel (espalda) de la lista de lesionados y mantienen a los cuatro mariscales en el plantel de 53, incluido el novato Taylen Green; cortaron al TE Carsen Ryan.",
-        "source_name": "Mary Kay Cabot (cleveland.com) en X",
-        "url": "https://x.com/MaryKayCabot/status/2114822251111727510",
-        "published_at": "2026-10-26T20:51:30Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Browns: extensión por dos años para Maliek Collins",
-        "summary": "El tackle defensivo, pieza clave del frente de Cleveland, firmó su renovación.",
-        "source_name": "Browns en X",
-        "url": "https://x.com/Browns/status/2114816778878734529",
-        "published_at": "2026-10-26T20:29:46Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Warren y Dowdle, imposibles de tacklear",
-        "summary": "En las últimas dos semanas, Warren forzó 8 tackles errados y Dowdle 5.",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2114813885262000166",
-        "published_at": "2026-10-26T20:18:16Z",
-        "about": "team"
-      },
-      {
-        "title": "Patrick Graham explica la intercepción de Payton Wilson",
-        "summary": null,
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2114813383446872079",
-        "published_at": "2026-10-26T20:16:16Z",
-        "about": "team"
       }
     ],
     "quotes": [
@@ -697,14 +697,14 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Buen clima tras París: elogios a la energía del vestuario y a la defensa contra la carrera. La previa con los Browns se calienta por las acusaciones de juego sucio y el 7-7 parejo contra Cleveland desde 2020.",
+      "summary": "Buen clima tras París y elogios a la defensa contra la carrera. La previa con los Browns se calienta por las acusaciones de juego sucio, y el posible pedido por Josh Downs divide opiniones.",
       "posts": [
         {
           "author": "Alex Kozora",
           "handle": "Alex_Kozora",
-          "text": "No se puede medir, pero me encanta la energía de los Steelers en todas las líneas: la ofensiva festejando cada primer down, compañeros celebrando pases tapados y capturas. Son señales de buena cultura y buen vestuario.",
-          "url": "https://x.com/Alex_Kozora/status/2115154047959183463",
-          "posted_at": "2026-10-27T18:49:57Z"
+          "text": "Siempre me gustó Downs: es explosivo y se despega. Rinde mejor en movimiento y esa no es la ofensiva que corre Pittsburgh; además Bernard ya hace mucho de lo que aporta Downs, recepciones cortas y yardas después de la atrapada. Así que estoy un poco dividido.",
+          "url": "https://x.com/Alex_Kozora/status/2115482297646694874",
+          "posted_at": "2026-10-28T16:34:18Z"
         },
         {
           "author": "Mark Kaboly",
@@ -712,6 +712,13 @@
           "text": "Desde 2020, récord de los Steelers contra la AFC Norte (con playoffs): Baltimore 10-3, Cleveland 7-7, Cincinnati 7-6.",
           "url": "https://x.com/MarkKaboly/status/2115228585862529337",
           "posted_at": "2026-10-27T23:46:08Z"
+        },
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "No se puede medir, pero me encanta la energía de los Steelers en todas las líneas: la ofensiva festejando cada primer down, compañeros celebrando pases tapados y capturas. Son señales de buena cultura y buen vestuario.",
+          "url": "https://x.com/Alex_Kozora/status/2115154047959183463",
+          "posted_at": "2026-10-27T18:49:57Z"
         },
         {
           "author": "Alex Kozora",
@@ -733,16 +740,9 @@
           "text": "Si la temporada terminara hoy, los Steelers visitarían a los Browns, campeones de la AFC Norte, en la primera ronda de playoffs.",
           "url": "https://x.com/MarkKaboly/status/2114570778654232824",
           "posted_at": "2026-10-26T04:12:15Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "Alex_Kozora",
-          "text": "Simple: los Steelers fueron el equipo más físico hoy. Por eso ganaron.",
-          "url": "https://x.com/Alex_Kozora/status/2114465121099743246",
-          "posted_at": "2026-10-25T21:12:24Z"
         }
       ],
-      "updated_at": "2026-10-28T12:10:00Z"
+      "updated_at": "2026-10-28T21:05:00Z"
     }
   },
   "head_to_head": {
@@ -806,7 +806,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-28T12:04:41.020Z"
+      "updated_at": "2026-10-28T20:55:00.666Z"
     }
   }
 }

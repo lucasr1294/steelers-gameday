@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-29T12:08:18.000Z",
+    "generated_at": "2026-10-29T21:05:43.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "a1db1eff65d1e37f"
+    "espn_hash": "e7d64d6620d9255c"
   },
   "team": {
     "id": "23",
@@ -47,8 +47,8 @@
     },
     "weather": {
       "summary": "Nubes intermitentes",
-      "temp_c": 19,
-      "gust_kmh": 11,
+      "temp_c": 18,
+      "gust_kmh": 3,
       "precip_pct": 4
     },
     "broadcast": {
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-29T12:05:32.516Z"
+      "updated_at": "2026-10-29T21:04:10.132Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-29T12:05:32.516Z"
+      "updated_at": "2026-10-29T21:04:10.132Z"
     }
   },
   "recent_results": {
@@ -238,7 +238,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-29T12:05:32.516Z"
+      "updated_at": "2026-10-29T21:04:10.132Z"
     }
   },
   "injuries": {
@@ -258,13 +258,6 @@
         "practice": []
       },
       {
-        "name": "Jalen Ramsey",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Muñeca",
-        "practice": []
-      },
-      {
         "name": "Doneiko Slaughter",
         "position": "CB",
         "status": "Questionable",
@@ -276,6 +269,13 @@
         "position": "CB",
         "status": "Questionable",
         "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
+        "name": "Sebastian Joseph-Day",
+        "position": "DT",
+        "status": "IR",
+        "injury": "Tríceps",
         "practice": []
       }
     ],
@@ -309,10 +309,10 @@
         "practice": []
       },
       {
-        "name": "Dylan Sampson",
-        "position": "RB",
+        "name": "Daniel Thomas",
+        "position": "S",
         "status": "Questionable",
-        "injury": "Rodilla",
+        "injury": "Tobillo",
         "practice": []
       }
     ],
@@ -320,7 +320,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-29T12:05:32.516Z"
+      "updated_at": "2026-10-29T21:04:10.132Z"
     }
   },
   "comparison": {
@@ -423,33 +423,89 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-29T12:05:32.516Z"
+      "updated_at": "2026-10-29T21:04:10.132Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Semana de clásico con la punta de la AFC Norte en juego. En el parte del miércoles no practicaron Ramsey (muñeca, la misma fractura con la que viene jugando), Echols ni Slaughter; Highsmith y Skowronek estuvieron limitados y Elliott se siente totalmente recuperado. En Cleveland, Verse no practicó por hinchazón en la rodilla, aunque Monken espera que juegue. Sigue el interés en Josh Downs.",
+      "text": "En el parte del jueves, Jalen Ramsey volvió a practicar completo y Highsmith, limitado, avisó que juega; los CB Echols y Slaughter no practicaron por segundo día y están en duda. En Cleveland, Jared Verse y Elgton Jenkins pasaron a limitados, mientras Tytus Howard sigue afuera por conmoción. El foco defensivo es el tackleo, y por Josh Downs los Colts piden una tercera ronda.",
       "refs": [
         {
           "name": "Ray Fittipaldo en X",
-          "url": "https://x.com/rayfitt1/status/2115555805088895049"
+          "url": "https://x.com/rayfitt1/status/2115893280982684038"
         },
         {
-          "name": "Nick Farabaugh en X",
-          "url": "https://x.com/FarabaughFB/status/2115559637751570885"
+          "name": "Steelers Depot en X",
+          "url": "https://x.com/Steelersdepot/status/2115895417812779348"
         },
         {
           "name": "Steelers Depot",
-          "url": "https://steelersdepot.com/2026/10/browns-week-8-wednesday-injury-report-jared-verse-two-ol-starters-listed-as-dnp/"
+          "url": "https://steelersdepot.com/2026/10/browns-week-8-thursday-injury-report-jared-verse-elgton-jenkins-upgraded/"
         },
         {
-          "name": "Alex Kozora en X",
-          "url": "https://x.com/Alex_Kozora/status/2115480713088696482"
+          "name": "Steelers Depot",
+          "url": "https://steelersdepot.com/2026/10/schefter-reveals-colts-steep-asking-price-for-wr-josh-downs/"
         }
       ],
-      "updated_at": "2026-10-29T12:15:00Z"
+      "updated_at": "2026-10-29T21:15:00Z"
     },
     "items": [
+      {
+        "title": "Browns: Verse y Elgton Jenkins vuelven a practicar",
+        "summary": "Jared Verse (rodilla) y Elgton Jenkins (rodilla) pasaron a limitados. Siguen sin practicar Tytus Howard (conmoción) y Tevin Jenkins (espalda); Mason Graham y Carson Schwesinger, limitados por el tobillo, y Dylan Sampson ya practicó completo.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/browns-week-8-thursday-injury-report-jared-verse-elgton-jenkins-upgraded/",
+        "published_at": "2026-10-29T20:08:00Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Highsmith: \"Voy a estar bien para el partido\"",
+        "summary": "El OLB, limitado por la ingle, dijo que se está cuidando en la semana pero que juega el domingo.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2115895417812779348",
+        "published_at": "2026-10-29T19:55:53Z",
+        "about": "team"
+      },
+      {
+        "title": "Parte del jueves: Ramsey practicó completo; Echols y Slaughter, otra vez afuera",
+        "summary": "Jalen Ramsey (muñeca) pasó a práctica completa, igual que Heyward, Watt y Darnell Washington tras su descanso. Highsmith (ingle) y Skowronek (pantorrilla) volvieron a estar limitados, y los CB Brandin Echols y Doneiko Slaughter (isquiotibial) no practicaron por segundo día.",
+        "source_name": "Ray Fittipaldo en X",
+        "url": "https://x.com/rayfitt1/status/2115893280982684038",
+        "published_at": "2026-10-29T19:47:24Z",
+        "about": "team"
+      },
+      {
+        "title": "Foco de la semana: tackleo, tras 16 fallados contra Cleveland",
+        "summary": "Asante Samuel Jr. contó que la defensa trabajó el tackleo después del primer cruce con los Browns. Brisker agregó que ahora las llamadas son más simples y que Patrick Graham baja al costado de la cancha.",
+        "source_name": "Nick Farabaugh en X",
+        "url": "https://x.com/FarabaughFB/status/2115884367427805278",
+        "published_at": "2026-10-29T19:11:59Z",
+        "about": "team"
+      },
+      {
+        "title": "Josh Downs: los Colts piden valor de tercera ronda",
+        "summary": "Según Adam Schefter, Indianapolis pide una tercera por Downs y \"nadie está dispuesto a eso por ahora\". Los Steelers están entre los equipos que preguntaron; el cierre de pases es el 10 de noviembre.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/schefter-reveals-colts-steep-asking-price-for-wr-josh-downs/",
+        "published_at": "2026-10-29T17:47:00Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy: todos los que están en IR pueden volver este año",
+        "summary": "Ninguno está descartado para la temporada, incluidos Derrick Harmon, Michael Pittman Jr., Roman Wilson y Sebastian Joseph-Day.",
+        "source_name": "Nick Farabaugh en X",
+        "url": "https://x.com/FarabaughFB/status/2115836109464961429",
+        "published_at": "2026-10-29T16:00:13Z",
+        "about": "team"
+      },
+      {
+        "title": "Una sola anotación por tierra en 7 partidos",
+        "summary": "Kozora marca que es lo mínimo de la franquicia desde 1940: los Steelers son últimos en acarreos desde la 5, la 10 y la 20, y 27.º en anotación en zona roja.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2115805290239066318",
+        "published_at": "2026-10-29T13:57:45Z",
+        "about": "team"
+      },
       {
         "title": "Los Steelers no le dan bola a lo de \"equipo sucio\"",
         "summary": "Kaboly cuenta que en el vestuario no coinciden con la acusación de Jared Verse... y que tampoco les importa demasiado.",
@@ -483,36 +539,12 @@
         "about": "team"
       },
       {
-        "title": "Browns: además de Verse, varios limitados en defensa",
-        "summary": "El parte de Cleveland tuvo 10 nombres. Limitados: Grant Delpit (cuello), Mason Graham (tobillo), Mike Hall Jr. (tobillo), Myles Harden (isquiotibial), Carson Schwesinger (tobillo), Dylan Sampson (rodilla) y Daniel Thomas (tobillo).",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/browns-week-8-wednesday-injury-report-jared-verse-two-ol-starters-listed-as-dnp/",
-        "published_at": "2026-10-28T21:35:00Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Parte del miércoles: Ramsey, Echols y Slaughter no practicaron",
-        "summary": "No practicaron Jalen Ramsey (muñeca), Brandin Echols y Doneiko Slaughter (isquiotibial). Limitados: Alex Highsmith (ingle) y Ben Skowronek (pantorrilla), que volvió tras dos semanas. Watt, Heyward y Darnell Washington tuvieron día de descanso. Ramsey juega con la muñeca fracturada desde la semana 3 y ya había faltado a otras prácticas de miércoles.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2115555805088895049",
-        "published_at": "2026-10-28T21:26:23Z",
-        "about": "team"
-      },
-      {
         "title": "Partidos cerrados: Steelers y Browns suman 11 de una posesión",
         "summary": "Brian Batko repasa cómo McCarthy ve a un plantel veterano que gana confianza en los finales ajustados, incluido el primer cruce con Cleveland.",
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/rising-to-the-occasions",
         "published_at": "2026-10-28T20:23:06Z",
         "about": "team"
-      },
-      {
-        "title": "Browns: Verse, Howard y Elgton Jenkins no practicaron",
-        "summary": "Jared Verse (rodilla), el tackle derecho Tytus Howard (conmoción) y el centro Elgton Jenkins (rodilla) no practicaron el miércoles. Monken dijo que no espera que Verse se pierda el partido: tiene algo de hinchazón y lo quieren hacer descansar.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2115493583352725624",
-        "published_at": "2026-10-28T17:19:08Z",
-        "about": "opponent"
       },
       {
         "title": "Josh Downs pidió salir de los Colts y los Steelers muestran interés real",
@@ -537,49 +569,26 @@
         "url": "https://x.com/MaryKayCabot/status/2115209261127282794",
         "published_at": "2026-10-27T22:29:21Z",
         "about": "team"
-      },
-      {
-        "title": "Mercado de pases: ¿Downs como receptor?",
-        "summary": "Farabaugh opina que Downs tiene sentido para los Steelers por el tipo de receptor que necesitan: uno que gane contra marca personal y corra bien las rutas.",
-        "source_name": "Nick Farabaugh (PennLive) en X",
-        "url": "https://x.com/FarabaughFB/status/2115201305295872285",
-        "published_at": "2026-10-27T21:57:44Z",
-        "about": "team"
-      },
-      {
-        "title": "Browns: movimientos en el equipo de práctica",
-        "summary": "Firmaron al DE Nadame Tucker y liberaron al RB Jaret Patterson y al S John Saunders.",
-        "source_name": "Browns en X",
-        "url": "https://x.com/Browns/status/2115163161661943986",
-        "published_at": "2026-10-27T19:26:10Z",
-        "about": "opponent"
-      },
-      {
-        "title": "El truco de Elandon Roberts contra los Saints",
-        "summary": "Vieron en video que Tyler Shough no hacía los cambios en la línea, se los pasaba Kellen Moore. Por eso la defensa se quedaba quieta hasta que faltaban menos de 15 segundos, cuando ya no se puede hablar con el QB.",
-        "source_name": "Alex Kozora (Steelers Depot) en X",
-        "url": "https://x.com/Alex_Kozora/status/2115139893332418589",
-        "published_at": "2026-10-27T17:53:42Z",
-        "about": "team"
-      },
-      {
-        "title": "Brandon Smith, sin más subidas: ¿el lugar 53 es para él?",
-        "summary": "Pittsburgh jugó con 52 en el plantel ante los Saints. Kozora cree que guardan ese lugar para firmarlo el sábado, antes de los Browns, porque ya agotó las subidas desde el equipo de práctica.",
-        "source_name": "Alex Kozora (Steelers Depot) en X",
-        "url": "https://x.com/Alex_Kozora/status/2115118513925042468",
-        "published_at": "2026-10-27T16:28:45Z",
-        "about": "team"
       }
     ],
     "quotes": [
       {
-        "speaker": "Aaron Rodgers",
-        "role": "QB de los Steelers",
-        "quote": "Probablemente fue mi vuelo de vuelta favorito de un partido de visitante en 22 años. Hubo muchos buenos momentos en ese vuelo.",
-        "context": "Sobre el regreso desde París.",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/from-paris-with-fun",
-        "date": "2026-10-28T21:45:00Z"
+        "speaker": "Jaquan Brisker",
+        "role": "Safety de los Steelers",
+        "quote": "Siento que andábamos por todos lados. Ahora confiamos mucho más entre nosotros. No es que antes no lo hiciéramos, pero ahora confiamos. Las llamadas se volvieron más simples. Obviamente, nuestro entrenador bajó al costado de la cancha. Los muchachos juegan su rol, confían en su rol y juegan rápido.",
+        "context": "Sobre cómo cambió la defensa desde la derrota con los Browns en la semana 4.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/10/we-trust-each-other-a-lot-more-brisker-explains-how-steelers-defense-has-evolved-since-last-facing-browns/",
+        "date": "2026-10-29T20:45:00Z"
+      },
+      {
+        "speaker": "Asante Samuel Jr.",
+        "role": "Cornerback de los Steelers",
+        "quote": "Ni vi lo que dijeron. Pero el partido es el domingo, y ahí no va a haber charla.",
+        "context": "Sobre las declaraciones que llegan desde Cleveland.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2115892496685531422",
+        "date": "2026-10-29T19:44:17Z"
       },
       {
         "speaker": "Cam Heyward",
@@ -591,15 +600,6 @@
         "date": "2026-10-28T23:16:37Z"
       },
       {
-        "speaker": "Aaron Rodgers",
-        "role": "QB de los Steelers",
-        "quote": "Estuvo fenomenal manejando todos los juegos de línea que le tiraron. Lo vamos a necesitar otra vez esta semana, porque su frente presenta muchos stunts y movimiento.",
-        "context": "Sobre el centro Zach Frazier y el frente de los Browns.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2115562253248516465",
-        "date": "2026-10-28T21:52:01Z"
-      },
-      {
         "speaker": "Mike McCarthy",
         "role": "Entrenador de los Steelers",
         "quote": "Necesitamos estos partidos, créanme. Me gustaría ganar por 21 puntos cada semana, pero necesitás estos partidos.",
@@ -607,15 +607,6 @@
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/week-8-blog-it-s-afc-north-football",
         "date": "2026-10-28T23:05:00Z"
-      },
-      {
-        "speaker": "Todd Monken",
-        "role": "Entrenador de los Browns",
-        "quote": "Cuando pienso en Aaron Rodgers, pienso en precisión, descarga rápida y manejo. Esos son los difíciles, porque cuando tienen la pelota al final, no van a pestañear.",
-        "context": "Sobre enfrentar otra vez a Rodgers.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2115542339280408647",
-        "date": "2026-10-28T20:32:53Z"
       },
       {
         "speaker": "DeShon Elliott",
@@ -627,22 +618,31 @@
         "date": "2026-10-28T23:05:00Z"
       },
       {
-        "speaker": "Mike McCarthy",
-        "role": "Entrenador de los Steelers",
-        "quote": "No fue fácil para nadie, pero sale mucho bueno de esto. Lo más importante: ganamos.",
-        "context": "Sobre el viaje a París, en la conferencia del lunes.",
-        "source_name": "Brian Batko (steelers.com) en X",
-        "url": "https://x.com/BrianBatko/status/2114796479445610826",
-        "date": "2026-10-26T19:09:06Z"
+        "speaker": "Aaron Rodgers",
+        "role": "QB de los Steelers",
+        "quote": "Estuvo fenomenal manejando todos los juegos de línea que le tiraron. Lo vamos a necesitar otra vez esta semana, porque su frente presenta muchos stunts y movimiento.",
+        "context": "Sobre el centro Zach Frazier y el frente de los Browns.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2115562253248516465",
+        "date": "2026-10-28T21:52:01Z"
       },
       {
-        "speaker": "T.J. Watt",
-        "role": "LB de los Steelers",
-        "quote": "Las buenas defensas siempre están sentadas en el banco. Se sintió como uno de esos partidos hoy.",
-        "context": "Sobre el control del reloj del ataque ante los Saints.",
+        "speaker": "Aaron Rodgers",
+        "role": "QB de los Steelers",
+        "quote": "Probablemente fue mi vuelo de vuelta favorito de un partido de visitante en 22 años. Hubo muchos buenos momentos en ese vuelo.",
+        "context": "Sobre el regreso desde París.",
         "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris",
-        "date": "2026-10-25T16:35:00Z"
+        "url": "https://www.steelers.com/news/from-paris-with-fun",
+        "date": "2026-10-28T21:45:00Z"
+      },
+      {
+        "speaker": "Todd Monken",
+        "role": "Entrenador de los Browns",
+        "quote": "Cuando pienso en Aaron Rodgers, pienso en precisión, descarga rápida y manejo. Esos son los difíciles, porque cuando tienen la pelota al final, no van a pestañear.",
+        "context": "Sobre enfrentar otra vez a Rodgers.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2115542339280408647",
+        "date": "2026-10-28T20:32:53Z"
       }
     ],
     "roster_moves": [
@@ -739,8 +739,22 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Buen clima: la foto de Rodgers con cadenas en el vuelo desde París fue lo más compartido y el vestuario se muestra unido. La previa con los Browns sigue caliente por lo de \"juego sucio\", el posible pedido por Josh Downs divide opiniones y se mira de reojo la muñeca de Ramsey.",
+      "summary": "Buen clima de cara al clásico: Ramsey practicó completo, Highsmith dice que juega y Samuel Jr. le contestó a los Browns con un \"el domingo no va a haber charla\". Preocupan las bajas en la secundaria (Echols y Slaughter) y la falta de gol por tierra en zona roja, y el precio de Josh Downs divide opiniones.",
       "posts": [
+        {
+          "author": "Steelers Depot",
+          "handle": "Steelersdepot",
+          "text": "Asante Samuel Jr. dijo que el domingo no va a haber charla 😂👀",
+          "url": "https://x.com/Steelersdepot/status/2115889889975939127",
+          "posted_at": "2026-10-29T19:33:55Z"
+        },
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "Pittsburgh tiene apenas 1 TD por tierra en la temporada, lo mínimo de la franquicia en 7 partidos desde 1940. ¿Una razón? Los Steelers no corren en la zona roja. Enfóquense en el juego terrestre y arreglen eso.",
+          "url": "https://x.com/Alex_Kozora/status/2115805290239066318",
+          "posted_at": "2026-10-29T13:57:45Z"
+        },
         {
           "author": "Matt Williamson",
           "handle": "WilliamsonNFL",
@@ -768,23 +782,9 @@
           "text": "Desde 2020, récord de los Steelers contra la AFC Norte (con playoffs): Baltimore 10-3, Cleveland 7-7, Cincinnati 7-6.",
           "url": "https://x.com/MarkKaboly/status/2115228585862529337",
           "posted_at": "2026-10-27T23:46:08Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "Alex_Kozora",
-          "text": "No se puede medir, pero me encanta la energía de los Steelers en todas las líneas: la ofensiva festejando cada primer down, compañeros celebrando pases tapados y capturas. Son señales de buena cultura y buen vestuario.",
-          "url": "https://x.com/Alex_Kozora/status/2115154047959183463",
-          "posted_at": "2026-10-27T18:49:57Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "Alex_Kozora",
-          "text": "Los tres mejores corredores que enfrentaron los Steelers en los últimos tres partidos (Taylor, Irving y Miller) suman 42 acarreos, 97 yardas (2,3 por intento) y cero TD. Pittsburgh frena la carrera como pocos.",
-          "url": "https://x.com/Alex_Kozora/status/2114860901618585830",
-          "posted_at": "2026-10-26T23:25:05Z"
         }
       ],
-      "updated_at": "2026-10-29T12:15:00Z"
+      "updated_at": "2026-10-29T21:15:00Z"
     }
   },
   "head_to_head": {
@@ -848,7 +848,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-29T12:05:32.516Z"
+      "updated_at": "2026-10-29T21:04:10.132Z"
     }
   }
 }

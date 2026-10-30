@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-29T21:05:43.000Z",
+    "generated_at": "2026-10-30T12:04:22.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "e7d64d6620d9255c"
+    "espn_hash": "4a25ba10b6a09489"
   },
   "team": {
     "id": "23",
@@ -47,9 +47,9 @@
     },
     "weather": {
       "summary": "Nubes intermitentes",
-      "temp_c": 18,
-      "gust_kmh": 3,
-      "precip_pct": 4
+      "temp_c": 20,
+      "gust_kmh": 13,
+      "precip_pct": 0
     },
     "broadcast": {
       "us": [
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-29T21:04:10.132Z"
+      "updated_at": "2026-10-30T12:03:43.802Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-29T21:04:10.132Z"
+      "updated_at": "2026-10-30T12:03:43.802Z"
     }
   },
   "recent_results": {
@@ -238,7 +238,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-29T21:04:10.132Z"
+      "updated_at": "2026-10-30T12:03:43.802Z"
     }
   },
   "injuries": {
@@ -320,7 +320,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-29T21:04:10.132Z"
+      "updated_at": "2026-10-30T12:03:43.802Z"
     }
   },
   "comparison": {
@@ -423,7 +423,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-29T21:04:10.132Z"
+      "updated_at": "2026-10-30T12:03:43.802Z"
     }
   },
   "news": {
@@ -450,6 +450,30 @@
       "updated_at": "2026-10-29T21:15:00Z"
     },
     "items": [
+      {
+        "title": "Darnell Washington, opción fija en la zona roja",
+        "summary": "En los Steelers dicen que el TE debería tener una oportunidad en cada llegada a la zona roja: 'Dejen que el grandote vaya a buscarla'. Viene ganando cada vez más peso en el ataque.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2116138796051759361",
+        "published_at": "2026-10-30T12:02:59Z",
+        "about": "team"
+      },
+      {
+        "title": "Monken no trae el bagaje de Cleveland",
+        "summary": "Todd Monken, ahora en los Browns, dijo que su pasado contra los Steelers 'no tiene nada que ver con nuestro equipo'.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2116113507405996063",
+        "published_at": "2026-10-30T10:22:30Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Elandon Roberts: Frazier puede ser el mejor centro de la historia de Pittsburgh",
+        "summary": "El LB dice que Zach Frazier no recibe el crédito que merece y que debería ser All-Pro.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2115959305622970869",
+        "published_at": "2026-10-30T00:09:45Z",
+        "about": "team"
+      },
       {
         "title": "Browns: Verse y Elgton Jenkins vuelven a practicar",
         "summary": "Jared Verse (rodilla) y Elgton Jenkins (rodilla) pasaron a limitados. Siguen sin practicar Tytus Howard (conmoción) y Tevin Jenkins (espalda); Mason Graham y Carson Schwesinger, limitados por el tobillo, y Dylan Sampson ya practicó completo.",
@@ -545,33 +569,18 @@
         "url": "https://www.steelers.com/news/rising-to-the-occasions",
         "published_at": "2026-10-28T20:23:06Z",
         "about": "team"
-      },
-      {
-        "title": "Josh Downs pidió salir de los Colts y los Steelers muestran interés real",
-        "summary": "Según Jeremy Fowler (ESPN) y Jordan Schultz, el receptor de Indianapolis pidió ser traspasado y Pittsburgh está interesado. Kozora duda: Downs rinde mejor en movimiento y Bernard ya cubre buena parte de ese rol.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2115480713088696482",
-        "published_at": "2026-10-28T16:28:00Z",
-        "about": "team"
-      },
-      {
-        "title": "Contra la AFC Norte desde 2020: Cleveland es el hueso más duro",
-        "summary": "Incluyendo playoffs, Pittsburgh va 10-3 contra Baltimore, 7-6 contra Cincinnati y 7-7 contra Cleveland.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2115228585862529337",
-        "published_at": "2026-10-27T23:46:08Z",
-        "about": "team"
-      },
-      {
-        "title": "Heyward responde a Verse: lo de \"juego sucio\" se contesta el domingo",
-        "summary": "Cam Heyward dijo que las acusaciones de Jared Verse se van a responder en la cancha. Dato: los Browns no ganan un partido de temporada regular en Pittsburgh hace 23 años.",
-        "source_name": "Mary Kay Cabot (cleveland.com) en X",
-        "url": "https://x.com/MaryKayCabot/status/2115209261127282794",
-        "published_at": "2026-10-27T22:29:21Z",
-        "about": "team"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Elandon Roberts",
+        "role": "LB",
+        "quote": "Si Zach Frazier sigue haciendo lo que hace, puede ser el mejor centro que jugó para los Pittsburgh Steelers. Se los digo. No le dan el crédito que merece. Ese tipo debería ir al All-Pro y al Pro Bowl. Primer equipo, se los digo.",
+        "context": "Elogio al centro de los Steelers.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2115971527384707579",
+        "date": "2026-10-30T00:58:19Z"
+      },
       {
         "speaker": "Jaquan Brisker",
         "role": "Safety de los Steelers",
@@ -634,15 +643,6 @@
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/from-paris-with-fun",
         "date": "2026-10-28T21:45:00Z"
-      },
-      {
-        "speaker": "Todd Monken",
-        "role": "Entrenador de los Browns",
-        "quote": "Cuando pienso en Aaron Rodgers, pienso en precisión, descarga rápida y manejo. Esos son los difíciles, porque cuando tienen la pelota al final, no van a pestañear.",
-        "context": "Sobre enfrentar otra vez a Rodgers.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2115542339280408647",
-        "date": "2026-10-28T20:32:53Z"
       }
     ],
     "roster_moves": [
@@ -848,7 +848,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-29T21:04:10.132Z"
+      "updated_at": "2026-10-30T12:03:43.802Z"
     }
   }
 }

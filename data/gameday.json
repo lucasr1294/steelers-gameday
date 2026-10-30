@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-30T12:04:22.000Z",
+    "generated_at": "2026-10-30T21:03:37.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "4a25ba10b6a09489"
+    "espn_hash": "fdd6df4fe56aa89c"
   },
   "team": {
     "id": "23",
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-30T12:03:43.802Z"
+      "updated_at": "2026-10-30T21:02:56.798Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-30T12:03:43.802Z"
+      "updated_at": "2026-10-30T21:02:56.798Z"
     }
   },
   "recent_results": {
@@ -238,11 +238,25 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-30T12:03:43.802Z"
+      "updated_at": "2026-10-30T21:02:56.798Z"
     }
   },
   "injuries": {
     "team": [
+      {
+        "name": "Doneiko Slaughter",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
+        "name": "Brandin Echols",
+        "position": "CB",
+        "status": "Out",
+        "injury": "Isquiotibial",
+        "practice": []
+      },
       {
         "name": "Ben Skowronek",
         "position": "WR",
@@ -251,31 +265,17 @@
         "practice": []
       },
       {
-        "name": "Alex Highsmith",
-        "position": "LB",
-        "status": "Questionable",
-        "injury": "Ingle",
-        "practice": []
-      },
-      {
-        "name": "Doneiko Slaughter",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Brandin Echols",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
         "name": "Sebastian Joseph-Day",
         "position": "DT",
         "status": "IR",
         "injury": "Tríceps",
+        "practice": []
+      },
+      {
+        "name": "Roman Wilson",
+        "position": "WR",
+        "status": "IR",
+        "injury": "Dedo",
         "practice": []
       }
     ],
@@ -288,24 +288,10 @@
         "practice": []
       },
       {
-        "name": "Mike Hall Jr.",
-        "position": "DT",
-        "status": "Questionable",
-        "injury": "Tobillo",
-        "practice": []
-      },
-      {
         "name": "Myles Harden",
         "position": "CB",
         "status": "Questionable",
         "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Jared Verse",
-        "position": "DE",
-        "status": "Questionable",
-        "injury": "Rodilla",
         "practice": []
       },
       {
@@ -314,13 +300,27 @@
         "status": "Questionable",
         "injury": "Tobillo",
         "practice": []
+      },
+      {
+        "name": "Kalia Davis",
+        "position": "DT",
+        "status": "IR",
+        "injury": "Cuádriceps",
+        "practice": []
+      },
+      {
+        "name": "Teven Jenkins",
+        "position": "G",
+        "status": "IR",
+        "injury": "Espalda",
+        "practice": []
       }
     ],
     "inactives": null,
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-30T12:03:43.802Z"
+      "updated_at": "2026-10-30T21:02:56.798Z"
     }
   },
   "comparison": {
@@ -423,33 +423,65 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-30T12:03:43.802Z"
+      "updated_at": "2026-10-30T21:02:56.798Z"
     }
   },
   "news": {
     "summary": {
-      "text": "En el parte del jueves, Jalen Ramsey volvió a practicar completo y Highsmith, limitado, avisó que juega; los CB Echols y Slaughter no practicaron por segundo día y están en duda. En Cleveland, Jared Verse y Elgton Jenkins pasaron a limitados, mientras Tytus Howard sigue afuera por conmoción. El foco defensivo es el tackleo, y por Josh Downs los Colts piden una tercera ronda.",
+      "text": "En el parte final del viernes, Highsmith y Ramsey quedaron sin designación, Skowronek está en duda y, según ESPN, Echols y Slaughter no juegan. En Cleveland vuelve el DT Mike Hall Jr., mientras Harden, Tytus Howard y Daniel Thomas están en duda. Un dato que ilusiona: desde 1989 Pittsburgh está 11-0 contra los Browns cuando venía de perder el primer cruce.",
       "refs": [
         {
           "name": "Ray Fittipaldo en X",
-          "url": "https://x.com/rayfitt1/status/2115893280982684038"
+          "url": "https://x.com/rayfitt1/status/2116237006225457244"
         },
         {
-          "name": "Steelers Depot en X",
-          "url": "https://x.com/Steelersdepot/status/2115895417812779348"
+          "name": "Mary Kay Cabot en X",
+          "url": "https://x.com/MaryKayCabot/status/2116218821535007190"
         },
         {
-          "name": "Steelers Depot",
-          "url": "https://steelersdepot.com/2026/10/browns-week-8-thursday-injury-report-jared-verse-elgton-jenkins-upgraded/"
+          "name": "Mary Kay Cabot en X",
+          "url": "https://x.com/MaryKayCabot/status/2116218092506272229"
         },
         {
-          "name": "Steelers Depot",
-          "url": "https://steelersdepot.com/2026/10/schefter-reveals-colts-steep-asking-price-for-wr-josh-downs/"
+          "name": "Alex Kozora en X",
+          "url": "https://x.com/Alex_Kozora/status/2116216320526283178"
         }
       ],
-      "updated_at": "2026-10-29T21:15:00Z"
+      "updated_at": "2026-10-30T21:10:00Z"
     },
     "items": [
+      {
+        "title": "Parte final: Highsmith y Ramsey, sin designación",
+        "summary": "Los Steelers llegan bastante enteros al clásico: Alex Highsmith y Jalen Ramsey no tienen designación y Ben Skowronek figura como duda. Según ESPN, los CB Echols y Slaughter quedaron descartados.",
+        "source_name": "Ray Fittipaldo en X",
+        "url": "https://x.com/rayfitt1/status/2116237006225457244",
+        "published_at": "2026-10-30T18:33:14Z",
+        "about": "team"
+      },
+      {
+        "title": "Browns: vuelve Mike Hall Jr.",
+        "summary": "El DT Mike Hall Jr. (tobillo) no tiene designación y jugará contra los Steelers el domingo.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2116218821535007190",
+        "published_at": "2026-10-30T17:20:59Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Browns: Harden, Howard y Thomas, en duda",
+        "summary": "El CB Myles Harden (isquiotibial), el tackle derecho Tytus Howard (conmoción) y el S Daniel Thomas (tobillo) figuran como duda para el partido.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2116218092506272229",
+        "published_at": "2026-10-30T17:18:05Z",
+        "about": "opponent"
+      },
+      {
+        "title": "11-0 cuando Cleveland amenaza con barrer la serie",
+        "summary": "Desde 1989, los Steelers están 11-0 contra los Browns después de perder el primer cruce de la temporada, con un margen promedio de 13,3 puntos y todos por 7 o más.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2116216320526283178",
+        "published_at": "2026-10-30T17:11:02Z",
+        "about": "team"
+      },
       {
         "title": "Darnell Washington, opción fija en la zona roja",
         "summary": "En los Steelers dicen que el TE debería tener una oportunidad en cada llegada a la zona roja: 'Dejen que el grandote vaya a buscarla'. Viene ganando cada vez más peso en el ataque.",
@@ -536,38 +568,6 @@
         "source_name": "Mark Kaboly en X",
         "url": "https://x.com/MarkKaboly/status/2115767391716077965",
         "published_at": "2026-10-29T11:27:09Z",
-        "about": "team"
-      },
-      {
-        "title": "Heyward destaca la mejora \"sostenible\" de Yahya Black",
-        "summary": "\"Se siente su energía\", dijo Cam Heyward sobre el progreso del DL de segundo año.",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/you-feel-his-energy-cam-heyward-recognizes-sustainable-improvement-from-cam-heyward/",
-        "published_at": "2026-10-29T00:14:05Z",
-        "about": "team"
-      },
-      {
-        "title": "Rodgers: \"el vuelo de vuelta más divertido en 22 años\"",
-        "summary": "Rudolph sacó la foto viral de Rodgers con anteojos y cadenas junto a Heyward en el avión desde París. McCarthy: \"Me encanta la onda de los muchachos\".",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/from-paris-with-fun",
-        "published_at": "2026-10-28T21:45:00Z",
-        "about": "team"
-      },
-      {
-        "title": "DeShon Elliott, de vuelta y sin limitaciones",
-        "summary": "Contó que se arrancó el tendón del isquiotibial del peroné cuando se le hiperextendió la rodilla el año pasado, y que ahora se siente totalmente recuperado. No figuró en el parte del miércoles; jugó 19 snaps defensivos (33%) en París.",
-        "source_name": "Nick Farabaugh en X",
-        "url": "https://x.com/FarabaughFB/status/2115559637751570885",
-        "published_at": "2026-10-28T21:41:37Z",
-        "about": "team"
-      },
-      {
-        "title": "Partidos cerrados: Steelers y Browns suman 11 de una posesión",
-        "summary": "Brian Batko repasa cómo McCarthy ve a un plantel veterano que gana confianza en los finales ajustados, incluido el primer cruce con Cleveland.",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/rising-to-the-occasions",
-        "published_at": "2026-10-28T20:23:06Z",
         "about": "team"
       }
     ],
@@ -739,8 +739,15 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Buen clima de cara al clásico: Ramsey practicó completo, Highsmith dice que juega y Samuel Jr. le contestó a los Browns con un \"el domingo no va a haber charla\". Preocupan las bajas en la secundaria (Echols y Slaughter) y la falta de gol por tierra en zona roja, y el precio de Josh Downs divide opiniones.",
+      "summary": "Buen clima de cara al clásico: Highsmith y Ramsey llegan sin designación y circula el dato de que los Steelers están 11-0 desde 1989 cuando Cleveland amenaza con barrerlos. Preocupan las bajas de Echols y Slaughter en la secundaria y la falta de gol por tierra en la zona roja.",
       "posts": [
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "Desde 1989, los Steelers están 11-0 contra los Browns después de perder el primer cruce y con la serie en riesgo de barrida. Ganaron esos 11 partidos por un promedio de 13,3 puntos, y todos por al menos 7.",
+          "url": "https://x.com/Alex_Kozora/status/2116216320526283178",
+          "posted_at": "2026-10-30T17:11:02Z"
+        },
         {
           "author": "Steelers Depot",
           "handle": "Steelersdepot",
@@ -775,16 +782,9 @@
           "text": "Siempre me gustó Downs: es explosivo y se despega. Rinde mejor en movimiento y esa no es la ofensiva que corre Pittsburgh; además Bernard ya hace mucho de lo que aporta Downs, recepciones cortas y yardas después de la atrapada. Así que estoy un poco dividido.",
           "url": "https://x.com/Alex_Kozora/status/2115482297646694874",
           "posted_at": "2026-10-28T16:34:18Z"
-        },
-        {
-          "author": "Mark Kaboly",
-          "handle": "MarkKaboly",
-          "text": "Desde 2020, récord de los Steelers contra la AFC Norte (con playoffs): Baltimore 10-3, Cleveland 7-7, Cincinnati 7-6.",
-          "url": "https://x.com/MarkKaboly/status/2115228585862529337",
-          "posted_at": "2026-10-27T23:46:08Z"
         }
       ],
-      "updated_at": "2026-10-29T21:15:00Z"
+      "updated_at": "2026-10-30T21:10:00Z"
     }
   },
   "head_to_head": {
@@ -848,7 +848,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-30T12:03:43.802Z"
+      "updated_at": "2026-10-30T21:02:56.798Z"
     }
   }
 }

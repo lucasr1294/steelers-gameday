@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-01T11:58:28.000Z",
+    "generated_at": "2026-11-01T15:34:27.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
     "phase": "gameday",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "db0622ca1e97586c"
+    "espn_hash": "f72ed8b8a4ca9986"
   },
   "team": {
     "id": "23",
@@ -47,7 +47,7 @@
     },
     "weather": {
       "summary": "Sol con bruma",
-      "temp_c": 19,
+      "temp_c": 18,
       "gust_kmh": 13,
       "precip_pct": 0
     },
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-11-01T11:57:28.005Z"
+      "updated_at": "2026-11-01T15:33:27.778Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-01T11:57:28.005Z"
+      "updated_at": "2026-11-01T15:33:27.778Z"
     }
   },
   "recent_results": {
@@ -238,7 +238,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T11:57:28.005Z"
+      "updated_at": "2026-11-01T15:33:27.778Z"
     }
   },
   "injuries": {
@@ -320,7 +320,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-11-01T11:57:28.005Z"
+      "updated_at": "2026-11-01T15:33:27.778Z"
     }
   },
   "comparison": {
@@ -423,12 +423,12 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-01T11:57:28.005Z"
+      "updated_at": "2026-11-01T15:33:27.778Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Día de partido: Pittsburgh recibe a Cleveland a las 15:00 (hora argentina) por el primer puesto de la AFC Norte. El sábado los Steelers subieron a Brandon Smith al plantel y elevaron a Brandon Johnson, lo que hace pensar que Skowronek vuelve a quedar inactivo; Highsmith y Ramsey llegan sin designación. En Cleveland, el RT Tytus Howard salió del protocolo de conmoción y estaría para bloquear a Watt, y Delpit avisó que Verse \"no va a estar solo\". Dulac pronostica 31-23 para Pittsburgh.",
+      "text": "Día de partido: Pittsburgh recibe a Cleveland a las 15:00 (hora argentina) por el primer puesto de la AFC Norte. El sábado los Steelers subieron a Brandon Smith al plantel y elevaron a Brandon Johnson; Highsmith y Ramsey llegan sin designación y el CB Terrell Smith debutaría. En Cleveland, el RT Tytus Howard salió del protocolo de conmoción. Los Browns no ganan en Pittsburgh desde 2003 (22 derrotas seguidas).",
       "refs": [
         {
           "name": "Steelers en X",
@@ -449,11 +449,55 @@
         {
           "name": "Steelers Depot en X",
           "url": "https://x.com/Steelersdepot/status/2116861337217409186"
+        },
+        {
+          "name": "Adam Schefter en X",
+          "url": "https://x.com/AdamSchefter/status/2116879943082688588"
         }
       ],
-      "updated_at": "2026-11-01T12:00:00Z"
+      "updated_at": "2026-11-01T15:35:00Z"
     },
     "items": [
+      {
+        "title": "Kozora espera a un Patrick Graham agresivo",
+        "summary": "En el primer partido Graham no mandó presión en la serie ganadora de Cleveland (hasta que fue tarde); hoy espera más blitz en los momentos clave.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2116913683670667476",
+        "published_at": "2026-11-01T15:22:07Z",
+        "about": "team"
+      },
+      {
+        "title": "Terrell Smith, rumbo a su debut con Pittsburgh",
+        "summary": "Kozora espera que los Steelers vistan por primera vez al CB Terrell Smith ante los Browns.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2116908233004835297",
+        "published_at": "2026-11-01T15:00:27Z",
+        "about": "team"
+      },
+      {
+        "title": "Jerry Jeudy aparece entre los WR mencionados para la fecha límite de cambios",
+        "summary": "Schefter lo nombra junto a Brian Thomas Jr., Josh Downs, Jauan Jennings y Calvin Ridley.",
+        "source_name": "Adam Schefter en X",
+        "url": "https://x.com/AdamSchefter/status/2116884192780812537",
+        "published_at": "2026-11-01T13:24:56Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Roethlisberger encabeza el Terrible Towel Twirl",
+        "summary": "Big Ben lo hará junto al teniente general Robert D. Harter antes del partido.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2116882675177062797",
+        "published_at": "2026-11-01T13:18:54Z",
+        "about": "team"
+      },
+      {
+        "title": "Schefter: los Browns perdieron sus últimos 22 partidos de temporada regular en Pittsburgh",
+        "summary": "Cleveland no gana allí desde el 5 de octubre de 2003 (8.248 días) y una derrota hoy lo dejaría a una del récord de la NFL de derrotas seguidas como visitante ante un mismo rival.",
+        "source_name": "Adam Schefter en X",
+        "url": "https://x.com/AdamSchefter/status/2116879943082688588",
+        "published_at": "2026-11-01T13:08:02Z",
+        "about": "opponent"
+      },
       {
         "title": "Dulac pronostica 31-23 para Pittsburgh",
         "summary": "Gerry Dulac (Post-Gazette) recuerda que los Browns no ganan un partido de temporada regular en Pittsburgh hace 23 años y no barren a los Steelers desde 1988.",
@@ -503,14 +547,6 @@
         "about": "team"
       },
       {
-        "title": "22 triunfos seguidos en casa contra los Browns",
-        "summary": "El ex scout John Middlekauff también se juega por los Steelers y recuerda la racha de 22 victorias al hilo como local ante Cleveland.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116327494328754570",
-        "published_at": "2026-10-31T00:32:48Z",
-        "about": "team"
-      },
-      {
         "title": "Rosenthal: \"No los van a barrer\"",
         "summary": "Gregg Rosenthal (NFL.com) da ganador a Pittsburgh y lo ve bastante mejor: noveno en DVOA contra el puesto 21 de los Browns.",
         "source_name": "Steelers Depot en X",
@@ -541,41 +577,27 @@
         "url": "https://x.com/MaryKayCabot/status/2116218092506272229",
         "published_at": "2026-10-30T17:18:05Z",
         "about": "opponent"
-      },
-      {
-        "title": "11-0 cuando Cleveland amenaza con barrer la serie",
-        "summary": "Desde 1989, los Steelers están 11-0 contra los Browns después de perder el primer cruce de la temporada, con un margen promedio de 13,3 puntos y todos por 7 o más.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2116216320526283178",
-        "published_at": "2026-10-30T17:11:02Z",
-        "about": "team"
-      },
-      {
-        "title": "Darnell Washington, opción fija en la zona roja",
-        "summary": "En los Steelers dicen que el TE debería tener una oportunidad en cada llegada a la zona roja: 'Dejen que el grandote vaya a buscarla'. Viene ganando cada vez más peso en el ataque.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116138796051759361",
-        "published_at": "2026-10-30T12:02:59Z",
-        "about": "team"
-      },
-      {
-        "title": "Monken no trae el bagaje de Cleveland",
-        "summary": "Todd Monken, ahora en los Browns, dijo que su pasado contra los Steelers 'no tiene nada que ver con nuestro equipo'.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116113507405996063",
-        "published_at": "2026-10-30T10:22:30Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Elandon Roberts: Frazier puede ser el mejor centro de la historia de Pittsburgh",
-        "summary": "El LB dice que Zach Frazier no recibe el crédito que merece y que debería ser All-Pro.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2115959305622970869",
-        "published_at": "2026-10-30T00:09:45Z",
-        "about": "team"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Darnell Washington",
+        "role": "TE de los Steelers",
+        "quote": "Personalmente, siento que tenemos que establecer la carrera temprano. Toda gran ofensiva, una vez que establece la carrera, se le abren un montón de opciones más adelante.",
+        "context": "Sobre qué hace falta para ganarle a los Browns.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2116912906747130250",
+        "date": "2026-11-01T15:19:01Z"
+      },
+      {
+        "speaker": "Cam Heyward",
+        "role": "DT de los Steelers",
+        "quote": "Mirarnos al espejo y decir que podemos jugar mejor. No dar jugadas por sentadas. Que haya un tipo ahí no alcanza: tiene que haber tres o cuatro. Hay que hacer una fiesta en la pelota.",
+        "context": "Sobre cómo mejorar en defensa en la revancha con Cleveland.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2116898759980503298",
+        "date": "2026-11-01T14:22:49Z"
+      },
       {
         "speaker": "Grant Delpit",
         "role": "Safety de los Browns",
@@ -629,24 +651,6 @@
         "source_name": "Teresa Varley (steelers.com) en X",
         "url": "https://x.com/Teresa_Varley/status/2115583546479747122",
         "date": "2026-10-28T23:16:37Z"
-      },
-      {
-        "speaker": "Mike McCarthy",
-        "role": "Entrenador de los Steelers",
-        "quote": "Necesitamos estos partidos, créanme. Me gustaría ganar por 21 puntos cada semana, pero necesitás estos partidos.",
-        "context": "Sobre los partidos cerrados; Cleveland también ganó varios.",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/week-8-blog-it-s-afc-north-football",
-        "date": "2026-10-28T23:05:00Z"
-      },
-      {
-        "speaker": "DeShon Elliott",
-        "role": "S de los Steelers",
-        "quote": "Me sentí bien. Estoy contento de estar sano. Voy a jugar donde me necesiten, cuando me necesiten, sea cual sea el rol.",
-        "context": "Tras su primer partido en más de un año.",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/week-8-blog-it-s-afc-north-football",
-        "date": "2026-10-28T23:05:00Z"
       }
     ],
     "roster_moves": [
@@ -743,8 +747,22 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Buen clima de cara al clásico: Highsmith y Ramsey llegan sin designación y circula el dato de que los Steelers están 11-0 desde 1989 cuando Cleveland amenaza con barrerlos. Preocupan las bajas de Echols y Slaughter en la secundaria y la falta de gol por tierra en la zona roja. Kaboly avisa que si no corren la pelota 30 veces, pierden.",
+      "summary": "Clima de clásico y de confianza en Acrisure: Schefter recuerda que Cleveland perdió los últimos 22 partidos en Pittsburgh y Dulac, Hester y Kirwan dan ganador a los Steelers. Kozora espera a un Graham más agresivo con la presión que en la derrota de Cleveland. Preocupan las bajas en la secundaria y la falta de gol por tierra; Kaboly insiste en que hay que correr la pelota.",
       "posts": [
+        {
+          "author": "Alex Kozora",
+          "handle": "Alex_Kozora",
+          "text": "Patrick Graham didn't send pressure on the Browns game-winning drive in the first matchup (at least, not until it was too late). I'd expect him to be aggressive today. Especially in key moments. #Steelers",
+          "url": "https://x.com/Alex_Kozora/status/2116913683670667476",
+          "posted_at": "2026-11-01T15:22:07Z"
+        },
+        {
+          "author": "Adam Schefter",
+          "handle": "AdamSchefter",
+          "text": "The Browns have lost 22 straight regular-season games in Pittsburgh, and have not won a regular-season game there since Oct. 5, 2003 -- 8,248 days ago. They are one loss today shy of tying the NFL record for most consecutive road regular-season losses vs. a team in NFL history",
+          "url": "https://x.com/AdamSchefter/status/2116879943082688588",
+          "posted_at": "2026-11-01T13:08:02Z"
+        },
         {
           "author": "Steelers Depot",
           "handle": "Steelersdepot",
@@ -772,23 +790,9 @@
           "text": "Asante Samuel Jr. dijo que el domingo no va a haber charla 😂👀",
           "url": "https://x.com/Steelersdepot/status/2115889889975939127",
           "posted_at": "2026-10-29T19:33:55Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "Alex_Kozora",
-          "text": "Pittsburgh tiene apenas 1 TD por tierra en la temporada, lo mínimo de la franquicia en 7 partidos desde 1940. ¿Una razón? Los Steelers no corren en la zona roja. Enfóquense en el juego terrestre y arreglen eso.",
-          "url": "https://x.com/Alex_Kozora/status/2115805290239066318",
-          "posted_at": "2026-10-29T13:57:45Z"
-        },
-        {
-          "author": "Matt Williamson",
-          "handle": "WilliamsonNFL",
-          "text": "Los Steelers tienen un diferencial de capturas de -4; los Browns, de -5. A Deshaun Watson lo capturaron 25 veces y a Aaron Rodgers 22: son los dos QB más capturados de la liga.",
-          "url": "https://x.com/WilliamsonNFL/status/2115602553907884402",
-          "posted_at": "2026-10-29T00:32:09Z"
         }
       ],
-      "updated_at": "2026-11-01T12:00:00Z"
+      "updated_at": "2026-11-01T15:35:00Z"
     }
   },
   "head_to_head": {
@@ -852,7 +856,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T11:57:28.005Z"
+      "updated_at": "2026-11-01T15:33:27.778Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-10-31T11:55:02.000Z",
+    "generated_at": "2026-11-01T11:58:28.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
-    "phase": "week",
+    "phase": "gameday",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "407428f41509be58"
+    "espn_hash": "db0622ca1e97586c"
   },
   "team": {
     "id": "23",
@@ -62,13 +62,13 @@
     "odds": {
       "favorite_abbr": "PIT",
       "spread": 3.5,
-      "over_under": 39.5,
+      "over_under": 38.5,
       "provider": "DraftKings"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-31T11:54:21.834Z"
+      "updated_at": "2026-11-01T11:57:28.005Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-10-31T11:54:21.834Z"
+      "updated_at": "2026-11-01T11:57:28.005Z"
     }
   },
   "recent_results": {
@@ -238,7 +238,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-31T11:54:21.834Z"
+      "updated_at": "2026-11-01T11:57:28.005Z"
     }
   },
   "injuries": {
@@ -295,13 +295,6 @@
         "practice": []
       },
       {
-        "name": "Tytus Howard",
-        "position": "OT",
-        "status": "Questionable",
-        "injury": "Conmoción",
-        "practice": []
-      },
-      {
         "name": "Kalia Davis",
         "position": "DT",
         "status": "IR",
@@ -314,13 +307,20 @@
         "status": "IR",
         "injury": "Espalda",
         "practice": []
+      },
+      {
+        "name": "Raheim Sanders",
+        "position": "RB",
+        "status": "IR",
+        "injury": "Cadera",
+        "practice": []
       }
     ],
     "inactives": null,
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-10-31T11:54:21.834Z"
+      "updated_at": "2026-11-01T11:57:28.005Z"
     }
   },
   "comparison": {
@@ -423,37 +423,77 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-10-31T11:54:21.834Z"
+      "updated_at": "2026-11-01T11:57:28.005Z"
     }
   },
   "news": {
     "summary": {
-      "text": "En el parte final del viernes, Highsmith y Ramsey quedaron sin designación, Skowronek está en duda y, según ESPN, Echols y Slaughter no juegan. En Cleveland vuelve el DT Mike Hall Jr., mientras Harden, Tytus Howard y Daniel Thomas están en duda. Un dato que ilusiona: desde 1989 Pittsburgh está 11-0 contra los Browns cuando venía de perder el primer cruce. Los analistas se inclinan por Pittsburgh: Rosenthal y Middlekauff lo ven ganador, con 22 triunfos seguidos en casa ante Cleveland.",
+      "text": "Día de partido: Pittsburgh recibe a Cleveland a las 15:00 (hora argentina) por el primer puesto de la AFC Norte. El sábado los Steelers subieron a Brandon Smith al plantel y elevaron a Brandon Johnson, lo que hace pensar que Skowronek vuelve a quedar inactivo; Highsmith y Ramsey llegan sin designación. En Cleveland, el RT Tytus Howard salió del protocolo de conmoción y estaría para bloquear a Watt, y Delpit avisó que Verse \"no va a estar solo\". Dulac pronostica 31-23 para Pittsburgh.",
       "refs": [
         {
-          "name": "Ray Fittipaldo en X",
-          "url": "https://x.com/rayfitt1/status/2116237006225457244"
-        },
-        {
-          "name": "Mary Kay Cabot en X",
-          "url": "https://x.com/MaryKayCabot/status/2116218821535007190"
-        },
-        {
-          "name": "Mary Kay Cabot en X",
-          "url": "https://x.com/MaryKayCabot/status/2116218092506272229"
-        },
-        {
-          "name": "Alex Kozora en X",
-          "url": "https://x.com/Alex_Kozora/status/2116216320526283178"
+          "name": "Steelers en X",
+          "url": "https://x.com/steelers/status/2116618063697064431"
         },
         {
           "name": "Steelers Depot en X",
-          "url": "https://x.com/Steelersdepot/status/2116314781342990750"
+          "url": "https://x.com/Steelersdepot/status/2116618320946642965"
+        },
+        {
+          "name": "Mary Kay Cabot en X",
+          "url": "https://x.com/MaryKayCabot/status/2116598680660930823"
+        },
+        {
+          "name": "Mary Kay Cabot en X",
+          "url": "https://x.com/MaryKayCabot/status/2116629475849101589"
+        },
+        {
+          "name": "Steelers Depot en X",
+          "url": "https://x.com/Steelersdepot/status/2116861337217409186"
         }
       ],
-      "updated_at": "2026-10-31T12:00:00Z"
+      "updated_at": "2026-11-01T12:00:00Z"
     },
     "items": [
+      {
+        "title": "Dulac pronostica 31-23 para Pittsburgh",
+        "summary": "Gerry Dulac (Post-Gazette) recuerda que los Browns no ganan un partido de temporada regular en Pittsburgh hace 23 años y no barren a los Steelers desde 1988.",
+        "source_name": "Steelers Depot en X",
+        "url": "https://x.com/Steelersdepot/status/2116861337217409186",
+        "published_at": "2026-11-01T11:54:06Z",
+        "about": "team"
+      },
+      {
+        "title": "Delpit respalda a Verse antes del clásico",
+        "summary": "Grant Delpit dijo que Jared Verse \"no va a estar solo\" a la hora de respaldar sus declaraciones; en Cleveland pasaron 'Renegade' en las prácticas de toda la semana.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2116629475849101589",
+        "published_at": "2026-10-31T20:32:46Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Watt, en una lista de cinco con 120 capturas en 10 temporadas",
+        "summary": "T.J. Watt se une a Reggie White, Jared Allen, DeMarcus Ware y Myles Garrett como los únicos con al menos 120 sacks en sus primeras 10 temporadas.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2116629409402650645",
+        "published_at": "2026-10-31T20:32:30Z",
+        "about": "team"
+      },
+      {
+        "title": "Brandon Smith sube al plantel y Brandon Johnson, elevado",
+        "summary": "Los Steelers firmaron al WR Brandon Smith al roster activo desde el practice squad y elevaron al WR Brandon Johnson para el partido. Steelers Depot cree que eso deja a Ben Skowronek (gemelo) otra vez inactivo.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2116618063697064431",
+        "published_at": "2026-10-31T19:47:25Z",
+        "about": "team"
+      },
+      {
+        "title": "Browns: Tytus Howard, liberado del protocolo de conmoción",
+        "summary": "El RT Tytus Howard no tiene designación y probablemente arranque para bloquear a T.J. Watt. Cleveland elevó al TE Carsen Ryan del practice squad.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2116598680660930823",
+        "published_at": "2026-10-31T18:30:24Z",
+        "about": "opponent"
+      },
       {
         "title": "Heyward no se engancha con las chicanas de Cleveland",
         "summary": "Cam Heyward minimizó la previa caliente de los Browns: \"Todos hablan, pero lo que importa es caminar\".",
@@ -533,49 +573,18 @@
         "url": "https://x.com/Alex_Kozora/status/2115959305622970869",
         "published_at": "2026-10-30T00:09:45Z",
         "about": "team"
-      },
-      {
-        "title": "Browns: Verse y Elgton Jenkins vuelven a practicar",
-        "summary": "Jared Verse (rodilla) y Elgton Jenkins (rodilla) pasaron a limitados. Siguen sin practicar Tytus Howard (conmoción) y Tevin Jenkins (espalda); Mason Graham y Carson Schwesinger, limitados por el tobillo, y Dylan Sampson ya practicó completo.",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/browns-week-8-thursday-injury-report-jared-verse-elgton-jenkins-upgraded/",
-        "published_at": "2026-10-29T20:08:00Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Highsmith: \"Voy a estar bien para el partido\"",
-        "summary": "El OLB, limitado por la ingle, dijo que se está cuidando en la semana pero que juega el domingo.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2115895417812779348",
-        "published_at": "2026-10-29T19:55:53Z",
-        "about": "team"
-      },
-      {
-        "title": "Parte del jueves: Ramsey practicó completo; Echols y Slaughter, otra vez afuera",
-        "summary": "Jalen Ramsey (muñeca) pasó a práctica completa, igual que Heyward, Watt y Darnell Washington tras su descanso. Highsmith (ingle) y Skowronek (pantorrilla) volvieron a estar limitados, y los CB Brandin Echols y Doneiko Slaughter (isquiotibial) no practicaron por segundo día.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2115893280982684038",
-        "published_at": "2026-10-29T19:47:24Z",
-        "about": "team"
-      },
-      {
-        "title": "Foco de la semana: tackleo, tras 16 fallados contra Cleveland",
-        "summary": "Asante Samuel Jr. contó que la defensa trabajó el tackleo después del primer cruce con los Browns. Brisker agregó que ahora las llamadas son más simples y que Patrick Graham baja al costado de la cancha.",
-        "source_name": "Nick Farabaugh en X",
-        "url": "https://x.com/FarabaughFB/status/2115884367427805278",
-        "published_at": "2026-10-29T19:11:59Z",
-        "about": "team"
-      },
-      {
-        "title": "Josh Downs: los Colts piden valor de tercera ronda",
-        "summary": "Según Adam Schefter, Indianapolis pide una tercera por Downs y \"nadie está dispuesto a eso por ahora\". Los Steelers están entre los equipos que preguntaron; el cierre de pases es el 10 de noviembre.",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/schefter-reveals-colts-steep-asking-price-for-wr-josh-downs/",
-        "published_at": "2026-10-29T17:47:00Z",
-        "about": "team"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Grant Delpit",
+        "role": "Safety de los Browns",
+        "quote": "Jared Verse no va a estar solo.",
+        "context": "Sobre respaldar en la cancha las declaraciones de Verse contra los Steelers.",
+        "source_name": "Mary Kay Cabot en X",
+        "url": "https://x.com/MaryKayCabot/status/2116629475849101589",
+        "date": "2026-10-31T20:32:46Z"
+      },
       {
         "speaker": "Cam Heyward",
         "role": "DL de los Steelers",
@@ -638,18 +647,27 @@
         "source_name": "steelers.com",
         "url": "https://www.steelers.com/news/week-8-blog-it-s-afc-north-football",
         "date": "2026-10-28T23:05:00Z"
-      },
-      {
-        "speaker": "Aaron Rodgers",
-        "role": "QB de los Steelers",
-        "quote": "Estuvo fenomenal manejando todos los juegos de línea que le tiraron. Lo vamos a necesitar otra vez esta semana, porque su frente presenta muchos stunts y movimiento.",
-        "context": "Sobre el centro Zach Frazier y el frente de los Browns.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2115562253248516465",
-        "date": "2026-10-28T21:52:01Z"
       }
     ],
     "roster_moves": [
+      {
+        "date": "2026-10-31T19:47:25Z",
+        "player": "Brandon Smith",
+        "position": "WR",
+        "move": "signed",
+        "detail": "Del practice squad al roster activo de 53.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2116618063697064431"
+      },
+      {
+        "date": "2026-10-31T19:47:25Z",
+        "player": "Brandon Johnson",
+        "position": "WR",
+        "move": "elevated",
+        "detail": "Elevado del practice squad para el partido contra Cleveland.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2116618063697064431"
+      },
       {
         "date": "2026-10-24T14:32:58Z",
         "player": "DeShon Elliott",
@@ -721,30 +739,19 @@
         "detail": "Del equipo de práctica al plantel activo, en el lugar de Wilson.",
         "source_name": "Ray Fittipaldo (Post-Gazette) en X",
         "url": "https://x.com/rayfitt1/status/2111533960207519771"
-      },
-      {
-        "date": "2026-10-17T19:05:01Z",
-        "player": "Brandon Smith",
-        "position": "WR",
-        "move": "elevated",
-        "detail": "Subido del equipo de práctica para el partido en Tampa.",
-        "source_name": "Ray Fittipaldo (Post-Gazette) en X",
-        "url": "https://x.com/rayfitt1/status/2111533960207519771"
-      },
-      {
-        "date": "2026-10-17T19:05:01Z",
-        "player": "Brandon Johnson",
-        "position": "WR",
-        "move": "elevated",
-        "detail": "Subido del equipo de práctica para el partido en Tampa.",
-        "source_name": "Ray Fittipaldo (Post-Gazette) en X",
-        "url": "https://x.com/rayfitt1/status/2111533960207519771"
       }
     ],
     "x_pulse": {
       "mood": "optimista",
       "summary": "Buen clima de cara al clásico: Highsmith y Ramsey llegan sin designación y circula el dato de que los Steelers están 11-0 desde 1989 cuando Cleveland amenaza con barrerlos. Preocupan las bajas de Echols y Slaughter en la secundaria y la falta de gol por tierra en la zona roja. Kaboly avisa que si no corren la pelota 30 veces, pierden.",
       "posts": [
+        {
+          "author": "Steelers Depot",
+          "handle": "Steelersdepot",
+          "text": "Gerry Dulac predicts the Steelers will beat the Browns 31-23: “In case you need a reminder, the Browns haven’t won a regular-season game in Pittsburgh in 23 years. And they haven’t swept the Steelers since 1988.”",
+          "url": "https://x.com/Steelersdepot/status/2116861337217409186",
+          "posted_at": "2026-11-01T11:54:06Z"
+        },
         {
           "author": "Mark Kaboly",
           "handle": "MarkKaboly",
@@ -779,16 +786,9 @@
           "text": "Los Steelers tienen un diferencial de capturas de -4; los Browns, de -5. A Deshaun Watson lo capturaron 25 veces y a Aaron Rodgers 22: son los dos QB más capturados de la liga.",
           "url": "https://x.com/WilliamsonNFL/status/2115602553907884402",
           "posted_at": "2026-10-29T00:32:09Z"
-        },
-        {
-          "author": "Mark Kaboly",
-          "handle": "MarkKaboly",
-          "text": "\"Probablemente fue lo más divertido que pasé en un vuelo de vuelta de un partido en mis 22 años.\" — Aaron Rodgers.",
-          "url": "https://x.com/MarkKaboly/status/2115586267421532370",
-          "posted_at": "2026-10-28T23:27:26Z"
         }
       ],
-      "updated_at": "2026-10-31T12:00:00Z"
+      "updated_at": "2026-11-01T12:00:00Z"
     }
   },
   "head_to_head": {
@@ -852,7 +852,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-10-31T11:54:21.834Z"
+      "updated_at": "2026-11-01T11:57:28.005Z"
     }
   }
 }

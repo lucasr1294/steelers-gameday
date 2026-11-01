@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-01T15:34:27.000Z",
+    "generated_at": "2026-11-01T16:50:04.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 8,
-    "phase": "gameday",
+    "phase": "pregame",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "f72ed8b8a4ca9986"
+    "espn_hash": "18a2a36a8748e20b"
   },
   "team": {
     "id": "23",
@@ -47,7 +47,7 @@
     },
     "weather": {
       "summary": "Sol con bruma",
-      "temp_c": 18,
+      "temp_c": 19,
       "gust_kmh": 13,
       "precip_pct": 0
     },
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-11-01T15:33:27.778Z"
+      "updated_at": "2026-11-01T16:49:22.040Z"
     }
   },
   "form": {
@@ -144,7 +144,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-01T15:33:27.778Z"
+      "updated_at": "2026-11-01T16:49:22.040Z"
     }
   },
   "recent_results": {
@@ -238,11 +238,18 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T15:33:27.778Z"
+      "updated_at": "2026-11-01T16:49:22.040Z"
     }
   },
   "injuries": {
     "team": [
+      {
+        "name": "Ben Skowronek",
+        "position": "WR",
+        "status": "Out",
+        "injury": "Pantorrilla",
+        "practice": []
+      },
       {
         "name": "Doneiko Slaughter",
         "position": "CB",
@@ -255,13 +262,6 @@
         "position": "CB",
         "status": "Out",
         "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Ben Skowronek",
-        "position": "WR",
-        "status": "Questionable",
-        "injury": "Pantorrilla",
         "practice": []
       },
       {
@@ -279,48 +279,67 @@
         "practice": []
       }
     ],
-    "opponent": [
-      {
-        "name": "Daniel Thomas",
-        "position": "S",
-        "status": "Questionable",
-        "injury": "Tobillo",
-        "practice": []
-      },
-      {
-        "name": "Myles Harden",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Isquiotibial",
-        "practice": []
-      },
-      {
-        "name": "Kalia Davis",
-        "position": "DT",
-        "status": "IR",
-        "injury": "Cuádriceps",
-        "practice": []
-      },
-      {
-        "name": "Teven Jenkins",
-        "position": "G",
-        "status": "IR",
-        "injury": "Espalda",
-        "practice": []
-      },
-      {
-        "name": "Raheim Sanders",
-        "position": "RB",
-        "status": "IR",
-        "injury": "Cadera",
-        "practice": []
-      }
-    ],
-    "inactives": null,
+    "opponent": [],
+    "inactives": {
+      "published_at": "2026-11-01T16:37:48Z",
+      "url": "https://x.com/steelers/status/2116932729644130567",
+      "team": [
+        {
+          "name": "Ben Skowronek",
+          "position": "WR"
+        },
+        {
+          "name": "Drew Allar",
+          "position": "QB"
+        },
+        {
+          "name": "Will Howard (3er QB)",
+          "position": "QB"
+        },
+        {
+          "name": "Brandin Echols",
+          "position": "CB"
+        },
+        {
+          "name": "Eli Heidenreich",
+          "position": "RB"
+        },
+        {
+          "name": "Doneiko Slaughter",
+          "position": "CB"
+        }
+      ],
+      "opponent": [
+        {
+          "name": "Dillon Gabriel (3er QB)",
+          "position": "QB"
+        },
+        {
+          "name": "Taylen Green",
+          "position": "QB"
+        },
+        {
+          "name": "Audric Estime",
+          "position": "RB"
+        },
+        {
+          "name": "Parker Brailsford",
+          "position": "C"
+        },
+        {
+          "name": "Justin Jefferson",
+          "position": "LB"
+        },
+        {
+          "name": "Noah Igbinoghene",
+          "position": "CB"
+        }
+      ]
+    },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-11-01T15:33:27.778Z"
+      "updated_at": "2026-11-01T16:49:22.040Z"
     }
   },
   "comparison": {
@@ -423,41 +442,49 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-01T15:33:27.778Z"
+      "updated_at": "2026-11-01T16:49:22.040Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Día de partido: Pittsburgh recibe a Cleveland a las 15:00 (hora argentina) por el primer puesto de la AFC Norte. El sábado los Steelers subieron a Brandon Smith al plantel y elevaron a Brandon Johnson; Highsmith y Ramsey llegan sin designación y el CB Terrell Smith debutaría. En Cleveland, el RT Tytus Howard salió del protocolo de conmoción. Los Browns no ganan en Pittsburgh desde 2003 (22 derrotas seguidas).",
+      "text": "Salieron los inactivos: en Pittsburgh queda afuera el WR Ben Skowronek (pantorrilla, era duda), además de los CB Brandin Echols y Doneiko Slaughter (isquiotibiales), así que Terrell Smith está activo por primera vez. En Cleveland juega el RT Tytus Howard tras salir del protocolo de conmoción; afuera quedan Taylen Green, Estime, Brailsford, Jefferson e Igbinoghene. Kickoff 15:00 (hora argentina) por el primer puesto de la AFC Norte.",
       "refs": [
         {
           "name": "Steelers en X",
-          "url": "https://x.com/steelers/status/2116618063697064431"
+          "url": "https://x.com/steelers/status/2116932729644130567"
         },
         {
-          "name": "Steelers Depot en X",
-          "url": "https://x.com/Steelersdepot/status/2116618320946642965"
+          "name": "Brian Batko en X",
+          "url": "https://x.com/BrianBatko/status/2116932950335844432"
+        },
+        {
+          "name": "Browns en X",
+          "url": "https://x.com/Browns/status/2116930773538468279"
         },
         {
           "name": "Mary Kay Cabot en X",
-          "url": "https://x.com/MaryKayCabot/status/2116598680660930823"
-        },
-        {
-          "name": "Mary Kay Cabot en X",
-          "url": "https://x.com/MaryKayCabot/status/2116629475849101589"
-        },
-        {
-          "name": "Steelers Depot en X",
-          "url": "https://x.com/Steelersdepot/status/2116861337217409186"
-        },
-        {
-          "name": "Adam Schefter en X",
-          "url": "https://x.com/AdamSchefter/status/2116879943082688588"
+          "url": "https://x.com/MaryKayCabot/status/2116930819545768110"
         }
       ],
-      "updated_at": "2026-11-01T15:35:00Z"
+      "updated_at": "2026-11-01T16:55:00Z"
     },
     "items": [
+      {
+        "title": "Inactivos de los Steelers: Skowronek no juega",
+        "summary": "WR Ben Skowronek (pantorrilla), QB Drew Allar, QB Will Howard (3er QB), CB Brandin Echols (isquio), RB Eli Heidenreich y CB Doneiko Slaughter (isquio). Terrell Smith debuta como CB activo.",
+        "source_name": "Steelers en X",
+        "url": "https://x.com/steelers/status/2116932729644130567",
+        "published_at": "2026-11-01T16:37:48Z",
+        "about": "team"
+      },
+      {
+        "title": "Inactivos de los Browns",
+        "summary": "QB Dillon Gabriel (3er QB), QB Taylen Green, RB Audric Estime, C Parker Brailsford, LB Justin Jefferson y CB Noah Igbinoghene. El RT Tytus Howard está activo.",
+        "source_name": "Browns en X",
+        "url": "https://x.com/Browns/status/2116930773538468279",
+        "published_at": "2026-11-01T16:30:01Z",
+        "about": "opponent"
+      },
       {
         "title": "Kozora espera a un Patrick Graham agresivo",
         "summary": "En el primer partido Graham no mandó presión en la serie ganadora de Cleveland (hasta que fue tarde); hoy espera más blitz en los momentos clave.",
@@ -560,22 +587,6 @@
         "source_name": "Mary Kay Cabot en X",
         "url": "https://x.com/MaryKayCabot/status/2116293312852484498",
         "published_at": "2026-10-30T22:16:59Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Parte final: Highsmith y Ramsey, sin designación",
-        "summary": "Los Steelers llegan bastante enteros al clásico: Alex Highsmith y Jalen Ramsey no tienen designación y Ben Skowronek figura como duda. Según ESPN, los CB Echols y Slaughter quedaron descartados.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2116237006225457244",
-        "published_at": "2026-10-30T18:33:14Z",
-        "about": "team"
-      },
-      {
-        "title": "Browns: Harden, Howard y Thomas, en duda",
-        "summary": "El CB Myles Harden (isquiotibial), el tackle derecho Tytus Howard (conmoción) y el S Daniel Thomas (tobillo) figuran como duda para el partido.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2116218092506272229",
-        "published_at": "2026-10-30T17:18:05Z",
         "about": "opponent"
       }
     ],
@@ -856,7 +867,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T15:33:27.778Z"
+      "updated_at": "2026-11-01T16:49:22.040Z"
     }
   }
 }

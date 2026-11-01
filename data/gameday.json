@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-01T16:50:04.000Z",
+    "generated_at": "2026-11-01T21:56:32.000Z",
     "season": 2026,
     "season_type": "regular",
-    "week": 8,
-    "phase": "pregame",
+    "week": 10,
+    "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "18a2a36a8748e20b"
+    "espn_hash": "353a2ba32366e5f5"
   },
   "team": {
     "id": "23",
@@ -17,85 +17,65 @@
     "abbr": "PIT",
     "color": "#FFB612",
     "record": {
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
       "ties": 0
     }
   },
   "next_game": {
-    "id": "401873027",
-    "week": 8,
+    "id": "401873064",
+    "week": 10,
     "label": null,
-    "kickoff": "2026-11-01T18:00:00.000Z",
+    "kickoff": "2026-11-16T01:20:00.000Z",
     "time_tbd": false,
     "opponent": {
-      "id": "5",
-      "name": "Cleveland Browns",
-      "short_name": "Browns",
-      "abbr": "CLE",
+      "id": "4",
+      "name": "Cincinnati Bengals",
+      "short_name": "Bengals",
+      "abbr": "CIN",
       "record": {
         "wins": 5,
         "losses": 2,
         "ties": 0
       }
     },
-    "home_away": "home",
+    "home_away": "away",
     "venue": {
-      "name": "Acrisure Stadium",
-      "city": "Pittsburgh, PA",
+      "name": "Paycor Stadium",
+      "city": "Cincinnati, OH",
       "indoor": false
     },
-    "weather": {
-      "summary": "Sol con bruma",
-      "temp_c": 19,
-      "gust_kmh": 13,
-      "precip_pct": 0
-    },
+    "weather": null,
     "broadcast": {
       "us": [
-        "CBS"
+        "NBC"
       ],
       "argentina": [
         "NFL Game Pass (DAZN)"
       ]
     },
-    "odds": {
-      "favorite_abbr": "PIT",
-      "spread": 3.5,
-      "over_under": 38.5,
-      "provider": "DraftKings"
-    },
+    "odds": null,
     "source": {
       "name": "ESPN",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-11-01T16:49:22.040Z"
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
+      "updated_at": "2026-11-01T21:54:25.110Z"
     }
   },
   "form": {
     "record": {
-      "wins": 5,
+      "wins": 6,
       "losses": 2,
       "ties": 0
     },
     "division": {
       "name": "AFC Norte",
-      "position": 2,
+      "position": 1,
       "standings": [
-        {
-          "abbr": "CLE",
-          "name": "Browns",
-          "record": {
-            "wins": 5,
-            "losses": 2,
-            "ties": 0
-          },
-          "games_back": 0
-        },
         {
           "abbr": "PIT",
           "name": "Steelers",
           "record": {
-            "wins": 5,
+            "wins": 6,
             "losses": 2,
             "ties": 0
           },
@@ -105,50 +85,77 @@
           "abbr": "CIN",
           "name": "Bengals",
           "record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 2,
             "ties": 0
           },
           "games_back": 0.5
         },
         {
-          "abbr": "BAL",
-          "name": "Ravens",
+          "abbr": "CLE",
+          "name": "Browns",
           "record": {
-            "wins": 4,
+            "wins": 5,
             "losses": 3,
             "ties": 0
           },
           "games_back": 1
+        },
+        {
+          "abbr": "BAL",
+          "name": "Ravens",
+          "record": {
+            "wins": 4,
+            "losses": 4,
+            "ties": 0
+          },
+          "games_back": 2
         }
       ]
     },
     "streak": {
       "type": "W",
-      "count": 3
+      "count": 4
     },
     "thermometer": {
-      "text": "Llegan 5-2 y con tres triunfos seguidos tras ganarle 16-10 a los Saints en París, con una defensa que dejó al rival en 18 yardas por tierra. Ahora viene la pelea por la punta de la AFC Norte contra los Browns, también 5-2, que ya les ganaron 27-24 en Cleveland.",
+      "text": "Llegan a la semana libre 6-2, primeros solos en la AFC Norte y con cuatro triunfos seguidos tras aplastar 27-6 a los Browns. La defensa permitió apenas tres touchdowns en los últimos 19 cuartos y el juego terrestre es la identidad del equipo. A la vuelta, domingo 15 a la noche en Cincinnati.",
       "refs": [
         {
           "name": "steelers.com",
-          "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris"
+          "url": "https://www.steelers.com/news/steelers-roll-past-browns-27-6"
         },
         {
           "name": "Alex Kozora en X",
-          "url": "https://x.com/Alex_Kozora/status/2114449067849703586"
+          "url": "https://x.com/Alex_Kozora/status/2117007733446807657"
         }
       ],
-      "updated_at": "2026-10-25T22:00:00Z"
+      "updated_at": "2026-11-01T22:00:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-01T16:49:22.040Z"
+      "updated_at": "2026-11-01T21:54:25.110Z"
     }
   },
   "recent_results": {
     "games": [
+      {
+        "id": "401873027",
+        "date": "2026-11-01T18:00:00.000Z",
+        "week": 8,
+        "opponent": {
+          "id": "5",
+          "name": "Cleveland Browns",
+          "short_name": "Browns",
+          "abbr": "CLE"
+        },
+        "home_away": "home",
+        "team_score": 27,
+        "opponent_score": 6,
+        "result": "W",
+        "summary": "Paliza 27-6 en Acrisure para llegar a la semana libre como únicos punteros de la AFC Norte: 8 capturas a Deshaun Watson, 200 yardas por tierra contra 34 y Jaylen Warren con 143 yardas y un TD en su cumpleaños. Los Browns no pisaron la zona de anotación.",
+        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers"
+      },
       {
         "id": "401873011",
         "date": "2026-10-25T13:30:00.000Z",
@@ -216,29 +223,12 @@
         "result": "L",
         "summary": "Derrota en Cleveland en un partido lleno de errores que obligó a McCarthy a \"ordenar la casa\" durante la semana.",
         "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872964/steelers-browns"
-      },
-      {
-        "id": "401872950",
-        "date": "2026-09-27T17:00:00.000Z",
-        "week": 3,
-        "opponent": {
-          "id": "4",
-          "name": "Cincinnati Bengals",
-          "short_name": "Bengals",
-          "abbr": "CIN"
-        },
-        "home_away": "home",
-        "team_score": 30,
-        "opponent_score": 27,
-        "result": "W",
-        "summary": null,
-        "recap_url": "https://www.espn.com/nfl/game/_/gameId/401872950/bengals-steelers"
       }
     ],
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T16:49:22.040Z"
+      "updated_at": "2026-11-01T21:54:25.110Z"
     }
   },
   "injuries": {
@@ -263,178 +253,127 @@
         "status": "Out",
         "injury": "Isquiotibial",
         "practice": []
-      },
+      }
+    ],
+    "opponent": [
       {
-        "name": "Sebastian Joseph-Day",
-        "position": "DT",
-        "status": "IR",
-        "injury": "Tríceps",
+        "name": "Cashius Howell",
+        "position": "DE",
+        "status": "Questionable",
+        "injury": "Muñeca",
         "practice": []
       },
       {
-        "name": "Roman Wilson",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Dedo",
+        "name": "Cedric Johnson",
+        "position": "DE",
+        "status": "Questionable",
+        "injury": "Tobillo",
+        "practice": []
+      },
+      {
+        "name": "DJ Turner II",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Tobillo",
         "practice": []
       }
     ],
-    "opponent": [],
-    "inactives": {
-      "published_at": "2026-11-01T16:37:48Z",
-      "url": "https://x.com/steelers/status/2116932729644130567",
-      "team": [
-        {
-          "name": "Ben Skowronek",
-          "position": "WR"
-        },
-        {
-          "name": "Drew Allar",
-          "position": "QB"
-        },
-        {
-          "name": "Will Howard (3er QB)",
-          "position": "QB"
-        },
-        {
-          "name": "Brandin Echols",
-          "position": "CB"
-        },
-        {
-          "name": "Eli Heidenreich",
-          "position": "RB"
-        },
-        {
-          "name": "Doneiko Slaughter",
-          "position": "CB"
-        }
-      ],
-      "opponent": [
-        {
-          "name": "Dillon Gabriel (3er QB)",
-          "position": "QB"
-        },
-        {
-          "name": "Taylen Green",
-          "position": "QB"
-        },
-        {
-          "name": "Audric Estime",
-          "position": "RB"
-        },
-        {
-          "name": "Parker Brailsford",
-          "position": "C"
-        },
-        {
-          "name": "Justin Jefferson",
-          "position": "LB"
-        },
-        {
-          "name": "Noah Igbinoghene",
-          "position": "CB"
-        }
-      ]
-    },
+    "inactives": null,
     "source": {
       "name": "ESPN",
-      "url": "https://www.espn.com/nfl/game/_/gameId/401873027/browns-steelers",
-      "updated_at": "2026-11-01T16:49:22.040Z"
+      "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
+      "updated_at": "2026-11-01T21:54:25.110Z"
     }
   },
   "comparison": {
     "team": {
-      "offense_rank": 22,
+      "offense_rank": 17,
       "defense_rank": 5,
-      "points_for_pg": 21.9,
-      "points_against_pg": 19.7,
+      "points_for_pg": 22.5,
+      "points_against_pg": 18,
       "yards_for_pg": 348.9,
       "yards_against_pg": null,
       "turnover_diff": 4
     },
     "opponent": {
-      "offense_rank": 28,
-      "defense_rank": 12,
-      "points_for_pg": 19,
-      "points_against_pg": 20.9,
-      "yards_for_pg": 318.4,
+      "offense_rank": 2,
+      "defense_rank": 13,
+      "points_for_pg": 29.4,
+      "points_against_pg": 22.6,
+      "yards_for_pg": 356.7,
       "yards_against_pg": null,
-      "turnover_diff": 0
+      "turnover_diff": 3
     },
     "key_matchups": [
       {
-        "title": "La presión de Pittsburgh contra Deshaun Watson en el último cuarto",
-        "team_side": "Watt, Herbig, Queen (presión)",
-        "opponent_side": "Deshaun Watson (QB)",
-        "analysis": "Watson viene de su quinta serie ganadora en el último cuarto en la temporada (27-24 a los Titans). Del otro lado, la defensa de Pittsburgh cerró los dos últimos partidos con una captura: Ramsey en Tampa y Queen hoy en 3.ª y 10.",
+        "title": "El juego terrestre de Pittsburgh contra el frente de Cincinnati",
+        "team_side": "Jaylen Warren, Rico Dowdle y la línea",
+        "opponent_side": "Defensa de los Bengals",
+        "analysis": "En las últimas dos semanas los Steelers corrieron para 348 yardas y sus rivales para 52. Contra Cleveland fueron 200 yardas por tierra, con 143 de Warren. Del otro lado, en Cincinnati salieron lesionados los DE Cedric Johnson (tobillo) y Cashius Howell (muñeca) ante los Titans.",
         "refs": [
           {
-            "name": "Mary Kay Cabot en X",
-            "url": "https://x.com/MaryKayCabot/status/2114455666840727571"
+            "name": "Alex Kozora en X",
+            "url": "https://x.com/Alex_Kozora/status/2117001715945992357"
           },
           {
-            "name": "Gerry Dulac en X",
-            "url": "https://x.com/gerrydulac/status/2114475175215264167"
+            "name": "Bengals en X",
+            "url": "https://x.com/Bengals/status/2116994420314948020"
           }
         ]
       },
       {
-        "title": "El juego terrestre de los Steelers contra el frente de Cleveland",
-        "team_side": "Jaylen Warren, Rico Dowdle y la línea",
-        "opponent_side": "Defensa de los Browns",
-        "analysis": "Contra los Saints corrieron para 150 yardas, con Warren en 101 y Dowdle sumando 86 desde la línea de golpeo, y usaron 12 veces a Spencer Anderson como tight end extra. Fittipaldo pide que Warren juegue más: es el mejor jugador del ataque.",
+        "title": "La presión de los Steelers contra Joe Burrow",
+        "team_side": "T.J. Watt, Heyward, Queen y compañía",
+        "opponent_side": "Joe Burrow (QB)",
+        "analysis": "Pittsburgh viene de 8 capturas, su mejor marca en un partido desde 2021. Burrow tuvo un día de locos ante Tennessee: tres intercepciones de Amani Hooker y aun así un drive clave para forzar el alargue y ganar 43-36.",
         "refs": [
           {
-            "name": "steelers.com",
-            "url": "https://www.steelers.com/news/steelers-beat-saints-16-10-in-paris"
+            "name": "Brooke Pryor en X",
+            "url": "https://x.com/bepryor/status/2116999734321967143"
           },
           {
-            "name": "Mark Kaboly en X",
-            "url": "https://x.com/MarkKaboly/status/2114455190648832357"
+            "name": "Paul Dehner Jr. en X",
+            "url": "https://x.com/pauldehnerjr/status/2116991195293339953"
+          },
+          {
+            "name": "Paul Dehner Jr. en X",
+            "url": "https://x.com/pauldehnerjr/status/2117009593633276180"
+          }
+        ]
+      },
+      {
+        "title": "La secundaria de Cincinnati, golpeada, contra el ataque aéreo",
+        "team_side": "Rodgers y sus receptores",
+        "opponent_side": "Secundaria de los Bengals",
+        "analysis": "El CB DJ Turner II salió con una lesión en el tobillo izquierdo y Dehner la calificó de enorme por la falta de profundidad en esa secundaria. Cam Ward le hizo un TD a Josh Newton.",
+        "refs": [
+          {
+            "name": "Bengals en X",
+            "url": "https://x.com/Bengals/status/2116999344117473394"
+          },
+          {
+            "name": "Paul Dehner Jr. en X",
+            "url": "https://x.com/pauldehnerjr/status/2117000410653397182"
+          }
+        ]
+      },
+      {
+        "title": "La ofensiva cerca del gol contra la defensa de zona roja de los Bengals",
+        "team_side": "Ataque de los Steelers en la zona roja",
+        "opponent_side": "Defensa de los Bengals",
+        "analysis": "Pryor marca como lo único raro del triunfo las jugadas elegidas cerca de la línea de gol, y Fittipaldo criticó una en primera y gol desde la 2. Dehner, por su parte, destaca que la defensa de Cincinnati se sostiene gracias a lo bien que defiende en la zona roja.",
+        "refs": [
+          {
+            "name": "Brooke Pryor en X",
+            "url": "https://x.com/bepryor/status/2117007083996434725"
           },
           {
             "name": "Ray Fittipaldo en X",
-            "url": "https://x.com/rayfitt1/status/2114375164427117038"
-          }
-        ]
-      },
-      {
-        "title": "La secundaria contra KC Concepcion",
-        "team_side": "Ramsey, Dean, Samuel Jr. (CB)",
-        "opponent_side": "KC Concepcion (WR)",
-        "analysis": "Concepcion se recuperó de un drop y fue figura en el triunfo de Cleveland ante Tennessee; Todd Monken destacó lo difícil que es bajarlo. Del lado de los Browns, Denzel Ward se dislocó un dedo el viernes y aun así interceptó.",
-        "refs": [
-          {
-            "name": "Mary Kay Cabot en X",
-            "url": "https://x.com/MaryKayCabot/status/2114458506153591244"
+            "url": "https://x.com/rayfitt1/status/2116965516338188601"
           },
           {
-            "name": "Mary Kay Cabot en X",
-            "url": "https://x.com/MaryKayCabot/status/2114456379645952426"
-          },
-          {
-            "name": "Mary Kay Cabot en X",
-            "url": "https://x.com/MaryKayCabot/status/2114468920908509566"
-          }
-        ]
-      },
-      {
-        "title": "Frazier y la línea contra los stunts de Cleveland",
-        "team_side": "Zach Frazier, Mason McCormick y la línea ofensiva",
-        "opponent_side": "Frente de los Browns (Verse, Mason Graham)",
-        "analysis": "Rodgers dijo que Frazier estuvo fenomenal ante los juegos de línea de los Saints y que lo van a necesitar otra vez, porque el frente de Cleveland usa muchos stunts y movimiento. Rodgers (22) y Watson (25) son los dos QB más capturados de la liga. Verse no practicó el miércoles (rodilla) y Graham estuvo limitado (tobillo).",
-        "refs": [
-          {
-            "name": "Steelers Depot en X",
-            "url": "https://x.com/Steelersdepot/status/2115562253248516465"
-          },
-          {
-            "name": "Matt Williamson en X",
-            "url": "https://x.com/WilliamsonNFL/status/2115602553907884402"
-          },
-          {
-            "name": "Steelers Depot",
-            "url": "https://steelersdepot.com/2026/10/browns-week-8-wednesday-injury-report-jared-verse-two-ol-starters-listed-as-dnp/"
+            "name": "Paul Dehner Jr. en X",
+            "url": "https://x.com/pauldehnerjr/status/2115779846261408226"
           }
         ]
       }
@@ -442,226 +381,171 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-01T16:49:22.040Z"
+      "updated_at": "2026-11-01T21:54:25.110Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Salieron los inactivos: en Pittsburgh queda afuera el WR Ben Skowronek (pantorrilla, era duda), además de los CB Brandin Echols y Doneiko Slaughter (isquiotibiales), así que Terrell Smith está activo por primera vez. En Cleveland juega el RT Tytus Howard tras salir del protocolo de conmoción; afuera quedan Taylen Green, Estime, Brailsford, Jefferson e Igbinoghene. Kickoff 15:00 (hora argentina) por el primer puesto de la AFC Norte.",
+      "text": "Los Steelers le ganaron 27-6 a los Browns con 8 capturas y 200 yardas por tierra, y se van a la semana libre 6-2 y primeros solos en la AFC Norte. Watt dijo que Derrick Harmon vuelve \"pronto\". El próximo rival es Cincinnati, que le ganó 43-36 en alargue a Tennessee pero perdió por lesión al CB DJ Turner II.",
       "refs": [
         {
-          "name": "Steelers en X",
-          "url": "https://x.com/steelers/status/2116932729644130567"
+          "name": "steelers.com",
+          "url": "https://www.steelers.com/news/steelers-roll-past-browns-27-6"
         },
         {
-          "name": "Brian Batko en X",
-          "url": "https://x.com/BrianBatko/status/2116932950335844432"
+          "name": "Brooke Pryor en X",
+          "url": "https://x.com/bepryor/status/2117007325923828102"
         },
         {
-          "name": "Browns en X",
-          "url": "https://x.com/Browns/status/2116930773538468279"
-        },
-        {
-          "name": "Mary Kay Cabot en X",
-          "url": "https://x.com/MaryKayCabot/status/2116930819545768110"
+          "name": "Paul Dehner Jr. en X",
+          "url": "https://x.com/pauldehnerjr/status/2117009593633276180"
         }
       ],
-      "updated_at": "2026-11-01T16:55:00Z"
+      "updated_at": "2026-11-01T22:00:00Z"
     },
     "items": [
       {
-        "title": "Inactivos de los Steelers: Skowronek no juega",
-        "summary": "WR Ben Skowronek (pantorrilla), QB Drew Allar, QB Will Howard (3er QB), CB Brandin Echols (isquio), RB Eli Heidenreich y CB Doneiko Slaughter (isquio). Terrell Smith debuta como CB activo.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2116932729644130567",
-        "published_at": "2026-11-01T16:37:48Z",
+        "title": "Steelers 27, Browns 6: punteros solos de la AFC Norte",
+        "summary": "Defensa asfixiante de punta a punta y un ataque que impuso condiciones por tierra para cobrarse la derrota en Cleveland.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/steelers-roll-past-browns-27-6",
+        "published_at": "2026-11-01T21:16:59Z",
         "about": "team"
       },
       {
-        "title": "Inactivos de los Browns",
-        "summary": "QB Dillon Gabriel (3er QB), QB Taylen Green, RB Audric Estime, C Parker Brailsford, LB Justin Jefferson y CB Noah Igbinoghene. El RT Tytus Howard está activo.",
-        "source_name": "Browns en X",
-        "url": "https://x.com/Browns/status/2116930773538468279",
-        "published_at": "2026-11-01T16:30:01Z",
-        "about": "opponent"
+        "title": "8 capturas, la mayor cifra desde 2021",
+        "summary": "Empatan la mejor marca de la temporada en la NFL; la última vez que hicieron más (9) también fue contra Cleveland, en la semana 17 de 2021.",
+        "source_name": "Brooke Pryor en X",
+        "url": "https://x.com/bepryor/status/2116999734321967143",
+        "published_at": "2026-11-01T21:04:03Z",
+        "about": "team"
       },
       {
-        "title": "Kozora espera a un Patrick Graham agresivo",
-        "summary": "En el primer partido Graham no mandó presión en la serie ganadora de Cleveland (hasta que fue tarde); hoy espera más blitz en los momentos clave.",
+        "title": "Warren: 143 yardas y un TD en su cumpleaños",
+        "summary": "Encabezó un día con 200 yardas terrestres del equipo, la mejor marca de la temporada según la cuenta del triunfo.",
+        "source_name": "TribLive",
+        "url": "https://triblive.com/sports/steelers-collect-8-sacks-body-slam-browns-27-6-to-take-over-sole-possession-of-1st-place/",
+        "published_at": "2026-11-01T21:22:47Z",
+        "about": "team"
+      },
+      {
+        "title": "Watt: Derrick Harmon vuelve \"pronto\"",
+        "summary": "Lo dijo en la conferencia posterior al partido.",
+        "source_name": "Brooke Pryor en X",
+        "url": "https://x.com/bepryor/status/2117007325923828102",
+        "published_at": "2026-11-01T21:34:13Z",
+        "about": "team"
+      },
+      {
+        "title": "Tres touchdowns permitidos en los últimos 19 cuartos",
+        "summary": "El dato de Kozora sobre la racha defensiva.",
         "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2116913683670667476",
-        "published_at": "2026-11-01T15:22:07Z",
+        "url": "https://x.com/Alex_Kozora/status/2117007733446807657",
+        "published_at": "2026-11-01T21:35:50Z",
         "about": "team"
       },
       {
-        "title": "Terrell Smith, rumbo a su debut con Pittsburgh",
-        "summary": "Kozora espera que los Steelers vistan por primera vez al CB Terrell Smith ante los Browns.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2116908233004835297",
-        "published_at": "2026-11-01T15:00:27Z",
+        "title": "La identidad de carrera se consolida (salvo cerca del gol)",
+        "summary": "Pryor destaca el perfil físico del equipo y cuestiona las jugadas elegidas en situaciones de gol.",
+        "source_name": "ESPN",
+        "url": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
+        "published_at": "2026-11-01T21:33:15Z",
         "about": "team"
       },
       {
-        "title": "Jerry Jeudy aparece entre los WR mencionados para la fecha límite de cambios",
-        "summary": "Schefter lo nombra junto a Brian Thomas Jr., Josh Downs, Jauan Jennings y Calvin Ridley.",
-        "source_name": "Adam Schefter en X",
-        "url": "https://x.com/AdamSchefter/status/2116884192780812537",
-        "published_at": "2026-11-01T13:24:56Z",
+        "title": "Ganadores y perdedores ante los Browns",
+        "summary": "Kozora lo define como el triunfo más completo del año.",
+        "source_name": "Steelers Depot",
+        "url": "https://steelersdepot.com/2026/11/steelers-vs-browns-winners-and-losers-16/",
+        "published_at": "2026-11-01T21:09:15Z",
+        "about": "team"
+      },
+      {
+        "title": "McCarthy acertó con el challenge del fumble de Fannin",
+        "summary": "La repetición mostró que la rodilla de Harold Fannin no había tocado el suelo; la jugada se revirtió y fue pelota de Pittsburgh.",
+        "source_name": "Brian Batko en X",
+        "url": "https://x.com/BrianBatko/status/2116956332335247448",
+        "published_at": "2026-11-01T18:11:35Z",
+        "about": "team"
+      },
+      {
+        "title": "Bengals 43, Titans 36 en alargue",
+        "summary": "Partidazo en Paycor: Burrow tuvo tres intercepciones de Amani Hooker pero armó el drive clave al final.",
+        "source_name": "Paul Dehner Jr. en X",
+        "url": "https://x.com/pauldehnerjr/status/2117009593633276180",
+        "published_at": "2026-11-01T21:43:13Z",
         "about": "opponent"
       },
       {
-        "title": "Roethlisberger encabeza el Terrible Towel Twirl",
-        "summary": "Big Ben lo hará junto al teniente general Robert D. Harter antes del partido.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116882675177062797",
-        "published_at": "2026-11-01T13:18:54Z",
-        "about": "team"
-      },
-      {
-        "title": "Schefter: los Browns perdieron sus últimos 22 partidos de temporada regular en Pittsburgh",
-        "summary": "Cleveland no gana allí desde el 5 de octubre de 2003 (8.248 días) y una derrota hoy lo dejaría a una del récord de la NFL de derrotas seguidas como visitante ante un mismo rival.",
-        "source_name": "Adam Schefter en X",
-        "url": "https://x.com/AdamSchefter/status/2116879943082688588",
-        "published_at": "2026-11-01T13:08:02Z",
+        "title": "Cincinnati pierde al CB DJ Turner II",
+        "summary": "Salió con una lesión en el tobillo izquierdo y fue declarado afuera; Dehner lo ve como un golpe enorme por la falta de profundidad.",
+        "source_name": "Bengals en X",
+        "url": "https://x.com/Bengals/status/2116999344117473394",
+        "published_at": "2026-11-01T21:02:30Z",
         "about": "opponent"
       },
       {
-        "title": "Dulac pronostica 31-23 para Pittsburgh",
-        "summary": "Gerry Dulac (Post-Gazette) recuerda que los Browns no ganan un partido de temporada regular en Pittsburgh hace 23 años y no barren a los Steelers desde 1988.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116861337217409186",
-        "published_at": "2026-11-01T11:54:06Z",
-        "about": "team"
-      },
-      {
-        "title": "Delpit respalda a Verse antes del clásico",
-        "summary": "Grant Delpit dijo que Jared Verse \"no va a estar solo\" a la hora de respaldar sus declaraciones; en Cleveland pasaron 'Renegade' en las prácticas de toda la semana.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2116629475849101589",
-        "published_at": "2026-10-31T20:32:46Z",
+        "title": "Dos defensive ends de los Bengals, lesionados",
+        "summary": "Cedric Johnson (tobillo izquierdo) quedó en duda para volver y Cashius Howell (muñeca derecha) fue declarado afuera.",
+        "source_name": "Bengals en X",
+        "url": "https://x.com/Bengals/status/2116994420314948020",
+        "published_at": "2026-11-01T20:42:56Z",
         "about": "opponent"
       },
       {
-        "title": "Watt, en una lista de cinco con 120 capturas en 10 temporadas",
-        "summary": "T.J. Watt se une a Reggie White, Jared Allen, DeMarcus Ware y Myles Garrett como los únicos con al menos 120 sacks en sus primeras 10 temporadas.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2116629409402650645",
-        "published_at": "2026-10-31T20:32:30Z",
-        "about": "team"
-      },
-      {
-        "title": "Brandon Smith sube al plantel y Brandon Johnson, elevado",
-        "summary": "Los Steelers firmaron al WR Brandon Smith al roster activo desde el practice squad y elevaron al WR Brandon Johnson para el partido. Steelers Depot cree que eso deja a Ben Skowronek (gemelo) otra vez inactivo.",
-        "source_name": "Steelers en X",
-        "url": "https://x.com/steelers/status/2116618063697064431",
-        "published_at": "2026-10-31T19:47:25Z",
-        "about": "team"
-      },
-      {
-        "title": "Browns: Tytus Howard, liberado del protocolo de conmoción",
-        "summary": "El RT Tytus Howard no tiene designación y probablemente arranque para bloquear a T.J. Watt. Cleveland elevó al TE Carsen Ryan del practice squad.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2116598680660930823",
-        "published_at": "2026-10-31T18:30:24Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Heyward no se engancha con las chicanas de Cleveland",
-        "summary": "Cam Heyward minimizó la previa caliente de los Browns: \"Todos hablan, pero lo que importa es caminar\".",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116470833950433362",
-        "published_at": "2026-10-31T10:02:23Z",
-        "about": "team"
-      },
-      {
-        "title": "Rosenthal: \"No los van a barrer\"",
-        "summary": "Gregg Rosenthal (NFL.com) da ganador a Pittsburgh y lo ve bastante mejor: noveno en DVOA contra el puesto 21 de los Browns.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116314781342990750",
-        "published_at": "2026-10-30T23:42:17Z",
-        "about": "team"
-      },
-      {
-        "title": "Browns: Hall Jr. vuelve y Gabriel podría ser el tercer QB inactivo",
-        "summary": "Mary Kay Cabot dice que el DT Mike Hall Jr. será un \"refuerzo real\" tras tres partidos afuera; el RT Tytus Howard está en duda por conmoción.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2116293312852484498",
-        "published_at": "2026-10-30T22:16:59Z",
+        "title": "La defensa de los Bengals se sostiene en la zona roja",
+        "summary": "Dehner analiza cómo la defensa de Cincinnati compensa lo que permite en el resto de la cancha.",
+        "source_name": "Paul Dehner Jr. en X",
+        "url": "https://x.com/pauldehnerjr/status/2115779846261408226",
+        "published_at": "2026-10-29T12:16:39Z",
         "about": "opponent"
       }
     ],
     "quotes": [
       {
-        "speaker": "Darnell Washington",
-        "role": "TE de los Steelers",
-        "quote": "Personalmente, siento que tenemos que establecer la carrera temprano. Toda gran ofensiva, una vez que establece la carrera, se le abren un montón de opciones más adelante.",
-        "context": "Sobre qué hace falta para ganarle a los Browns.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116912906747130250",
-        "date": "2026-11-01T15:19:01Z"
+        "speaker": "Mike McCarthy",
+        "role": "Head coach de los Steelers",
+        "quote": "Era importante para nosotros salir de este tramo 6-2, y ahí es donde estamos.",
+        "context": "Conferencia posterior al triunfo ante los Browns.",
+        "source_name": "Chris Adamski en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2117012347961184334",
+        "date": "2026-11-01T21:54:10Z"
       },
       {
-        "speaker": "Cam Heyward",
-        "role": "DT de los Steelers",
-        "quote": "Mirarnos al espejo y decir que podemos jugar mejor. No dar jugadas por sentadas. Que haya un tipo ahí no alcanza: tiene que haber tres o cuatro. Hay que hacer una fiesta en la pelota.",
-        "context": "Sobre cómo mejorar en defensa en la revancha con Cleveland.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116898759980503298",
-        "date": "2026-11-01T14:22:49Z"
-      },
-      {
-        "speaker": "Grant Delpit",
-        "role": "Safety de los Browns",
-        "quote": "Jared Verse no va a estar solo.",
-        "context": "Sobre respaldar en la cancha las declaraciones de Verse contra los Steelers.",
-        "source_name": "Mary Kay Cabot en X",
-        "url": "https://x.com/MaryKayCabot/status/2116629475849101589",
-        "date": "2026-10-31T20:32:46Z"
+        "speaker": "Mike McCarthy",
+        "role": "Head coach de los Steelers",
+        "quote": "Se enfocaron en jugar para ganar. … Creo que nuestros muchachos hicieron un muy buen trabajo hoy con eso.",
+        "context": "Destacó primero la defensa contra la carrera.",
+        "source_name": "Brian Batko en X",
+        "url": "https://x.com/BrianBatko/status/2117012074245116381",
+        "date": "2026-11-01T21:53:05Z"
       },
       {
         "speaker": "Cam Heyward",
         "role": "DL de los Steelers",
-        "quote": "Todos hablan, pero lo que importa es caminar.",
-        "context": "Sobre las declaraciones de los Browns antes del clásico.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2116470833950433362",
-        "date": "2026-10-31T10:02:23Z"
+        "quote": "No nos motivó eso. Nos motivó que queríamos ganar este maldito partido antes de la semana libre. Hay peces más grandes para pescar.",
+        "context": "Sobre las provocaciones de Jared Verse.",
+        "source_name": "Brooke Pryor en X",
+        "url": "https://x.com/bepryor/status/2117009898500424059",
+        "date": "2026-11-01T21:44:26Z"
       },
       {
-        "speaker": "Elandon Roberts",
-        "role": "LB",
-        "quote": "Si Zach Frazier sigue haciendo lo que hace, puede ser el mejor centro que jugó para los Pittsburgh Steelers. Se los digo. No le dan el crédito que merece. Ese tipo debería ir al All-Pro y al Pro Bowl. Primer equipo, se los digo.",
-        "context": "Elogio al centro de los Steelers.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2115971527384707579",
-        "date": "2026-10-30T00:58:19Z"
+        "speaker": "T.J. Watt",
+        "role": "OLB de los Steelers",
+        "quote": "Es una bola de bowling con dientes.",
+        "context": "Sobre Jaylen Warren.",
+        "source_name": "Brooke Pryor en X",
+        "url": "https://x.com/bepryor/status/2117007428852355233",
+        "date": "2026-11-01T21:34:37Z"
       },
       {
-        "speaker": "Jaquan Brisker",
-        "role": "Safety de los Steelers",
-        "quote": "Siento que andábamos por todos lados. Ahora confiamos mucho más entre nosotros. No es que antes no lo hiciéramos, pero ahora confiamos. Las llamadas se volvieron más simples. Obviamente, nuestro entrenador bajó al costado de la cancha. Los muchachos juegan su rol, confían en su rol y juegan rápido.",
-        "context": "Sobre cómo cambió la defensa desde la derrota con los Browns en la semana 4.",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/10/we-trust-each-other-a-lot-more-brisker-explains-how-steelers-defense-has-evolved-since-last-facing-browns/",
-        "date": "2026-10-29T20:45:00Z"
-      },
-      {
-        "speaker": "Asante Samuel Jr.",
-        "role": "Cornerback de los Steelers",
-        "quote": "Ni vi lo que dijeron. Pero el partido es el domingo, y ahí no va a haber charla.",
-        "context": "Sobre las declaraciones que llegan desde Cleveland.",
-        "source_name": "Steelers Depot en X",
-        "url": "https://x.com/Steelersdepot/status/2115892496685531422",
-        "date": "2026-10-29T19:44:17Z"
-      },
-      {
-        "speaker": "Cam Heyward",
-        "role": "DT de los Steelers",
-        "quote": "Eso pasa cuando tenés fútbol americano de la AFC Norte. Entendés el tipo de fútbol que querés llevar. Se definió en el último cuarto muchas veces. No veo la hora de ver en qué termina.",
-        "context": "Sobre volver a cruzarse con los Browns cuatro semanas después.",
-        "source_name": "Teresa Varley (steelers.com) en X",
-        "url": "https://x.com/Teresa_Varley/status/2115583546479747122",
-        "date": "2026-10-28T23:16:37Z"
+        "speaker": "Jaylen Warren",
+        "role": "RB de los Steelers",
+        "quote": "Algunos caminan, otros hablan.",
+        "context": "Dijo que no le prestaron atención a las provocaciones de Jared Verse en la semana.",
+        "source_name": "Chris Adamski en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2117004064965775512",
+        "date": "2026-11-01T21:21:15Z"
       }
     ],
     "roster_moves": [
@@ -758,116 +642,116 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Clima de clásico y de confianza en Acrisure: Schefter recuerda que Cleveland perdió los últimos 22 partidos en Pittsburgh y Dulac, Hester y Kirwan dan ganador a los Steelers. Kozora espera a un Graham más agresivo con la presión que en la derrota de Cleveland. Preocupan las bajas en la secundaria y la falta de gol por tierra; Kaboly insiste en que hay que correr la pelota.",
+      "summary": "Euforia en X: primeros solos en la AFC Norte, 8 capturas y 200 yardas por tierra. Kozora lo llama el triunfo más completo del año y Farabaugh dice que están justo donde tenían que estar antes de una segunda mitad de calendario difícil. La única queja: las jugadas elegidas cerca del gol.",
       "posts": [
         {
           "author": "Alex Kozora",
           "handle": "Alex_Kozora",
-          "text": "Patrick Graham didn't send pressure on the Browns game-winning drive in the first matchup (at least, not until it was too late). I'd expect him to be aggressive today. Especially in key moments. #Steelers",
-          "url": "https://x.com/Alex_Kozora/status/2116913683670667476",
-          "posted_at": "2026-11-01T15:22:07Z"
-        },
-        {
-          "author": "Adam Schefter",
-          "handle": "AdamSchefter",
-          "text": "The Browns have lost 22 straight regular-season games in Pittsburgh, and have not won a regular-season game there since Oct. 5, 2003 -- 8,248 days ago. They are one loss today shy of tying the NFL record for most consecutive road regular-season losses vs. a team in NFL history",
-          "url": "https://x.com/AdamSchefter/status/2116879943082688588",
-          "posted_at": "2026-11-01T13:08:02Z"
-        },
-        {
-          "author": "Steelers Depot",
-          "handle": "Steelersdepot",
-          "text": "Gerry Dulac predicts the Steelers will beat the Browns 31-23: “In case you need a reminder, the Browns haven’t won a regular-season game in Pittsburgh in 23 years. And they haven’t swept the Steelers since 1988.”",
-          "url": "https://x.com/Steelersdepot/status/2116861337217409186",
-          "posted_at": "2026-11-01T11:54:06Z"
-        },
-        {
-          "author": "Mark Kaboly",
-          "handle": "MarkKaboly",
-          "text": "If Steelers don't run the ball 30 times on Sunday they will lose.",
-          "url": "https://x.com/MarkKaboly/status/2116356545839825398",
-          "posted_at": "2026-10-31T02:28:15Z"
+          "text": "Steelers with a final goal line stand. They didn't want to give the Browns a final TD. That'll end the game. Pittsburgh took this game personally and it sure showed. Most complete win of the year. Great win into the bye. #Steelers",
+          "url": "https://x.com/Alex_Kozora/status/2117000603939275051",
+          "posted_at": "2026-11-01T21:07:30Z"
         },
         {
           "author": "Alex Kozora",
           "handle": "Alex_Kozora",
-          "text": "Desde 1989, los Steelers están 11-0 contra los Browns después de perder el primer cruce y con la serie en riesgo de barrida. Ganaron esos 11 partidos por un promedio de 13,3 puntos, y todos por al menos 7.",
-          "url": "https://x.com/Alex_Kozora/status/2116216320526283178",
-          "posted_at": "2026-10-30T17:11:02Z"
+          "text": "Combined rushing yards the last 2 weeks: Steelers: 348 Opponents: 52",
+          "url": "https://x.com/Alex_Kozora/status/2117001715945992357",
+          "posted_at": "2026-11-01T21:11:55Z"
         },
         {
-          "author": "Steelers Depot",
-          "handle": "Steelersdepot",
-          "text": "Asante Samuel Jr. dijo que el domingo no va a haber charla 😂👀",
-          "url": "https://x.com/Steelersdepot/status/2115889889975939127",
-          "posted_at": "2026-10-29T19:33:55Z"
+          "author": "Nick Farabaugh",
+          "handle": "FarabaughFB",
+          "text": "The Steelers are 6-2 and in first place in the AFC North at the bye. Right about where most people said they needed to be with a tough second half to the schedule coming up.",
+          "url": "https://x.com/FarabaughFB/status/2117001230375403932",
+          "posted_at": "2026-11-01T21:09:59Z"
+        },
+        {
+          "author": "Christopher Carter",
+          "handle": "CarterCritiques",
+          "text": "FINAL: #Steelers 27, Browns 6. Pittsburgh out-rushes Cleveland 200 to 34 yards and dominates the game with 8 sacks. Steelers are now 6-2 in sole possession of first place in the AFC North headed into their bye week. Heck of a position to be in.",
+          "url": "https://x.com/CarterCritiques/status/2117000843857698957",
+          "posted_at": "2026-11-01T21:08:27Z"
+        },
+        {
+          "author": "Ray Fittipaldo",
+          "handle": "rayfitt1",
+          "text": "And then they do that on first-and-goal at the 2. Really difficult to understad whatever that was by McCarthy and Rodgers.",
+          "url": "https://x.com/rayfitt1/status/2116965516338188601",
+          "posted_at": "2026-11-01T18:48:05Z"
+        },
+        {
+          "author": "Mark Kaboly",
+          "handle": "MarkKaboly",
+          "text": "A Renegade-less game at Acrisure Stadium",
+          "url": "https://x.com/MarkKaboly/status/2116999614855323728",
+          "posted_at": "2026-11-01T21:03:34Z"
         }
       ],
-      "updated_at": "2026-11-01T15:35:00Z"
+      "updated_at": "2026-11-01T22:00:00Z"
     }
   },
   "head_to_head": {
     "all_time": null,
     "games": [
       {
-        "date": "2026-10-02T00:15:00.000Z",
+        "date": "2026-09-27T17:00:00.000Z",
         "season": 2026,
-        "home_away": "away",
-        "team_score": 24,
+        "home_away": "home",
+        "team_score": 30,
         "opponent_score": 27,
-        "result": "L",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401872964/steelers-browns"
+        "result": "W",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401872950/bengals-steelers"
       },
       {
-        "date": "2025-12-28T18:00:00.000Z",
-        "season": 2025,
-        "home_away": "away",
-        "team_score": 6,
-        "opponent_score": 13,
-        "result": "L",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401772807/steelers-browns"
-      },
-      {
-        "date": "2025-10-12T17:00:00.000Z",
+        "date": "2025-11-16T18:00:00.000Z",
         "season": 2025,
         "home_away": "home",
-        "team_score": 23,
-        "opponent_score": 9,
+        "team_score": 34,
+        "opponent_score": 12,
         "result": "W",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401772748/browns-steelers"
+        "url": "https://www.espn.com/nfl/game/_/gameId/401772774/bengals-steelers"
       },
       {
-        "date": "2024-12-08T18:00:00.000Z",
+        "date": "2025-10-17T00:15:00.000Z",
+        "season": 2025,
+        "home_away": "away",
+        "team_score": 31,
+        "opponent_score": 33,
+        "result": "L",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401772941/steelers-bengals"
+      },
+      {
+        "date": "2025-01-05T01:00:00.000Z",
         "season": 2024,
         "home_away": "home",
-        "team_score": 27,
-        "opponent_score": 14,
-        "result": "W",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401671631/browns-steelers"
+        "team_score": 17,
+        "opponent_score": 19,
+        "result": "L",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401671836/bengals-steelers"
       },
       {
-        "date": "2024-11-22T01:15:00.000Z",
+        "date": "2024-12-01T18:00:00.000Z",
         "season": 2024,
         "home_away": "away",
-        "team_score": 19,
-        "opponent_score": 24,
-        "result": "L",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401671875/steelers-browns"
+        "team_score": 44,
+        "opponent_score": 38,
+        "result": "W",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401671627/steelers-bengals"
       },
       {
-        "date": "2023-11-19T18:00:00.000Z",
+        "date": "2023-12-23T21:30:00.000Z",
         "season": 2023,
-        "home_away": "away",
-        "team_score": 10,
-        "opponent_score": 13,
-        "result": "L",
-        "url": "https://www.espn.com/nfl/game/_/gameId/401547539/steelers-browns"
+        "home_away": "home",
+        "team_score": 34,
+        "opponent_score": 11,
+        "result": "W",
+        "url": "https://www.espn.com/nfl/game/_/gameId/401547610/bengals-steelers"
       }
     ],
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T16:49:22.040Z"
+      "updated_at": "2026-11-01T21:54:25.110Z"
     }
   }
 }

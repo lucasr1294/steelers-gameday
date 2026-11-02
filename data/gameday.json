@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-01T21:56:32.000Z",
+    "generated_at": "2026-11-02T11:59:32.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 10,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "353a2ba32366e5f5"
+    "espn_hash": "d178566d8831b2b9"
   },
   "team": {
     "id": "23",
@@ -58,7 +58,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-01T21:54:25.110Z"
+      "updated_at": "2026-11-02T11:58:52.486Z"
     }
   },
   "form": {
@@ -134,7 +134,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-01T21:54:25.110Z"
+      "updated_at": "2026-11-02T11:58:52.486Z"
     }
   },
   "recent_results": {
@@ -228,7 +228,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T21:54:25.110Z"
+      "updated_at": "2026-11-02T11:58:52.486Z"
     }
   },
   "injuries": {
@@ -282,27 +282,27 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-01T21:54:25.110Z"
+      "updated_at": "2026-11-02T11:58:52.486Z"
     }
   },
   "comparison": {
     "team": {
-      "offense_rank": 17,
-      "defense_rank": 5,
+      "offense_rank": 18,
+      "defense_rank": 4,
       "points_for_pg": 22.5,
       "points_against_pg": 18,
-      "yards_for_pg": 348.9,
+      "yards_for_pg": 351.8,
       "yards_against_pg": null,
-      "turnover_diff": 4
+      "turnover_diff": 5
     },
     "opponent": {
       "offense_rank": 2,
-      "defense_rank": 13,
+      "defense_rank": 14,
       "points_for_pg": 29.4,
       "points_against_pg": 22.6,
-      "yards_for_pg": 356.7,
+      "yards_for_pg": 382.4,
       "yards_against_pg": null,
-      "turnover_diff": 3
+      "turnover_diff": 1
     },
     "key_matchups": [
       {
@@ -381,12 +381,12 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-01T21:54:25.110Z"
+      "updated_at": "2026-11-02T11:58:52.486Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Los Steelers le ganaron 27-6 a los Browns con 8 capturas y 200 yardas por tierra, y se van a la semana libre 6-2 y primeros solos en la AFC Norte. Watt dijo que Derrick Harmon vuelve \"pronto\". El próximo rival es Cincinnati, que le ganó 43-36 en alargue a Tennessee pero perdió por lesión al CB DJ Turner II.",
+      "text": "Los Steelers le ganaron 27-6 a los Browns con 8 capturas y 200 yardas por tierra, y se van a la semana libre 6-2 y primeros solos en la AFC Norte. Watt dijo que Derrick Harmon vuelve \"pronto\". El próximo rival es Cincinnati, que le ganó 43-36 en alargue a Tennessee pese a 3 intercepciones de Burrow, perdió por lesión al CB DJ Turner II y visita a Atlanta el 8/11 antes del duelo del 15/11.",
       "refs": [
         {
           "name": "steelers.com",
@@ -399,9 +399,13 @@
         {
           "name": "Paul Dehner Jr. en X",
           "url": "https://x.com/pauldehnerjr/status/2117009593633276180"
+        },
+        {
+          "name": "Ben Baby en X",
+          "url": "https://x.com/Ben_Baby/status/2117076791781097805"
         }
       ],
-      "updated_at": "2026-11-01T22:00:00Z"
+      "updated_at": "2026-11-02T12:05:00Z"
     },
     "items": [
       {
@@ -499,6 +503,30 @@
         "url": "https://x.com/pauldehnerjr/status/2115779846261408226",
         "published_at": "2026-10-29T12:16:39Z",
         "about": "opponent"
+      },
+      {
+        "title": "Si la temporada terminara hoy, Steelers campeones de la AFC Norte",
+        "summary": "Según Mark Kaboly, hoy serían tercer preclasificado de la AFC y recibirían justamente a los Bengals en playoffs.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2117110415138148632",
+        "published_at": "2026-11-02T04:23:51Z",
+        "about": "team"
+      },
+      {
+        "title": "Brisker le contestó a Jared Verse",
+        "summary": "El safety Jaquan Brisker habló del trash talk del defensor de los Browns, según el Post-Gazette.",
+        "source_name": "Ray Fittipaldo en X",
+        "url": "https://x.com/rayfitt1/status/2117053932325294440",
+        "published_at": "2026-11-02T00:39:25Z",
+        "about": "team"
+      },
+      {
+        "title": "Burrow, tres intercepciones pese al triunfo",
+        "summary": "Joe Burrow tiró 3 INT ante Tennessee y se hizo cargo: \"Un pase terrible. No puedo hacer eso\". Cincinnati visita a Atlanta el 8/11 antes de recibir a Pittsburgh.",
+        "source_name": "Ben Baby en X",
+        "url": "https://x.com/Ben_Baby/status/2117076791781097805",
+        "published_at": "2026-11-02T02:10:15Z",
+        "about": "opponent"
       }
     ],
     "quotes": [
@@ -546,6 +574,15 @@
         "source_name": "Chris Adamski en X",
         "url": "https://x.com/C_AdamskiTrib/status/2117004064965775512",
         "date": "2026-11-01T21:21:15Z"
+      },
+      {
+        "speaker": "Mike McCarthy",
+        "role": "Entrenador principal",
+        "quote": "Todavía tenemos cosas para trabajar. El fútbol complementario que estamos jugando es lo que buscamos. Hoy mejoramos como equipo. Querés ganar y mejorar, y hoy dimos ese paso.",
+        "context": "Tras el 27-6 ante los Browns",
+        "source_name": "Teresa Varley en X",
+        "url": "https://x.com/Teresa_Varley/status/2117050060760572294",
+        "date": "2026-11-02T00:24:02Z"
       }
     ],
     "roster_moves": [
@@ -751,7 +788,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-01T21:54:25.110Z"
+      "updated_at": "2026-11-02T11:58:52.486Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-02T11:59:32.000Z",
+    "generated_at": "2026-11-03T11:55:09.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 10,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "d178566d8831b2b9"
+    "espn_hash": "91c1ab730c00df4f"
   },
   "team": {
     "id": "23",
@@ -58,7 +58,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-02T11:58:52.486Z"
+      "updated_at": "2026-11-03T11:54:17.602Z"
     }
   },
   "form": {
@@ -118,7 +118,7 @@
       "count": 4
     },
     "thermometer": {
-      "text": "Llegan a la semana libre 6-2, primeros solos en la AFC Norte y con cuatro triunfos seguidos tras aplastar 27-6 a los Browns. La defensa permitió apenas tres touchdowns en los últimos 19 cuartos y el juego terrestre es la identidad del equipo. A la vuelta, domingo 15 a la noche en Cincinnati.",
+      "text": "Llegan a la semana libre 6-2, primeros solos en la AFC Norte y con cuatro triunfos seguidos tras aplastar 27-6 a los Browns. La defensa permitió apenas tres touchdowns en los últimos 19 cuartos y el juego terrestre es la identidad del equipo. Descanso total esta semana y, a la vuelta, domingo 15 a la noche en Cincinnati ante un Burrow en ritmo récord.",
       "refs": [
         {
           "name": "steelers.com",
@@ -127,14 +127,18 @@
         {
           "name": "Alex Kozora en X",
           "url": "https://x.com/Alex_Kozora/status/2117007733446807657"
+        },
+        {
+          "name": "Jay Morrison en X",
+          "url": "https://x.com/ByJayMorrison/status/2117379757931434020"
         }
       ],
-      "updated_at": "2026-11-01T22:00:00Z"
+      "updated_at": "2026-11-03T12:00:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-02T11:58:52.486Z"
+      "updated_at": "2026-11-03T11:54:17.602Z"
     }
   },
   "recent_results": {
@@ -228,7 +232,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-02T11:58:52.486Z"
+      "updated_at": "2026-11-03T11:54:17.602Z"
     }
   },
   "injuries": {
@@ -253,9 +257,37 @@
         "status": "Out",
         "injury": "Isquiotibial",
         "practice": []
+      },
+      {
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "status": "IR",
+        "injury": "Pie",
+        "practice": []
+      },
+      {
+        "name": "Sebastian Joseph-Day",
+        "position": "DT",
+        "status": "IR",
+        "injury": "Tríceps",
+        "practice": []
       }
     ],
     "opponent": [
+      {
+        "name": "DJ Turner II",
+        "position": "CB",
+        "status": "Questionable",
+        "injury": "Tobillo",
+        "practice": []
+      },
+      {
+        "name": "Kyle Dugger",
+        "position": "S",
+        "status": "Out",
+        "injury": "Cuádriceps",
+        "practice": []
+      },
       {
         "name": "Cashius Howell",
         "position": "DE",
@@ -271,10 +303,10 @@
         "practice": []
       },
       {
-        "name": "DJ Turner II",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Tobillo",
+        "name": "Andrei Iosivas",
+        "position": "WR",
+        "status": "IR",
+        "injury": "Pulgar",
         "practice": []
       }
     ],
@@ -282,13 +314,13 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-02T11:58:52.486Z"
+      "updated_at": "2026-11-03T11:54:17.602Z"
     }
   },
   "comparison": {
     "team": {
       "offense_rank": 18,
-      "defense_rank": 4,
+      "defense_rank": 3,
       "points_for_pg": 22.5,
       "points_against_pg": 18,
       "yards_for_pg": 351.8,
@@ -381,127 +413,83 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-02T11:58:52.486Z"
+      "updated_at": "2026-11-03T11:54:17.602Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Los Steelers le ganaron 27-6 a los Browns con 8 capturas y 200 yardas por tierra, y se van a la semana libre 6-2 y primeros solos en la AFC Norte. Watt dijo que Derrick Harmon vuelve \"pronto\". El próximo rival es Cincinnati, que le ganó 43-36 en alargue a Tennessee pese a 3 intercepciones de Burrow, perdió por lesión al CB DJ Turner II y visita a Atlanta el 8/11 antes del duelo del 15/11.",
+      "text": "Semana libre para los Steelers (6-2, primeros solos en la AFC Norte): McCarthy les dio libre toda la semana y Michael Pittman Jr., en IR por el pie, ya corre y quiere volver para Cincinnati. Patrick Graham ya avisó que Burrow es \"el mejor quarterback de la liga\". En los Bengals, DJ Turner II (talón) quedó día a día y Cashius Howell (muñeca) va al IR; juegan en Madrid el 8/11 antes de recibir a Pittsburgh el domingo 15 a la noche.",
       "refs": [
         {
-          "name": "steelers.com",
-          "url": "https://www.steelers.com/news/steelers-roll-past-browns-27-6"
+          "name": "Mark Kaboly en X",
+          "url": "https://x.com/MarkKaboly/status/2117357996074254418"
         },
         {
-          "name": "Brooke Pryor en X",
-          "url": "https://x.com/bepryor/status/2117007325923828102"
+          "name": "Chris Adamski en X",
+          "url": "https://x.com/C_AdamskiTrib/status/2117286779938021569"
         },
         {
           "name": "Paul Dehner Jr. en X",
-          "url": "https://x.com/pauldehnerjr/status/2117009593633276180"
-        },
-        {
-          "name": "Ben Baby en X",
-          "url": "https://x.com/Ben_Baby/status/2117076791781097805"
+          "url": "https://x.com/pauldehnerjr/status/2117315495699349928"
         }
       ],
-      "updated_at": "2026-11-02T12:05:00Z"
+      "updated_at": "2026-11-03T12:00:00Z"
     },
     "items": [
       {
-        "title": "Steelers 27, Browns 6: punteros solos de la AFC Norte",
-        "summary": "Defensa asfixiante de punta a punta y un ataque que impuso condiciones por tierra para cobrarse la derrota en Cleveland.",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/steelers-roll-past-browns-27-6",
-        "published_at": "2026-11-01T21:16:59Z",
+        "title": "Burrow, en ritmo de 50 touchdowns",
+        "summary": "Lleva 20 pases de TD en siete partidos: sería apenas la cuarta temporada de 50 TD en la historia de la NFL.",
+        "source_name": "Jay Morrison en X",
+        "url": "https://x.com/ByJayMorrison/status/2117379757931434020",
+        "published_at": "2026-11-02T22:14:07Z",
+        "about": "opponent"
+      },
+      {
+        "title": "McCarthy les dio libre el resto de la semana",
+        "summary": "Por reglamento solo tenía que darles jueves y viernes, pero McCarthy liberó al plantel por toda la semana libre.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2117357996074254418",
+        "published_at": "2026-11-02T20:47:39Z",
         "about": "team"
       },
       {
-        "title": "8 capturas, la mayor cifra desde 2021",
-        "summary": "Empatan la mejor marca de la temporada en la NFL; la última vez que hicieron más (9) también fue contra Cleveland, en la semana 17 de 2021.",
-        "source_name": "Brooke Pryor en X",
-        "url": "https://x.com/bepryor/status/2116999734321967143",
-        "published_at": "2026-11-01T21:04:03Z",
-        "about": "team"
-      },
-      {
-        "title": "Warren: 143 yardas y un TD en su cumpleaños",
-        "summary": "Encabezó un día con 200 yardas terrestres del equipo, la mejor marca de la temporada según la cuenta del triunfo.",
-        "source_name": "TribLive",
-        "url": "https://triblive.com/sports/steelers-collect-8-sacks-body-slam-browns-27-6-to-take-over-sole-possession-of-1st-place/",
-        "published_at": "2026-11-01T21:22:47Z",
-        "about": "team"
-      },
-      {
-        "title": "Watt: Derrick Harmon vuelve \"pronto\"",
-        "summary": "Lo dijo en la conferencia posterior al partido.",
-        "source_name": "Brooke Pryor en X",
-        "url": "https://x.com/bepryor/status/2117007325923828102",
-        "published_at": "2026-11-01T21:34:13Z",
-        "about": "team"
-      },
-      {
-        "title": "Tres touchdowns permitidos en los últimos 19 cuartos",
-        "summary": "El dato de Kozora sobre la racha defensiva.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2117007733446807657",
-        "published_at": "2026-11-01T21:35:50Z",
-        "about": "team"
-      },
-      {
-        "title": "La identidad de carrera se consolida (salvo cerca del gol)",
-        "summary": "Pryor destaca el perfil físico del equipo y cuestiona las jugadas elegidas en situaciones de gol.",
-        "source_name": "ESPN",
-        "url": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
-        "published_at": "2026-11-01T21:33:15Z",
-        "about": "team"
-      },
-      {
-        "title": "Ganadores y perdedores ante los Browns",
-        "summary": "Kozora lo define como el triunfo más completo del año.",
-        "source_name": "Steelers Depot",
-        "url": "https://steelersdepot.com/2026/11/steelers-vs-browns-winners-and-losers-16/",
-        "published_at": "2026-11-01T21:09:15Z",
-        "about": "team"
-      },
-      {
-        "title": "McCarthy acertó con el challenge del fumble de Fannin",
-        "summary": "La repetición mostró que la rodilla de Harold Fannin no había tocado el suelo; la jugada se revirtió y fue pelota de Pittsburgh.",
-        "source_name": "Brian Batko en X",
-        "url": "https://x.com/BrianBatko/status/2116956332335247448",
-        "published_at": "2026-11-01T18:11:35Z",
-        "about": "team"
-      },
-      {
-        "title": "Bengals 43, Titans 36 en alargue",
-        "summary": "Partidazo en Paycor: Burrow tuvo tres intercepciones de Amani Hooker pero armó el drive clave al final.",
+        "title": "Cashius Howell, operado de la muñeca",
+        "summary": "El edge de los Bengals estará afuera \"semanas\" y Taylor dijo que va camino a la lista de lesionados (IR).",
         "source_name": "Paul Dehner Jr. en X",
-        "url": "https://x.com/pauldehnerjr/status/2117009593633276180",
-        "published_at": "2026-11-01T21:43:13Z",
+        "url": "https://x.com/pauldehnerjr/status/2117315882930295177",
+        "published_at": "2026-11-02T18:00:18Z",
         "about": "opponent"
       },
       {
-        "title": "Cincinnati pierde al CB DJ Turner II",
-        "summary": "Salió con una lesión en el tobillo izquierdo y fue declarado afuera; Dehner lo ve como un golpe enorme por la falta de profundidad.",
-        "source_name": "Bengals en X",
-        "url": "https://x.com/Bengals/status/2116999344117473394",
-        "published_at": "2026-11-01T21:02:30Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Dos defensive ends de los Bengals, lesionados",
-        "summary": "Cedric Johnson (tobillo izquierdo) quedó en duda para volver y Cashius Howell (muñeca derecha) fue declarado afuera.",
-        "source_name": "Bengals en X",
-        "url": "https://x.com/Bengals/status/2116994420314948020",
-        "published_at": "2026-11-01T20:42:56Z",
-        "about": "opponent"
-      },
-      {
-        "title": "La defensa de los Bengals se sostiene en la zona roja",
-        "summary": "Dehner analiza cómo la defensa de Cincinnati compensa lo que permite en el resto de la cancha.",
+        "title": "DJ Turner II, día a día: buena noticia para Cincinnati",
+        "summary": "Es una lesión en el talón y Zac Taylor lo considera día a día, igual que al DE Cedric Johnson (tobillo). Viaja a Madrid y hay buenas chances de que juegue.",
         "source_name": "Paul Dehner Jr. en X",
-        "url": "https://x.com/pauldehnerjr/status/2115779846261408226",
-        "published_at": "2026-10-29T12:16:39Z",
+        "url": "https://x.com/pauldehnerjr/status/2117315495699349928",
+        "published_at": "2026-11-02T17:58:46Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Graham: Burrow, \"el mejor quarterback de la liga\"",
+        "summary": "El coordinador defensivo ya mira a Cincinnati y contó que el punto de quiebre de la defensa fue el viaje en micro tras la derrota en Cleveland del 1/10; desde entonces no perdieron más.",
+        "source_name": "Chris Adamski en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2117293915313508761",
+        "published_at": "2026-11-02T16:33:01Z",
+        "about": "team"
+      },
+      {
+        "title": "Pittman Jr. ya corre y apunta a volver tras la semana libre",
+        "summary": "Michael Pittman Jr., en IR por una lesión en el pie, corrió el lunes en las instalaciones y dijo que sería genial volver después del descanso.",
+        "source_name": "Chris Adamski en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2117286779938021569",
+        "published_at": "2026-11-02T16:04:40Z",
+        "about": "team"
+      },
+      {
+        "title": "Los números de Cincinnati: ataque top 5, defensa con alertas",
+        "summary": "Según las métricas de Dehner, la ofensiva es 5.ª en EPA por jugada y en puntos por serie; la defensa es promedio y la sostiene la zona roja, con problemas de jugadas explosivas y eficiencia.",
+        "source_name": "Paul Dehner Jr. en X",
+        "url": "https://x.com/pauldehnerjr/status/2117241186335236114",
+        "published_at": "2026-11-02T13:03:29Z",
         "about": "opponent"
       },
       {
@@ -513,6 +501,14 @@
         "about": "team"
       },
       {
+        "title": "Burrow, tres intercepciones pese al triunfo",
+        "summary": "Joe Burrow tiró 3 INT ante Tennessee y se hizo cargo: \"Un pase terrible. No puedo hacer eso\". Cincinnati visita a Atlanta el 8/11 antes de recibir a Pittsburgh.",
+        "source_name": "Ben Baby en X",
+        "url": "https://x.com/Ben_Baby/status/2117076791781097805",
+        "published_at": "2026-11-02T02:10:15Z",
+        "about": "opponent"
+      },
+      {
         "title": "Brisker le contestó a Jared Verse",
         "summary": "El safety Jaquan Brisker habló del trash talk del defensor de los Browns, según el Post-Gazette.",
         "source_name": "Ray Fittipaldo en X",
@@ -521,15 +517,65 @@
         "about": "team"
       },
       {
-        "title": "Burrow, tres intercepciones pese al triunfo",
-        "summary": "Joe Burrow tiró 3 INT ante Tennessee y se hizo cargo: \"Un pase terrible. No puedo hacer eso\". Cincinnati visita a Atlanta el 8/11 antes de recibir a Pittsburgh.",
-        "source_name": "Ben Baby en X",
-        "url": "https://x.com/Ben_Baby/status/2117076791781097805",
-        "published_at": "2026-11-02T02:10:15Z",
+        "title": "Bengals 43, Titans 36 en alargue",
+        "summary": "Partidazo en Paycor: Burrow tuvo tres intercepciones de Amani Hooker pero armó el drive clave al final.",
+        "source_name": "Paul Dehner Jr. en X",
+        "url": "https://x.com/pauldehnerjr/status/2117009593633276180",
+        "published_at": "2026-11-01T21:43:13Z",
         "about": "opponent"
+      },
+      {
+        "title": "Tres touchdowns permitidos en los últimos 19 cuartos",
+        "summary": "El dato de Kozora sobre la racha defensiva.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2117007733446807657",
+        "published_at": "2026-11-01T21:35:50Z",
+        "about": "team"
+      },
+      {
+        "title": "Watt: Derrick Harmon vuelve \"pronto\"",
+        "summary": "Lo dijo en la conferencia posterior al partido.",
+        "source_name": "Brooke Pryor en X",
+        "url": "https://x.com/bepryor/status/2117007325923828102",
+        "published_at": "2026-11-01T21:34:13Z",
+        "about": "team"
+      },
+      {
+        "title": "La identidad de carrera se consolida (salvo cerca del gol)",
+        "summary": "Pryor destaca el perfil físico del equipo y cuestiona las jugadas elegidas en situaciones de gol.",
+        "source_name": "ESPN",
+        "url": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
+        "published_at": "2026-11-01T21:33:15Z",
+        "about": "team"
+      },
+      {
+        "title": "Warren: 143 yardas y un TD en su cumpleaños",
+        "summary": "Encabezó un día con 200 yardas terrestres del equipo, la mejor marca de la temporada según la cuenta del triunfo.",
+        "source_name": "TribLive",
+        "url": "https://triblive.com/sports/steelers-collect-8-sacks-body-slam-browns-27-6-to-take-over-sole-possession-of-1st-place/",
+        "published_at": "2026-11-01T21:22:47Z",
+        "about": "team"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Patrick Graham",
+        "role": "Coordinador defensivo de los Steelers",
+        "quote": "Ella está deprimida en la canción; yo estaba deprimido ese día.",
+        "context": "Sobre el viaje en micro tras la derrota en Cleveland del 1/10, escuchando a Amy Winehouse: según él, ahí cambió la defensa.",
+        "source_name": "Chris Adamski en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2117293458851242043",
+        "date": "2026-11-02T16:31:12Z"
+      },
+      {
+        "speaker": "Michael Pittman Jr.",
+        "role": "WR de los Steelers (en IR)",
+        "quote": "Sería genial volver después de la semana libre.",
+        "context": "Después de correr el lunes en las instalaciones del equipo; está en IR por una lesión en el pie.",
+        "source_name": "Chris Adamski en X",
+        "url": "https://x.com/C_AdamskiTrib/status/2117286779938021569",
+        "date": "2026-11-02T16:04:40Z"
+      },
       {
         "speaker": "Mike McCarthy",
         "role": "Head coach de los Steelers",
@@ -788,7 +834,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-02T11:58:52.486Z"
+      "updated_at": "2026-11-03T11:54:17.602Z"
     }
   }
 }

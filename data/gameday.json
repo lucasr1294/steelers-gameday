@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-03T11:55:09.000Z",
+    "generated_at": "2026-11-04T11:59:49.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 10,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "91c1ab730c00df4f"
+    "espn_hash": "5040dc4ad7a49f66"
   },
   "team": {
     "id": "23",
@@ -54,11 +54,16 @@
         "NFL Game Pass (DAZN)"
       ]
     },
-    "odds": null,
+    "odds": {
+      "favorite_abbr": "CIN",
+      "spread": 3.5,
+      "over_under": 47.5,
+      "provider": "DraftKings"
+    },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-03T11:54:17.602Z"
+      "updated_at": "2026-11-04T11:59:09.945Z"
     }
   },
   "form": {
@@ -138,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-03T11:54:17.602Z"
+      "updated_at": "2026-11-04T11:59:09.945Z"
     }
   },
   "recent_results": {
@@ -232,23 +237,23 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-03T11:54:17.602Z"
+      "updated_at": "2026-11-04T11:59:09.945Z"
     }
   },
   "injuries": {
     "team": [
       {
-        "name": "Ben Skowronek",
-        "position": "WR",
-        "status": "Out",
-        "injury": "Pantorrilla",
-        "practice": []
-      },
-      {
         "name": "Doneiko Slaughter",
         "position": "CB",
         "status": "Out",
         "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
+        "name": "Ben Skowronek",
+        "position": "WR",
+        "status": "Out",
+        "injury": "Pantorrilla",
         "practice": []
       },
       {
@@ -275,24 +280,24 @@
     ],
     "opponent": [
       {
-        "name": "DJ Turner II",
-        "position": "CB",
-        "status": "Questionable",
-        "injury": "Tobillo",
+        "name": "Cashius Howell",
+        "position": "DE",
+        "status": "IR",
+        "injury": "Muñeca",
         "practice": []
       },
       {
         "name": "Kyle Dugger",
         "position": "S",
-        "status": "Out",
+        "status": "Questionable",
         "injury": "Cuádriceps",
         "practice": []
       },
       {
-        "name": "Cashius Howell",
-        "position": "DE",
+        "name": "DJ Turner II",
+        "position": "CB",
         "status": "Questionable",
-        "injury": "Muñeca",
+        "injury": "Tobillo",
         "practice": []
       },
       {
@@ -314,7 +319,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-03T11:54:17.602Z"
+      "updated_at": "2026-11-04T11:59:09.945Z"
     }
   },
   "comparison": {
@@ -413,29 +418,61 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-03T11:54:17.602Z"
+      "updated_at": "2026-11-04T11:59:09.945Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Semana libre para los Steelers (6-2, primeros solos en la AFC Norte): McCarthy les dio libre toda la semana y Michael Pittman Jr., en IR por el pie, ya corre y quiere volver para Cincinnati. Patrick Graham ya avisó que Burrow es \"el mejor quarterback de la liga\". En los Bengals, DJ Turner II (talón) quedó día a día y Cashius Howell (muñeca) va al IR; juegan en Madrid el 8/11 antes de recibir a Pittsburgh el domingo 15 a la noche.",
+      "text": "Semana libre para los Steelers (6-2, primeros solos en la AFC Norte), con el mercado de cambios como tema: Schefter descartó a Garrett Wilson y Kaboly dice que Pickens tampoco es opción. Michael Pittman Jr., en IR por el pie, ya corre y apunta a volver para Cincinnati. En los Bengals, Cashius Howell (muñeca) ya está en el IR y el equipo viajó a Madrid para jugar el 8/11 antes de recibir a Pittsburgh el domingo 15 a la noche.",
       "refs": [
         {
-          "name": "Mark Kaboly en X",
-          "url": "https://x.com/MarkKaboly/status/2117357996074254418"
+          "name": "Alex Kozora en X",
+          "url": "https://x.com/Alex_Kozora/status/2117678050192273688"
         },
         {
           "name": "Chris Adamski en X",
           "url": "https://x.com/C_AdamskiTrib/status/2117286779938021569"
         },
         {
-          "name": "Paul Dehner Jr. en X",
-          "url": "https://x.com/pauldehnerjr/status/2117315495699349928"
+          "name": "Bengals en X",
+          "url": "https://x.com/Bengals/status/2117640303544860902"
         }
       ],
-      "updated_at": "2026-11-03T12:00:00Z"
+      "updated_at": "2026-11-04T12:00:00Z"
     },
     "items": [
+      {
+        "title": "Kaboly: Pickens, descartado",
+        "summary": "Según Mark Kaboly, los Steelers no pueden volver a cambiar por George Pickens aunque quisieran, \"y no quieren\".",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2117709816646783096",
+        "published_at": "2026-11-03T20:05:40Z",
+        "about": "team"
+      },
+      {
+        "title": "200 yardas por tierra ante un rival de la división, algo que no pasaba desde 2007",
+        "summary": "Fue la primera vez que superaron las 200 yardas terrestres ante un rival de la AFC Norte desde la semana 1 de 2007, el debut de Mike Tomlin.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2117691099028558016",
+        "published_at": "2026-11-03T18:51:17Z",
+        "about": "team"
+      },
+      {
+        "title": "Schefter: Garrett Wilson no va a Pittsburgh",
+        "summary": "Adam Schefter cortó la especulación de un cambio por el receptor de los Jets. Kozora, si llegan a buscar un WR, prefiere a Brian Thomas Jr. antes que a Josh Downs.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2117678050192273688",
+        "published_at": "2026-11-03T17:59:26Z",
+        "about": "team"
+      },
+      {
+        "title": "Bengals ya viajaron a Madrid; Howell, oficialmente al IR",
+        "summary": "Cincinnati confirmó a Cashius Howell (muñeca) en la lista de lesionados, todavía sin movimiento a cambio, y salió rumbo a España para jugar ante Atlanta el 8/11.",
+        "source_name": "Bengals en X",
+        "url": "https://x.com/Bengals/status/2117640303544860902",
+        "published_at": "2026-11-03T15:29:26Z",
+        "about": "opponent"
+      },
       {
         "title": "Burrow, en ritmo de 50 touchdowns",
         "summary": "Lleva 20 pases de TD en siete partidos: sería apenas la cuarta temporada de 50 TD en la historia de la NFL.",
@@ -523,38 +560,6 @@
         "url": "https://x.com/pauldehnerjr/status/2117009593633276180",
         "published_at": "2026-11-01T21:43:13Z",
         "about": "opponent"
-      },
-      {
-        "title": "Tres touchdowns permitidos en los últimos 19 cuartos",
-        "summary": "El dato de Kozora sobre la racha defensiva.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2117007733446807657",
-        "published_at": "2026-11-01T21:35:50Z",
-        "about": "team"
-      },
-      {
-        "title": "Watt: Derrick Harmon vuelve \"pronto\"",
-        "summary": "Lo dijo en la conferencia posterior al partido.",
-        "source_name": "Brooke Pryor en X",
-        "url": "https://x.com/bepryor/status/2117007325923828102",
-        "published_at": "2026-11-01T21:34:13Z",
-        "about": "team"
-      },
-      {
-        "title": "La identidad de carrera se consolida (salvo cerca del gol)",
-        "summary": "Pryor destaca el perfil físico del equipo y cuestiona las jugadas elegidas en situaciones de gol.",
-        "source_name": "ESPN",
-        "url": "https://www.espn.com/nfl/story/_/id/50349340/week-8-sunday-games-takeaways-questions-2026",
-        "published_at": "2026-11-01T21:33:15Z",
-        "about": "team"
-      },
-      {
-        "title": "Warren: 143 yardas y un TD en su cumpleaños",
-        "summary": "Encabezó un día con 200 yardas terrestres del equipo, la mejor marca de la temporada según la cuenta del triunfo.",
-        "source_name": "TribLive",
-        "url": "https://triblive.com/sports/steelers-collect-8-sacks-body-slam-browns-27-6-to-take-over-sole-possession-of-1st-place/",
-        "published_at": "2026-11-01T21:22:47Z",
-        "about": "team"
       }
     ],
     "quotes": [
@@ -834,7 +839,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-03T11:54:17.602Z"
+      "updated_at": "2026-11-04T11:59:09.945Z"
     }
   }
 }

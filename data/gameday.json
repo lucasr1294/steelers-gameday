@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-04T11:59:49.000Z",
+    "generated_at": "2026-11-04T20:57:44.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 10,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "5040dc4ad7a49f66"
+    "espn_hash": "b374bba8fb5d104a"
   },
   "team": {
     "id": "23",
@@ -63,7 +63,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-04T11:59:09.945Z"
+      "updated_at": "2026-11-04T20:57:09.866Z"
     }
   },
   "form": {
@@ -143,7 +143,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-04T11:59:09.945Z"
+      "updated_at": "2026-11-04T20:57:09.866Z"
     }
   },
   "recent_results": {
@@ -237,7 +237,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-04T11:59:09.945Z"
+      "updated_at": "2026-11-04T20:57:09.866Z"
     }
   },
   "injuries": {
@@ -280,6 +280,13 @@
     ],
     "opponent": [
       {
+        "name": "Jordan Battle",
+        "position": "S",
+        "status": "Questionable",
+        "injury": "Isquiotibial",
+        "practice": []
+      },
+      {
         "name": "Cashius Howell",
         "position": "DE",
         "status": "IR",
@@ -297,7 +304,7 @@
         "name": "DJ Turner II",
         "position": "CB",
         "status": "Questionable",
-        "injury": "Tobillo",
+        "injury": "Talón",
         "practice": []
       },
       {
@@ -306,20 +313,13 @@
         "status": "Questionable",
         "injury": "Tobillo",
         "practice": []
-      },
-      {
-        "name": "Andrei Iosivas",
-        "position": "WR",
-        "status": "IR",
-        "injury": "Pulgar",
-        "practice": []
       }
     ],
     "inactives": null,
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-04T11:59:09.945Z"
+      "updated_at": "2026-11-04T20:57:09.866Z"
     }
   },
   "comparison": {
@@ -418,29 +418,53 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-04T11:59:09.945Z"
+      "updated_at": "2026-11-04T20:57:09.866Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Semana libre para los Steelers (6-2, primeros solos en la AFC Norte), con el mercado de cambios como tema: Schefter descartó a Garrett Wilson y Kaboly dice que Pickens tampoco es opción. Michael Pittman Jr., en IR por el pie, ya corre y apunta a volver para Cincinnati. En los Bengals, Cashius Howell (muñeca) ya está en el IR y el equipo viajó a Madrid para jugar el 8/11 antes de recibir a Pittsburgh el domingo 15 a la noche.",
+      "text": "Semana libre para los Steelers (6-2, primeros solos en la AFC Norte), con el mercado de cambios como tema: Schefter descartó a Garrett Wilson y Kaboly dice que Pickens tampoco es opción. En X se habla de Jaylen Warren (casi 7 yardas por toque) y de darle más la pelota cerca del gol. En los Bengals, Tee Higgins fue elegido Jugador Ofensivo de la Semana en la AFC y el equipo ya está en Madrid para jugar el 8/11 antes de recibir a Pittsburgh el domingo 15 a la noche.",
       "refs": [
+        {
+          "name": "Mark Kaboly en X",
+          "url": "https://x.com/MarkKaboly/status/2117962193622761916"
+        },
+        {
+          "name": "Paul Dehner Jr. en X",
+          "url": "https://x.com/pauldehnerjr/status/2118026243526611346"
+        },
         {
           "name": "Alex Kozora en X",
           "url": "https://x.com/Alex_Kozora/status/2117678050192273688"
-        },
-        {
-          "name": "Chris Adamski en X",
-          "url": "https://x.com/C_AdamskiTrib/status/2117286779938021569"
-        },
-        {
-          "name": "Bengals en X",
-          "url": "https://x.com/Bengals/status/2117640303544860902"
         }
       ],
-      "updated_at": "2026-11-04T12:00:00Z"
+      "updated_at": "2026-11-04T21:00:00Z"
     },
     "items": [
+      {
+        "title": "Haley pide darle la pelota a Warren en la zona roja",
+        "summary": "Steelers Depot recoge el pedido de Todd Haley: que el staff le marque a Rodgers correr más cerca del gol porque el juego terrestre \"está demasiado bien\" para no dársela al 30.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2118037457686143386",
+        "published_at": "2026-11-04T17:47:35Z",
+        "about": "team"
+      },
+      {
+        "title": "Tee Higgins, Jugador Ofensivo de la Semana en la AFC",
+        "summary": "Primer premio de su carrera para Higgins, una semana después de que lo ganara Joe Burrow. El dúo Chase-Higgins llega encendido al cruce con Pittsburgh.",
+        "source_name": "Paul Dehner Jr. en X",
+        "url": "https://x.com/pauldehnerjr/status/2118026243526611346",
+        "published_at": "2026-11-04T17:03:02Z",
+        "about": "opponent"
+      },
+      {
+        "title": "Warren, casi 7 yardas por toque",
+        "summary": "Mark Kaboly destaca que Jaylen Warren promedia casi 7 yardas cada vez que toca la pelota; Chris Adamski dice que no es exagerado pensarlo para Jugador Ofensivo del Año.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2117962193622761916",
+        "published_at": "2026-11-04T12:48:31Z",
+        "about": "team"
+      },
       {
         "title": "Kaboly: Pickens, descartado",
         "summary": "Según Mark Kaboly, los Steelers no pueden volver a cambiar por George Pickens aunque quisieran, \"y no quieren\".",
@@ -536,30 +560,6 @@
         "url": "https://x.com/MarkKaboly/status/2117110415138148632",
         "published_at": "2026-11-02T04:23:51Z",
         "about": "team"
-      },
-      {
-        "title": "Burrow, tres intercepciones pese al triunfo",
-        "summary": "Joe Burrow tiró 3 INT ante Tennessee y se hizo cargo: \"Un pase terrible. No puedo hacer eso\". Cincinnati visita a Atlanta el 8/11 antes de recibir a Pittsburgh.",
-        "source_name": "Ben Baby en X",
-        "url": "https://x.com/Ben_Baby/status/2117076791781097805",
-        "published_at": "2026-11-02T02:10:15Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Brisker le contestó a Jared Verse",
-        "summary": "El safety Jaquan Brisker habló del trash talk del defensor de los Browns, según el Post-Gazette.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2117053932325294440",
-        "published_at": "2026-11-02T00:39:25Z",
-        "about": "team"
-      },
-      {
-        "title": "Bengals 43, Titans 36 en alargue",
-        "summary": "Partidazo en Paycor: Burrow tuvo tres intercepciones de Amani Hooker pero armó el drive clave al final.",
-        "source_name": "Paul Dehner Jr. en X",
-        "url": "https://x.com/pauldehnerjr/status/2117009593633276180",
-        "published_at": "2026-11-01T21:43:13Z",
-        "about": "opponent"
       }
     ],
     "quotes": [
@@ -839,7 +839,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-04T11:59:09.945Z"
+      "updated_at": "2026-11-04T20:57:09.866Z"
     }
   }
 }

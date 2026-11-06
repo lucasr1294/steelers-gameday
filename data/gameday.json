@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-05T21:00:51.000Z",
+    "generated_at": "2026-11-06T12:01:55.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 10,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "1479d1b0bf7f5cd1"
+    "espn_hash": "c2133b879a04e91f"
   },
   "team": {
     "id": "23",
@@ -45,7 +45,12 @@
       "city": "Cincinnati, OH",
       "indoor": false
     },
-    "weather": null,
+    "weather": {
+      "summary": "Mayormente despejado",
+      "temp_c": 11,
+      "gust_kmh": 32,
+      "precip_pct": 0
+    },
     "broadcast": {
       "us": [
         "NBC"
@@ -63,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-05T20:57:58.578Z"
+      "updated_at": "2026-11-06T11:59:17.117Z"
     }
   },
   "form": {
@@ -111,10 +116,10 @@
           "name": "Ravens",
           "record": {
             "wins": 4,
-            "losses": 4,
+            "losses": 5,
             "ties": 0
           },
-          "games_back": 2
+          "games_back": 2.5
         }
       ]
     },
@@ -123,27 +128,27 @@
       "count": 4
     },
     "thermometer": {
-      "text": "Bye week a 6-2 y primeros solos en la AFC Norte: Kaboly pone a Warren y Watt con A+ en sus notas de mitad de temporada, y el núcleo casi no se perdió snaps. En Cincinnati, Turner (talón) practicó a full en Madrid y Cedric Johnson subió a limited; Iosivas sigue en IR apuntando al Sunday Night del 15. Mercado cierra el 10/11.",
+      "text": "Bye week a 6-2 y primeros solos en la AFC Norte: Dulac cerró la puerta a un WR en el deadline del 10/11 (\"ya lo hicieron con Pittman\") y apuesta a las vueltas de IR. En Madrid, Taylor marca a Turner y Cedric Johnson day-to-day para el Falcons; Burrow, Chase y Allen hablan hoy. Sunday Night del 15 en Paycor, CIN -3.5.",
       "refs": [
         {
-          "name": "Mark Kaboly en X",
-          "url": "https://x.com/MarkKaboly/status/2118345245121261774"
+          "name": "Steelers Wire",
+          "url": "https://steelerswire.usatoday.com/story/sports/nfl/steelers/2026/11/05/steelers-insider-nfl-news-update-gerry-dulac-trade-deadline/92628624007/"
         },
         {
           "name": "Ben Baby en X",
-          "url": "https://x.com/Ben_Baby/status/2118381192974090245"
+          "url": "https://x.com/Ben_Baby/status/2118663400095961359"
         },
         {
           "name": "Mark Kaboly en X",
-          "url": "https://x.com/MarkKaboly/status/2118148681870299529"
+          "url": "https://x.com/MarkKaboly/status/2118345245121261774"
         }
       ],
-      "updated_at": "2026-11-05T21:00:00Z"
+      "updated_at": "2026-11-06T12:00:00Z"
     },
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-05T20:57:58.578Z"
+      "updated_at": "2026-11-06T11:59:17.117Z"
     }
   },
   "recent_results": {
@@ -237,7 +242,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-05T20:57:58.578Z"
+      "updated_at": "2026-11-06T11:59:17.117Z"
     }
   },
   "injuries": {
@@ -319,7 +324,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-05T20:57:58.578Z"
+      "updated_at": "2026-11-06T11:59:17.117Z"
     }
   },
   "comparison": {
@@ -346,19 +351,15 @@
         "title": "El juego terrestre de Pittsburgh contra el frente de Cincinnati",
         "team_side": "Jaylen Warren, Rico Dowdle y la línea",
         "opponent_side": "Defensa de los Bengals",
-        "analysis": "Warren es el MVP de mitad de temporada según Kaboly (A+; ritmo de ~2.100 yardas totales). En las últimas dos semanas Pittsburgh corrió para 348 yardas y sus rivales para 52. Del otro lado, Cedric Johnson (tobillo) pasó a limited en Madrid y Cashius Howell (muñeca) ya está en IR.",
+        "analysis": "Warren es el MVP de mitad de temporada según Kaboly (A+; ritmo de ~2.100 yardas totales). En las últimas dos semanas Pittsburgh corrió para 348 yardas y sus rivales para 52. Del otro lado, Taylor tiene a Cedric Johnson (tobillo) day-to-day para Madrid y Cashius Howell (muñeca) ya está en IR.",
         "refs": [
           {
             "name": "Mark Kaboly en X",
             "url": "https://x.com/MarkKaboly/status/2118345245121261774"
           },
           {
-            "name": "Mark Kaboly en X",
-            "url": "https://x.com/MarkKaboly/status/2117962193622761916"
-          },
-          {
             "name": "Ben Baby en X",
-            "url": "https://x.com/Ben_Baby/status/2118381192974090245"
+            "url": "https://x.com/Ben_Baby/status/2118663400095961359"
           }
         ]
       },
@@ -366,12 +367,8 @@
         "title": "La presión de los Steelers contra Joe Burrow",
         "team_side": "T.J. Watt, Heyward, Queen y compañía",
         "opponent_side": "Joe Burrow (QB)",
-        "analysis": "Watt lidera la NFL con 7,5 capturas y Kaboly le pone A+: 2,5 capturas más en 132 snaps menos que en 2025. Tras 8 capturas a Watson, Graham ya hablaba de Burrow como \"el mejor QB de la liga\". Ulbrich (ATL) dice que Burrow juega el mejor fútbol de su carrera antes de Madrid.",
+        "analysis": "Watt lidera la NFL con 7,5 capturas y Kaboly le pone A+: 2,5 capturas más en 132 snaps menos que en 2025. Tras 8 capturas a Watson, Graham ya hablaba de Burrow como \"el mejor QB de la liga\". Ulbrich (ATL) dice que Burrow juega el mejor fútbol de su carrera; hoy habla en Madrid.",
         "refs": [
-          {
-            "name": "Mark Kaboly en X",
-            "url": "https://x.com/MarkKaboly/status/2118206794606530615"
-          },
           {
             "name": "Chris Adamski en X",
             "url": "https://x.com/C_AdamskiTrib/status/2117293915313508761"
@@ -379,6 +376,10 @@
           {
             "name": "Ben Baby en X",
             "url": "https://x.com/Ben_Baby/status/2118310150276886826"
+          },
+          {
+            "name": "Paul Dehner Jr. en X",
+            "url": "https://x.com/pauldehnerjr/status/2118660064865362250"
           }
         ]
       },
@@ -386,11 +387,11 @@
         "title": "La secundaria de Cincinnati, golpeada, contra el ataque aéreo",
         "team_side": "Rodgers y sus receptores",
         "opponent_side": "Secundaria de los Bengals",
-        "analysis": "Buena señal para Cincinnati: DJ Turner II (talón) practicó a full en Madrid y ESPN ya lo sacó del reporte. Dehner igual había marcado la falta de profundidad cuando Cam Ward le hizo un TD a Josh Newton. Battle (isquio) y Dugger (cuádriceps) siguen Questionable.",
+        "analysis": "Taylor hoy: DJ Turner (talón) y Cedric Johnson progresan bien y van day-to-day vs. Falcons en Madrid. Battle (isquio) y Dugger (cuádriceps) siguen Questionable en el reporte ESPN de cara a Pittsburgh. Dehner había marcado la falta de profundidad cuando Cam Ward le hizo un TD a Josh Newton.",
         "refs": [
           {
             "name": "Ben Baby en X",
-            "url": "https://x.com/Ben_Baby/status/2118381192974090245"
+            "url": "https://x.com/Ben_Baby/status/2118663400095961359"
           },
           {
             "name": "Paul Dehner Jr. en X",
@@ -411,10 +412,6 @@
           {
             "name": "Mark Kaboly en X",
             "url": "https://x.com/MarkKaboly/status/2118345245121261774"
-          },
-          {
-            "name": "Paul Dehner Jr. en X",
-            "url": "https://x.com/pauldehnerjr/status/2115779846261408226"
           }
         ]
       },
@@ -422,19 +419,15 @@
         "title": "Chase-Higgins vs. la secundaria de Pittsburgh",
         "team_side": "Ramsey, Brisker y la secundaria",
         "opponent_side": "Ja'Marr Chase y Tee Higgins",
-        "analysis": "Higgins es el Jugador Ofensivo de la Semana en la AFC (primer premio de su carrera), una semana después de Burrow. Iosivas sigue en IR por el pulgar; Petraglia dijo que apunta a volver vs. Pittsburgh el 15/11. El dúo Chase-Higgins llega encendido al Sunday Night.",
+        "analysis": "Higgins es el Jugador Ofensivo de la Semana en la AFC (primer premio de su carrera), una semana después de Burrow. Iosivas sigue en IR por el pulgar; Petraglia dijo que apunta a volver vs. Pittsburgh el 15/11. Hoy Chase habla en Madrid junto a Burrow.",
         "refs": [
           {
             "name": "Paul Dehner Jr. en X",
             "url": "https://x.com/pauldehnerjr/status/2118026243526611346"
           },
           {
-            "name": "Mike Petraglia en X",
-            "url": "https://x.com/Trags/status/2115979325535101025"
-          },
-          {
-            "name": "Ben Baby en X",
-            "url": "https://x.com/Ben_Baby/status/2117990753817530441"
+            "name": "Paul Dehner Jr. en X",
+            "url": "https://x.com/pauldehnerjr/status/2118660064865362250"
           }
         ]
       }
@@ -442,29 +435,45 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-05T20:57:58.578Z"
+      "updated_at": "2026-11-06T11:59:17.117Z"
     }
   },
   "news": {
     "summary": {
-      "text": "Bye week a 6-2: Kaboly publica las notas de mitad de temporada (Warren y Watt A+; Metcalf D) y Watt ya tiene el récord de capturas ante Cleveland (20,5). Deadline el 10/11; Schefter descartó a Garrett Wilson. En Cincinnati, Turner practicó a full en Madrid, Cedric Johnson subió a limited e Iosivas (IR, pulgar) apunta al 15/11 vs. Pittsburgh; el sábado juegan en España.",
+      "text": "Bye week a 6-2: Dulac dice que no van a sumar un WR en el deadline del martes 10/11 (\"ya lo hicieron con Pittman\") y mira las vueltas de IR (Pittman vs. CIN, Wilson en W11, Skowronek listo). En Madrid, Taylor marca a Turner y Cedric Johnson day-to-day vs. Falcons; Burrow/Chase hablan hoy. Watt tiene el récord ante Cleveland (20,5) y Kaboly puso A+ a Warren y Watt.",
       "refs": [
         {
-          "name": "Mark Kaboly en X",
-          "url": "https://x.com/MarkKaboly/status/2118345245121261774"
+          "name": "Steelers Wire",
+          "url": "https://steelerswire.usatoday.com/story/sports/nfl/steelers/2026/11/05/steelers-insider-nfl-news-update-gerry-dulac-trade-deadline/92628624007/"
         },
         {
           "name": "Ben Baby en X",
-          "url": "https://x.com/Ben_Baby/status/2118381192974090245"
+          "url": "https://x.com/Ben_Baby/status/2118663400095961359"
         },
         {
-          "name": "Steelers en X",
-          "url": "https://x.com/steelers/status/2118391626041270733"
+          "name": "Mark Kaboly en X",
+          "url": "https://x.com/MarkKaboly/status/2118345245121261774"
         }
       ],
-      "updated_at": "2026-11-05T21:00:00Z"
+      "updated_at": "2026-11-06T12:00:00Z"
     },
     "items": [
+      {
+        "title": "Dulac: no van a tradear por otro WR",
+        "summary": "Gerry Dulac, en Steelers Wire: \"No lo van a hacer. Ya lo hicieron cuando tradearon por Pittman\". El deadline es el martes 10/11; la apuesta interna es a las vueltas de lesionados.",
+        "source_name": "Steelers Wire",
+        "url": "https://steelerswire.usatoday.com/story/sports/nfl/steelers/2026/11/05/steelers-insider-nfl-news-update-gerry-dulac-trade-deadline/92628624007/",
+        "published_at": "2026-11-05T19:27:00Z",
+        "about": "team"
+      },
+      {
+        "title": "Taylor: Turner y Cedric Johnson, day-to-day en Madrid",
+        "summary": "Ben Baby desde España: Zac Taylor dijo que el CB DJ Turner (talón) y el DE Cedric Johnson progresan bien y los toma day-to-day de cara al partido del domingo vs. Falcons.",
+        "source_name": "Ben Baby en X",
+        "url": "https://x.com/Ben_Baby/status/2118663400095961359",
+        "published_at": "2026-11-06T11:14:52Z",
+        "about": "opponent"
+      },
       {
         "title": "Kaboly: notas de mitad de temporada (Warren y Watt A+)",
         "summary": "En su Honor Roll de mitad de camino, Mark Kaboly pone A+ a Jaylen Warren (MVP del equipo), T.J. Watt (líder de la NFL con 7,5 capturas) y Zach Frazier. DK Metcalf y Pittman Jr. quedan en D.",
@@ -472,14 +481,6 @@
         "url": "https://x.com/MarkKaboly/status/2118345245121261774",
         "published_at": "2026-11-05T14:10:38Z",
         "about": "team"
-      },
-      {
-        "title": "Turner a full en la práctica de Madrid",
-        "summary": "Ben Baby: el CB DJ Turner II (talón) fue full participant en la práctica de hoy en Madrid. DE Cedric Johnson (tobillo) subió a limited tras proyectarse DNP el día anterior. ESPN ya sacó a Turner del reporte.",
-        "source_name": "Ben Baby en X",
-        "url": "https://x.com/Ben_Baby/status/2118381192974090245",
-        "published_at": "2026-11-05T16:33:28Z",
-        "about": "opponent"
       },
       {
         "title": "Watt, récord de capturas ante Cleveland (20,5)",
@@ -490,12 +491,20 @@
         "about": "team"
       },
       {
-        "title": "Watt: menos snaps, más capturas",
-        "summary": "Mark Kaboly: T.J. Watt promedia 16,5 snaps menos por partido que en 2025 y aun así tiene 2,5 capturas más en 132 snaps menos en la primera mitad de 2026.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2118206794606530615",
-        "published_at": "2026-11-05T05:00:28Z",
+        "title": "Dulac: cronograma de receptores lesionados",
+        "summary": "En WDVE: Pittman elegible vs. Bengals el 15/11; Roman Wilson una semana después (W11 vs. Eagles); Skowronek \"seguro\" para Cincinnati. \"En los próximos dos partidos los vas a ver a todos de vuelta\".",
+        "source_name": "Heavy",
+        "url": "https://heavy.com/sports/nfl/pittsburgh-steelers/roman-wilson-michael-pittman-nfl-injury-news-trade-deadline/",
+        "published_at": "2026-11-03T21:01:00Z",
         "about": "team"
+      },
+      {
+        "title": "Bengals en Madrid: Burrow, Chase y Allen hablan hoy",
+        "summary": "Paul Dehner Jr. desde la RFEF: Zac Taylor iba a hablar y después el turno de Joe Burrow, Ja'Marr Chase y Jonathan Allen, previos al CIN@ATL del domingo en España.",
+        "source_name": "Paul Dehner Jr. en X",
+        "url": "https://x.com/pauldehnerjr/status/2118660064865362250",
+        "published_at": "2026-11-06T11:01:36Z",
+        "about": "opponent"
       },
       {
         "title": "Ulbrich: Burrow, en el mejor momento de su carrera",
@@ -506,27 +515,19 @@
         "about": "opponent"
       },
       {
-        "title": "Los rookies defensivos están dejando huella",
-        "summary": "Ray Fittipaldo (Post-Gazette): los defensores novatos de Pittsburgh —incluido un \"robo\" de séptima ronda— están impactando; Spears-Jennings se ganó minutos incluso con el regreso de Elliott.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2118339996838982093",
-        "published_at": "2026-11-05T13:49:46Z",
+        "title": "Jon Kolb, nominado al Salute to Service",
+        "summary": "Los Steelers nominaron a Jon Kolb al premio Salute to Service 2026 de la NFL. Nota oficial en steelers.com.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/kolb-is-the-steelers-salute-to-service-nominee-x6981",
+        "published_at": "2026-11-05T18:08:15Z",
         "about": "team"
       },
       {
-        "title": "Núcleo casi intacto en 8 partidos",
-        "summary": "Snaps perdidos según Kaboly: Frazier y McCormick 0; Fautanu, Ramsey, Brisker y Queen apenas 1 cada uno. La salud del núcleo acompaña el 6-2.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2118148681870299529",
-        "published_at": "2026-11-05T01:09:33Z",
-        "about": "team"
-      },
-      {
-        "title": "Kozora: ¿Khan más agresivo en el deadline?",
-        "summary": "Alex Kozora se pregunta si Omar Khan se anima más al mercado: menor chance de draftar un QB de 1.ª en '27 y el miss del año pasado en un WR, con el recuerdo del trade agresivo por Bernard.",
+        "title": "Nueva contratación en el front office",
+        "summary": "Alex Kozora (Steelers Depot): Pittsburgh sumó al analista de fútbol Liam Warin, en reemplazo de Donovan Moore (se fue en septiembre).",
         "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2118047666139537746",
-        "published_at": "2026-11-04T18:28:09Z",
+        "url": "https://x.com/Alex_Kozora/status/2118424902059311400",
+        "published_at": "2026-11-05T19:27:09Z",
         "about": "team"
       },
       {
@@ -538,12 +539,12 @@
         "about": "opponent"
       },
       {
-        "title": "Iosivas en IR: apunta al partido vs. Steelers",
-        "summary": "Mike Petraglia: Andrei Iosivas progresa bien del postoperatorio de pulgar izquierdo; la expectativa es volver a tiempo para el Sunday Night del 15/11 vs. Pittsburgh (chance remota de Madrid). ESPN lo tiene en IR.",
-        "source_name": "Mike Petraglia en X",
-        "url": "https://x.com/Trags/status/2115979325535101025",
-        "published_at": "2026-10-30T01:29:18Z",
-        "about": "opponent"
+        "title": "Línea ofensiva bien engrasada, según Batko",
+        "summary": "Brian Batko (steelers.com): pocas penas pre-snap, el juego terrestre humedece y la OL prometedora se está acomodando. Señales de una ofensiva bien dirigida.",
+        "source_name": "Brian Batko en X",
+        "url": "https://x.com/BrianBatko/status/2117640812037321047",
+        "published_at": "2026-11-03T15:31:28Z",
+        "about": "team"
       },
       {
         "title": "Haley pide darle la pelota a Warren en la zona roja",
@@ -554,27 +555,11 @@
         "about": "team"
       },
       {
-        "title": "Metcalf, a full con Warren",
-        "summary": "DK Metcalf sobre Jaylen Warren: \"Corre como un murciélago saliendo del infierno… en campo abierto le gana a cualquiera\". Nota oficial en steelers.com.",
-        "source_name": "Teresa Varley en X",
-        "url": "https://x.com/Teresa_Varley/status/2117987925803577820",
-        "published_at": "2026-11-04T14:30:46Z",
-        "about": "team"
-      },
-      {
-        "title": "Week 11: posibles Steelers vs. Joe Milton",
-        "summary": "Tras el cambio de QB en Filadelfia, Alex Kozora marca que Pittsburgh enfrentaría a Joe Milton cuando juegue a los Eagles en la semana 11.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2118059700352954691",
-        "published_at": "2026-11-04T19:15:58Z",
-        "about": "team"
-      },
-      {
-        "title": "Schefter: Garrett Wilson no va a Pittsburgh",
-        "summary": "Adam Schefter cortó la especulación de un cambio por el receptor de los Jets. Kozora, si llegan a buscar un WR, prefiere a Brian Thomas Jr. antes que a Josh Downs.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2117678050192273688",
-        "published_at": "2026-11-03T17:59:26Z",
+        "title": "McCarthy dio el resto de la semana libre",
+        "summary": "Mark Kaboly: Mike McCarthy les dio el resto de la semana libre a los jugadores (solo estaba \"obligado\" a jueves y viernes). Tiempo lejos del fútbol.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2117357996074254418",
+        "published_at": "2026-11-02T20:47:39Z",
         "about": "team"
       },
       {
@@ -584,9 +569,35 @@
         "url": "https://x.com/C_AdamskiTrib/status/2117293915313508761",
         "published_at": "2026-11-02T16:33:01Z",
         "about": "team"
+      },
+      {
+        "title": "Pittman corriendo de nuevo; sin timeline fijo",
+        "summary": "Ray Fittipaldo: Michael Pittman Jr. empezó a correr la semana pasada y otra vez el lunes. La lesión original era fascitis plantar y \"mutó en otra cosa\". Optimista, sin fecha cerrada.",
+        "source_name": "Ray Fittipaldo en X",
+        "url": "https://x.com/rayfitt1/status/2117278764556227022",
+        "published_at": "2026-11-02T15:32:49Z",
+        "about": "team"
       }
     ],
     "quotes": [
+      {
+        "speaker": "Gerry Dulac",
+        "role": "Periodista (Post-Gazette / WDVE)",
+        "quote": "No lo van a hacer. Ya lo hicieron cuando tradearon por Pittman.",
+        "context": "Sobre si los Steelers van a sumar otro receptor antes del deadline del 10/11.",
+        "source_name": "Steelers Wire",
+        "url": "https://steelerswire.usatoday.com/story/sports/nfl/steelers/2026/11/05/steelers-insider-nfl-news-update-gerry-dulac-trade-deadline/92628624007/",
+        "date": "2026-11-05T19:27:00Z"
+      },
+      {
+        "speaker": "Zac Taylor",
+        "role": "Head coach de los Bengals",
+        "quote": "Están progresando bien. Los tomamos day-to-day de cara al partido del domingo vs. los Falcons.",
+        "context": "Sobre DJ Turner (talón) y Cedric Johnson, desde Madrid. Parafraseado por Ben Baby.",
+        "source_name": "Ben Baby en X",
+        "url": "https://x.com/Ben_Baby/status/2118663400095961359",
+        "date": "2026-11-06T11:14:52Z"
+      },
       {
         "speaker": "Jeff Ulbrich",
         "role": "Coordinador defensivo de los Falcons",
@@ -595,15 +606,6 @@
         "source_name": "Ben Baby en X",
         "url": "https://x.com/Ben_Baby/status/2118310150276886826",
         "date": "2026-11-05T11:51:10Z"
-      },
-      {
-        "speaker": "DK Metcalf",
-        "role": "WR de los Steelers",
-        "quote": "Corre como un murciélago saliendo del infierno. Es difícil de tumbar, difícil de tacklear. En campo abierto le gana a cualquiera.",
-        "context": "Sobre Jaylen Warren, en nota de steelers.com.",
-        "source_name": "Teresa Varley en X",
-        "url": "https://x.com/Teresa_Varley/status/2117987925803577820",
-        "date": "2026-11-04T14:30:46Z"
       },
       {
         "speaker": "Patrick Graham",
@@ -617,20 +619,20 @@
       {
         "speaker": "Michael Pittman Jr.",
         "role": "WR de los Steelers (en IR)",
-        "quote": "Sería genial volver después de la semana libre.",
-        "context": "Después de correr el lunes en las instalaciones; está en IR por una lesión en el pie.",
-        "source_name": "Chris Adamski en X",
-        "url": "https://x.com/C_AdamskiTrib/status/2117286779938021569",
-        "date": "2026-11-02T16:04:40Z"
+        "quote": "Sería genial volver después de la semana libre, que es lo que me gustaría, pero no puedo salir si no soy efectivo.",
+        "context": "Tras correr el lunes en las instalaciones; está en IR por una lesión en el pie.",
+        "source_name": "Heavy / Steelers Now",
+        "url": "https://heavy.com/sports/nfl/pittsburgh-steelers/roman-wilson-michael-pittman-nfl-injury-news-trade-deadline/",
+        "date": "2026-11-03T21:01:00Z"
       },
       {
-        "speaker": "Patrick Graham",
-        "role": "Coordinador defensivo de los Steelers",
-        "quote": "Ella está deprimida en la canción; yo estaba deprimido ese día.",
-        "context": "Sobre el viaje en micro tras la derrota en Cleveland del 1/10, escuchando a Amy Winehouse: según él, ahí cambió la defensa.",
-        "source_name": "Chris Adamski en X",
-        "url": "https://x.com/C_AdamskiTrib/status/2117293458851242043",
-        "date": "2026-11-02T16:31:12Z"
+        "speaker": "T.J. Watt",
+        "role": "OLB de los Steelers",
+        "quote": "Es una bola de bowling con dientes.",
+        "context": "Sobre Jaylen Warren, postpartido vs. Browns.",
+        "source_name": "Brooke Pryor en X",
+        "url": "https://x.com/bepryor/status/2117007428852355233",
+        "date": "2026-11-01T21:34:37Z"
       },
       {
         "speaker": "Cam Heyward",
@@ -640,15 +642,6 @@
         "source_name": "Brooke Pryor en X",
         "url": "https://x.com/bepryor/status/2117009898500424059",
         "date": "2026-11-01T21:44:26Z"
-      },
-      {
-        "speaker": "T.J. Watt",
-        "role": "OLB de los Steelers",
-        "quote": "Es una bola de bowling con dientes.",
-        "context": "Sobre Jaylen Warren.",
-        "source_name": "Brooke Pryor en X",
-        "url": "https://x.com/bepryor/status/2117007428852355233",
-        "date": "2026-11-01T21:34:37Z"
       },
       {
         "speaker": "Joe Burrow",
@@ -754,21 +747,28 @@
     ],
     "x_pulse": {
       "mood": "optimista",
-      "summary": "Bye week contento: Honor Roll de Kaboly (Warren/Watt A+), Watt con récord ante Cleveland y rookies defensivos en alza. El debate del deadline (10/11) sigue vivo, con Wilson descartado. Del lado rival, Turner volvió a full en Madrid y Burrow sigue en modo élite rumbo a España y al SNF del 15.",
+      "summary": "Bye week contento a 6-2, pero el debate del deadline se enfría: Dulac cerró la puerta a un WR y la fanbase discute si alcanza con las vueltas de IR. Watt con récord ante Cleveland y Honor Roll de Kaboly. Del lado rival, Madrid en vivo (Taylor/Burrow/Chase) y Turner day-to-day vs. Falcons.",
       "posts": [
+        {
+          "author": "Ben Baby",
+          "handle": "Ben_Baby",
+          "text": "Bengals CB DJ Turner and DE Cedric Johnson are progressing well, coach Zac Taylor said. Taking them day-to-day ahead of Sunday’s game vs. the Falcons.",
+          "url": "https://x.com/Ben_Baby/status/2118663400095961359",
+          "posted_at": "2026-11-06T11:14:52Z"
+        },
+        {
+          "author": "Paul Dehner Jr.",
+          "handle": "pauldehnerjr",
+          "text": "Here we go again from Madrid. Zac Taylor set to speak momentarily. Later on Joe Burrow, Ja’Marr Chase and Jonathan Allen will take the stage.",
+          "url": "https://x.com/pauldehnerjr/status/2118660064865362250",
+          "posted_at": "2026-11-06T11:01:36Z"
+        },
         {
           "author": "Mark Kaboly",
           "handle": "MarkKaboly",
           "text": "After a slow start, many Steelers find themselves on the Honor Roll at the midway point of the season",
           "url": "https://x.com/MarkKaboly/status/2118345245121261774",
           "posted_at": "2026-11-05T14:10:38Z"
-        },
-        {
-          "author": "Ben Baby",
-          "handle": "Ben_Baby",
-          "text": "Bengals CB DJ Turner II (heel) was a full participant at today's practice here in Madrid. DE Cedric Johnson (ankle/foot?) also upgraded to limited after being a projected DNP yesterday.",
-          "url": "https://x.com/Ben_Baby/status/2118381192974090245",
-          "posted_at": "2026-11-05T16:33:28Z"
         },
         {
           "author": "Pittsburgh Steelers",
@@ -778,28 +778,21 @@
           "posted_at": "2026-11-05T17:14:56Z"
         },
         {
+          "author": "Chris Adamski",
+          "handle": "C_AdamskiTrib",
+          "text": "DC Patrick Graham, in passing talking about the Steelers defense's next challenge, just referenced Joe Burrow as \"the best quarterback in the league.\"",
+          "url": "https://x.com/C_AdamskiTrib/status/2117293915313508761",
+          "posted_at": "2026-11-02T16:33:01Z"
+        },
+        {
           "author": "Mark Kaboly",
           "handle": "MarkKaboly",
-          "text": "Steelers OLB T.J. Watt is averaging 16.5 fewer snaps per game during the first half of 2026 than he did in 2025. Watt has 2.5 more sacks in 132 fewer snaps this year.",
-          "url": "https://x.com/MarkKaboly/status/2118206794606530615",
-          "posted_at": "2026-11-05T05:00:28Z"
-        },
-        {
-          "author": "Alex Kozora",
-          "handle": "Alex_Kozora",
-          "text": "I wonder if Omar Khan will be motivated to be more aggressive at the deadline for 2 reasons: #Steelers\n\n- Odds of drafting a 1st round QB in '27 have decreased (weaker-looking class, McCarthy high on Allar).\n\n- Swung/missed on WR trade last year.\n\nAfter losing out on Lemon in Rd 1, made aggressive trade for Bernard Rd 2. Maybe same mentality here.",
-          "url": "https://x.com/Alex_Kozora/status/2118047666139537746",
-          "posted_at": "2026-11-04T18:28:09Z"
-        },
-        {
-          "author": "MLFootball",
-          "handle": "MLFootball",
-          "text": "WEEK 8 NFL DEFENSIVE PLAYER OF THE YEAR POWER RANKINGS — 1: Steelers TJ Watt 2: Texans Will Anderson Jr. 3: Vikings Andrew Van Ginkel 4: 49ers Fred Warner 5: Bengals Dexter Lawrence",
-          "url": "https://x.com/MLFootball/status/2118143830138487030",
-          "posted_at": "2026-11-05T00:50:16Z"
+          "text": "Mike McCarthy gives the Steelers off the rest of the week. He's only \"required\" to give them Thursday through Friday. Some time to get away from football for a while is a smart thing.",
+          "url": "https://x.com/MarkKaboly/status/2117357996074254418",
+          "posted_at": "2026-11-02T20:47:39Z"
         }
       ],
-      "updated_at": "2026-11-05T21:00:00Z"
+      "updated_at": "2026-11-06T12:00:00Z"
     }
   },
   "head_to_head": {
@@ -863,7 +856,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-05T20:57:58.578Z"
+      "updated_at": "2026-11-06T11:59:17.117Z"
     }
   }
 }

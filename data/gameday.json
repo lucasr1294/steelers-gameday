@@ -1,14 +1,14 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_at": "2026-11-06T20:59:29.000Z",
+    "generated_at": "2026-11-07T11:56:50.000Z",
     "season": 2026,
     "season_type": "regular",
     "week": 10,
     "phase": "week",
     "is_sample": false,
     "warnings": [],
-    "espn_hash": "98c1b78530a26b1f"
+    "espn_hash": "c0129e0145e58651"
   },
   "team": {
     "id": "23",
@@ -46,9 +46,9 @@
       "indoor": false
     },
     "weather": {
-      "summary": "Despejado",
-      "temp_c": 10,
-      "gust_kmh": 10,
+      "summary": "Mayormente despejado",
+      "temp_c": 7,
+      "gust_kmh": 26,
       "precip_pct": 0
     },
     "broadcast": {
@@ -68,7 +68,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-06T20:57:33.854Z"
+      "updated_at": "2026-11-07T11:56:06.298Z"
     }
   },
   "form": {
@@ -148,7 +148,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/standings",
-      "updated_at": "2026-11-06T20:57:33.854Z"
+      "updated_at": "2026-11-07T11:56:06.298Z"
     }
   },
   "recent_results": {
@@ -242,7 +242,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-06T20:57:33.854Z"
+      "updated_at": "2026-11-07T11:56:06.298Z"
     }
   },
   "injuries": {
@@ -285,6 +285,13 @@
     ],
     "opponent": [
       {
+        "name": "Cedric Johnson",
+        "position": "DE",
+        "status": "Questionable",
+        "injury": "Tobillo",
+        "practice": []
+      },
+      {
         "name": "Kyle Dugger",
         "position": "S",
         "status": "Out",
@@ -296,13 +303,6 @@
         "position": "DE",
         "status": "IR",
         "injury": "Muñeca",
-        "practice": []
-      },
-      {
-        "name": "Cedric Johnson",
-        "position": "DE",
-        "status": "Questionable",
-        "injury": "Tobillo",
         "practice": []
       },
       {
@@ -324,7 +324,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/game/_/gameId/401873064/steelers-bengals",
-      "updated_at": "2026-11-06T20:57:33.854Z"
+      "updated_at": "2026-11-07T11:56:06.298Z"
     }
   },
   "comparison": {
@@ -435,7 +435,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/stats/team",
-      "updated_at": "2026-11-06T20:57:33.854Z"
+      "updated_at": "2026-11-07T11:56:06.298Z"
     }
   },
   "news": {
@@ -458,6 +458,22 @@
       "updated_at": "2026-11-06T21:00:00Z"
     },
     "items": [
+      {
+        "title": "Dulac: los receptores de McCarthy, hechos para noviembre y diciembre",
+        "summary": "Gerry Dulac recordó que Mike McCarthy quiere un equipo que pueda jugar en el noreste en noviembre y diciembre: tiene 4 receptores de 6-1, 6-3, 6-4 y 6-5, todos de más de 210 libras, y marcó que Josh Downs mide 5-9, pesa 171 y juega bajo techo.",
+        "source_name": "X · @gerrydulac",
+        "url": "https://x.com/gerrydulac/status/2118816903695102446",
+        "published_at": "2026-11-06T21:24:50Z",
+        "about": "team"
+      },
+      {
+        "title": "Burrow en Madrid: \"un sueño hecho realidad\"",
+        "summary": "Paul Dehner Jr. (The Athletic): Joe Burrow vive su primera gira europea como NFL y habla de Madrid como un círculo completo de alegría para la cara de la franquicia.",
+        "source_name": "Paul Dehner Jr. en X",
+        "url": "https://x.com/pauldehnerjr/status/2118792524240421367",
+        "published_at": "2026-11-06T19:47:57Z",
+        "about": "opponent"
+      },
       {
         "title": "Kaboly: Khan no puede dormirse en el deadline",
         "summary": "Columna de hoy para The Pat McAfee Show: con 6-2 y ventana Super Bowl, \"tiene que pasar algo\" en el room de receptores antes del martes 16 hs ET. Cita a Downs como encaje; Khan exploró también a BTJ, Jennings, Ridley y McConkey.",
@@ -483,19 +499,11 @@
         "about": "team"
       },
       {
-        "title": "Burrow en Madrid: \"un sueño hecho realidad\"",
-        "summary": "Paul Dehner Jr. (The Athletic): Joe Burrow vive su primera gira europea como NFL y habla de Madrid como un círculo completo de alegría para la cara de la franquicia.",
-        "source_name": "Paul Dehner Jr. en X",
-        "url": "https://x.com/pauldehnerjr/status/2118792524240421367",
-        "published_at": "2026-11-06T19:47:57Z",
-        "about": "opponent"
-      },
-      {
-        "title": "Kaboly: notas de mitad de temporada (Warren y Watt A+)",
-        "summary": "En su Honor Roll de mitad de camino, Mark Kaboly pone A+ a Jaylen Warren (MVP del equipo), T.J. Watt (líder de la NFL con 7,5 capturas) y Zach Frazier. DK Metcalf y Pittman Jr. quedan en D.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2118345245121261774",
-        "published_at": "2026-11-05T14:10:38Z",
+        "title": "Jon Kolb, nominado al Salute to Service",
+        "summary": "Los Steelers nominaron a Jon Kolb al premio Salute to Service 2026 de la NFL. Nota oficial en steelers.com.",
+        "source_name": "steelers.com",
+        "url": "https://www.steelers.com/news/kolb-is-the-steelers-salute-to-service-nominee-x6981",
+        "published_at": "2026-11-05T18:08:15Z",
         "about": "team"
       },
       {
@@ -507,11 +515,11 @@
         "about": "team"
       },
       {
-        "title": "Dulac: cronograma de receptores lesionados",
-        "summary": "En WDVE: Pittman elegible vs. Bengals el 15/11; Roman Wilson una semana después (W11 vs. Eagles); Skowronek \"seguro\" para Cincinnati. \"En los próximos dos partidos los vas a ver a todos de vuelta\".",
-        "source_name": "Heavy",
-        "url": "https://heavy.com/sports/nfl/pittsburgh-steelers/roman-wilson-michael-pittman-nfl-injury-news-trade-deadline/",
-        "published_at": "2026-11-03T21:01:00Z",
+        "title": "Kaboly: notas de mitad de temporada (Warren y Watt A+)",
+        "summary": "En su Honor Roll de mitad de camino, Mark Kaboly pone A+ a Jaylen Warren (MVP del equipo), T.J. Watt (líder de la NFL con 7,5 capturas) y Zach Frazier. DK Metcalf y Pittman Jr. quedan en D.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2118345245121261774",
+        "published_at": "2026-11-05T14:10:38Z",
         "about": "team"
       },
       {
@@ -523,11 +531,11 @@
         "about": "opponent"
       },
       {
-        "title": "Jon Kolb, nominado al Salute to Service",
-        "summary": "Los Steelers nominaron a Jon Kolb al premio Salute to Service 2026 de la NFL. Nota oficial en steelers.com.",
-        "source_name": "steelers.com",
-        "url": "https://www.steelers.com/news/kolb-is-the-steelers-salute-to-service-nominee-x6981",
-        "published_at": "2026-11-05T18:08:15Z",
+        "title": "Haley pide darle la pelota a Warren en la zona roja",
+        "summary": "Steelers Depot recoge el pedido de Todd Haley: que el staff le marque a Rodgers correr más cerca del gol porque el juego terrestre \"está demasiado bien\" para no dársela al 30.",
+        "source_name": "Alex Kozora en X",
+        "url": "https://x.com/Alex_Kozora/status/2118037457686143386",
+        "published_at": "2026-11-04T17:47:35Z",
         "about": "team"
       },
       {
@@ -539,6 +547,22 @@
         "about": "opponent"
       },
       {
+        "title": "Warren promedio casi 7 yardas por touch",
+        "summary": "Mark Kaboly remarcó el ritmo absurdo de Jaylen Warren: casi 7 yardas por touch a mitad de temporada.",
+        "source_name": "Mark Kaboly en X",
+        "url": "https://x.com/MarkKaboly/status/2117962193622761916",
+        "published_at": "2026-11-04T12:48:31Z",
+        "about": "team"
+      },
+      {
+        "title": "Dulac: cronograma de receptores lesionados",
+        "summary": "En WDVE: Pittman elegible vs. Bengals el 15/11; Roman Wilson una semana después (W11 vs. Eagles); Skowronek \"seguro\" para Cincinnati. \"En los próximos dos partidos los vas a ver a todos de vuelta\".",
+        "source_name": "Heavy",
+        "url": "https://heavy.com/sports/nfl/pittsburgh-steelers/roman-wilson-michael-pittman-nfl-injury-news-trade-deadline/",
+        "published_at": "2026-11-03T21:01:00Z",
+        "about": "team"
+      },
+      {
         "title": "Línea ofensiva bien engrasada, según Batko",
         "summary": "Brian Batko (steelers.com): pocas penas pre-snap, el juego terrestre humedece y la OL prometedora se está acomodando. Señales de una ofensiva bien dirigida.",
         "source_name": "Brian Batko en X",
@@ -547,35 +571,11 @@
         "about": "team"
       },
       {
-        "title": "Haley pide darle la pelota a Warren en la zona roja",
-        "summary": "Steelers Depot recoge el pedido de Todd Haley: que el staff le marque a Rodgers correr más cerca del gol porque el juego terrestre \"está demasiado bien\" para no dársela al 30.",
-        "source_name": "Alex Kozora en X",
-        "url": "https://x.com/Alex_Kozora/status/2118037457686143386",
-        "published_at": "2026-11-04T17:47:35Z",
-        "about": "team"
-      },
-      {
         "title": "Graham ya habla de Burrow como el mejor QB",
         "summary": "Chris Adamski: el coordinador defensivo Patrick Graham, al pasar por el próximo desafío, se refirió a Joe Burrow como \"el mejor quarterback de la liga\".",
         "source_name": "Chris Adamski en X",
         "url": "https://x.com/C_AdamskiTrib/status/2117293915313508761",
         "published_at": "2026-11-02T16:33:01Z",
-        "about": "team"
-      },
-      {
-        "title": "Pittman corriendo de nuevo; sin timeline fijo",
-        "summary": "Ray Fittipaldo: Michael Pittman Jr. empezó a correr la semana pasada y otra vez el lunes. La lesión original era fascitis plantar y \"mutó en otra cosa\". Optimista, sin fecha cerrada.",
-        "source_name": "Ray Fittipaldo en X",
-        "url": "https://x.com/rayfitt1/status/2117278764556227022",
-        "published_at": "2026-11-02T15:32:49Z",
-        "about": "team"
-      },
-      {
-        "title": "Warren promedio casi 7 yardas por touch",
-        "summary": "Mark Kaboly remarcó el ritmo absurdo de Jaylen Warren: casi 7 yardas por touch a mitad de temporada.",
-        "source_name": "Mark Kaboly en X",
-        "url": "https://x.com/MarkKaboly/status/2117962193622761916",
-        "published_at": "2026-11-04T12:48:31Z",
         "about": "team"
       }
     ],
@@ -792,7 +792,7 @@
           "posted_at": "2026-11-04T18:08:23Z"
         }
       ],
-      "updated_at": "2026-11-06T21:00:00Z"
+      "updated_at": "2026-11-07T12:00:00Z"
     }
   },
   "head_to_head": {
@@ -856,7 +856,7 @@
     "source": {
       "name": "ESPN",
       "url": "https://www.espn.com/nfl/team/schedule/_/name/pit",
-      "updated_at": "2026-11-06T20:57:33.854Z"
+      "updated_at": "2026-11-07T11:56:06.298Z"
     }
   }
 }
